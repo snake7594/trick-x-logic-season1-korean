@@ -240,7 +240,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "ハロウィーンみたいに仮装もしてきてね。",
-   "ko": "분장도 하고 와.",
+   "ko": "핼러윈처럼 분장도 하고 와.",
    "chars": 19,
    "max_chars": 153,
    "group": {
@@ -562,7 +562,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "テラスで優雅にワイングラスを揺らす",
-   "ko": "신사",
+   "ko": "테라스에서 우아하게 와인잔을 흔드는 ",
    "chars": 17,
    "max_chars": 153,
    "group": {
@@ -585,7 +585,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "紳士",
-   "ko": "와",
+   "ko": "신사",
    "chars": 2,
    "max_chars": 153,
    "group": {
@@ -2563,7 +2563,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "が貼りつけてある。おそらく、瑠雨からもらったものだろう。彼女はタトゥシールが大好きで、とくに",
-   "ko": "하트 모양 스티커를 늘 휴대하며 ",
+   "ko": "가 붙어 있다. 아마 루우에게 받은 것이겠지. 그녀는 타투 스티커를 무척 좋아해서, 특히 ",
    "chars": 46,
    "max_chars": 153,
    "group": {
@@ -2586,7 +2586,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "ハート型のシールはいつも携帯して",
-   "ko": "가지고 ",
+   "ko": "하트 모양 스티커는 늘 지니고",
    "chars": 16,
    "max_chars": 153,
    "group": {
@@ -2609,7 +2609,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "持ち歩いていた。",
-   "ko": "다녔다.",
+   "ko": " 다녔다.",
    "chars": 8,
    "max_chars": 153,
    "group": {
@@ -3943,7 +3943,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "った",
-   "ko": "벽등이 일정한 간격으로 설치",
+   "ko": "　",
    "chars": 2,
    "max_chars": 153,
    "group": {
@@ -3966,7 +3966,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "ブラケットライトが、等間隔で設置",
-   "ko": "되어 있었다",
+   "ko": "벽등이 일정한 간격으로 설치",
    "chars": 16,
    "max_chars": 153,
    "group": {
@@ -3989,7 +3989,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "されていた。",
-   "ko": ".",
+   "ko": "되어 있었다.",
    "chars": 6,
    "max_chars": 153,
    "group": {
@@ -8543,7 +8543,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "ありそうだ。つかさは焦って周囲を見渡したが、幸いにも我藤の姿は見当たらない。いや、我藤だけではなかった。ペペロンチーノをむさぼることに夢中でまったく気づかなかったが、",
-   "ko": "대연회장에는 거의 아무도 남아 있지 않았다",
+   "ko": "있을 것 같다. 츠카사는 다급히 주위를 둘러봤지만 다행히 가토의 모습은 보이지 않았다. 아니, 가토뿐이 아니었다. 페페론치노를 탐하느라 정신이 팔려 전혀 알아채지 못했는데, ",
    "chars": 83,
    "max_chars": 153,
    "group": {
@@ -8566,7 +8566,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "大広間にはほとんど誰の姿もなくなっている",
-   "ko": ".",
+   "ko": "대연회장에는 거의 아무도 남아 있지 않았다",
    "chars": 20,
    "max_chars": 153,
    "group": {
@@ -8589,7 +8589,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "。皆、テラスへ出て空を見上げていた。",
-   "ko": "모두 테라스로 나가 하늘을 올려다보고 있었다.",
+   "ko": ". 모두 테라스로 나가 하늘을 올려다보고 있었다.",
    "chars": 18,
    "max_chars": 153,
    "group": {
@@ -9072,7 +9072,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "でこちらへ向かってくるカーミラの姿が見えた。犯人は彼女らしい。どうやら、",
-   "ko": "상당히 취한 ",
+   "ko": "로 이쪽으로 다가오는 카르밀라의 모습이 보였다. 범인은 그녀인 듯했다. 아무래도 ",
    "chars": 36,
    "max_chars": 153,
    "group": {
@@ -9095,7 +9095,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "かなり酔っ払っているようだ",
-   "ko": "모양이었다",
+   "ko": "상당히 취한 모양이었다",
    "chars": 13,
    "max_chars": 153,
    "group": {
@@ -9785,7 +9785,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "した麗亜は、",
-   "ko": "두 팔을 힘없이 늘어뜨린 채 ",
+   "ko": "한 레이아는 ",
    "chars": 6,
    "max_chars": 153,
    "group": {
@@ -9808,7 +9808,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "両手をだらしなく垂らした状態で眠っていた",
-   "ko": "잠들어 있었다",
+   "ko": "두 팔을 힘없이 늘어뜨린 채 잠들어 있었다",
    "chars": 20,
    "max_chars": 153,
    "group": {
@@ -12844,7 +12844,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "手前右端には金庫",
-   "ko": "금고",
+   "ko": "앞쪽 오른쪽 끝에는 금고",
    "chars": 8,
    "max_chars": 153,
    "group": {
@@ -12867,7 +12867,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "が、",
-   "ko": "가,",
+   "ko": "가, ",
    "chars": 2,
    "max_chars": 153,
    "group": {
@@ -14178,7 +14178,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "散る。同時に開き放しだった警備員室の",
-   "ko": "문 너머에서 총성 같은 소리가 ",
+   "ko": "흩어졌다. 동시에 열린 채였던 경비원실 ",
    "chars": 18,
    "max_chars": 153,
    "group": {
@@ -14201,7 +14201,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "ドアの向こうから、銃声らしきものが",
-   "ko": "울려 ",
+   "ko": "문 너머에서 총성 같은 소리가 ",
    "chars": 17,
    "max_chars": 153,
    "group": {
@@ -14224,7 +14224,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "轟",
-   "ko": "퍼 ",
+   "ko": "울려",
    "chars": 1,
    "max_chars": 153,
    "group": {
@@ -14247,7 +14247,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "いた",
-   "ko": "졌다",
+   "ko": " 퍼졌다",
    "chars": 2,
    "max_chars": 153,
    "group": {
@@ -18111,7 +18111,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "が飾ってある。つかさがこの部屋を初めて訪れたときには、",
-   "ko": "왼쪽에 《명랑한 해바라기》, 오른쪽에 《음침한 해바라기》가 ",
+   "ko": "가 걸려 있다. 츠카사가 이 방을 처음 찾았을 때는, ",
    "chars": 27,
    "max_chars": 153,
    "group": {
@@ -18134,7 +18134,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "左側に《陽気なひまわり》、右側に《陰気なひまわり》があったはずだ",
-   "ko": "있었을 것이다",
+   "ko": "왼쪽에 《명랑한 해바라기》, 오른쪽에 《음침한 해바라기》가 있었을 것이다",
    "chars": 32,
    "max_chars": 153,
    "group": {
@@ -21883,7 +21883,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "痙攣",
-   "ko": "련",
+   "ko": "경련",
    "chars": 2,
    "max_chars": 153,
    "group": {

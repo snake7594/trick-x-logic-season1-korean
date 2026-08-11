@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.0.5.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.0.6.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.5.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.6.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.5.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         6F3F6076353B11FFD677BF62CC0D1BE9
-SHA-1       168E8F669E6A35AF3C0EE2F67CCF3B541DEA146E
-SHA-256     52B7ED0159C60290A91E93C7737ABAACD8B9C6257BF529AE99D755E682123EFC
+MD5         F3CA027F24F71ACD2568EADC99A36F93
+SHA-1       ABBA594FD0DDC1CF4A8FACB27846EE724E649984
+SHA-256     7C5FFD58FED2E8F967D72D734452BED0ED4FD54D7ECC91A1307F894FBB9463A5
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
@@ -196,6 +196,12 @@ SECTPACK  이름\0 + u16 id(bit15=압축) + u16 시작섹터 + u16 섹터수
 
 이 과정에서 조각 이음매의 띄어쓰기가 사라지는 문제가 생겨, 조사·어미 규칙으로
 판정하는 `spacefix.py` 를 만들어 **5,517곳**을 고쳤습니다.
+
+또 하나의 함정: **낱말이 조각 경계를 넘어가면 분홍 키워드 이름이 망가집니다.**
+조각 경계를 원문과 맞출 필요는 없지만, 분홍 범위에 걸친 조각은 다르다 —
+그 범위의 글자가 곧 키워드 이름이기 때문입니다. 「ウコンが置いてある」의
+「ウコン」이 앞 조각으로 넘어가면 키워드가 「이 놓여 있으니까」가 됩니다.
+678종을 전수 점검해 19종을 앞뒤 조각과 함께 다시 나눴습니다.
 
 ### 3-4. 반각 문자를 쓰면 실기에서 죽는다
 

@@ -5645,7 +5645,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "午後三時頃",
-   "ko": "이 되자 ",
+   "ko": "오후 3시쯤",
    "chars": 5,
    "max_chars": 170,
    "group": {
@@ -5668,7 +5668,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "になって、",
-   "ko": "검은 코트를 입은 남자 ",
+   "ko": "이 되자, ",
    "chars": 5,
    "max_chars": 170,
    "group": {
@@ -5691,7 +5691,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "黒いコート姿の男",
-   "ko": "가 103호실 앞에 서서 초인종을 눌렀다. 그 옆모습을 본 잇페이는 순간 하라구치가 언제 밖에 나왔나 의아해했다. 하지만 유심히 보니 다른 사람이었다. 체격과 흰 피부,",
+   "ko": "검은 코트를 입은 남자",
    "chars": 8,
    "max_chars": 170,
    "group": {
@@ -5714,7 +5714,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "が一〇三号室の前に立ち、チャイムを鳴らした。その横顔を見た一平は、一瞬、原口がいつの間に外に出ていたのかと不思議に思った。だが、目を凝らしてみると、それは別人だった。からだつきや色白の肌、",
-   "ko": "콧날이 반듯한 단정한 얼굴은 ",
+   "ko": "가 103호실 앞에 서서 초인종을 눌렀다. 그 옆모습을 본 잇페이는 순간 하라구치가 언제 밖에 나갔나 싶어 의아했다. 하지만 눈여겨보니 다른 사람이었다. 체격이나 흰 피부, ",
    "chars": 94,
    "max_chars": 170,
    "group": {
@@ -5737,7 +5737,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "鼻筋の通った端正な顔立ちはよく似ているが",
-   "ko": "매우 닮았지만",
+   "ko": "콧날이 반듯한 단정한 얼굴은 매우 닮았지만",
    "chars": 20,
    "max_chars": 170,
    "group": {
@@ -9049,7 +9049,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "腐れ縁というやつだ」",
-   "ko": "거지」",
+   "ko": "질긴 인연이라는 거지」",
    "chars": 10,
    "max_chars": 170,
    "group": {
@@ -17536,7 +17536,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "アリバイ調べですか」",
-   "ko": "」",
+   "ko": "알리바이 조사인가요?」",
    "chars": 10,
    "max_chars": 170,
    "group": {
@@ -23194,7 +23194,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "フェティシズムね」",
-   "ko": "이네」",
+   "ko": "페티시즘이네」",
    "chars": 9,
    "max_chars": 170,
    "group": {
@@ -25425,7 +25425,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "ロケットに忍ばせていたことがわかってな。その髪から抽出したＤＮＡと死体のＤＮＡを比較したところ、完全に一致した」",
-   "ko": "시체의 DNA를 비교했더니 완전히 일치했어」",
+   "ko": "로켓에 넣어 두었다는 걸 알아냈어. 그 머리카락에서 뽑은 ＤＮＡ와 시체의 ＤＮＡ를 비교했더니 완전히 일치했어」",
    "chars": 56,
    "max_chars": 170,
    "group": {

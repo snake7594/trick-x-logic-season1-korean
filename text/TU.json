@@ -401,7 +401,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "ガラスの",
-   "ko": "유리",
+   "ko": "유리 ",
    "chars": 4,
    "max_chars": 53,
    "group": {
@@ -447,7 +447,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "スリット",
-   "ko": "나 ",
+   "ko": "틈",
    "chars": 4,
    "max_chars": 53,
    "group": {
@@ -470,7 +470,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "が入っている。",
-   "ko": "있었다.",
+   "ko": "이 나 있다.",
    "chars": 7,
    "max_chars": 53,
    "group": {
