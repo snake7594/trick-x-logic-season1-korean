@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.0.2.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.0.3.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.2.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.3.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.2.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         A8D250F09D2B05BB1CAAC2BF94E2ABAE
-SHA-1       BCB56CB9B1D96FB109DEE96F4F0C9DF3DE5D255C
-SHA-256     406F880B6E938C89A18745F135CC16E987D3CE3015E588F22E39FF5B66B93ECB
+MD5         2031E83F2E9E220682C8D96CCC112F04
+SHA-1       92B27A68D362B25BC00BC405B3461552CC087288
+SHA-256     255B42F55A5E8234FAB08368F3B77BBBA189B1FB8E155513374EFAC630A58513
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
@@ -104,6 +104,24 @@ SHA-256     406F880B6E938C89A18745F135CC16E987D3CE3015E588F22E39FF5B66B93ECB
 한글화한 이미지: 타이틀 화면, 도입 안내문, 챕터 타이틀, 스토리 선택, 조작 설명,
 시스템 도움말, 용어 해설, 튜토리얼, 추리·조서 화면 UI, 조서 범인 이름 후보,
 인물 프로필·자료 도면, 달성도·추리 랭크, 낭독 모드, 조사 화면 제목·설명, 인물 이름표.
+
+### ⚠ 길이 접두사가 없는 문자열 — 추출에서 통째로 빠져 있었다
+
+대사(op 0x01)는 `u32 길이 + cp932 + NUL` 이지만, 추리에 쓰는 데이터에는
+**길이 없이 NUL 로만 끝나는** 문자열이 따로 있다. 추출 도구가 이걸 못 봐서
+**6,770건**이 일본어로 남아 있었다.
+
+그중 **키워드 이름**은 게임 진행을 막는다. 게임은 분홍 글자를 눌러 얻은
+키워드를 `*_question.bin` 안의 문자열과 **글자 그대로** 대조하기 때문에,
+본문만 한국어로 바꾸면 정답 조각을 골라도 추리가 진행되지 않는다.
+
+    분홍 범위의 글자 - 제어 태그(㊤㊥㊦㊧㊨) = 키워드 이름
+
+`tools/keyname.py` 가 본문에서 그대로 떠 와 맞춘다(740건). 사람이 따로
+번역하면 한 글자만 달라도 안 맞으므로 반드시 기계로 뽑아야 한다.
+
+나머지 약 6,000건(수수께끼·착상 제목, 힌트, 메뉴·용어 라벨)은 아직
+일본어다. 게임 진행에는 지장이 없지만 화면에 그대로 보인다.
 
 ### ⚠ 아직 일본어가 남아 있는 곳 — 자료 도면
 

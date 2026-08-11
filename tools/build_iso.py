@@ -110,6 +110,25 @@ if os.path.exists('keyword_payloads.pkl'):
         by_arch.setdefault(arch, {})[fname] = payload
     print(f"키워드 파일 {len(kws)}개 반영")
 
+# 추리 데이터의 키워드 이름을 한국어 분홍 글자와 똑같이 맞춘 파일.
+# 스크립트 재삽입(new_scripts)보다 **뒤에** 와야 한다 — 같은 파일이면 이쪽이 이긴다.
+if os.path.exists('keyname_payloads.pkl'):
+    from lz import compress as _nc, decompress as _nd
+    kns = pickle.load(open('keyname_payloads.pkl', 'rb'))
+    _iso_n = Iso()
+    for (arch, fname), raw in kns.items():
+        sp0 = (SectPack(open('common.bin', 'rb').read()) if arch == 'common.bin'
+               else from_iso(_iso_n, arch))
+        e0 = sp0.byname(fname)
+        if e0['comp']:
+            c = _nc(raw)
+            assert _nd(c, len(raw)) == raw
+            payload = struct.pack('<II', len(raw), len(c)) + c
+        else:
+            payload = raw
+        by_arch.setdefault(arch, {})[fname] = payload
+    print(f"키워드 이름 파일 {len(kns)}개 반영")
+
 # 한글화한 GIM 이미지 (있으면 함께 반영). 원본이 압축이면 압축해서 넣는다.
 if os.path.exists('image_payloads.pkl'):
     from lz import compress as _lzc, decompress as _lzd
