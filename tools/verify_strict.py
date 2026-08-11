@@ -6,9 +6,9 @@ from isolib import Iso
 from sectpack import SectPack, from_iso
 from prcs import find_strings, has_jp
 
-GAME = paths.ROOT
-TEXT = GAME + r'\text'
-m = json.load(open(TEXT + r'\_hangul_codes.json', encoding='utf-8'))['map']
+TEXT = paths.TEXT
+m = json.load(open(os.path.join(TEXT, '_hangul_codes.json'),
+                   encoding='utf-8'))['map']
 C2H = {int(v, 16): k for k, v in m.items()}
 
 
@@ -26,8 +26,8 @@ def decode_kr(raw):
     return ''.join(out)
 
 
-iso_o = Iso(GAME + r'\Trick x Logic Season 1.iso')
-iso_n = Iso(GAME + r'\Trick x Logic Season 1 (KR).iso')
+iso_o = Iso(paths.ISO)
+iso_n = Iso(paths.ISO_KR)
 
 
 def arch(iso, name):

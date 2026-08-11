@@ -13,9 +13,8 @@ import struct
 from isolib import Iso, SEC
 from sectpack import from_iso, SectPack
 
-GAME = paths.ROOT
-ISO_SRC = GAME + r'\Trick x Logic Season 1.iso'
-ISO_DST = GAME + r'\Trick x Logic Season 1 (KR).iso'
+ISO_SRC = paths.ISO
+ISO_DST = paths.ISO_KR
 
 FONT_PAYLOAD = {
     './script/Font/NovelFontList.dat': 'font_out/NovelFont_KR.payload',

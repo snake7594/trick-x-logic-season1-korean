@@ -15,13 +15,13 @@ from sectpack import from_iso, SectPack
 from build_iso import rebuild_archive, dir_records
 
 GAME = paths.ROOT
-ISO_SRC = GAME + r'\Trick x Logic Season 1.iso'
+ISO_SRC = paths.ISO
 FONT = {'./script/Font/NovelFontList.dat': 'font_out/NovelFont_KR.payload',
         './script/Font/AdvFontList.dat': 'font_out/AdvFont_KR.payload'}
 
 tag = sys.argv[1]
 want = sys.argv[2:]
-ISO_DST = GAME + rf'\KR-diag{tag}.iso'
+ISO_DST = os.path.join(GAME, f'KR-diag{tag}.iso')
 
 new_scripts = pickle.load(open('new_scripts.pkl', 'rb'))
 by_arch = {}

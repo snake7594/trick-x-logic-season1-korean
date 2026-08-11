@@ -17,14 +17,14 @@ from core import (encode, rebuild_script, rebuild_archive, dir_records,
                   TEXT, SEC)
 
 GAME = paths.ROOT
-ISO_SRC = GAME + r'\Trick x Logic Season 1.iso'
+ISO_SRC = paths.ISO
 FONT = {'./script/Font/NovelFontList.dat': 'font_out/NovelFont_KR.payload',
         './script/Font/AdvFontList.dat': 'font_out/AdvFont_KR.payload'}
 
 tag = sys.argv[1]
 excl = [a for a in sys.argv[2:] if a != '--nofont']
 NOFONT = '--nofont' in sys.argv      # 폰트를 원본으로 두고 텍스트만 번역
-ISO_DST = GAME + rf'\KR-diag{tag}.iso'
+ISO_DST = os.path.join(GAME, f'KR-diag{tag}.iso')
 
 
 def excluded(r):

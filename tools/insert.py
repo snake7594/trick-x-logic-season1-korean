@@ -9,7 +9,7 @@ from sectpack import from_iso, SectPack, SEC
 from lz import compress, decompress
 
 TEXT = paths.TEXT
-m = json.load(open(TEXT + r'\_hangul_codes.json', encoding='utf-8'))['map']
+m = json.load(open(os.path.join(TEXT, '_hangul_codes.json'), encoding='utf-8'))['map']
 H2C = {ch: int(v, 16) for ch, v in m.items()}
 
 

@@ -4,6 +4,7 @@
 흰 박스 문제가 생기지 않는다.
 """
 import paths
+import os
 import json
 import struct
 from collections import Counter
@@ -15,7 +16,7 @@ from build_font import render
 TEXT = paths.TEXT
 KANJI0 = 0x889F
 
-m = json.load(open(TEXT + r'\_hangul_codes.json', encoding='utf-8'))['map']
+m = json.load(open(os.path.join(TEXT, '_hangul_codes.json'), encoding='utf-8'))['map']
 h2c = {ch: int(v, 16) for ch, v in m.items()}
 c2h = {v: k for k, v in h2c.items()}
 print(f"한글 배정 {len(h2c):,}자")
