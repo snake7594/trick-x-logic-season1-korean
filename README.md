@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.0.1.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.0.2.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.1.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.2.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.1.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         D48DB8F28FA0706B6E22AA513AFE89FC
-SHA-1       7652B78B8D04CFB5CE17E70E7917E47A1B07F31D
-SHA-256     AC59CD5AA406969DA783BBED2BF9590BDC5BF49519EF503E25C7836971E39BA6
+MD5         A8D250F09D2B05BB1CAAC2BF94E2ABAE
+SHA-1       BCB56CB9B1D96FB109DEE96F4F0C9DF3DE5D255C
+SHA-256     406F880B6E938C89A18745F135CC16E987D3CE3015E588F22E39FF5B66B93ECB
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
@@ -105,8 +105,22 @@ SHA-256     AC59CD5AA406969DA783BBED2BF9590BDC5BF49519EF503E25C7836971E39BA6
 시스템 도움말, 용어 해설, 튜토리얼, 추리·조서 화면 UI, 조서 범인 이름 후보,
 인물 프로필·자료 도면, 달성도·추리 랭크, 낭독 모드, 조사 화면 제목·설명, 인물 이름표.
 
-번역 대상이 아닌 9장(제작사 로고·빈 패널·무늬)을 빼면 **일본어가 든 이미지는 전부**
-한글로 바꿨습니다.
+### ⚠ 아직 일본어가 남아 있는 곳 — 자료 도면
+
+`file_figure_*` (사건 현장 도면·지도) **13종 중 5종은 제목만 번역돼 있고 도면 안
+라벨은 일본어 그대로**입니다. 「일본어가 든 이미지는 전부 한글화했다」고 적었던
+이전 서술은 사실이 아니었습니다.
+
+| 도면 | 상태 |
+|---|---|
+| `BH0` `TU0` `SI0` `KM0` | 사실상 완역 |
+| `FW0` `KM1` `NF0` | 라벨 3~6개 남음 |
+| `AA0` `BM0` `MH0` `RM0` `TA0` | **제목만 번역** — 방 이름·거리 표시 등 20여 개씩 남음 |
+| `BM1` | 도면에 글자 없음 |
+
+도면은 추리에 직접 쓰이는 자료라 우선순위가 높습니다. 다음 판에서 채울 예정입니다.
+
+그 밖에 번역 대상이 아닌 9장(제작사 로고·빈 패널·무늬)이 있습니다.
 
 ---
 
