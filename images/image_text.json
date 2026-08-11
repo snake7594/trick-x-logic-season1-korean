@@ -1,0 +1,416 @@
+{
+ "NF/adv_hint_bg_tukasa": {
+  "ko": "츠카사의 별난 해답"
+ },
+ "NF/marunouchi_result_bad": {
+  "ko": [
+   "마루노우치의 헛추리",
+   "해결 실패"
+  ]
+ },
+ "NF/tukasa_result_bad": {
+  "ko": [
+   "츠카사의 별난 해답",
+   "해결 실패"
+  ]
+ },
+ "NF/tukasa_result_good": {
+  "ko": [
+   "츠카사의 별난 해답",
+   "해결!"
+  ]
+ },
+ "NF/marunouchi_result_good": {
+  "ko": [
+   "마루노우치의 헛추리",
+   "해결!"
+  ]
+ },
+ "NF/adv_hint_bg_marun": {
+  "ko": "마루노우치의 헛추리"
+ },
+ "FW/tukasa_result_good": {
+  "ko": [
+   "츠카사의 별난 해답",
+   "해결!"
+  ]
+ },
+ "FW/marunouchi_result_good": {
+  "ko": [
+   "마루노우치의 헛추리",
+   "해결!"
+  ]
+ },
+ "FW/adv_hint_bg_marun": {
+  "ko": "마루노우치의 헛추리"
+ },
+ "FW/ol_title_000": {
+  "ko": "지금까지의 줄거리",
+  "mode": "v"
+ },
+ "FW/adv_hint_bg_tukasa": {
+  "ko": "츠카사의 별난 해답"
+ },
+ "FW/marunouchi_result_bad": {
+  "ko": [
+   "마루노우치의 헛추리",
+   "해결 실패"
+  ]
+ },
+ "FW/tukasa_result_bad": {
+  "ko": [
+   "츠카사의 별난 해답",
+   "해결 실패"
+  ]
+ },
+ "KM/adv_hint_bg_marun": {
+  "ko": "마루노우치의 헛추리"
+ },
+ "KM/ol_title_000": {
+  "ko": "지금까지의 줄거리",
+  "mode": "v"
+ },
+ "KM/adv_hint_bg_tukasa": {
+  "ko": "츠카사의 별난 해답"
+ },
+ "KM/marunouchi_result_bad": {
+  "ko": [
+   "마루노우치의 헛추리",
+   "해결 실패"
+  ]
+ },
+ "KM/tukasa_result_bad": {
+  "ko": [
+   "츠카사의 별난 해답",
+   "해결 실패"
+  ]
+ },
+ "KM/tukasa_result_good": {
+  "ko": [
+   "츠카사의 별난 해답",
+   "해결!"
+  ]
+ },
+ "KM/marunouchi_result_good": {
+  "ko": [
+   "마루노우치의 헛추리",
+   "해결!"
+  ]
+ },
+ "SI/adv_hint_bg_marun": {
+  "ko": "마루노우치의 헛추리"
+ },
+ "SI/ol_title_000": {
+  "ko": "지금까지의 줄거리",
+  "mode": "v"
+ },
+ "SI/adv_hint_bg_tukasa": {
+  "ko": "츠카사의 별난 해답"
+ },
+ "SI/marunouchi_result_bad": {
+  "ko": [
+   "마루노우치의 헛추리",
+   "해결 실패"
+  ]
+ },
+ "SI/tukasa_result_bad": {
+  "ko": [
+   "츠카사의 별난 해답",
+   "해결 실패"
+  ]
+ },
+ "SI/tukasa_result_good": {
+  "ko": [
+   "츠카사의 별난 해답",
+   "해결!"
+  ]
+ },
+ "SI/marunouchi_result_good": {
+  "ko": [
+   "마루노우치의 헛추리",
+   "해결!"
+  ]
+ },
+ "BH/marunouchi_result_bad": {
+  "ko": [
+   "마루노우치의 헛추리",
+   "해결 실패"
+  ]
+ },
+ "BH/adv_hint_bg_kaoru": {
+  "ko": "카오루의 괴증명"
+ },
+ "BH/marunouchi_result_good": {
+  "ko": [
+   "마루노우치의 헛추리",
+   "해결!"
+  ]
+ },
+ "BH/adv_hint_bg_marun": {
+  "ko": "마루노우치의 헛추리"
+ },
+ "BH/ol_title_000": {
+  "ko": "지금까지의 줄거리",
+  "mode": "v"
+ },
+ "NF/silver_hira_mekuri_title_01": {
+  "ko": "흰 양복의 수수께끼",
+  "mode": "v"
+ },
+ "NF_A/inspect_title_NF_a_04": {
+  "ko": "범인은 언제 자물쇠를 바꿨나?"
+ },
+ "NF_A/inspect_title_NF_a_01": {
+  "ko": "범인은 어디서 피규어를 훔쳤나?"
+ },
+ "NF_A/inspect_title_NF_a_05": {
+  "ko": "범인은 누구인가?"
+ },
+ "NF_A/inspect_title_NF_b_01": {
+  "ko": "범인이 창고 문을 연 방법"
+ },
+ "NF_A/inspect_caption_NF_a_01": {
+  "ko": "범인은 어디서 피규어를 훔쳤나?"
+ },
+ "NF_A/inspect_caption_NF_a_02": {
+  "ko": "자물쇠에 대해"
+ },
+ "NF_A/inspect_caption_NF_a_03": {
+  "ko": "범인이 자물쇠를 연 방법"
+ },
+ "NF_A/inspect_caption_NF_a_04": {
+  "ko": "범인은 언제 자물쇠를 바꿨나?"
+ },
+ "NF_A/inspect_caption_NF_a_05": {
+  "ko": "범인은 누구인가?"
+ },
+ "NF_A/inspect_title_NF_a_02": {
+  "ko": "자물쇠에 대해"
+ },
+ "NF_A/inspect_title_NF_b_02": {
+  "ko": "범인이 피규어를 가지고 나간 방법"
+ },
+ "NF_A/inspect_caption_NF_b_01": {
+  "ko": "범인이 창고 문을 연 방법"
+ },
+ "NF_A/inspect_caption_NF_b_02": {
+  "ko": "범인이 피규어를 가지고 나간 방법"
+ },
+ "NF_A/inspect_caption_NF_b_03": {
+  "ko": "범인이 열쇠를 손에 넣은 방법"
+ },
+ "NF_A/inspect_title_NF_a_03": {
+  "ko": "범인이 자물쇠를 연 방법"
+ },
+ "NF_A/inspect_title_NF_b_03": {
+  "ko": "범인이 열쇠를 손에 넣은 방법"
+ },
+ "FW/silver_hira_mekuri_title_02": {
+  "ko": "요시카와 이츠키의 고민",
+  "mode": "v"
+ },
+ "FW_A/inspect_title_FW_a_02": {
+  "ko": "11일 새벽 소리와 사건의 관련성"
+ },
+ "FW_A/inspect_title_FW_b_02": {
+  "ko": "범인은 언제 현장에 돌아왔나?"
+ },
+ "FW_A/inspect_caption_FW_a_01": {
+  "ko": "11일 새벽의 소리에 대해"
+ },
+ "FW_A/inspect_caption_FW_a_02": {
+  "ko": "11일 새벽 소리와 사건의 관련성"
+ },
+ "FW_A/inspect_caption_FW_a_03": {
+  "ko": "현장 문 열쇠에 대해"
+ },
+ "FW_A/inspect_caption_FW_a_04": {
+  "ko": "범인은 누구인가?"
+ },
+ "FW_A/inspect_title_FW_a_03": {
+  "ko": "현장 문 열쇠에 대해"
+ },
+ "FW_A/inspect_title_FW_b_03": {
+  "ko": "범인이 현장에 침입한 방법"
+ },
+ "FW_A/inspect_caption_FW_b_01": {
+  "ko": "책장에서 떨어진 것"
+ },
+ "FW_A/inspect_caption_FW_b_02": {
+  "ko": "범인은 언제 현장에 돌아왔나?"
+ },
+ "FW_A/inspect_caption_FW_b_03": {
+  "ko": "범인이 현장에 침입한 방법"
+ },
+ "FW_A/inspect_title_FW_a_04": {
+  "ko": "범인은 누구인가?"
+ },
+ "FW_A/inspect_title_FW_a_01": {
+  "ko": "11일 새벽의 소리에 대해"
+ },
+ "FW_A/inspect_title_FW_b_01": {
+  "ko": "책장에서 떨어진 것"
+ },
+ "KM/silver_hira_mekuri_title_03": {
+  "ko": "언제나 같은 옷",
+  "mode": "v"
+ },
+ "KM_A/inspect_caption_KM_b_01": {
+  "ko": "쏟아진 맥주에 대해"
+ },
+ "KM_A/inspect_caption_KM_b_02": {
+  "ko": "범인은 어디로 침입했나?"
+ },
+ "KM_A/inspect_caption_KM_b_03": {
+  "ko": "범인은 왜 시트를 태웠나?"
+ },
+ "KM_A/inspect_caption_KM_b_04": {
+  "ko": "아키 방의 불에 대해"
+ },
+ "KM_A/inspect_caption_KM_b_05": {
+  "ko": "아키의 살의에 대해"
+ },
+ "KM_A/inspect_caption_KM_b_06": {
+  "ko": "가위에 관한 마리의 증언"
+ },
+ "KM_A/inspect_title_KM_a_03": {
+  "ko": "담화실 가위가 쓰인 이유"
+ },
+ "KM_A/inspect_title_KM_a_07": {
+  "ko": "범인은 누구인가?"
+ },
+ "KM_A/inspect_title_KM_b_03": {
+  "ko": "범인은 왜 시트를 태웠나?"
+ },
+ "KM_A/inspect_title_KM_a_04": {
+  "ko": "언제 메시지를 알았나?"
+ },
+ "KM_A/inspect_title_KM_b_04": {
+  "ko": "아키 방의 불에 대해"
+ },
+ "KM_A/inspect_title_KM_a_01": {
+  "ko": "드러나 있던 부분에 대해"
+ },
+ "KM_A/inspect_title_KM_a_05": {
+  "ko": "살해 시점부터 달라진 상황"
+ },
+ "KM_A/inspect_title_KM_b_01": {
+  "ko": "쏟아진 맥주에 대해"
+ },
+ "KM_A/inspect_title_KM_b_05": {
+  "ko": "아키의 살의에 대해"
+ },
+ "KM_A/inspect_title_KM_a_02": {
+  "ko": "시노부 방 창문에 대해"
+ },
+ "KM_A/inspect_title_KM_a_06": {
+  "ko": "시트를 잘라내야 했던 이유"
+ },
+ "KM_A/inspect_title_KM_b_02": {
+  "ko": "범인은 어디로 침입했나?"
+ },
+ "KM_A/inspect_title_KM_b_06": {
+  "ko": "가위에 관한 마리의 증언"
+ },
+ "KM_A/inspect_caption_KM_a_01": {
+  "ko": "드러나 있던 부분에 대해"
+ },
+ "KM_A/inspect_caption_KM_a_02": {
+  "ko": "시노부 방 창문에 대해"
+ },
+ "KM_A/inspect_caption_KM_a_03": {
+  "ko": "담화실 가위가 쓰인 이유"
+ },
+ "KM_A/inspect_caption_KM_a_04": {
+  "ko": "언제 메시지를 알았나?"
+ },
+ "KM_A/inspect_caption_KM_a_05": {
+  "ko": "살해 시점부터 달라진 상황"
+ },
+ "KM_A/inspect_caption_KM_a_06": {
+  "ko": "시트를 잘라내야 했던 이유"
+ },
+ "SI/silver_hira_mekuri_title_04": {
+  "ko": "검사와 보자기",
+  "mode": "v"
+ },
+ "SI_A/inspect_caption_SI_b_01": {
+  "ko": "하라구치 쿄지가 신이치 집을 찾은 이유"
+ },
+ "SI_A/inspect_caption_SI_b_02": {
+  "ko": "절단 위치가 일정했던 이유"
+ },
+ "SI_A/inspect_caption_SI_b_03": {
+  "ko": "엔도 리츠코가 감시를 부탁한 이유"
+ },
+ "SI_A/inspect_caption_SI_b_04": {
+  "ko": "모리카와 코토미가 신이치에게 품은 감정"
+ },
+ "SI_A/inspect_title_SI_a_03": {
+  "ko": "냉장고가 비어 있던 이유"
+ },
+ "SI_A/inspect_title_SI_b_03": {
+  "ko": "엔도 리츠코가 감시를 부탁한 이유"
+ },
+ "SI_A/inspect_title_SI_a_04": {
+  "ko": "하라구치 신이치의 행동에 대해"
+ },
+ "SI_A/inspect_title_SI_b_04": {
+  "ko": "모리카와 코토미가 신이치에게 품은 감정"
+ },
+ "SI_A/inspect_title_SI_a_01": {
+  "ko": "다섯 목을 절단한 이유"
+ },
+ "SI_A/inspect_title_SI_a_05": {
+  "ko": "하라구치 신이치가 해외에 있던 기간"
+ },
+ "SI_A/inspect_title_SI_b_01": {
+  "ko": "하라구치 쿄지가 신이치 집을 찾은 이유"
+ },
+ "SI_A/inspect_title_SI_a_02": {
+  "ko": "하라구치 신이치가 샤워한 이유"
+ },
+ "SI_A/inspect_title_SI_a_06": {
+  "ko": "범인은 누구인가?"
+ },
+ "SI_A/inspect_title_SI_b_02": {
+  "ko": "절단 위치가 일정했던 이유"
+ },
+ "SI_A/inspect_caption_SI_a_01": {
+  "ko": "다섯 목을 절단한 이유"
+ },
+ "SI_A/inspect_caption_SI_a_02": {
+  "ko": "하라구치 신이치가 샤워한 이유"
+ },
+ "SI_A/inspect_caption_SI_a_03": {
+  "ko": "냉장고가 비어 있던 이유"
+ },
+ "SI_A/inspect_caption_SI_a_04": {
+  "ko": "하라구치 신이치의 행동에 대해"
+ },
+ "SI_A/inspect_caption_SI_a_05": {
+  "ko": "하라구치 신이치가 해외에 있던 기간"
+ },
+ "BH/silver_hira_mekuri_title_05": {
+  "ko": "소중한 것",
+  "mode": "v"
+ },
+ "BH/kaoru_result_bad": {
+  "ko": [
+   "카오루의 괴증명",
+   "해결 실패"
+  ]
+ },
+ "BH/kaoru_result_good": {
+  "ko": [
+   "카오루의 괴증명",
+   "해결!"
+  ]
+ },
+ "common/file_profile_BH1": {
+  "ko": [
+   "가토 루우",
+   "가토 루우"
+  ]
+ }
+}

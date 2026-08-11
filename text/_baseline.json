@@ -1,0 +1,57 @@
+{
+ "note": "id/ja/loc/max_chars 의 스냅샷 해시. validate.py 가 사용한다.",
+ "files": {
+  "BH.json": {
+   "entries": 2790,
+   "sha256": "d7b52d953788e0779b4f51d2d3e73bac7506d84738dba4865fbbcf89e17e34c6"
+  },
+  "BJ.json": {
+   "entries": 1054,
+   "sha256": "fb0f0edcda3d841dce57960e436bf8744ecd15d9d5770f29692b127d599454da"
+  },
+  "FW.json": {
+   "entries": 1578,
+   "sha256": "7a5c1055f51ec6d3258ef1b7f4411b4767c908931c4cee462c30e08de2ca3c06"
+  },
+  "FW_A.json": {
+   "entries": 1409,
+   "sha256": "32de2b0083ca23aede078bcbc08685ec0d8bd77c612f6470ac0e4f5d1e59a5bb"
+  },
+  "KM.json": {
+   "entries": 2415,
+   "sha256": "6c48abef0ae0c0f354d2fb2821a6e70a8047429958dbab1815def898d2e11bbc"
+  },
+  "KM_A.json": {
+   "entries": 1989,
+   "sha256": "490e27e8f0c14b42ba5c64cb41c1c7f01094241cdc5a7d8de3cc0efcb5842b57"
+  },
+  "NF.json": {
+   "entries": 1728,
+   "sha256": "c7c7a0a4e3ca5b0a8d9a47fb2be8276b324b5aa7167f2600b7cecde96c2bf79c"
+  },
+  "NF_A.json": {
+   "entries": 1369,
+   "sha256": "accdb10b8c409b1527ba0221ccea4fc1860d90c9c65f77bc3751d4d4a922a728"
+  },
+  "SI.json": {
+   "entries": 2401,
+   "sha256": "12877900ac6ca9986ca4d577ce3e9ffebea5fae7a0470e223abda3db766d027a"
+  },
+  "SI_A.json": {
+   "entries": 2244,
+   "sha256": "d744a34c8a421acca091097612f7f9eacb933928db5f4aee626034257be4d352"
+  },
+  "TU.json": {
+   "entries": 474,
+   "sha256": "8ea4c79f19f31653cec51d9f9ef93ab34090d52e1e91e36e0d1054fdd23dc989"
+  },
+  "TU_A.json": {
+   "entries": 263,
+   "sha256": "31e22ab505d421b1298d168a761a6f600196ad945b24c928470f9fd051212527"
+  },
+  "common.json": {
+   "entries": 810,
+   "sha256": "6450c64c0f95e889e612f4e16787ca14ac1927220e42223761aab71099496666"
+  }
+ }
+}

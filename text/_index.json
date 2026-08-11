@@ -1,0 +1,223 @@
+{
+ "game": "Trick x Logic Season 1",
+ "game_id": "UCJS-10097",
+ "source_iso": "Trick x Logic Season 1.iso",
+ "encoding": "cp932 (Shift-JIS)",
+ "total_entries": 20524,
+ "string_format": "u32 length(널 포함) + cp932 바이트열 + 0x00",
+ "display_limits": {
+  "adv_dialogue": {
+   "max_chars": 44,
+   "chars_per_line": 22,
+   "lines": 2,
+   "note": "대사창 실측 폭 약 367px, 전각 advance 17px 기준. 대사 전용 파일들의 원문 최대가 정확히 44자로 일치."
+  },
+  "long_text": {
+   "note": "시나리오 본체/question/tips/inspiration 은 별도 창을 쓰며 entry 의 max_chars(해당 파일 원문 관측 최대)를 상한으로 삼을 것."
+  }
+ },
+ "translation_notes": [
+  "ko 필드에 한국어 번역을 채운다. 비워두면 원문 유지로 처리.",
+  "speaker_hint 는 직전 캐릭터 표시 명령에서 유추한 '화면에 나온 인물'이라 실제 화자와 다를 수 있다. 참고용으로만 쓸 것.",
+  "원문에는 개행/제어문자가 전혀 없다. 게임이 자동 줄바꿈하므로 번역문에도 개행을 넣지 말 것.",
+  "한글은 전각이라 일본어와 폭이 같다. max_chars 를 넘기지 말 것.",
+  "loc 은 재삽입용 위치 정보이니 수정하지 말 것.",
+  "대사는 문장 단위가 아니라 조각으로 저장돼 있다(루비/강조/키워드 표시 때문). group.ja 가 있으면 그 그룹 전체를 하나의 문장으로 보고 번역한 뒤, 각 조각의 ko 에 자연스럽게 나눠 담을 것.",
+  "조각 경계를 원문과 똑같이 맞출 필요는 없다. 길이 필드가 있어 자유롭게 조절 가능하므로, 한 조각에 몰아넣고 나머지를 빈 문자열로 둬도 된다.",
+  "group.pos 는 그룹 내 순서, group.size 는 그룹의 조각 수."
+ ],
+ "files": [
+  {
+   "file": "BH.json",
+   "archive": "BH.bin",
+   "entries": 2790,
+   "over_44": 216,
+   "categories": {
+    "scenario": 1743,
+    "hint": 22,
+    "inspiration": 144,
+    "interval": 196,
+    "outline": 25,
+    "profile": 12,
+    "prologue": 418,
+    "question": 201,
+    "report": 6,
+    "tips": 23
+   }
+  },
+  {
+   "file": "BJ.json",
+   "archive": "BJ.bin",
+   "entries": 1054,
+   "over_44": 335,
+   "categories": {
+    "scenario": 1040,
+    "profile": 14
+   }
+  },
+  {
+   "file": "FW.json",
+   "archive": "FW.bin",
+   "entries": 1578,
+   "over_44": 131,
+   "categories": {
+    "scenario": 1010,
+    "hint": 25,
+    "inspiration": 176,
+    "interval": 126,
+    "outline": 23,
+    "profile": 14,
+    "question": 180,
+    "report": 3,
+    "tips": 21
+   }
+  },
+  {
+   "file": "FW_A.json",
+   "archive": "FW_A.bin",
+   "entries": 1409,
+   "over_44": 7,
+   "categories": {
+    "scenario": 24,
+    "answer_begin": 910,
+    "bridge": 129,
+    "giveup": 329,
+    "hint": 16,
+    "trailer": 1
+   }
+  },
+  {
+   "file": "KM.json",
+   "archive": "KM.bin",
+   "entries": 2415,
+   "over_44": 232,
+   "categories": {
+    "scenario": 1566,
+    "hint": 24,
+    "inspiration": 230,
+    "interval": 192,
+    "outline": 25,
+    "profile": 18,
+    "question": 331,
+    "report": 7,
+    "tips": 22
+   }
+  },
+  {
+   "file": "KM_A.json",
+   "archive": "KM_A.bin",
+   "entries": 1989,
+   "over_44": 10,
+   "categories": {
+    "scenario": 28,
+    "answer_begin": 1463,
+    "bridge": 75,
+    "giveup": 403,
+    "hint": 19,
+    "trailer": 1
+   }
+  },
+  {
+   "file": "NF.json",
+   "archive": "NF.bin",
+   "entries": 1728,
+   "over_44": 119,
+   "categories": {
+    "scenario": 1165,
+    "hint": 28,
+    "inspiration": 166,
+    "interval": 159,
+    "profile": 10,
+    "question": 176,
+    "report": 4,
+    "tips": 20
+   }
+  },
+  {
+   "file": "NF_A.json",
+   "archive": "NF_A.bin",
+   "entries": 1369,
+   "over_44": 5,
+   "categories": {
+    "scenario": 4,
+    "answer_begin": 935,
+    "bridge": 67,
+    "giveup": 344,
+    "hint": 18,
+    "trailer": 1
+   }
+  },
+  {
+   "file": "SI.json",
+   "archive": "SI.bin",
+   "entries": 2401,
+   "over_44": 298,
+   "categories": {
+    "scenario": 1568,
+    "hint": 26,
+    "inspiration": 239,
+    "interval": 234,
+    "outline": 25,
+    "profile": 18,
+    "question": 260,
+    "report": 10,
+    "tips": 21
+   }
+  },
+  {
+   "file": "SI_A.json",
+   "archive": "SI_A.bin",
+   "entries": 2244,
+   "over_44": 9,
+   "categories": {
+    "scenario": 8,
+    "answer_begin": 1559,
+    "bridge": 199,
+    "giveup": 454,
+    "hint": 23,
+    "trailer": 1
+   }
+  },
+  {
+   "file": "TU.json",
+   "archive": "TU.bin",
+   "entries": 474,
+   "over_44": 18,
+   "categories": {
+    "scenario": 112,
+    "hint": 15,
+    "inspiration": 22,
+    "interval": 146,
+    "profile": 8,
+    "prologue": 144,
+    "question": 20,
+    "report": 3,
+    "tips": 4
+   }
+  },
+  {
+   "file": "TU_A.json",
+   "archive": "TU_A.bin",
+   "entries": 263,
+   "over_44": 1,
+   "categories": {
+    "answer_begin": 229,
+    "hint": 33,
+    "trailer": 1
+   }
+  },
+  {
+   "file": "common.json",
+   "archive": "common.bin",
+   "entries": 810,
+   "over_44": 14,
+   "categories": {
+    "hint": 126,
+    "common_informationbar": 486,
+    "common_menu": 12,
+    "common_test": 114,
+    "common_tutorial": 72
+   }
+  }
+ ]
+}

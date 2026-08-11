@@ -1,0 +1,58 @@
+# ── 게임 파일은 올리지 않는다 ──────────────────────────────
+*.iso
+*.ISO
+*.cso
+*.pbp
+*.bin
+!images/**/*.json
+
+# ISO 에서 뽑아낸 게임 리소스 (직접 뽑아 쓰세요)
+images/TU/
+images/TU_A/
+images/NF/
+images/NF_A/
+images/FW/
+images/FW_A/
+images/KM/
+images/KM_A/
+images/SI/
+images/SI_A/
+images/BH/
+images/BJ/
+images/common/
+images/character/
+images/_translate/
+images/_preview/
+font_extract/
+
+# 빌드 중간 산출물
+build/
+out/
+font_out/
+*.pkl
+*.payload
+_verify*
+
+# 파이썬
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 편집기·OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# 배포물은 Releases 로 (저장소에는 두지 않는다)
+*.xdelta
+
+# 서드파티 실행 파일 — 공식 배포처에서 받으세요
+xdelta.exe
+xdeltaUI.exe
+
+# 쓰지 않는 굵기 (서울서체 배포처에서 받으세요)
+fonts/SeoulHangangB.ttf
+fonts/SeoulHangangL.ttf
+fonts/SeoulHangangM.ttf

@@ -1,0 +1,6055 @@
+{
+ "archive": "TU_A.bin",
+ "count": 263,
+ "entries": [
+  {
+   "id": "TU_A/TU_answer_begin/0000",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 0,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "ｪ",
+   "ko": "ｪ",
+   "chars": 1,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0000",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 839,
+    "str_off": 843,
+    "orig_bytes": 2
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0001",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 1,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "解けたぞ",
+   "ko": "풀었다",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0001",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 1262,
+    "str_off": 1266,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0002",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 2,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "聞かせてくれ",
+   "ko": "들려 줘",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0002",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 1333,
+    "str_off": 1337,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0003",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 3,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "その前に、『調書』の問いを確認しておく",
+   "ko": "그 전에, 『조서』의 질문부터 확인해 두자",
+   "chars": 19,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0003",
+    "size": 3,
+    "pos": 0,
+    "ja": "その前に、『調書』の問いを確認しておく『調書』の問いはこんなものだった「刑事は、ある場所に犯人の名前が残されているのを発見した」"
+   },
+   "loc": {
+    "len_off": 1403,
+    "str_off": 1407,
+    "orig_bytes": 39
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0004",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 4,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "『調書』の問いはこんなものだった",
+   "ko": "『조서』의 질문은 이런 것이었다",
+   "chars": 16,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0003",
+    "size": 3,
+    "pos": 1,
+    "ja": "その前に、『調書』の問いを確認しておく『調書』の問いはこんなものだった「刑事は、ある場所に犯人の名前が残されているのを発見した」"
+   },
+   "loc": {
+    "len_off": 1499,
+    "str_off": 1503,
+    "orig_bytes": 33
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0005",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 5,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "「刑事は、ある場所に犯人の名前が残されているのを発見した」",
+   "ko": "「형사는 어느 장소에 범인의 이름이 남아 있는 것을 발견했다」",
+   "chars": 29,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0003",
+    "size": 3,
+    "pos": 2,
+    "ja": "その前に、『調書』の問いを確認しておく『調書』の問いはこんなものだった「刑事は、ある場所に犯人の名前が残されているのを発見した」"
+   },
+   "loc": {
+    "len_off": 1560,
+    "str_off": 1564,
+    "orig_bytes": 59
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0006",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 6,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "「その“場所”と、そこがどのような“状態”だったかを示す『ヒラメキ』を一つ示せ」",
+   "ko": "「그 ‘장소’와 그곳이 어떤 ‘상태’였는지를 보여 주는 『착상』 하나를 제시해라",
+   "chars": 40,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0004",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 1652,
+    "str_off": 1656,
+    "orig_bytes": 81
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0007",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 7,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "そうだ",
+   "ko": "맞아 ",
+   "chars": 3,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0005",
+    "size": 8,
+    "pos": 0,
+    "ja": "そうだそれを示す具体的なヒラメキが必要なんだこれはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずある"
+   },
+   "loc": {
+    "len_off": 1800,
+    "str_off": 1804,
+    "orig_bytes": 7
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0008",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 8,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "それを示す具体的な",
+   "ko": "그걸 보여 줄 구체적인 ",
+   "chars": 9,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0005",
+    "size": 8,
+    "pos": 1,
+    "ja": "そうだそれを示す具体的なヒラメキが必要なんだこれはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずある"
+   },
+   "loc": {
+    "len_off": 1827,
+    "str_off": 1831,
+    "orig_bytes": 19
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0009",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 9,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ヒラメキ",
+   "ko": "착상이 ",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0005",
+    "size": 8,
+    "pos": 2,
+    "ja": "そうだそれを示す具体的なヒラメキが必要なんだこれはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずある"
+   },
+   "loc": {
+    "len_off": 1868,
+    "str_off": 1872,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0010",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 10,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "が必要なんだ",
+   "ko": "필요해 ",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0005",
+    "size": 8,
+    "pos": 3,
+    "ja": "そうだそれを示す具体的なヒラメキが必要なんだこれはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずある"
+   },
+   "loc": {
+    "len_off": 1887,
+    "str_off": 1891,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0011",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 11,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "これはこれからお前が挑む『アカシャ』でも同様",
+   "ko": "이제 네가 도전할 『아카샤』도 마찬가지야",
+   "chars": 22,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0005",
+    "size": 8,
+    "pos": 4,
+    "ja": "そうだそれを示す具体的なヒラメキが必要なんだこれはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずある"
+   },
+   "loc": {
+    "len_off": 1920,
+    "str_off": 1924,
+    "orig_bytes": 45
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0012",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 12,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "『調書』の問いにピッタリとマッチする",
+   "ko": "『조서』의 질문에 딱 맞는 ",
+   "chars": 18,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0005",
+    "size": 8,
+    "pos": 5,
+    "ja": "そうだそれを示す具体的なヒラメキが必要なんだこれはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずある"
+   },
+   "loc": {
+    "len_off": 1985,
+    "str_off": 1989,
+    "orig_bytes": 37
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0013",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 13,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ヒラメキ",
+   "ko": "착상이 ",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0005",
+    "size": 8,
+    "pos": 6,
+    "ja": "そうだそれを示す具体的なヒラメキが必要なんだこれはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずある"
+   },
+   "loc": {
+    "len_off": 2044,
+    "str_off": 2048,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0014",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 14,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "が、必ずある",
+   "ko": "반드시 있어",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0005",
+    "size": 8,
+    "pos": 7,
+    "ja": "そうだそれを示す具体的なヒラメキが必要なんだこれはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずある"
+   },
+   "loc": {
+    "len_off": 2063,
+    "str_off": 2067,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0015",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 15,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "その答えを見つけたんだな？",
+   "ko": "그 답을 찾은 거지?",
+   "chars": 13,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0006",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 2096,
+    "str_off": 2100,
+    "orig_bytes": 27
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0016",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 16,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "それはこれだ",
+   "ko": "그건 바로 이거야",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0007",
+    "size": 8,
+    "pos": 0,
+    "ja": "それはこれだ『調書』の問いのある場所というのは、ドアのガラスのことそしてその状態"
+   },
+   "loc": {
+    "len_off": 2180,
+    "str_off": 2184,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0017",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 17,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "『調書』の問いの",
+   "ko": "『조서』의 질문에서 말한 ",
+   "chars": 8,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0007",
+    "size": 8,
+    "pos": 1,
+    "ja": "それはこれだ『調書』の問いのある場所というのは、ドアのガラスのことそしてその状態"
+   },
+   "loc": {
+    "len_off": 2515,
+    "str_off": 2519,
+    "orig_bytes": 17
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0018",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 18,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "ある場所",
+   "ko": "장소란 ",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0007",
+    "size": 8,
+    "pos": 2,
+    "ja": "それはこれだ『調書』の問いのある場所というのは、ドアのガラスのことそしてその状態"
+   },
+   "loc": {
+    "len_off": 2554,
+    "str_off": 2558,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0019",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 19,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "というのは、",
+   "ko": "말은 ",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0007",
+    "size": 8,
+    "pos": 3,
+    "ja": "それはこれだ『調書』の問いのある場所というのは、ドアのガラスのことそしてその状態"
+   },
+   "loc": {
+    "len_off": 2573,
+    "str_off": 2577,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0020",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 20,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "ドアのガラス",
+   "ko": "문의 유리",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0007",
+    "size": 8,
+    "pos": 4,
+    "ja": "それはこれだ『調書』の問いのある場所というのは、ドアのガラスのことそしてその状態"
+   },
+   "loc": {
+    "len_off": 2608,
+    "str_off": 2612,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0021",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 21,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "のこと",
+   "ko": "를 뜻해 ",
+   "chars": 3,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0007",
+    "size": 8,
+    "pos": 5,
+    "ja": "それはこれだ『調書』の問いのある場所というのは、ドアのガラスのことそしてその状態"
+   },
+   "loc": {
+    "len_off": 2631,
+    "str_off": 2635,
+    "orig_bytes": 7
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0022",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 22,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "そしてその",
+   "ko": "그리고 그 ",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0007",
+    "size": 8,
+    "pos": 6,
+    "ja": "それはこれだ『調書』の問いのある場所というのは、ドアのガラスのことそしてその状態"
+   },
+   "loc": {
+    "len_off": 2649,
+    "str_off": 2653,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0023",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 23,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "状態",
+   "ko": "상태",
+   "chars": 2,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0007",
+    "size": 8,
+    "pos": 7,
+    "ja": "それはこれだ『調書』の問いのある場所というのは、ドアのガラスのことそしてその状態"
+   },
+   "loc": {
+    "len_off": 2682,
+    "str_off": 2686,
+    "orig_bytes": 5
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0024",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 24,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "とは、",
+   "ko": "는 ",
+   "chars": 3,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0008",
+    "size": 3,
+    "pos": 0,
+    "ja": "とは、曇っていたということだ"
+   },
+   "loc": {
+    "len_off": 2697,
+    "str_off": 2701,
+    "orig_bytes": 7
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0025",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 25,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "曇っていた",
+   "ko": "흐려져 있었다 ",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0008",
+    "size": 3,
+    "pos": 1,
+    "ja": "とは、曇っていたということだ"
+   },
+   "loc": {
+    "len_off": 2726,
+    "str_off": 2730,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0026",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 26,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "ということだ",
+   "ko": "는 뜻이야",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0008",
+    "size": 3,
+    "pos": 2,
+    "ja": "とは、曇っていたということだ"
+   },
+   "loc": {
+    "len_off": 2747,
+    "str_off": 2751,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0027",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 27,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ドアのガラスが曇っていたことが、一体なんの証明になるんだ？",
+   "ko": "문 유리가 흐려져 있었다는 게 대체 무슨 증명이 된다는 거지?",
+   "chars": 29,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0009",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 2822,
+    "str_off": 2826,
+    "orig_bytes": 59
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0028",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 28,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "エアコンが壊れていた視聴覚室は、ずっと暑い状態だった",
+   "ko": "에어컨이 고장 난 시청각실은 계속 더웠어 ",
+   "chars": 26,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0010",
+    "size": 6,
+    "pos": 0,
+    "ja": "エアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 2938,
+    "str_off": 2942,
+    "orig_bytes": 53
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0029",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 29,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "もし、隣のライブラリー室が涼しい状態であれば、視聴覚室側の",
+   "ko": "만약 옆 도서실이 시원했다면, 시청각실 쪽 ",
+   "chars": 29,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0010",
+    "size": 6,
+    "pos": 1,
+    "ja": "エアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 3002,
+    "str_off": 3006,
+    "orig_bytes": 59
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0030",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 30,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "ドアのガラスは結露して曇る",
+   "ko": "문 유리에 이슬이 맺혀 흐려졌겠지 ",
+   "chars": 13,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0010",
+    "size": 6,
+    "pos": 2,
+    "ja": "エアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 3083,
+    "str_off": 3087,
+    "orig_bytes": 27
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0031",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 31,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "曇ったガラスには文字を書くことができる",
+   "ko": "흐려진 유리에는 글씨를 쓸 수 있어 ",
+   "chars": 19,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0010",
+    "size": 6,
+    "pos": 3,
+    "ja": "エアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 3126,
+    "str_off": 3130,
+    "orig_bytes": 39
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0032",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 32,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "被害者が指先をガラスに押し当てていたのは、",
+   "ko": "피해자가 손가락 끝을 유리에 댄 건 ",
+   "chars": 21,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0010",
+    "size": 6,
+    "pos": 4,
+    "ja": "エアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 3253,
+    "str_off": 3257,
+    "orig_bytes": 43
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0033",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 33,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "そこにダイイング・メッセージを残した",
+   "ko": "거기에 다잉 메시지를 남겼기 때문이야",
+   "chars": 18,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0010",
+    "size": 6,
+    "pos": 5,
+    "ja": "エアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 3363,
+    "str_off": 3367,
+    "orig_bytes": 37
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0034",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 34,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "からだった",
+   "ko": "때문이었어",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0011",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 3410,
+    "str_off": 3414,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0035",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 35,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "なるほど……",
+   "ko": "그렇군……",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0012",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 3527,
+    "str_off": 3531,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0036",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 36,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ドアのガラスが曇っていたことで、被害者はダイイング・メッセージを残せたわけか",
+   "ko": "문 유리가 흐려져서 피해자는 다잉 메시지를 남길 수 있었던 건가 ",
+   "chars": 38,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0013",
+    "size": 2,
+    "pos": 0,
+    "ja": "ドアのガラスが曇っていたことで、被害者はダイイング・メッセージを残せたわけかしかし、刑事が現場の検証をしたときには、ダイイング・メッセージなんてなかったじゃないか"
+   },
+   "loc": {
+    "len_off": 3560,
+    "str_off": 3564,
+    "orig_bytes": 77
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0037",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 37,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "しかし、刑事が現場の検証をしたときには、ダイイング・メッセージなんてなかったじゃないか",
+   "ko": "하지만 형사가 현장을 조사했을 때는 그런 메시지가 없었잖아",
+   "chars": 43,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0013",
+    "size": 2,
+    "pos": 1,
+    "ja": "ドアのガラスが曇っていたことで、被害者はダイイング・メッセージを残せたわけかしかし、刑事が現場の検証をしたときには、ダイイング・メッセージなんてなかったじゃないか"
+   },
+   "loc": {
+    "len_off": 3657,
+    "str_off": 3661,
+    "orig_bytes": 87
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0038",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 38,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "それは、",
+   "ko": "그건 ",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0014",
+    "size": 7,
+    "pos": 0,
+    "ja": "それは、二つの部屋の温度差がなくなっていたからだ白井はエアコンを作動させていないそれは彼が撮影したビデオ映像から明らかだライブラリー室は、白井が入室した後からずっと、視聴覚室と同じ暑い状態だった二つの部屋に温度差がなかったことは、現場を調べていた刑事の行動からもわかる"
+   },
+   "loc": {
+    "len_off": 3814,
+    "str_off": 3818,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0039",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 39,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "二つの部屋の温度差がなくなっていた",
+   "ko": "두 방의 온도 차가 사라져 있었기 ",
+   "chars": 17,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0014",
+    "size": 7,
+    "pos": 1,
+    "ja": "それは、二つの部屋の温度差がなくなっていたからだ白井はエアコンを作動させていないそれは彼が撮影したビデオ映像から明らかだライブラリー室は、白井が入室した後からずっと、視聴覚室と同じ暑い状態だった二つの部屋に温度差がなかったことは、現場を調べていた刑事の行動からもわかる"
+   },
+   "loc": {
+    "len_off": 3845,
+    "str_off": 3849,
+    "orig_bytes": 35
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0040",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 40,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "からだ",
+   "ko": "때문이야 ",
+   "chars": 3,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0014",
+    "size": 7,
+    "pos": 2,
+    "ja": "それは、二つの部屋の温度差がなくなっていたからだ白井はエアコンを作動させていないそれは彼が撮影したビデオ映像から明らかだライブラリー室は、白井が入室した後からずっと、視聴覚室と同じ暑い状態だった二つの部屋に温度差がなかったことは、現場を調べていた刑事の行動からもわかる"
+   },
+   "loc": {
+    "len_off": 3890,
+    "str_off": 3894,
+    "orig_bytes": 7
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0041",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 41,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "白井はエアコンを作動させていない",
+   "ko": "시라이는 에어컨을 켜지 않았어 ",
+   "chars": 16,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0014",
+    "size": 7,
+    "pos": 3,
+    "ja": "それは、二つの部屋の温度差がなくなっていたからだ白井はエアコンを作動させていないそれは彼が撮影したビデオ映像から明らかだライブラリー室は、白井が入室した後からずっと、視聴覚室と同じ暑い状態だった二つの部屋に温度差がなかったことは、現場を調べていた刑事の行動からもわかる"
+   },
+   "loc": {
+    "len_off": 3908,
+    "str_off": 3912,
+    "orig_bytes": 33
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0042",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 42,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "それは彼が撮影したビデオ映像から明らかだ",
+   "ko": "그건 그가 찍은 영상으로 분명해 ",
+   "chars": 20,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0014",
+    "size": 7,
+    "pos": 4,
+    "ja": "それは、二つの部屋の温度差がなくなっていたからだ白井はエアコンを作動させていないそれは彼が撮影したビデオ映像から明らかだライブラリー室は、白井が入室した後からずっと、視聴覚室と同じ暑い状態だった二つの部屋に温度差がなかったことは、現場を調べていた刑事の行動からもわかる"
+   },
+   "loc": {
+    "len_off": 3952,
+    "str_off": 3956,
+    "orig_bytes": 41
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0043",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 43,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "ライブラリー室は、白井が入室した後からずっと、視聴覚室と同じ暑い状態だった",
+   "ko": "도서실은 시라이가 들어온 뒤 내내 시청각실과 똑같이 더웠어 ",
+   "chars": 37,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0014",
+    "size": 7,
+    "pos": 5,
+    "ja": "それは、二つの部屋の温度差がなくなっていたからだ白井はエアコンを作動させていないそれは彼が撮影したビデオ映像から明らかだライブラリー室は、白井が入室した後からずっと、視聴覚室と同じ暑い状態だった二つの部屋に温度差がなかったことは、現場を調べていた刑事の行動からもわかる"
+   },
+   "loc": {
+    "len_off": 4082,
+    "str_off": 4086,
+    "orig_bytes": 75
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0044",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 44,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "二つの部屋に温度差がなかったことは、現場を調べていた刑事の行動からもわかる",
+   "ko": "두 방에 온도 차가 없었다는 건 현장을 조사한 형사의 행동으로도 알 수 있어",
+   "chars": 37,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0014",
+    "size": 7,
+    "pos": 6,
+    "ja": "それは、二つの部屋の温度差がなくなっていたからだ白井はエアコンを作動させていないそれは彼が撮影したビデオ映像から明らかだライブラリー室は、白井が入室した後からずっと、視聴覚室と同じ暑い状態だった二つの部屋に温度差がなかったことは、現場を調べていた刑事の行動からもわかる"
+   },
+   "loc": {
+    "len_off": 4168,
+    "str_off": 4172,
+    "orig_bytes": 75
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0045",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 45,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "刑事は視聴覚室側からライブラリー室を覗き見ている、",
+   "ko": "형사는 시청각실 쪽에서 도서실을 엿보고 있어,",
+   "chars": 25,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0015",
+    "size": 2,
+    "pos": 0,
+    "ja": "刑事は視聴覚室側からライブラリー室を覗き見ている、ということは……"
+   },
+   "loc": {
+    "len_off": 4254,
+    "str_off": 4258,
+    "orig_bytes": 51
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0046",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 46,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "ということは……",
+   "ko": "그렇다면……",
+   "chars": 8,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0015",
+    "size": 2,
+    "pos": 1,
+    "ja": "刑事は視聴覚室側からライブラリー室を覗き見ている、ということは……"
+   },
+   "loc": {
+    "len_off": 4319,
+    "str_off": 4323,
+    "orig_bytes": 17
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0047",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 47,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "そのとき",
+   "ko": "그때는",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0016",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 4347,
+    "str_off": 4351,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0048",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 48,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "ガラスは曇っていなかった",
+   "ko": "유리는 흐려져 있지 않았다는 ",
+   "chars": 12,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0017",
+    "size": 3,
+    "pos": 0,
+    "ja": "ガラスは曇っていなかった、ということだ"
+   },
+   "loc": {
+    "len_off": 4387,
+    "str_off": 4391,
+    "orig_bytes": 25
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0049",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 49,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "、",
+   "ko": "뜻이야",
+   "chars": 1,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0017",
+    "size": 3,
+    "pos": 1,
+    "ja": "ガラスは曇っていなかった、ということだ"
+   },
+   "loc": {
+    "len_off": 4422,
+    "str_off": 4426,
+    "orig_bytes": 3
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0050",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 50,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "ということだ",
+   "ko": ".",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0017",
+    "size": 3,
+    "pos": 2,
+    "ja": "ガラスは曇っていなかった、ということだ"
+   },
+   "loc": {
+    "len_off": 4439,
+    "str_off": 4443,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0051",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 51,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "もちろん",
+   "ko": "물론 ",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0018",
+    "size": 3,
+    "pos": 0,
+    "ja": "もちろんダイイング・メッセージも消えていたしかし、その後、刑事が黒木と白井の事情聴取をしたとき……"
+   },
+   "loc": {
+    "len_off": 4509,
+    "str_off": 4513,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0052",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 52,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "ダイイング・メッセージも消えていた",
+   "ko": "다잉 메시지도 사라져 있었어 ",
+   "chars": 17,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0018",
+    "size": 3,
+    "pos": 1,
+    "ja": "もちろんダイイング・メッセージも消えていたしかし、その後、刑事が黒木と白井の事情聴取をしたとき……"
+   },
+   "loc": {
+    "len_off": 4540,
+    "str_off": 4544,
+    "orig_bytes": 35
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0053",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 53,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "しかし、その後、刑事が黒木と白井の事情聴取をしたとき……",
+   "ko": "하지만 그 뒤 형사가 구로키와 시라이를 조사했을 때……",
+   "chars": 28,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0018",
+    "size": 3,
+    "pos": 2,
+    "ja": "もちろんダイイング・メッセージも消えていたしかし、その後、刑事が黒木と白井の事情聴取をしたとき……"
+   },
+   "loc": {
+    "len_off": 4591,
+    "str_off": 4595,
+    "orig_bytes": 57
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0054",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 54,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "ライブラリー室のエアコンはつけられていた",
+   "ko": "도서실 에어컨은 켜져 있었어 ",
+   "chars": 20,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0019",
+    "size": 3,
+    "pos": 0,
+    "ja": "ライブラリー室のエアコンはつけられていたメッセージは再び浮き上がり、ようやく刑事もそれに気づいた犯人は……"
+   },
+   "loc": {
+    "len_off": 4714,
+    "str_off": 4718,
+    "orig_bytes": 41
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0055",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 55,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "メッセージは再び浮き上がり、ようやく刑事もそれに気づいた",
+   "ko": "메시지가 다시 나타났고, 그제야 형사도 알아챘지 ",
+   "chars": 28,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0019",
+    "size": 3,
+    "pos": 1,
+    "ja": "ライブラリー室のエアコンはつけられていたメッセージは再び浮き上がり、ようやく刑事もそれに気づいた犯人は……"
+   },
+   "loc": {
+    "len_off": 4766,
+    "str_off": 4770,
+    "orig_bytes": 57
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0056",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 56,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "犯人は……",
+   "ko": "범인은……",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0019",
+    "size": 3,
+    "pos": 2,
+    "ja": "ライブラリー室のエアコンはつけられていたメッセージは再び浮き上がり、ようやく刑事もそれに気づいた犯人は……"
+   },
+   "loc": {
+    "len_off": 4902,
+    "str_off": 4906,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0057",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 57,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "黒木",
+   "ko": "구로키 ",
+   "chars": 2,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0020",
+    "size": 3,
+    "pos": 0,
+    "ja": "黒木だ彼以外に考えられない"
+   },
+   "loc": {
+    "len_off": 4980,
+    "str_off": 4984,
+    "orig_bytes": 5
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0058",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 58,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "だ",
+   "ko": "야 ",
+   "chars": 1,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0020",
+    "size": 3,
+    "pos": 1,
+    "ja": "黒木だ彼以外に考えられない"
+   },
+   "loc": {
+    "len_off": 4995,
+    "str_off": 4999,
+    "orig_bytes": 3
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0059",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 59,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "彼以外に考えられない",
+   "ko": "그 말고는 생각할 수 없어",
+   "chars": 10,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0020",
+    "size": 3,
+    "pos": 2,
+    "ja": "黒木だ彼以外に考えられない"
+   },
+   "loc": {
+    "len_off": 5018,
+    "str_off": 5022,
+    "orig_bytes": 21
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0060",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 60,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "キエーッ！",
+   "ko": "키에엑!",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0021",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 5143,
+    "str_off": 5147,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0061",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 61,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "お見事！",
+   "ko": "훌륭해!",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0022",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 5165,
+    "str_off": 5169,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0062",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 62,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "カンペキに正解だ！",
+   "ko": "완벽하게 정답이야!",
+   "chars": 9,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0023",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 5236,
+    "str_off": 5240,
+    "orig_bytes": 19
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0063",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 63,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "さすが天才と言われるだけのことはあるな",
+   "ko": "역시 천재라 불릴 만하군 ",
+   "chars": 19,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0024",
+    "size": 4,
+    "pos": 0,
+    "ja": "さすが天才と言われるだけのことはあるなその推理力もさることながら、新しく宿ったチカラもスムーズに使いこなせているだが、本番はこんなにカンタンに解けるようなシロモノではないぞ謎解きに失敗すれば、調書の作成に戻ってイチからやり直しだ"
+   },
+   "loc": {
+    "len_off": 5275,
+    "str_off": 5279,
+    "orig_bytes": 39
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0064",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 64,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "その推理力もさることながら、新しく宿ったチカラもスムーズに使いこなせている",
+   "ko": "추리력도 뛰어나지만, 새로 얻은 힘도 능숙하게 쓰고 있어 ",
+   "chars": 37,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0024",
+    "size": 4,
+    "pos": 1,
+    "ja": "さすが天才と言われるだけのことはあるなその推理力もさることながら、新しく宿ったチカラもスムーズに使いこなせているだが、本番はこんなにカンタンに解けるようなシロモノではないぞ謎解きに失敗すれば、調書の作成に戻ってイチからやり直しだ"
+   },
+   "loc": {
+    "len_off": 5334,
+    "str_off": 5338,
+    "orig_bytes": 75
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0065",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 65,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "だが、本番はこんなにカンタンに解けるようなシロモノではないぞ",
+   "ko": "하지만 실전은 이렇게 쉽게 풀 수 있는 물건이 아니야 ",
+   "chars": 30,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0024",
+    "size": 4,
+    "pos": 2,
+    "ja": "さすが天才と言われるだけのことはあるなその推理力もさることながら、新しく宿ったチカラもスムーズに使いこなせているだが、本番はこんなにカンタンに解けるようなシロモノではないぞ謎解きに失敗すれば、調書の作成に戻ってイチからやり直しだ"
+   },
+   "loc": {
+    "len_off": 5429,
+    "str_off": 5433,
+    "orig_bytes": 61
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0066",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 66,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "謎解きに失敗すれば、調書の作成に戻ってイチからやり直しだ",
+   "ko": "수수께끼를 틀리면 조서 작성으로 돌아가 처음부터 다시 해야 해",
+   "chars": 28,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0024",
+    "size": 4,
+    "pos": 3,
+    "ja": "さすが天才と言われるだけのことはあるなその推理力もさることながら、新しく宿ったチカラもスムーズに使いこなせているだが、本番はこんなにカンタンに解けるようなシロモノではないぞ謎解きに失敗すれば、調書の作成に戻ってイチからやり直しだ"
+   },
+   "loc": {
+    "len_off": 5510,
+    "str_off": 5514,
+    "orig_bytes": 57
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0067",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 67,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "調書の内容をあれこれと変え、繰り返し解決編で答え合わせをする……",
+   "ko": "조서 내용을 이리저리 바꾸며, 해결편에서 몇 번이고 답을 맞춰 보고……",
+   "chars": 32,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0025",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 5587,
+    "str_off": 5591,
+    "orig_bytes": 65
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0068",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 68,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "まちがえ、考え直し、またまちがえての繰り返し……",
+   "ko": "틀리고, 다시 생각하고, 또 틀리기를 반복하고……",
+   "chars": 24,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0026",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 5681,
+    "str_off": 5685,
+    "orig_bytes": 49
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0069",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 69,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "何度も何度もやり直すことになるだろう",
+   "ko": "몇 번이고 몇 번이고 다시 하게 되겠지 ",
+   "chars": 18,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0027",
+    "size": 2,
+    "pos": 0,
+    "ja": "何度も何度もやり直すことになるだろうそこで……"
+   },
+   "loc": {
+    "len_off": 5744,
+    "str_off": 5748,
+    "orig_bytes": 37
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0070",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 70,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "そこで……",
+   "ko": "그래서……",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0027",
+    "size": 2,
+    "pos": 1,
+    "ja": "何度も何度もやり直すことになるだろうそこで……"
+   },
+   "loc": {
+    "len_off": 5801,
+    "str_off": 5805,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0071",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 71,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "解決編では、超早口モードを用意した",
+   "ko": "해결편에는 초고속 모드를 준비해 뒀다",
+   "chars": 17,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0028",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 5841,
+    "str_off": 5845,
+    "orig_bytes": 35
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0072",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 72,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "超早口……？",
+   "ko": "초고속……?",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0029",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 5933,
+    "str_off": 5937,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0073",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 73,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "そう、超早口",
+   "ko": "그래, 초고속",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0030",
+    "size": 6,
+    "pos": 0,
+    "ja": "そう、超早口○を押しっぱなしにすればキリのいいところまで超早口で会話を進めることができる解決編を何度もやり直すときに、このモードが役に立つベンリだぞ試しにやってみろ"
+   },
+   "loc": {
+    "len_off": 6017,
+    "str_off": 6021,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0074",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 74,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "○",
+   "ko": "○",
+   "chars": 1,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0030",
+    "size": 6,
+    "pos": 1,
+    "ja": "そう、超早口○を押しっぱなしにすればキリのいいところまで超早口で会話を進めることができる解決編を何度もやり直すときに、このモードが役に立つベンリだぞ試しにやってみろ"
+   },
+   "loc": {
+    "len_off": 6067,
+    "str_off": 6071,
+    "orig_bytes": 3
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0075",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 75,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "を押しっぱなしにすればキリのいいところまで超早口で会話を進めることができる",
+   "ko": "를 계속 누르고 있으면 적당한 지점까지 초고속으로 대화를 진행할 수 있어 ",
+   "chars": 37,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0030",
+    "size": 6,
+    "pos": 2,
+    "ja": "そう、超早口○を押しっぱなしにすればキリのいいところまで超早口で会話を進めることができる解決編を何度もやり直すときに、このモードが役に立つベンリだぞ試しにやってみろ"
+   },
+   "loc": {
+    "len_off": 6080,
+    "str_off": 6084,
+    "orig_bytes": 75
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0076",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 76,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "解決編を何度もやり直すときに、このモードが役に立つ",
+   "ko": "해결편을 몇 번이고 다시 할 때 이 모드가 도움이 된다 ",
+   "chars": 25,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0030",
+    "size": 6,
+    "pos": 3,
+    "ja": "そう、超早口○を押しっぱなしにすればキリのいいところまで超早口で会話を進めることができる解決編を何度もやり直すときに、このモードが役に立つベンリだぞ試しにやってみろ"
+   },
+   "loc": {
+    "len_off": 6175,
+    "str_off": 6179,
+    "orig_bytes": 51
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0077",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 77,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ベンリだぞ",
+   "ko": "편리하지 ",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0030",
+    "size": 6,
+    "pos": 4,
+    "ja": "そう、超早口○を押しっぱなしにすればキリのいいところまで超早口で会話を進めることができる解決編を何度もやり直すときに、このモードが役に立つベンリだぞ試しにやってみろ"
+   },
+   "loc": {
+    "len_off": 6246,
+    "str_off": 6250,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0078",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 78,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "試しにやってみろ",
+   "ko": "시험 삼아 해 봐라",
+   "chars": 8,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0030",
+    "size": 6,
+    "pos": 5,
+    "ja": "そう、超早口○を押しっぱなしにすればキリのいいところまで超早口で会話を進めることができる解決編を何度もやり直すときに、このモードが役に立つベンリだぞ試しにやってみろ"
+   },
+   "loc": {
+    "len_off": 6277,
+    "str_off": 6281,
+    "orig_bytes": 17
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0079",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 79,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "さァ！",
+   "ko": "자!",
+   "chars": 3,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0031",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 6314,
+    "str_off": 6318,
+    "orig_bytes": 7
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0080",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 80,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "○ボタン",
+   "ko": "○ 버튼",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0032",
+    "size": 2,
+    "pos": 0,
+    "ja": "○ボタンを押しっぱなしにするのだッ！"
+   },
+   "loc": {
+    "len_off": 6358,
+    "str_off": 6362,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0081",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 81,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "を押しっぱなしにするのだッ！",
+   "ko": "을 계속 누르는 거다!",
+   "chars": 14,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0032",
+    "size": 2,
+    "pos": 1,
+    "ja": "○ボタンを押しっぱなしにするのだッ！"
+   },
+   "loc": {
+    "len_off": 6377,
+    "str_off": 6381,
+    "orig_bytes": 29
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0082",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 82,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "なまむぎなまごめなまたまご",
+   "ko": "간장 공장 공장장은 ",
+   "chars": 13,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0033",
+    "size": 7,
+    "pos": 0,
+    "ja": "なまむぎなまごめなまたまごあおまきがみあかまきがみきまきがみとなりのきゃくはよくかきくうきゃくだうらにわにはにわにわにはにわにわとりがいるぼうすがびょうぶにじょうずにぼうずのえをかいたすもももももももものうちもももすももももものうちぶぐばぐぶぐばぐみぶぐばぐあわせてぶぐばくむぶぐばぐ"
+   },
+   "loc": {
+    "len_off": 6426,
+    "str_off": 6430,
+    "orig_bytes": 27
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0083",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 83,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "あおまきがみあかまきがみきまきがみ",
+   "ko": "강 공장장이고, 된장 공장 공장장은 ",
+   "chars": 17,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0033",
+    "size": 7,
+    "pos": 1,
+    "ja": "なまむぎなまごめなまたまごあおまきがみあかまきがみきまきがみとなりのきゃくはよくかきくうきゃくだうらにわにはにわにわにはにわにわとりがいるぼうすがびょうぶにじょうずにぼうずのえをかいたすもももももももものうちもももすももももものうちぶぐばぐぶぐばぐみぶぐばぐあわせてぶぐばくむぶぐばぐ"
+   },
+   "loc": {
+    "len_off": 6473,
+    "str_off": 6477,
+    "orig_bytes": 35
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0084",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 84,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "となりのきゃくはよくかきくうきゃくだ",
+   "ko": "공 공장장이다 ",
+   "chars": 18,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0033",
+    "size": 7,
+    "pos": 2,
+    "ja": "なまむぎなまごめなまたまごあおまきがみあかまきがみきまきがみとなりのきゃくはよくかきくうきゃくだうらにわにはにわにわにはにわにわとりがいるぼうすがびょうぶにじょうずにぼうずのえをかいたすもももももももものうちもももすももももものうちぶぐばぐぶぐばぐみぶぐばぐあわせてぶぐばくむぶぐばぐ"
+   },
+   "loc": {
+    "len_off": 6528,
+    "str_off": 6532,
+    "orig_bytes": 37
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0085",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 85,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "うらにわにはにわにわにはにわにわとりがいる",
+   "ko": "옆집 팥죽은 붉은 팥죽이고, 뒷집 ",
+   "chars": 21,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0033",
+    "size": 7,
+    "pos": 3,
+    "ja": "なまむぎなまごめなまたまごあおまきがみあかまきがみきまきがみとなりのきゃくはよくかきくうきゃくだうらにわにはにわにわにはにわにわとりがいるぼうすがびょうぶにじょうずにぼうずのえをかいたすもももももももものうちもももすももももものうちぶぐばぐぶぐばぐみぶぐばぐあわせてぶぐばくむぶぐばぐ"
+   },
+   "loc": {
+    "len_off": 6585,
+    "str_off": 6589,
+    "orig_bytes": 43
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0086",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 86,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "ぼうすがびょうぶにじょうずにぼうずのえをかいた",
+   "ko": "팥죽은 검은 팥죽이다 ",
+   "chars": 23,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0033",
+    "size": 7,
+    "pos": 4,
+    "ja": "なまむぎなまごめなまたまごあおまきがみあかまきがみきまきがみとなりのきゃくはよくかきくうきゃくだうらにわにはにわにわにはにわにわとりがいるぼうすがびょうぶにじょうずにぼうずのえをかいたすもももももももものうちもももすももももものうちぶぐばぐぶぐばぐみぶぐばぐあわせてぶぐばくむぶぐばぐ"
+   },
+   "loc": {
+    "len_off": 6648,
+    "str_off": 6652,
+    "orig_bytes": 47
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0087",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 87,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "すもももももももものうちもももすももももものうち",
+   "ko": "서울특별시 특허허가과 허가과장 ",
+   "chars": 24,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0033",
+    "size": 7,
+    "pos": 5,
+    "ja": "なまむぎなまごめなまたまごあおまきがみあかまきがみきまきがみとなりのきゃくはよくかきくうきゃくだうらにわにはにわにわにはにわにわとりがいるぼうすがびょうぶにじょうずにぼうずのえをかいたすもももももももものうちもももすももももものうちぶぐばぐぶぐばぐみぶぐばぐあわせてぶぐばくむぶぐばぐ"
+   },
+   "loc": {
+    "len_off": 6715,
+    "str_off": 6719,
+    "orig_bytes": 49
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0088",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 88,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "ぶぐばぐぶぐばぐみぶぐばぐあわせてぶぐばくむぶぐばぐ",
+   "ko": "허 과장이다",
+   "chars": 26,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0033",
+    "size": 7,
+    "pos": 6,
+    "ja": "なまむぎなまごめなまたまごあおまきがみあかまきがみきまきがみとなりのきゃくはよくかきくうきゃくだうらにわにはにわにわにはにわにわとりがいるぼうすがびょうぶにじょうずにぼうずのえをかいたすもももももももものうちもももすももももものうちぶぐばぐぶぐばぐみぶぐばぐあわせてぶぐばくむぶぐばぐ"
+   },
+   "loc": {
+    "len_off": 6784,
+    "str_off": 6788,
+    "orig_bytes": 53
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0089",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 89,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "かえるぴょこぴょこみぴょこぴょこあわせてぴょこぴょこむぴょこぴょこ",
+   "ko": "경찰청 철창살은 ",
+   "chars": 33,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0034",
+    "size": 8,
+    "pos": 0,
+    "ja": "かえるぴょこぴょこみぴょこぴょこあわせてぴょこぴょこむぴょこぴょことなりのたけがきにたけたけかけたのはたけたけたかったからたけたけかけたばすがすばくはつばすがすばくはつばつがつばくはつがすばすばつはつはつはつばつはつ大丈夫だ、わかったもう一回試させてくれ"
+   },
+   "loc": {
+    "len_off": 6857,
+    "str_off": 6861,
+    "orig_bytes": 67
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0090",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 90,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "となりのたけがきにたけたけかけたのはたけたけたかったからたけたけかけた",
+   "ko": "외철창살인가 쌍철창살인가 ",
+   "chars": 35,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0034",
+    "size": 8,
+    "pos": 1,
+    "ja": "かえるぴょこぴょこみぴょこぴょこあわせてぴょこぴょこむぴょこぴょことなりのたけがきにたけたけかけたのはたけたけたかったからたけたけかけたばすがすばくはつばすがすばくはつばつがつばくはつがすばすばつはつはつはつばつはつ大丈夫だ、わかったもう一回試させてくれ"
+   },
+   "loc": {
+    "len_off": 6944,
+    "str_off": 6948,
+    "orig_bytes": 71
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0091",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 91,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "ばすがすばくはつばすがすばくはつばつがつばくはつがすばすばつはつはつ",
+   "ko": "내가 그린 기린 그림은 잘 그린 그림이고 ",
+   "chars": 34,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0034",
+    "size": 8,
+    "pos": 2,
+    "ja": "かえるぴょこぴょこみぴょこぴょこあわせてぴょこぴょこむぴょこぴょことなりのたけがきにたけたけかけたのはたけたけたかったからたけたけかけたばすがすばくはつばすがすばくはつばつがつばくはつがすばすばつはつはつはつばつはつ大丈夫だ、わかったもう一回試させてくれ"
+   },
+   "loc": {
+    "len_off": 7035,
+    "str_off": 7039,
+    "orig_bytes": 69
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0092",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 92,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "はつ",
+   "ko": "네가 그린 기린 그림은 ",
+   "chars": 2,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0034",
+    "size": 8,
+    "pos": 3,
+    "ja": "かえるぴょこぴょこみぴょこぴょこあわせてぴょこぴょこむぴょこぴょことなりのたけがきにたけたけかけたのはたけたけたかったからたけたけかけたばすがすばくはつばすがすばくはつばつがつばくはつがすばすばつはつはつはつばつはつ大丈夫だ、わかったもう一回試させてくれ"
+   },
+   "loc": {
+    "len_off": 7118,
+    "str_off": 7122,
+    "orig_bytes": 5
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0093",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 93,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "ばつ",
+   "ko": "못 그린 ",
+   "chars": 2,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0034",
+    "size": 8,
+    "pos": 4,
+    "ja": "かえるぴょこぴょこみぴょこぴょこあわせてぴょこぴょこむぴょこぴょことなりのたけがきにたけたけかけたのはたけたけたかったからたけたけかけたばすがすばくはつばすがすばくはつばつがつばくはつがすばすばつはつはつはつばつはつ大丈夫だ、わかったもう一回試させてくれ"
+   },
+   "loc": {
+    "len_off": 7137,
+    "str_off": 7141,
+    "orig_bytes": 5
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0094",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 94,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "はつ",
+   "ko": "그림이다 ",
+   "chars": 2,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0034",
+    "size": 8,
+    "pos": 5,
+    "ja": "かえるぴょこぴょこみぴょこぴょこあわせてぴょこぴょこむぴょこぴょことなりのたけがきにたけたけかけたのはたけたけたかったからたけたけかけたばすがすばくはつばすがすばくはつばつがつばくはつがすばすばつはつはつはつばつはつ大丈夫だ、わかったもう一回試させてくれ"
+   },
+   "loc": {
+    "len_off": 7156,
+    "str_off": 7160,
+    "orig_bytes": 5
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0095",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 95,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "大丈夫だ、わかった",
+   "ko": "괜찮아, 알겠어 ",
+   "chars": 9,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0034",
+    "size": 8,
+    "pos": 6,
+    "ja": "かえるぴょこぴょこみぴょこぴょこあわせてぴょこぴょこむぴょこぴょことなりのたけがきにたけたけかけたのはたけたけたかったからたけたけかけたばすがすばくはつばすがすばくはつばつがつばくはつがすばすばつはつはつはつばつはつ大丈夫だ、わかったもう一回試させてくれ"
+   },
+   "loc": {
+    "len_off": 7380,
+    "str_off": 7384,
+    "orig_bytes": 19
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0096",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 96,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "もう一回試させてくれ",
+   "ko": "한 번 더 해 보게",
+   "chars": 10,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0034",
+    "size": 8,
+    "pos": 7,
+    "ja": "かえるぴょこぴょこみぴょこぴょこあわせてぴょこぴょこむぴょこぴょことなりのたけがきにたけたけかけたのはたけたけたかったからたけたけかけたばすがすばくはつばすがすばくはつばつがつばくはつがすばすばつはつはつはつばつはつ大丈夫だ、わかったもう一回試させてくれ"
+   },
+   "loc": {
+    "len_off": 7450,
+    "str_off": 7454,
+    "orig_bytes": 21
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0097",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 97,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "大丈夫だ、わかった",
+   "ko": "괜찮아, 알겠어",
+   "chars": 9,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0035",
+    "size": 2,
+    "pos": 0,
+    "ja": "大丈夫だ、わかった……わかったような、わからないような"
+   },
+   "loc": {
+    "len_off": 7643,
+    "str_off": 7647,
+    "orig_bytes": 19
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0098",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 98,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "……わかったような、わからないような",
+   "ko": "……알 것 같기도, 모를 것 같기도",
+   "chars": 18,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0035",
+    "size": 2,
+    "pos": 1,
+    "ja": "大丈夫だ、わかった……わかったような、わからないような"
+   },
+   "loc": {
+    "len_off": 7713,
+    "str_off": 7717,
+    "orig_bytes": 37
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0099",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 99,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "もう一回試させてくれ",
+   "ko": "한 번 더 해 보게",
+   "chars": 10,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0036",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 7864,
+    "str_off": 7868,
+    "orig_bytes": 21
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0100",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 100,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "うむ……",
+   "ko": "음……",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0037",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 7947,
+    "str_off": 7951,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0101",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 101,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ちょっと短すぎたかな",
+   "ko": "조금 너무 짧았나 ",
+   "chars": 10,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0038",
+    "size": 4,
+    "pos": 0,
+    "ja": "ちょっと短すぎたかなでは、解決編の最初まで戻って、○ボタン押しっぱなしを試してみてくれ"
+   },
+   "loc": {
+    "len_off": 7970,
+    "str_off": 7974,
+    "orig_bytes": 21
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0102",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 102,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "では、解決編の最初まで戻って、",
+   "ko": "그럼 해결편 처음으로 돌아가서,",
+   "chars": 15,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0038",
+    "size": 4,
+    "pos": 1,
+    "ja": "ちょっと短すぎたかなでは、解決編の最初まで戻って、○ボタン押しっぱなしを試してみてくれ"
+   },
+   "loc": {
+    "len_off": 8011,
+    "str_off": 8015,
+    "orig_bytes": 31
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0103",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 103,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "○ボタン",
+   "ko": "○ 버튼을 ",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0038",
+    "size": 4,
+    "pos": 2,
+    "ja": "ちょっと短すぎたかなでは、解決編の最初まで戻って、○ボタン押しっぱなしを試してみてくれ"
+   },
+   "loc": {
+    "len_off": 8064,
+    "str_off": 8068,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0104",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 104,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "押しっぱなしを試してみてくれ",
+   "ko": "계속 누르는 걸 시험해 보게",
+   "chars": 14,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0038",
+    "size": 4,
+    "pos": 3,
+    "ja": "ちょっと短すぎたかなでは、解決編の最初まで戻って、○ボタン押しっぱなしを試してみてくれ"
+   },
+   "loc": {
+    "len_off": 8083,
+    "str_off": 8087,
+    "orig_bytes": 29
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0105",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 105,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "……わかったような、わからないような",
+   "ko": "……알 것 같기도, 모를 것 같기도",
+   "chars": 18,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0039",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 8325,
+    "str_off": 8329,
+    "orig_bytes": 37
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0106",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 106,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "まあ、あとは本番で試してみてくれよ",
+   "ko": "뭐, 이제 실전에서 시험해 봐",
+   "chars": 17,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0040",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 8424,
+    "str_off": 8428,
+    "orig_bytes": 35
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0107",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 107,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "大丈夫だ、わかった",
+   "ko": "괜찮아, 알겠어",
+   "chars": 9,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0041",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 8630,
+    "str_off": 8634,
+    "orig_bytes": 19
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0108",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 108,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "うむ",
+   "ko": "음 ",
+   "chars": 2,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0042",
+    "size": 7,
+    "pos": 0,
+    "ja": "うむしかし、何度も何度も解決編をやり直すのはタイヘンだここでお前にちょっとした謎解きのコツを教えておこう第一に、『アカシャ』の文章をよく読むことこれは基本だな次に、『ナゾ』をなるべくたくさん集めるようにすることキーワードとキーワードで〈推理〉して、ナゾをバリバリ出していく"
+   },
+   "loc": {
+    "len_off": 8711,
+    "str_off": 8715,
+    "orig_bytes": 5
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0109",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 109,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "しかし、何度も何度も解決編をやり直すのはタイヘンだ",
+   "ko": "하지만 해결편을 몇 번이고 다시 하는 건 힘들지 ",
+   "chars": 25,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0042",
+    "size": 7,
+    "pos": 1,
+    "ja": "うむしかし、何度も何度も解決編をやり直すのはタイヘンだここでお前にちょっとした謎解きのコツを教えておこう第一に、『アカシャ』の文章をよく読むことこれは基本だな次に、『ナゾ』をなるべくたくさん集めるようにすることキーワードとキーワードで〈推理〉して、ナゾをバリバリ出していく"
+   },
+   "loc": {
+    "len_off": 8736,
+    "str_off": 8740,
+    "orig_bytes": 51
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0110",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 110,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ここでお前にちょっとした謎解きのコツを教えておこう",
+   "ko": "여기서 간단한 풀이 요령을 알려 주마 ",
+   "chars": 25,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0042",
+    "size": 7,
+    "pos": 2,
+    "ja": "うむしかし、何度も何度も解決編をやり直すのはタイヘンだここでお前にちょっとした謎解きのコツを教えておこう第一に、『アカシャ』の文章をよく読むことこれは基本だな次に、『ナゾ』をなるべくたくさん集めるようにすることキーワードとキーワードで〈推理〉して、ナゾをバリバリ出していく"
+   },
+   "loc": {
+    "len_off": 8878,
+    "str_off": 8882,
+    "orig_bytes": 51
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0111",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 111,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "第一に、『アカシャ』の文章をよく読むこと",
+   "ko": "첫째, 『아카샤』의 글을 잘 읽을 것 ",
+   "chars": 20,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0042",
+    "size": 7,
+    "pos": 3,
+    "ja": "うむしかし、何度も何度も解決編をやり直すのはタイヘンだここでお前にちょっとした謎解きのコツを教えておこう第一に、『アカシャ』の文章をよく読むことこれは基本だな次に、『ナゾ』をなるべくたくさん集めるようにすることキーワードとキーワードで〈推理〉して、ナゾをバリバリ出していく"
+   },
+   "loc": {
+    "len_off": 8949,
+    "str_off": 8953,
+    "orig_bytes": 41
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0112",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 112,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "これは基本だな",
+   "ko": "기본이지 ",
+   "chars": 7,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0042",
+    "size": 7,
+    "pos": 4,
+    "ja": "うむしかし、何度も何度も解決編をやり直すのはタイヘンだここでお前にちょっとした謎解きのコツを教えておこう第一に、『アカシャ』の文章をよく読むことこれは基本だな次に、『ナゾ』をなるべくたくさん集めるようにすることキーワードとキーワードで〈推理〉して、ナゾをバリバリ出していく"
+   },
+   "loc": {
+    "len_off": 9010,
+    "str_off": 9014,
+    "orig_bytes": 15
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0113",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 113,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "次に、『ナゾ』をなるべくたくさん集めるようにすること",
+   "ko": "다음은 『수수께끼』를 될 수 있으면 많이 모을 것 ",
+   "chars": 26,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0042",
+    "size": 7,
+    "pos": 5,
+    "ja": "うむしかし、何度も何度も解決編をやり直すのはタイヘンだここでお前にちょっとした謎解きのコツを教えておこう第一に、『アカシャ』の文章をよく読むことこれは基本だな次に、『ナゾ』をなるべくたくさん集めるようにすることキーワードとキーワードで〈推理〉して、ナゾをバリバリ出していく"
+   },
+   "loc": {
+    "len_off": 9045,
+    "str_off": 9049,
+    "orig_bytes": 53
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0114",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 114,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "キーワードとキーワードで〈推理〉して、ナゾをバリバリ出していく",
+   "ko": "키워드와 키워드로 〈추리〉해 수수께끼를 마구 찾아내는 거야",
+   "chars": 31,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0042",
+    "size": 7,
+    "pos": 6,
+    "ja": "うむしかし、何度も何度も解決編をやり直すのはタイヘンだここでお前にちょっとした謎解きのコツを教えておこう第一に、『アカシャ』の文章をよく読むことこれは基本だな次に、『ナゾ』をなるべくたくさん集めるようにすることキーワードとキーワードで〈推理〉して、ナゾをバリバリ出していく"
+   },
+   "loc": {
+    "len_off": 9118,
+    "str_off": 9122,
+    "orig_bytes": 63
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0115",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 115,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "あるていどナゾが出そろったら、そのナゾをじっくりと吟味する",
+   "ko": "수수께끼가 어느 정도 모이면, 하나씩 꼼꼼히 살펴봐 ",
+   "chars": 29,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0043",
+    "size": 4,
+    "pos": 0,
+    "ja": "あるていどナゾが出そろったら、そのナゾをじっくりと吟味するそして、これぞと思うナゾに的をしぼって、ナゾ＋キーワードで〈推理〉を進める経験上、このやり方がもっともやりやすいよく読む、ナゾをできるだけたくさん出す、そしてナゾをよく吟味して的をしぼる"
+   },
+   "loc": {
+    "len_off": 9201,
+    "str_off": 9205,
+    "orig_bytes": 59
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0116",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 116,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "そして、これぞと思うナゾに的をしぼって、ナゾ＋キーワードで〈推理〉を進める",
+   "ko": "그리고 이거다 싶은 수수께끼로 범위를 좁혀, 수수께끼＋키워드로 〈추리〉를 진행해",
+   "chars": 37,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0043",
+    "size": 4,
+    "pos": 1,
+    "ja": "あるていどナゾが出そろったら、そのナゾをじっくりと吟味するそして、これぞと思うナゾに的をしぼって、ナゾ＋キーワードで〈推理〉を進める経験上、このやり方がもっともやりやすいよく読む、ナゾをできるだけたくさん出す、そしてナゾをよく吟味して的をしぼる"
+   },
+   "loc": {
+    "len_off": 9280,
+    "str_off": 9284,
+    "orig_bytes": 75
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0117",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 117,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "経験上、このやり方がもっともやりやすい",
+   "ko": " 경험상 이 방법이 가장 하기 쉽다 ",
+   "chars": 19,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0043",
+    "size": 4,
+    "pos": 2,
+    "ja": "あるていどナゾが出そろったら、そのナゾをじっくりと吟味するそして、これぞと思うナゾに的をしぼって、ナゾ＋キーワードで〈推理〉を進める経験上、このやり方がもっともやりやすいよく読む、ナゾをできるだけたくさん出す、そしてナゾをよく吟味して的をしぼる"
+   },
+   "loc": {
+    "len_off": 9375,
+    "str_off": 9379,
+    "orig_bytes": 39
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0118",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 118,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "よく読む、ナゾをできるだけたくさん出す、そしてナゾをよく吟味して的をしぼる",
+   "ko": "잘 읽고, 수수께끼를 최대한 많이 찾고, 잘 살펴 범위를 좁힌다",
+   "chars": 37,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0043",
+    "size": 4,
+    "pos": 3,
+    "ja": "あるていどナゾが出そろったら、そのナゾをじっくりと吟味するそして、これぞと思うナゾに的をしぼって、ナゾ＋キーワードで〈推理〉を進める経験上、このやり方がもっともやりやすいよく読む、ナゾをできるだけたくさん出す、そしてナゾをよく吟味して的をしぼる"
+   },
+   "loc": {
+    "len_off": 9434,
+    "str_off": 9438,
+    "orig_bytes": 75
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0119",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 119,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "そうこうするうちに、「あっ！！」とヒラメくキモチイイ瞬間がおとずれるだろう",
+   "ko": "그러다 보면, 「아!」 하고 착상이 떠오르는 기분 좋은 순간이 오겠지",
+   "chars": 37,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0044",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 9529,
+    "str_off": 9533,
+    "orig_bytes": 75
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0120",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 120,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "なるほど",
+   "ko": "그렇군",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0045",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 9661,
+    "str_off": 9665,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0121",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 121,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "付せん、キーワードやナゾのロック機能、重要度別の並べ替えなんかもうまく使えよ",
+   "ko": "메모, 키워드와 수수께끼 잠금 기능, 중요도별 정렬도 잘 활용해 ",
+   "chars": 38,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0046",
+    "size": 6,
+    "pos": 0,
+    "ja": "付せん、キーワードやナゾのロック機能、重要度別の並べ替えなんかもうまく使えよ操作がわからなくなったときは、本文中でＳＥＬＥＣＴを押すか、ＳＴＡＲＴを押してシステムメニューの"
+   },
+   "loc": {
+    "len_off": 9732,
+    "str_off": 9736,
+    "orig_bytes": 77
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0122",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 122,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "操作がわからなくなったときは、本文中で",
+   "ko": "조작을 모르겠을 때는 본문에서",
+   "chars": 19,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0046",
+    "size": 6,
+    "pos": 1,
+    "ja": "付せん、キーワードやナゾのロック機能、重要度別の並べ替えなんかもうまく使えよ操作がわからなくなったときは、本文中でＳＥＬＥＣＴを押すか、ＳＴＡＲＴを押してシステムメニューの"
+   },
+   "loc": {
+    "len_off": 9829,
+    "str_off": 9833,
+    "orig_bytes": 39
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0123",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 123,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ＳＥＬＥＣＴ",
+   "ko": "SELECT",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0046",
+    "size": 6,
+    "pos": 2,
+    "ja": "付せん、キーワードやナゾのロック機能、重要度別の並べ替えなんかもうまく使えよ操作がわからなくなったときは、本文中でＳＥＬＥＣＴを押すか、ＳＴＡＲＴを押してシステムメニューの"
+   },
+   "loc": {
+    "len_off": 9890,
+    "str_off": 9894,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0124",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 124,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "を押すか、",
+   "ko": "를 누르거나,",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0046",
+    "size": 6,
+    "pos": 3,
+    "ja": "付せん、キーワードやナゾのロック機能、重要度別の並べ替えなんかもうまく使えよ操作がわからなくなったときは、本文中でＳＥＬＥＣＴを押すか、ＳＴＡＲＴを押してシステムメニューの"
+   },
+   "loc": {
+    "len_off": 9913,
+    "str_off": 9917,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0125",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 125,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ＳＴＡＲＴ",
+   "ko": "START",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0046",
+    "size": 6,
+    "pos": 4,
+    "ja": "付せん、キーワードやナゾのロック機能、重要度別の並べ替えなんかもうまく使えよ操作がわからなくなったときは、本文中でＳＥＬＥＣＴを押すか、ＳＴＡＲＴを押してシステムメニューの"
+   },
+   "loc": {
+    "len_off": 9961,
+    "str_off": 9965,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0126",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 126,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "を押してシステムメニューの",
+   "ko": "를 눌러 시스템 메뉴의",
+   "chars": 13,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0046",
+    "size": 6,
+    "pos": 5,
+    "ja": "付せん、キーワードやナゾのロック機能、重要度別の並べ替えなんかもうまく使えよ操作がわからなくなったときは、本文中でＳＥＬＥＣＴを押すか、ＳＴＡＲＴを押してシステムメニューの"
+   },
+   "loc": {
+    "len_off": 9982,
+    "str_off": 9986,
+    "orig_bytes": 27
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0127",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 127,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "〈遊び方〉",
+   "ko": "〈게임 방법〉",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0047",
+    "size": 2,
+    "pos": 0,
+    "ja": "〈遊び方〉を見るといい"
+   },
+   "loc": {
+    "len_off": 10031,
+    "str_off": 10035,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0128",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 128,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "を見るといい",
+   "ko": "을 보면 돼",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0047",
+    "size": 2,
+    "pos": 1,
+    "ja": "〈遊び方〉を見るといい"
+   },
+   "loc": {
+    "len_off": 10052,
+    "str_off": 10056,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0129",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 129,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "ああ、わかった",
+   "ko": "그래, 알겠어",
+   "chars": 7,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0048",
+    "size": 3,
+    "pos": 0,
+    "ja": "ああ、わかった……ところで、さっきの早口言葉だが最後のほう、少しトチッてなかったか？"
+   },
+   "loc": {
+    "len_off": 10122,
+    "str_off": 10126,
+    "orig_bytes": 15
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0130",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 130,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "……ところで、さっきの早口言葉だが",
+   "ko": "……그런데 아까 그 빠른 말 말인데 ",
+   "chars": 17,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0048",
+    "size": 3,
+    "pos": 1,
+    "ja": "ああ、わかった……ところで、さっきの早口言葉だが最後のほう、少しトチッてなかったか？"
+   },
+   "loc": {
+    "len_off": 10199,
+    "str_off": 10203,
+    "orig_bytes": 35
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0131",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 131,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "最後のほう、少しトチッてなかったか？",
+   "ko": "마지막쯤에 조금 꼬이지 않았나?",
+   "chars": 18,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0048",
+    "size": 3,
+    "pos": 2,
+    "ja": "ああ、わかった……ところで、さっきの早口言葉だが最後のほう、少しトチッてなかったか？"
+   },
+   "loc": {
+    "len_off": 10245,
+    "str_off": 10249,
+    "orig_bytes": 37
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0132",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 132,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "トチッてねえよ",
+   "ko": "안 꼬였거든",
+   "chars": 7,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0049",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 10344,
+    "str_off": 10348,
+    "orig_bytes": 15
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0133",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 133,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "あきらかにトチッていたと思うが",
+   "ko": "분명 꼬였던 것 같은데",
+   "chars": 15,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0050",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 10416,
+    "str_off": 10420,
+    "orig_bytes": 31
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0134",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 134,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "トチッてねえってば",
+   "ko": "안 꼬였다니까",
+   "chars": 9,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0051",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 10509,
+    "str_off": 10513,
+    "orig_bytes": 19
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0135",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 135,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "勢いでごまかしただろ",
+   "ko": "기세로 얼버무렸잖아",
+   "chars": 10,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0052",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 10585,
+    "str_off": 10589,
+    "orig_bytes": 21
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0136",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 136,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "なんだよもう",
+   "ko": "아, 정말 ",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0053",
+    "size": 8,
+    "pos": 0,
+    "ja": "なんだよもうこまかいことを気にするヤツだなじゃあ本当にトチッてたか、確かめてみようじゃないかこれまでの会話は、すべて記録してある方向キー上を押して確認ができる確認してみろよ、方向キー上"
+   },
+   "loc": {
+    "len_off": 10668,
+    "str_off": 10672,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0137",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 137,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "こまかいことを気にするヤツだな",
+   "ko": "별것도 아닌 걸 신경 쓰는군 ",
+   "chars": 15,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0053",
+    "size": 8,
+    "pos": 1,
+    "ja": "なんだよもうこまかいことを気にするヤツだなじゃあ本当にトチッてたか、確かめてみようじゃないかこれまでの会話は、すべて記録してある方向キー上を押して確認ができる確認してみろよ、方向キー上"
+   },
+   "loc": {
+    "len_off": 10701,
+    "str_off": 10705,
+    "orig_bytes": 31
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0138",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 138,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "じゃあ本当にトチッてたか、確かめてみようじゃないか",
+   "ko": "그럼 정말 꼬였는지 확인해 보자고 ",
+   "chars": 25,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0053",
+    "size": 8,
+    "pos": 2,
+    "ja": "なんだよもうこまかいことを気にするヤツだなじゃあ本当にトチッてたか、確かめてみようじゃないかこれまでの会話は、すべて記録してある方向キー上を押して確認ができる確認してみろよ、方向キー上"
+   },
+   "loc": {
+    "len_off": 10794,
+    "str_off": 10798,
+    "orig_bytes": 51
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0139",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 139,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "これまでの会話は、すべて記録してある",
+   "ko": "지금까지의 대화는 전부 기록돼 있어 ",
+   "chars": 18,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0053",
+    "size": 8,
+    "pos": 3,
+    "ja": "なんだよもうこまかいことを気にするヤツだなじゃあ本当にトチッてたか、確かめてみようじゃないかこれまでの会話は、すべて記録してある方向キー上を押して確認ができる確認してみろよ、方向キー上"
+   },
+   "loc": {
+    "len_off": 10865,
+    "str_off": 10869,
+    "orig_bytes": 37
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0140",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 140,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "方向キー上",
+   "ko": "방향키 위",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0053",
+    "size": 8,
+    "pos": 4,
+    "ja": "なんだよもうこまかいことを気にするヤツだなじゃあ本当にトチッてたか、確かめてみようじゃないかこれまでの会話は、すべて記録してある方向キー上を押して確認ができる確認してみろよ、方向キー上"
+   },
+   "loc": {
+    "len_off": 10939,
+    "str_off": 10943,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0141",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 141,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "を押して確認ができる",
+   "ko": "를 눌러 확인할 수 있어 ",
+   "chars": 10,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0053",
+    "size": 8,
+    "pos": 5,
+    "ja": "なんだよもうこまかいことを気にするヤツだなじゃあ本当にトチッてたか、確かめてみようじゃないかこれまでの会話は、すべて記録してある方向キー上を押して確認ができる確認してみろよ、方向キー上"
+   },
+   "loc": {
+    "len_off": 10960,
+    "str_off": 10964,
+    "orig_bytes": 21
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0142",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 142,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "確認してみろよ、",
+   "ko": "확인해 봐,",
+   "chars": 8,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0053",
+    "size": 8,
+    "pos": 6,
+    "ja": "なんだよもうこまかいことを気にするヤツだなじゃあ本当にトチッてたか、確かめてみようじゃないかこれまでの会話は、すべて記録してある方向キー上を押して確認ができる確認してみろよ、方向キー上"
+   },
+   "loc": {
+    "len_off": 11001,
+    "str_off": 11005,
+    "orig_bytes": 17
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0143",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 143,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "方向キー上",
+   "ko": "방향키 위",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0053",
+    "size": 8,
+    "pos": 7,
+    "ja": "なんだよもうこまかいことを気にするヤツだなじゃあ本当にトチッてたか、確かめてみようじゃないかこれまでの会話は、すべて記録してある方向キー上を押して確認ができる確認してみろよ、方向キー上"
+   },
+   "loc": {
+    "len_off": 11040,
+    "str_off": 11044,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0144",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 144,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "で",
+   "ko": "로",
+   "chars": 1,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0054",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 11061,
+    "str_off": 11065,
+    "orig_bytes": 3
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0145",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 145,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "……やっぱりトチッてるじゃないか",
+   "ko": "……역시 꼬였잖아",
+   "chars": 16,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0055",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 11130,
+    "str_off": 11134,
+    "orig_bytes": 33
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0146",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 146,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "キエーッ！！",
+   "ko": "키에엑!!",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0056",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 11225,
+    "str_off": 11229,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0147",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 147,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ホントにこまかい男ッ！！",
+   "ko": "정말 까다로운 남자야!!",
+   "chars": 12,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0057",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 11258,
+    "str_off": 11262,
+    "orig_bytes": 25
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0148",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 148,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ま、それくらいの観察力があれば、本番の謎解きも案外スムーズにいくかもな",
+   "ko": "뭐, 그 정도 관찰력이면 실전의 수수께끼도 의외로 술술 풀겠지 ",
+   "chars": 35,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0058",
+    "size": 3,
+    "pos": 0,
+    "ja": "ま、それくらいの観察力があれば、本番の謎解きも案外スムーズにいくかもな期待してるぞ、名探偵・芳川樹！"
+   },
+   "loc": {
+    "len_off": 11387,
+    "str_off": 11391,
+    "orig_bytes": 71
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0149",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 149,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "期待してるぞ、",
+   "ko": "기대하고 있다고,",
+   "chars": 7,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0058",
+    "size": 3,
+    "pos": 1,
+    "ja": "ま、それくらいの観察力があれば、本番の謎解きも案外スムーズにいくかもな期待してるぞ、名探偵・芳川樹！"
+   },
+   "loc": {
+    "len_off": 11478,
+    "str_off": 11482,
+    "orig_bytes": 15
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0150",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 150,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "名探偵・芳川樹！",
+   "ko": "명탐정 요시카와 이츠키!",
+   "chars": 8,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0058",
+    "size": 3,
+    "pos": 2,
+    "ja": "ま、それくらいの観察力があれば、本番の謎解きも案外スムーズにいくかもな期待してるぞ、名探偵・芳川樹！"
+   },
+   "loc": {
+    "len_off": 11507,
+    "str_off": 11511,
+    "orig_bytes": 17
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0151",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 151,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "探偵じゃなくて検事だが",
+   "ko": "탐정이 아니라 검사지만",
+   "chars": 11,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0059",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 11590,
+    "str_off": 11594,
+    "orig_bytes": 23
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0152",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 152,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "キエーッ！！",
+   "ko": "키에엑!!",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0060",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 11675,
+    "str_off": 11679,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0153",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 153,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ｪ",
+   "ko": "ｪ",
+   "chars": 1,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0061",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 11894,
+    "str_off": 11898,
+    "orig_bytes": 2
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0154",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 154,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "ｪ",
+   "ko": "ｪ",
+   "chars": 1,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0062",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 12141,
+    "str_off": 12145,
+    "orig_bytes": 2
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0155",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 155,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "つまり……",
+   "ko": "즉……",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0063",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 12558,
+    "str_off": 12562,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0156",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 156,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "こういうことだな",
+   "ko": "그런 뜻이지 ",
+   "chars": 8,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0064",
+    "size": 8,
+    "pos": 0,
+    "ja": "こういうことだなエアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 12583,
+    "str_off": 12587,
+    "orig_bytes": 17
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0157",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 157,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "エアコンが壊れていた視聴覚室は、ずっと暑い状態だった",
+   "ko": "에어컨이 고장 난 시청각실은 계속 더웠어 ",
+   "chars": 26,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0064",
+    "size": 8,
+    "pos": 1,
+    "ja": "こういうことだなエアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 12611,
+    "str_off": 12615,
+    "orig_bytes": 53
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0158",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 158,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "もし、隣のライブラリー室が涼しい状態であれば、",
+   "ko": "만약 옆 도서실이 시원했다면,",
+   "chars": 23,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0064",
+    "size": 8,
+    "pos": 2,
+    "ja": "こういうことだなエアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 12721,
+    "str_off": 12725,
+    "orig_bytes": 47
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0159",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 159,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "視聴覚室側の",
+   "ko": "시청각실 쪽 ",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0064",
+    "size": 8,
+    "pos": 3,
+    "ja": "こういうことだなエアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 12779,
+    "str_off": 12783,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0160",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 160,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "ドアのガラスは結露して曇る",
+   "ko": "문 유리에 이슬이 맺혀 흐려졌겠지 ",
+   "chars": 13,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0064",
+    "size": 8,
+    "pos": 4,
+    "ja": "こういうことだなエアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 12832,
+    "str_off": 12836,
+    "orig_bytes": 27
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0161",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 161,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "曇ったガラスには文字を書くことができる",
+   "ko": "흐려진 유리에는 글씨를 쓸 수 있어 ",
+   "chars": 19,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0064",
+    "size": 8,
+    "pos": 5,
+    "ja": "こういうことだなエアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 12889,
+    "str_off": 12893,
+    "orig_bytes": 39
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0162",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 162,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "被害者が指先をガラスに押し当てていたのは、",
+   "ko": "피해자가 손가락 끝을 유리에 댄 건,",
+   "chars": 21,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0064",
+    "size": 8,
+    "pos": 6,
+    "ja": "こういうことだなエアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 12985,
+    "str_off": 12989,
+    "orig_bytes": 43
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0163",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 163,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "そこにダイイング・メッセージを残した",
+   "ko": "거기에 다잉 메시지를 남겼기 때문이야",
+   "chars": 18,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0064",
+    "size": 8,
+    "pos": 7,
+    "ja": "こういうことだなエアコンが壊れていた視聴覚室は、ずっと暑い状態だったもし、隣のライブラリー室が涼しい状態であれば、視聴覚室側のドアのガラスは結露して曇る曇ったガラスには文字を書くことができる被害者が指先をガラスに押し当てていたのは、そこにダイイング・メッセージを残した"
+   },
+   "loc": {
+    "len_off": 13123,
+    "str_off": 13127,
+    "orig_bytes": 37
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0164",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 164,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "からだった",
+   "ko": "때문이었어 ",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0065",
+    "size": 2,
+    "pos": 0,
+    "ja": "からだった以上のことから……"
+   },
+   "loc": {
+    "len_off": 13170,
+    "str_off": 13174,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0165",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 165,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "以上のことから……",
+   "ko": "그러므로……",
+   "chars": 9,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0065",
+    "size": 2,
+    "pos": 1,
+    "ja": "からだった以上のことから……"
+   },
+   "loc": {
+    "len_off": 13241,
+    "str_off": 13245,
+    "orig_bytes": 19
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0166",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 166,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "犯人は、",
+   "ko": "범인은,",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0066",
+    "size": 3,
+    "pos": 0,
+    "ja": "犯人は、白井彼以外に考えられない"
+   },
+   "loc": {
+    "len_off": 13339,
+    "str_off": 13343,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0167",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 167,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "白井",
+   "ko": "시라이 ",
+   "chars": 2,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0066",
+    "size": 3,
+    "pos": 1,
+    "ja": "犯人は、白井彼以外に考えられない"
+   },
+   "loc": {
+    "len_off": 13415,
+    "str_off": 13419,
+    "orig_bytes": 5
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0168",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 168,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "彼以外に考えられない",
+   "ko": "그 말고는 생각할 수 없어",
+   "chars": 10,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0066",
+    "size": 3,
+    "pos": 2,
+    "ja": "犯人は、白井彼以外に考えられない"
+   },
+   "loc": {
+    "len_off": 13445,
+    "str_off": 13449,
+    "orig_bytes": 21
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0169",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 169,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "いや、待てよ",
+   "ko": "아니, 잠깐 ",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0067",
+    "size": 2,
+    "pos": 0,
+    "ja": "いや、待てよそこまでわかっていて、どうして犯人が白井なんだ？"
+   },
+   "loc": {
+    "len_off": 13570,
+    "str_off": 13574,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0170",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 170,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "そこまでわかっていて、どうして犯人が白井なんだ？",
+   "ko": "거기까지 알아냈는데 왜 범인이 시라이인 거지?",
+   "chars": 24,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0067",
+    "size": 2,
+    "pos": 1,
+    "ja": "いや、待てよそこまでわかっていて、どうして犯人が白井なんだ？"
+   },
+   "loc": {
+    "len_off": 13603,
+    "str_off": 13607,
+    "orig_bytes": 49
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0171",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 171,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "……ん？",
+   "ko": "……응?",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0068",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 13718,
+    "str_off": 13722,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0172",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 172,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "視聴覚室とライブラリー室に温度差があったときに、ドアのガラスが結露したんだろ？",
+   "ko": "시청각실과 도서실의 온도 차가 있었을 때 문 유리에 이슬이 맺힌 거잖아?",
+   "chars": 39,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0069",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 13789,
+    "str_off": 13793,
+    "orig_bytes": 79
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0173",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 173,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "それで被害者はダイイング・メッセージを残せたってわけだ",
+   "ko": "그래서 피해자는 다잉 메시지를 남길 수 있었던 거고",
+   "chars": 27,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0070",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 13888,
+    "str_off": 13892,
+    "orig_bytes": 55
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0174",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 174,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "そう、",
+   "ko": "맞아,",
+   "chars": 3,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0071",
+    "size": 2,
+    "pos": 0,
+    "ja": "そう、事件は二つの部屋に温度差があったときに起きたんだ"
+   },
+   "loc": {
+    "len_off": 14000,
+    "str_off": 14004,
+    "orig_bytes": 7
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0175",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 175,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "事件は二つの部屋に温度差があったときに起きたんだ",
+   "ko": "사건은 두 방에 온도 차가 있을 때 일어난 거야",
+   "chars": 24,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0071",
+    "size": 2,
+    "pos": 1,
+    "ja": "そう、事件は二つの部屋に温度差があったときに起きたんだ"
+   },
+   "loc": {
+    "len_off": 14021,
+    "str_off": 14025,
+    "orig_bytes": 49
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0176",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 176,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "じゃあどうして犯人が白井なんだよ",
+   "ko": "그럼 왜 범인이 시라이인 건데 ",
+   "chars": 16,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0072",
+    "size": 3,
+    "pos": 0,
+    "ja": "じゃあどうして犯人が白井なんだよヤツが電車のビデオを撮っていたとき、ライブラリー室のエアコンは作動してなかったつまり、二つの部屋に温度差はなかったんだぞ"
+   },
+   "loc": {
+    "len_off": 14132,
+    "str_off": 14136,
+    "orig_bytes": 33
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0177",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 177,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ヤツが電車のビデオを撮っていたとき、ライブラリー室のエアコンは作動してなかった",
+   "ko": "녀석이 전철 영상을 찍고 있을 때 도서실 에어컨은 작동하지 않았어 ",
+   "chars": 39,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0072",
+    "size": 3,
+    "pos": 1,
+    "ja": "じゃあどうして犯人が白井なんだよヤツが電車のビデオを撮っていたとき、ライブラリー室のエアコンは作動してなかったつまり、二つの部屋に温度差はなかったんだぞ"
+   },
+   "loc": {
+    "len_off": 14185,
+    "str_off": 14189,
+    "orig_bytes": 79
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0178",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 178,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "つまり、二つの部屋に温度差はなかったんだぞ",
+   "ko": "즉, 두 방에 온도 차가 없었다고",
+   "chars": 21,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0072",
+    "size": 3,
+    "pos": 2,
+    "ja": "じゃあどうして犯人が白井なんだよヤツが電車のビデオを撮っていたとき、ライブラリー室のエアコンは作動してなかったつまり、二つの部屋に温度差はなかったんだぞ"
+   },
+   "loc": {
+    "len_off": 14284,
+    "str_off": 14288,
+    "orig_bytes": 43
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0179",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 179,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "…………たしかに",
+   "ko": "…………확실히",
+   "chars": 8,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0073",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 14393,
+    "str_off": 14397,
+    "orig_bytes": 17
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0180",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 180,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "お前、答えわかってるだろ",
+   "ko": "너, 답을 알고 있지 ",
+   "chars": 12,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0074",
+    "size": 8,
+    "pos": 0,
+    "ja": "お前、答えわかってるだろわかっててわざとミスっただろオレをいじって楽しもうって魂胆かこう見えてオレも忙しいんだそんなことしなくていいから、さっさと正解して次の『アカシャ』へ進んでくれよ、頼むからｪほうほう……"
+   },
+   "loc": {
+    "len_off": 14472,
+    "str_off": 14476,
+    "orig_bytes": 25
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0181",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 181,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "わかっててわざとミスっただろ",
+   "ko": "알고도 일부러 틀렸지 ",
+   "chars": 14,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0074",
+    "size": 8,
+    "pos": 1,
+    "ja": "お前、答えわかってるだろわかっててわざとミスっただろオレをいじって楽しもうって魂胆かこう見えてオレも忙しいんだそんなことしなくていいから、さっさと正解して次の『アカシャ』へ進んでくれよ、頼むからｪほうほう……"
+   },
+   "loc": {
+    "len_off": 14517,
+    "str_off": 14521,
+    "orig_bytes": 29
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0182",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 182,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "オレをいじって楽しもうって魂胆か",
+   "ko": "나를 놀려서 즐기려는 속셈인가 ",
+   "chars": 16,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0074",
+    "size": 8,
+    "pos": 2,
+    "ja": "お前、答えわかってるだろわかっててわざとミスっただろオレをいじって楽しもうって魂胆かこう見えてオレも忙しいんだそんなことしなくていいから、さっさと正解して次の『アカシャ』へ進んでくれよ、頼むからｪほうほう……"
+   },
+   "loc": {
+    "len_off": 14608,
+    "str_off": 14612,
+    "orig_bytes": 33
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0183",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 183,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "こう見えてオレも忙しいんだ",
+   "ko": "이래 보여도 나도 바쁘다고 ",
+   "chars": 13,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0074",
+    "size": 8,
+    "pos": 3,
+    "ja": "お前、答えわかってるだろわかっててわざとミスっただろオレをいじって楽しもうって魂胆かこう見えてオレも忙しいんだそんなことしなくていいから、さっさと正解して次の『アカシャ』へ進んでくれよ、頼むからｪほうほう……"
+   },
+   "loc": {
+    "len_off": 14661,
+    "str_off": 14665,
+    "orig_bytes": 27
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0184",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 184,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "そんなことしなくていいから、さっさと正解して次の『アカシャ』へ進んでくれよ、",
+   "ko": "그런 짓 할 필요 없으니 어서 정답을 맞히고 다음 『아카샤』로 넘어가 줘,",
+   "chars": 38,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0074",
+    "size": 8,
+    "pos": 4,
+    "ja": "お前、答えわかってるだろわかっててわざとミスっただろオレをいじって楽しもうって魂胆かこう見えてオレも忙しいんだそんなことしなくていいから、さっさと正解して次の『アカシャ』へ進んでくれよ、頼むからｪほうほう……"
+   },
+   "loc": {
+    "len_off": 14708,
+    "str_off": 14712,
+    "orig_bytes": 77
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0185",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 185,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "頼むから",
+   "ko": "제발 ",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0074",
+    "size": 8,
+    "pos": 5,
+    "ja": "お前、答えわかってるだろわかっててわざとミスっただろオレをいじって楽しもうって魂胆かこう見えてオレも忙しいんだそんなことしなくていいから、さっさと正解して次の『アカシャ』へ進んでくれよ、頼むからｪほうほう……"
+   },
+   "loc": {
+    "len_off": 14799,
+    "str_off": 14803,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0186",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 186,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ｪ",
+   "ko": "ｪ",
+   "chars": 1,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0074",
+    "size": 8,
+    "pos": 6,
+    "ja": "お前、答えわかってるだろわかっててわざとミスっただろオレをいじって楽しもうって魂胆かこう見えてオレも忙しいんだそんなことしなくていいから、さっさと正解して次の『アカシャ』へ進んでくれよ、頼むからｪほうほう……"
+   },
+   "loc": {
+    "len_off": 15027,
+    "str_off": 15031,
+    "orig_bytes": 2
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0187",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 187,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ほうほう……",
+   "ko": "흐음……",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0074",
+    "size": 8,
+    "pos": 7,
+    "ja": "お前、答えわかってるだろわかっててわざとミスっただろオレをいじって楽しもうって魂胆かこう見えてオレも忙しいんだそんなことしなくていいから、さっさと正解して次の『アカシャ』へ進んでくれよ、頼むからｪほうほう……"
+   },
+   "loc": {
+    "len_off": 15365,
+    "str_off": 15369,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0188",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 188,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "なかなかやるじゃないか",
+   "ko": "제법 하는데 ",
+   "chars": 11,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0075",
+    "size": 6,
+    "pos": 0,
+    "ja": "なかなかやるじゃないか温度差に注目したのはとてもいいしかし、調書の問いはこう訊ねている「刑事は、ある場所に犯人の名前が残されているのを発見した」"
+   },
+   "loc": {
+    "len_off": 15392,
+    "str_off": 15396,
+    "orig_bytes": 23
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0189",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 189,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "温度差に注目したのはとてもいい",
+   "ko": "온도 차에 주목한 건 아주 좋아 ",
+   "chars": 15,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0075",
+    "size": 6,
+    "pos": 1,
+    "ja": "なかなかやるじゃないか温度差に注目したのはとてもいいしかし、調書の問いはこう訊ねている「刑事は、ある場所に犯人の名前が残されているのを発見した」"
+   },
+   "loc": {
+    "len_off": 15435,
+    "str_off": 15439,
+    "orig_bytes": 31
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0190",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 190,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "しかし、",
+   "ko": "하지만,",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0075",
+    "size": 6,
+    "pos": 2,
+    "ja": "なかなかやるじゃないか温度差に注目したのはとてもいいしかし、調書の問いはこう訊ねている「刑事は、ある場所に犯人の名前が残されているのを発見した」"
+   },
+   "loc": {
+    "len_off": 15486,
+    "str_off": 15490,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0191",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 191,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "調書",
+   "ko": "『조서』",
+   "chars": 2,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0075",
+    "size": 6,
+    "pos": 3,
+    "ja": "なかなかやるじゃないか温度差に注目したのはとてもいいしかし、調書の問いはこう訊ねている「刑事は、ある場所に犯人の名前が残されているのを発見した」"
+   },
+   "loc": {
+    "len_off": 15517,
+    "str_off": 15521,
+    "orig_bytes": 5
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0192",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 192,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "の問いはこう訊ねている",
+   "ko": "의 질문은 이렇게 묻고 있어",
+   "chars": 11,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0075",
+    "size": 6,
+    "pos": 4,
+    "ja": "なかなかやるじゃないか温度差に注目したのはとてもいいしかし、調書の問いはこう訊ねている「刑事は、ある場所に犯人の名前が残されているのを発見した」"
+   },
+   "loc": {
+    "len_off": 15532,
+    "str_off": 15536,
+    "orig_bytes": 23
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0193",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 193,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "「刑事は、ある場所に犯人の名前が残されているのを発見した」",
+   "ko": "「형사는 어느 장소에 범인의 이름이 남아 있는 것을 발견했다」",
+   "chars": 29,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0075",
+    "size": 6,
+    "pos": 5,
+    "ja": "なかなかやるじゃないか温度差に注目したのはとてもいいしかし、調書の問いはこう訊ねている「刑事は、ある場所に犯人の名前が残されているのを発見した」"
+   },
+   "loc": {
+    "len_off": 15592,
+    "str_off": 15596,
+    "orig_bytes": 59
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0194",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 194,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "「その“場所”と、そこがどのような“状態”だったかを示す『ヒラメキ』を一つ示せ」",
+   "ko": "「그 ‘장소’와 그곳이 어떤 ‘상태’였는지를 보여 주는 『착상』 하나를 제시해라",
+   "chars": 40,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0076",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 15735,
+    "str_off": 15739,
+    "orig_bytes": 81
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0195",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 195,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "温度差によって",
+   "ko": "온도 차 때문에 ",
+   "chars": 7,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0077",
+    "size": 5,
+    "pos": 0,
+    "ja": "温度差によってある場所がある状態になったことには、おそらくもう気づいてるんだろう？"
+   },
+   "loc": {
+    "len_off": 15841,
+    "str_off": 15845,
+    "orig_bytes": 15
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0196",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 196,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "ある場所",
+   "ko": "어느 장소 ",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0077",
+    "size": 5,
+    "pos": 1,
+    "ja": "温度差によってある場所がある状態になったことには、おそらくもう気づいてるんだろう？"
+   },
+   "loc": {
+    "len_off": 15878,
+    "str_off": 15882,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0197",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 197,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "が",
+   "ko": "가 ",
+   "chars": 1,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0077",
+    "size": 5,
+    "pos": 2,
+    "ja": "温度差によってある場所がある状態になったことには、おそらくもう気づいてるんだろう？"
+   },
+   "loc": {
+    "len_off": 15897,
+    "str_off": 15901,
+    "orig_bytes": 3
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0198",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 198,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "ある状態",
+   "ko": "어떤 상태",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0077",
+    "size": 5,
+    "pos": 3,
+    "ja": "温度差によってある場所がある状態になったことには、おそらくもう気づいてるんだろう？"
+   },
+   "loc": {
+    "len_off": 15922,
+    "str_off": 15926,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0199",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 199,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "になったことには、おそらくもう気づいてるんだろう？",
+   "ko": "가 되었다는 건 아마 이미 알아챘겠지?",
+   "chars": 25,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0077",
+    "size": 5,
+    "pos": 4,
+    "ja": "温度差によってある場所がある状態になったことには、おそらくもう気づいてるんだろう？"
+   },
+   "loc": {
+    "len_off": 15941,
+    "str_off": 15945,
+    "orig_bytes": 51
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0200",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 200,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "それを示す具体的な",
+   "ko": "그걸 보여 줄 구체적인 ",
+   "chars": 9,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0078",
+    "size": 3,
+    "pos": 0,
+    "ja": "それを示す具体的なヒラメキが必要なんだ"
+   },
+   "loc": {
+    "len_off": 16012,
+    "str_off": 16016,
+    "orig_bytes": 19
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0201",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 201,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "ヒラメキ",
+   "ko": "착상",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0078",
+    "size": 3,
+    "pos": 1,
+    "ja": "それを示す具体的なヒラメキが必要なんだ"
+   },
+   "loc": {
+    "len_off": 16053,
+    "str_off": 16057,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0202",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 202,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "が必要なんだ",
+   "ko": "이 필요해",
+   "chars": 6,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0078",
+    "size": 3,
+    "pos": 2,
+    "ja": "それを示す具体的なヒラメキが必要なんだ"
+   },
+   "loc": {
+    "len_off": 16072,
+    "str_off": 16076,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0203",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 203,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "これはこれからお前が挑む『アカシャ』でも同様",
+   "ko": "이제 네가 도전할 『아카샤』도 마찬가지야",
+   "chars": 22,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0079",
+    "size": 6,
+    "pos": 0,
+    "ja": "これはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずあるはずだもう少しだもう少しで正しい答えにたどりつく"
+   },
+   "loc": {
+    "len_off": 16147,
+    "str_off": 16151,
+    "orig_bytes": 45
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0204",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 204,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "『調書』の問いにピッタリとマッチする",
+   "ko": "『조서』의 질문에 딱 맞는 ",
+   "chars": 18,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0079",
+    "size": 6,
+    "pos": 1,
+    "ja": "これはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずあるはずだもう少しだもう少しで正しい答えにたどりつく"
+   },
+   "loc": {
+    "len_off": 16212,
+    "str_off": 16216,
+    "orig_bytes": 37
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0205",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 205,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ヒラメキ",
+   "ko": "착상",
+   "chars": 4,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0079",
+    "size": 6,
+    "pos": 2,
+    "ja": "これはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずあるはずだもう少しだもう少しで正しい答えにたどりつく"
+   },
+   "loc": {
+    "len_off": 16271,
+    "str_off": 16275,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0206",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 206,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "が、必ずあるはずだ",
+   "ko": "이 반드시 있을 거야 ",
+   "chars": 9,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0079",
+    "size": 6,
+    "pos": 3,
+    "ja": "これはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずあるはずだもう少しだもう少しで正しい答えにたどりつく"
+   },
+   "loc": {
+    "len_off": 16290,
+    "str_off": 16294,
+    "orig_bytes": 19
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0207",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 207,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "もう少しだ",
+   "ko": "조금만 더 ",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0079",
+    "size": 6,
+    "pos": 4,
+    "ja": "これはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずあるはずだもう少しだもう少しで正しい答えにたどりつく"
+   },
+   "loc": {
+    "len_off": 16329,
+    "str_off": 16333,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0208",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 208,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "もう少しで正しい答えにたどりつく",
+   "ko": "이제 곧 올바른 답에 다다른다",
+   "chars": 16,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0079",
+    "size": 6,
+    "pos": 5,
+    "ja": "これはこれからお前が挑む『アカシャ』でも同様『調書』の問いにピッタリとマッチするヒラメキが、必ずあるはずだもう少しだもう少しで正しい答えにたどりつく"
+   },
+   "loc": {
+    "len_off": 16360,
+    "str_off": 16364,
+    "orig_bytes": 33
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0209",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 209,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "６ページ目",
+   "ko": "6페이지에 ",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0080",
+    "size": 2,
+    "pos": 0,
+    "ja": "６ページ目に、重要な『キーワード』が２つある"
+   },
+   "loc": {
+    "len_off": 16430,
+    "str_off": 16434,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0210",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 210,
+   "category": "answer_begin",
+   "speaker_hint": null,
+   "ja": "に、重要な『キーワード』が２つある",
+   "ko": "중요한 『키워드』가 두 개 있어",
+   "chars": 17,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0080",
+    "size": 2,
+    "pos": 1,
+    "ja": "６ページ目に、重要な『キーワード』が２つある"
+   },
+   "loc": {
+    "len_off": 16451,
+    "str_off": 16455,
+    "orig_bytes": 35
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0211",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 211,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "そこで",
+   "ko": "거기서",
+   "chars": 3,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0081",
+    "size": 6,
+    "pos": 0,
+    "ja": "そこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだそいつと、温度に関係するキーワードを組み合わせて推理すれば……"
+   },
+   "loc": {
+    "len_off": 16548,
+    "str_off": 16552,
+    "orig_bytes": 7
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0212",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 212,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "〈ダイイング・メッセージ？〉",
+   "ko": "〈다잉 메시지?〉",
+   "chars": 14,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0081",
+    "size": 6,
+    "pos": 1,
+    "ja": "そこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだそいつと、温度に関係するキーワードを組み合わせて推理すれば……"
+   },
+   "loc": {
+    "len_off": 16577,
+    "str_off": 16581,
+    "orig_bytes": 29
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0213",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 213,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "という『ナゾ』が生まれるはずだ",
+   "ko": "라는 『수수께끼』가 생길 거야 ",
+   "chars": 15,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0081",
+    "size": 6,
+    "pos": 2,
+    "ja": "そこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだそいつと、温度に関係するキーワードを組み合わせて推理すれば……"
+   },
+   "loc": {
+    "len_off": 16616,
+    "str_off": 16620,
+    "orig_bytes": 31
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0214",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 214,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "そいつと、",
+   "ko": "그 녀석과,",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0081",
+    "size": 6,
+    "pos": 3,
+    "ja": "そこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだそいつと、温度に関係するキーワードを組み合わせて推理すれば……"
+   },
+   "loc": {
+    "len_off": 16667,
+    "str_off": 16671,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0215",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 215,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "温度に関係するキーワード",
+   "ko": "온도와 관련된 키워드",
+   "chars": 12,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0081",
+    "size": 6,
+    "pos": 4,
+    "ja": "そこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだそいつと、温度に関係するキーワードを組み合わせて推理すれば……"
+   },
+   "loc": {
+    "len_off": 16700,
+    "str_off": 16704,
+    "orig_bytes": 25
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0216",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 216,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "を組み合わせて推理すれば……",
+   "ko": "를 조합해 추리하면……",
+   "chars": 14,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0081",
+    "size": 6,
+    "pos": 5,
+    "ja": "そこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだそいつと、温度に関係するキーワードを組み合わせて推理すれば……"
+   },
+   "loc": {
+    "len_off": 16735,
+    "str_off": 16739,
+    "orig_bytes": 29
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0217",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 217,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "ｪ",
+   "ko": "ｪ",
+   "chars": 1,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0082",
+    "size": 2,
+    "pos": 0,
+    "ja": "ｪうーん……"
+   },
+   "loc": {
+    "len_off": 16985,
+    "str_off": 16989,
+    "orig_bytes": 2
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0218",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 218,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "うーん……",
+   "ko": "흐음……",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0082",
+    "size": 2,
+    "pos": 1,
+    "ja": "ｪうーん……"
+   },
+   "loc": {
+    "len_off": 17316,
+    "str_off": 17320,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0219",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 219,
+   "category": "answer_begin",
+   "speaker_hint": "yama",
+   "ja": "残念だが、『調書』の答えがまちがっているようだ……",
+   "ko": "안타깝지만, 『조서』의 답이 틀린 것 같구나……",
+   "chars": 25,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0083",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 17356,
+    "str_off": 17360,
+    "orig_bytes": 51
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0220",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 220,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "６ページ目",
+   "ko": "6페이지에 ",
+   "chars": 5,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0084",
+    "size": 8,
+    "pos": 0,
+    "ja": "６ページ目に、重要な『キーワード』が２つあるそこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだこの『ナゾ』と、ある『キーワード』を一緒にして推理すると、重要な『ヒラメキ』が生まれるぞもう一度やってみてくれたとえ答えに自信がなくても、とりあえず解決編に進んでみるというのも悪くないぞ"
+   },
+   "loc": {
+    "len_off": 17495,
+    "str_off": 17499,
+    "orig_bytes": 11
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0221",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 221,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "に、重要な『キーワード』が２つある",
+   "ko": "중요한 『키워드』가 두 개 있어 ",
+   "chars": 17,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0084",
+    "size": 8,
+    "pos": 1,
+    "ja": "６ページ目に、重要な『キーワード』が２つあるそこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだこの『ナゾ』と、ある『キーワード』を一緒にして推理すると、重要な『ヒラメキ』が生まれるぞもう一度やってみてくれたとえ答えに自信がなくても、とりあえず解決編に進んでみるというのも悪くないぞ"
+   },
+   "loc": {
+    "len_off": 17516,
+    "str_off": 17520,
+    "orig_bytes": 35
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0222",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 222,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "そこで",
+   "ko": "거기서",
+   "chars": 3,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0084",
+    "size": 8,
+    "pos": 2,
+    "ja": "６ページ目に、重要な『キーワード』が２つあるそこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだこの『ナゾ』と、ある『キーワード』を一緒にして推理すると、重要な『ヒラメキ』が生まれるぞもう一度やってみてくれたとえ答えに自信がなくても、とりあえず解決編に進んでみるというのも悪くないぞ"
+   },
+   "loc": {
+    "len_off": 17571,
+    "str_off": 17575,
+    "orig_bytes": 7
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0223",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 223,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "〈ダイイング・メッセージ？〉",
+   "ko": "〈다잉 메시지?〉",
+   "chars": 14,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0084",
+    "size": 8,
+    "pos": 3,
+    "ja": "６ページ目に、重要な『キーワード』が２つあるそこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだこの『ナゾ』と、ある『キーワード』を一緒にして推理すると、重要な『ヒラメキ』が生まれるぞもう一度やってみてくれたとえ答えに自信がなくても、とりあえず解決編に進んでみるというのも悪くないぞ"
+   },
+   "loc": {
+    "len_off": 17600,
+    "str_off": 17604,
+    "orig_bytes": 29
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0224",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 224,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "という『ナゾ』が生まれるはずだ",
+   "ko": "라는 『수수께끼』가 생길 거야 ",
+   "chars": 15,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0084",
+    "size": 8,
+    "pos": 4,
+    "ja": "６ページ目に、重要な『キーワード』が２つあるそこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだこの『ナゾ』と、ある『キーワード』を一緒にして推理すると、重要な『ヒラメキ』が生まれるぞもう一度やってみてくれたとえ答えに自信がなくても、とりあえず解決編に進んでみるというのも悪くないぞ"
+   },
+   "loc": {
+    "len_off": 17639,
+    "str_off": 17643,
+    "orig_bytes": 31
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0225",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 225,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "この『ナゾ』と、ある『キーワード』を一緒にして推理すると、重要な『ヒラメキ』が生まれるぞ",
+   "ko": "이 『수수께끼』와 어떤 『키워드』를 함께 〈추리〉하면 중요한 『착상』이 나와 ",
+   "chars": 44,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0084",
+    "size": 8,
+    "pos": 5,
+    "ja": "６ページ目に、重要な『キーワード』が２つあるそこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだこの『ナゾ』と、ある『キーワード』を一緒にして推理すると、重要な『ヒラメキ』が生まれるぞもう一度やってみてくれたとえ答えに自信がなくても、とりあえず解決編に進んでみるというのも悪くないぞ"
+   },
+   "loc": {
+    "len_off": 17732,
+    "str_off": 17736,
+    "orig_bytes": 89
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0226",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 226,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "もう一度やってみてくれ",
+   "ko": "한 번 더 해 보게 ",
+   "chars": 11,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0084",
+    "size": 8,
+    "pos": 6,
+    "ja": "６ページ目に、重要な『キーワード』が２つあるそこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだこの『ナゾ』と、ある『キーワード』を一緒にして推理すると、重要な『ヒラメキ』が生まれるぞもう一度やってみてくれたとえ答えに自信がなくても、とりあえず解決編に進んでみるというのも悪くないぞ"
+   },
+   "loc": {
+    "len_off": 17841,
+    "str_off": 17845,
+    "orig_bytes": 23
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0227",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 227,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "たとえ答えに自信がなくても、とりあえず解決編に進んでみるというのも悪くないぞ",
+   "ko": "답에 자신이 없어도 일단 해결편으로 진행해 보는 것도 나쁘지 않아",
+   "chars": 38,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0084",
+    "size": 8,
+    "pos": 7,
+    "ja": "６ページ目に、重要な『キーワード』が２つあるそこで〈ダイイング・メッセージ？〉という『ナゾ』が生まれるはずだこの『ナゾ』と、ある『キーワード』を一緒にして推理すると、重要な『ヒラメキ』が生まれるぞもう一度やってみてくれたとえ答えに自信がなくても、とりあえず解決編に進んでみるというのも悪くないぞ"
+   },
+   "loc": {
+    "len_off": 17884,
+    "str_off": 17888,
+    "orig_bytes": 77
+   }
+  },
+  {
+   "id": "TU_A/TU_answer_begin/0228",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_answer_begin.bin",
+   "index": 228,
+   "category": "answer_begin",
+   "speaker_hint": "yosikawa",
+   "ja": "あれこれ答えを検証しているうちに、真相が見えてくることもあるからな",
+   "ko": "이것저것 답을 검증하다 보면 진상이 보일 때도 있으니까",
+   "chars": 33,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_answer_begin/g0085",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 17981,
+    "str_off": 17985,
+    "orig_bytes": 67
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0000",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 0,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "　",
+   "ko": "　",
+   "chars": 1,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0000",
+    "size": 3,
+    "pos": 0,
+    "ja": "　〈何かを書き残そうとした〉というキーワードと、あるキーワードを組み合わせて推理してみよう。"
+   },
+   "loc": {
+    "len_off": 61,
+    "str_off": 65,
+    "orig_bytes": 3
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0001",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 1,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "〈何かを書き残そうとした〉",
+   "ko": "〈무언가를 적어 남기려 했다〉",
+   "chars": 13,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0000",
+    "size": 3,
+    "pos": 1,
+    "ja": "　〈何かを書き残そうとした〉というキーワードと、あるキーワードを組み合わせて推理してみよう。"
+   },
+   "loc": {
+    "len_off": 86,
+    "str_off": 90,
+    "orig_bytes": 27
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0002",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 2,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "というキーワードと、あるキーワードを組み合わせて推理してみよう。",
+   "ko": "라는 키워드와 어떤 키워드를 조합해 추리해 보자.",
+   "chars": 32,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0000",
+    "size": 3,
+    "pos": 2,
+    "ja": "　〈何かを書き残そうとした〉というキーワードと、あるキーワードを組み合わせて推理してみよう。"
+   },
+   "loc": {
+    "len_off": 123,
+    "str_off": 127,
+    "orig_bytes": 65
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0003",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 3,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "　被害者が残した“あるもの”を示すナゾが生まれるはずだ。",
+   "ko": "피해자가 남긴 ‘어떤 것’을 나타내는 수수께끼가 생길 것이다.",
+   "chars": 28,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0001",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 199,
+    "str_off": 203,
+    "orig_bytes": 57
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0004",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 4,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "　そのナゾこそ、調書の問１に入れるべきヒラメキを生み出す重要なナゾである。",
+   "ko": "그 수수께끼야말로 『조서』의 1번 문제에 넣어야 할 착상을 만들어 내는 중요한 수수께끼다.",
+   "chars": 37,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0002",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 267,
+    "str_off": 271,
+    "orig_bytes": 75
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0005",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 5,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "　ある二つのキーワードを組み合わせて推理することで、",
+   "ko": "두 키워드를 조합해 추리하면,",
+   "chars": 26,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0003",
+    "size": 3,
+    "pos": 0,
+    "ja": "　ある二つのキーワードを組み合わせて推理することで、〈ダイイング・メッセージ？〉というナゾが生まれる。このナゾこそが、正解のヒラメキを生み出す唯一のナゾである。"
+   },
+   "loc": {
+    "len_off": 402,
+    "str_off": 406,
+    "orig_bytes": 53
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0006",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 6,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "〈ダイイング・メッセージ？〉",
+   "ko": "〈다잉 메시지?〉",
+   "chars": 14,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0003",
+    "size": 3,
+    "pos": 1,
+    "ja": "　ある二つのキーワードを組み合わせて推理することで、〈ダイイング・メッセージ？〉というナゾが生まれる。このナゾこそが、正解のヒラメキを生み出す唯一のナゾである。"
+   },
+   "loc": {
+    "len_off": 477,
+    "str_off": 481,
+    "orig_bytes": 29
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0007",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 7,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "というナゾが生まれる。このナゾこそが、正解のヒラメキを生み出す唯一のナゾである。",
+   "ko": "라는 수수께끼가 생긴다. 이 수수께끼야말로 정답인 착상을 만들어 내는 유일한 수수께끼다.",
+   "chars": 40,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0003",
+    "size": 3,
+    "pos": 2,
+    "ja": "　ある二つのキーワードを組み合わせて推理することで、〈ダイイング・メッセージ？〉というナゾが生まれる。このナゾこそが、正解のヒラメキを生み出す唯一のナゾである。"
+   },
+   "loc": {
+    "len_off": 516,
+    "str_off": 520,
+    "orig_bytes": 81
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0008",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 8,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "　ナゾ",
+   "ko": "수수께끼",
+   "chars": 3,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0004",
+    "size": 3,
+    "pos": 0,
+    "ja": "　ナゾ〈ダイイング・メッセージ？〉と、あるキーワードを合わせて推理し、ヒラメキを見つけ出そう。"
+   },
+   "loc": {
+    "len_off": 608,
+    "str_off": 612,
+    "orig_bytes": 7
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0009",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 9,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "〈ダイイング・メッセージ？〉",
+   "ko": "〈다잉 메시지?〉",
+   "chars": 14,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0004",
+    "size": 3,
+    "pos": 1,
+    "ja": "　ナゾ〈ダイイング・メッセージ？〉と、あるキーワードを合わせて推理し、ヒラメキを見つけ出そう。"
+   },
+   "loc": {
+    "len_off": 637,
+    "str_off": 641,
+    "orig_bytes": 29
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0010",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 10,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "と、あるキーワードを合わせて推理し、ヒラメキを見つけ出そう。",
+   "ko": "와 어떤 키워드를 조합해 추리하고, 착상을 찾아내자.",
+   "chars": 30,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0004",
+    "size": 3,
+    "pos": 2,
+    "ja": "　ナゾ〈ダイイング・メッセージ？〉と、あるキーワードを合わせて推理し、ヒラメキを見つけ出そう。"
+   },
+   "loc": {
+    "len_off": 676,
+    "str_off": 680,
+    "orig_bytes": 61
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0011",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 11,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "　犯人は白井ではない。",
+   "ko": "범인은 시라이가 아니다.",
+   "chars": 11,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0005",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 789,
+    "str_off": 793,
+    "orig_bytes": 23
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0012",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 12,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "　白井がライブラリー室を利用していたのは二十分間。そのうち電車の撮影をしていたのが二十分間。ビデオ映像には、ドアを開ける音や何かを殴る音など不審な物音は記録されていなかった。",
+   "ko": "시라이가 도서실을 이용한 시간은 20분. 그동안 전철을 촬영했다. 영상에는 문 여는 소리나 무언가를 때리는 소리 같은 수상한 소리가 기록되지 않았다.",
+   "chars": 87,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0006",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 823,
+    "str_off": 827,
+    "orig_bytes": 175
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0013",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 13,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "　白井に犯行におよぶ時間はなかったと言える。",
+   "ko": "시라이에게 범행을 저지를 시간은 없었다고 할 수 있다.",
+   "chars": 22,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0007",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 1009,
+    "str_off": 1013,
+    "orig_bytes": 45
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0014",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 14,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "　調書に入れるヒラメキは、",
+   "ko": "조서에 넣을 착상은",
+   "chars": 13,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0008",
+    "size": 3,
+    "pos": 0,
+    "ja": "　調書に入れるヒラメキは、〈ドアのガラスが曇っていた〉である。"
+   },
+   "loc": {
+    "len_off": 1114,
+    "str_off": 1118,
+    "orig_bytes": 27
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0015",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 15,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "〈ドアのガラスが曇っていた〉",
+   "ko": "〈문 유리가 흐려져 있었다〉",
+   "chars": 14,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0008",
+    "size": 3,
+    "pos": 1,
+    "ja": "　調書に入れるヒラメキは、〈ドアのガラスが曇っていた〉である。"
+   },
+   "loc": {
+    "len_off": 1163,
+    "str_off": 1167,
+    "orig_bytes": 29
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0016",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 16,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "である。",
+   "ko": "다.",
+   "chars": 4,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0008",
+    "size": 3,
+    "pos": 2,
+    "ja": "　調書に入れるヒラメキは、〈ドアのガラスが曇っていた〉である。"
+   },
+   "loc": {
+    "len_off": 1202,
+    "str_off": 1206,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0017",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 17,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "　あるナゾと、",
+   "ko": "어떤 수수께끼와",
+   "chars": 7,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0009",
+    "size": 3,
+    "pos": 0,
+    "ja": "　あるナゾと、〈ここだけ空調が壊れておりまして〉というキーワードを合わせて推理することで、このヒラメキが生まれる。"
+   },
+   "loc": {
+    "len_off": 1222,
+    "str_off": 1226,
+    "orig_bytes": 15
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0018",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 18,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "〈ここだけ空調が壊れておりまして〉",
+   "ko": "〈여기만 냉방이 고장 나 있었습니다〉",
+   "chars": 17,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0009",
+    "size": 3,
+    "pos": 1,
+    "ja": "　あるナゾと、〈ここだけ空調が壊れておりまして〉というキーワードを合わせて推理することで、このヒラメキが生まれる。"
+   },
+   "loc": {
+    "len_off": 1259,
+    "str_off": 1263,
+    "orig_bytes": 35
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0019",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 19,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "というキーワードを合わせて推理することで、このヒラメキが生まれる。",
+   "ko": "라는 키워드를 조합해 추리하면 이 착상이 나온다.",
+   "chars": 33,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0009",
+    "size": 3,
+    "pos": 2,
+    "ja": "　あるナゾと、〈ここだけ空調が壊れておりまして〉というキーワードを合わせて推理することで、このヒラメキが生まれる。"
+   },
+   "loc": {
+    "len_off": 1304,
+    "str_off": 1308,
+    "orig_bytes": 67
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0020",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 20,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "　キーワード",
+   "ko": "키워드",
+   "chars": 6,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0010",
+    "size": 8,
+    "pos": 0,
+    "ja": "　キーワード〈ガラスのスリット〉と〈何かを書き残そうとした〉を入手して推理。ナゾ〈ダイイング・メッセージ？〉が生まれたら、それとキーワード〈ここだけ空調が壊れておりまして〉"
+   },
+   "loc": {
+    "len_off": 1429,
+    "str_off": 1433,
+    "orig_bytes": 13
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0021",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 21,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "〈ガラスのスリット〉",
+   "ko": "〈유리의 틈〉",
+   "chars": 10,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0010",
+    "size": 8,
+    "pos": 1,
+    "ja": "　キーワード〈ガラスのスリット〉と〈何かを書き残そうとした〉を入手して推理。ナゾ〈ダイイング・メッセージ？〉が生まれたら、それとキーワード〈ここだけ空調が壊れておりまして〉"
+   },
+   "loc": {
+    "len_off": 1464,
+    "str_off": 1468,
+    "orig_bytes": 21
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0022",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 22,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "と",
+   "ko": "와",
+   "chars": 1,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0010",
+    "size": 8,
+    "pos": 2,
+    "ja": "　キーワード〈ガラスのスリット〉と〈何かを書き残そうとした〉を入手して推理。ナゾ〈ダイイング・メッセージ？〉が生まれたら、それとキーワード〈ここだけ空調が壊れておりまして〉"
+   },
+   "loc": {
+    "len_off": 1495,
+    "str_off": 1499,
+    "orig_bytes": 3
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0023",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 23,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "〈何かを書き残そうとした〉",
+   "ko": "〈무언가를 적어 남기려 했다〉",
+   "chars": 13,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0010",
+    "size": 8,
+    "pos": 3,
+    "ja": "　キーワード〈ガラスのスリット〉と〈何かを書き残そうとした〉を入手して推理。ナゾ〈ダイイング・メッセージ？〉が生まれたら、それとキーワード〈ここだけ空調が壊れておりまして〉"
+   },
+   "loc": {
+    "len_off": 1520,
+    "str_off": 1524,
+    "orig_bytes": 27
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0024",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 24,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "を入手して推理。ナゾ",
+   "ko": "를 얻어 추리한다. 수수께끼",
+   "chars": 10,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0010",
+    "size": 8,
+    "pos": 4,
+    "ja": "　キーワード〈ガラスのスリット〉と〈何かを書き残そうとした〉を入手して推理。ナゾ〈ダイイング・メッセージ？〉が生まれたら、それとキーワード〈ここだけ空調が壊れておりまして〉"
+   },
+   "loc": {
+    "len_off": 1557,
+    "str_off": 1561,
+    "orig_bytes": 21
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0025",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 25,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "〈ダイイング・メッセージ？〉",
+   "ko": "〈다잉 메시지?〉",
+   "chars": 14,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0010",
+    "size": 8,
+    "pos": 5,
+    "ja": "　キーワード〈ガラスのスリット〉と〈何かを書き残そうとした〉を入手して推理。ナゾ〈ダイイング・メッセージ？〉が生まれたら、それとキーワード〈ここだけ空調が壊れておりまして〉"
+   },
+   "loc": {
+    "len_off": 1600,
+    "str_off": 1604,
+    "orig_bytes": 29
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0026",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 26,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "が生まれたら、それとキーワード",
+   "ko": "가 생기면, 그것과 키워드",
+   "chars": 15,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0010",
+    "size": 8,
+    "pos": 6,
+    "ja": "　キーワード〈ガラスのスリット〉と〈何かを書き残そうとした〉を入手して推理。ナゾ〈ダイイング・メッセージ？〉が生まれたら、それとキーワード〈ここだけ空調が壊れておりまして〉"
+   },
+   "loc": {
+    "len_off": 1639,
+    "str_off": 1643,
+    "orig_bytes": 31
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0027",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 27,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "〈ここだけ空調が壊れておりまして〉",
+   "ko": "〈여기만 냉방이 고장 나 있었습니다〉",
+   "chars": 17,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0010",
+    "size": 8,
+    "pos": 7,
+    "ja": "　キーワード〈ガラスのスリット〉と〈何かを書き残そうとした〉を入手して推理。ナゾ〈ダイイング・メッセージ？〉が生まれたら、それとキーワード〈ここだけ空調が壊れておりまして〉"
+   },
+   "loc": {
+    "len_off": 1692,
+    "str_off": 1696,
+    "orig_bytes": 35
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0028",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 28,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "を合わせて推理。生まれたヒラメキ",
+   "ko": "를 조합해 추리한다. 나온 착상",
+   "chars": 16,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0011",
+    "size": 5,
+    "pos": 0,
+    "ja": "を合わせて推理。生まれたヒラメキ〈ドアのガラスが曇っていた〉を調書の解答欄に入れ、犯人名を〈黒木〉にする。"
+   },
+   "loc": {
+    "len_off": 1737,
+    "str_off": 1741,
+    "orig_bytes": 33
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0029",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 29,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "〈ドアのガラスが曇っていた〉",
+   "ko": "〈문 유리가 흐려져 있었다〉",
+   "chars": 14,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0011",
+    "size": 5,
+    "pos": 1,
+    "ja": "を合わせて推理。生まれたヒラメキ〈ドアのガラスが曇っていた〉を調書の解答欄に入れ、犯人名を〈黒木〉にする。"
+   },
+   "loc": {
+    "len_off": 1792,
+    "str_off": 1796,
+    "orig_bytes": 29
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0030",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 30,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "を調書の解答欄に入れ、犯人名を",
+   "ko": "를 조서의 답란에 넣고, 범인의 이름을",
+   "chars": 15,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0011",
+    "size": 5,
+    "pos": 2,
+    "ja": "を合わせて推理。生まれたヒラメキ〈ドアのガラスが曇っていた〉を調書の解答欄に入れ、犯人名を〈黒木〉にする。"
+   },
+   "loc": {
+    "len_off": 1831,
+    "str_off": 1835,
+    "orig_bytes": 31
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0031",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 31,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "〈黒木〉",
+   "ko": "〈구로키〉",
+   "chars": 4,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0011",
+    "size": 5,
+    "pos": 3,
+    "ja": "を合わせて推理。生まれたヒラメキ〈ドアのガラスが曇っていた〉を調書の解答欄に入れ、犯人名を〈黒木〉にする。"
+   },
+   "loc": {
+    "len_off": 1884,
+    "str_off": 1888,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_hint2/0032",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_hint2.bin",
+   "index": 32,
+   "category": "hint",
+   "speaker_hint": null,
+   "ja": "にする。",
+   "ko": "로 한다.",
+   "chars": 4,
+   "max_chars": 87,
+   "group": {
+    "id": "TU_hint2/g0011",
+    "size": 5,
+    "pos": 4,
+    "ja": "を合わせて推理。生まれたヒラメキ〈ドアのガラスが曇っていた〉を調書の解答欄に入れ、犯人名を〈黒木〉にする。"
+   },
+   "loc": {
+    "len_off": 1903,
+    "str_off": 1907,
+    "orig_bytes": 9
+   }
+  },
+  {
+   "id": "TU_A/TU_trailer/0000",
+   "archive": "TU_A.bin",
+   "file": "./script/TU_A/TU_trailer.bin",
+   "index": 0,
+   "category": "trailer",
+   "speaker_hint": null,
+   "ja": "ｪ",
+   "ko": "ｪ",
+   "chars": 1,
+   "max_chars": 44,
+   "group": {
+    "id": "TU_trailer/g0000",
+    "size": 1,
+    "pos": 0,
+    "ja": null
+   },
+   "loc": {
+    "len_off": 79,
+    "str_off": 83,
+    "orig_bytes": 2
+   }
+  }
+ ]
+}
