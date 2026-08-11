@@ -5,7 +5,7 @@
 """
 import paths
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 import inpaint
 
 FONT = paths.TTF
@@ -33,16 +33,22 @@ def mask(px, kind='dark'):
     return ink(px)
 
 
-def local_ink(px, box):
+def local_ink(px, box, ring=4):
     """상자 안에서만 밝기로 글자를 가른다(버튼처럼 대비가 낮은 자리용).
 
-    (글자마스크, 글자색, 외곽선색) — 외곽선이 없으면 색은 None."""
+    (글자마스크, 글자색, 외곽선색, 둘레마스크).
+
+    둘레마스크는 **상자 안에서 정한 같은 기준**을 상자 둘레 ring px 까지
+    적용한 것이다. 지울 때 배경색 표본을 고르는 데 쓴다. 전역 기준(`ink`)은
+    '어두우면 글자'로 보기 때문에, 어두운 판 위 중간톤 글자에서는 판까지
+    글자로 몰아 배경 표본이 하나도 안 남고 결국 투명·검정으로 칠해진다."""
     x0, y0, x1, y1 = box
     sub = px[y0:y1, x0:x1]
     lum = sub[..., :3].astype(np.float32) @ [0.299, 0.587, 0.114]
     op = sub[..., 3] > 100
     if op.sum() < 20:
-        return np.zeros(px.shape[:2], bool), (255, 255, 255), None
+        z = np.zeros(px.shape[:2], bool)
+        return z, (255, 255, 255), None, z
     v = lum[op]
     # 글자는 상자 안에서 '적은 쪽'이다 — 흰 말풍선의 검은 글자도 이걸로 가른다
     bright_n = int((v >= v.max() - 45).sum())
@@ -62,7 +68,16 @@ def local_ink(px, box):
     st = None
     if v.max() - v.min() > 70 and other.sum() > 0.15 * max(int(ink_sel.sum()), 1):
         st = tuple(int(c) for c in np.median(sub[..., :3][other], axis=0))
-    return lm, tuple(int(c) for c in col), st
+
+    h, w = px.shape[:2]
+    ex0, ey0 = max(0, x0 - ring), max(0, y0 - ring)
+    ex1, ey1 = min(w, x1 + ring), min(h, y1 + ring)
+    el = px[ey0:ey1, ex0:ex1, :3].astype(np.float32) @ [0.299, 0.587, 0.114]
+    eop = px[ey0:ey1, ex0:ex1, 3] > 100
+    ring_m = np.zeros(px.shape[:2], bool)
+    ring_m[ey0:ey1, ex0:ex1] = ((el <= thr) if dark_n < bright_n
+                                else (el >= thr)) & eop
+    return lm, tuple(int(c) for c in col), st, ring_m
 
 
 def build_all(px, spec):
@@ -93,11 +108,11 @@ def build_local(px, mapping, m, vert):
     jobs = []
     for _, t in mapping.items():
         box = (t[1], t[3], t[2], t[4])   # (x0,x1,y0,y1) -> (x0,y0,x1,y1)
-        lm, col, st = local_ink(px, box)
-        jobs.append((box, t[0], col, st))
-    for box, t, col, st in jobs:
-        px = (erase_box_v if vert else erase_box)(px, box, m)
-    for box, t, col, st in jobs:
+        lm, col, st, ring_m = local_ink(px, box)
+        jobs.append((box, t[0], col, st, ring_m))
+    for box, t, col, st, ring_m in jobs:
+        px = (erase_box_v if vert else erase_box)(px, box, m, excl=ring_m)
+    for box, t, col, st, ring_m in jobs:
         if vert:
             px = draw_v(px, box, t, col, stroke=st)
         else:
@@ -174,25 +189,107 @@ def boxes_v(px, m=None, join=5, minpx=40, minw=8, minh=14, maxw=44):
     return [tuple(b) for b in out]
 
 
-def erase_box_v(px, box, m, pad=1):
+def _inside_bg(px, x0, y0, x1, y1, both):
+    """상자 안의 '글자가 아닌 불투명 화소' 중앙값. 없으면 None.
+
+    스프라이트가 빽빽하게 붙어 있어 상자 둘레가 통째로 투명한 자리에서
+    쓰는 마지막 수단이다. 이게 없으면 이름표 바탕이 검게 칠해진다.
+
+    **상자가 통째로 불투명할 때만** 쓴다(이름표·판). 투명 위에 글자만 있는
+    스프라이트에 적용하면 안티에일리어싱 가장자리 색으로 상자를 채워
+    회색 네모가 생긴다."""
+    a = px[y0:y1, x0:x1, 3]
+    area = max(a.size, 1)
+    op = a >= 40
+    k = (~both[y0:y1, x0:x1]) & op
+    if op.sum() < 0.97 * area or k.sum() < max(4, 0.25 * area):
+        return None
+    return np.median(px[y0:y1, x0:x1].astype(np.int16)[k], axis=0)
+
+
+def _pick(src, bt, n, opaque_only=True):
+    """줄마다 '글자가 아닌 화소' 중앙값. (값, 구했는지)
+
+    opaque_only 면 불투명 화소만 표본으로 쓴다. 끄면 예전 규칙 그대로 —
+    투명 화소까지 넣으므로 둘레가 투명한 자리는 통째로 투명해진다(투명 위에
+    글자만 있는 스프라이트에서는 그게 맞다)."""
+    out = np.zeros((n, 4), np.int16)
+    ok = np.zeros(n, bool)
+    for i in range(n):
+        line = src[i] if src.ndim == 3 and src.shape[0] == n else src[:, i]
+        b = bt[i] if bt.ndim == 2 and bt.shape[0] == n else bt[:, i]
+        k = (~b) & (line[:, 3] >= 40) if opaque_only else ~b
+        if k.sum() >= 2:
+            out[i] = np.median(line[k], axis=0)
+            ok[i] = True
+        elif not opaque_only:
+            out[i] = np.median(line, axis=0)
+            ok[i] = True
+    return out, ok
+
+
+def _bg_lines(ring, both, n, fallback, inner=None, inner_both=None,
+              opaque_only=True):
+    """줄(열)마다 배경색을 정한다 — **불투명 화소만** 표본으로 쓴다.
+
+    ① 상자 **안쪽**의 글자 사이 배경 ② 상자 둘레 ③ 가장 가까운 채워진 줄
+    ④ 상자 전체 배경 ⑤ 투명 순으로 고른다.
+
+    안쪽을 먼저 보는 이유: 둘레에는 칸을 나누는 줄이나 테두리가 섞여 있어
+    그 색이 그대로 사각형으로 남는다. 예전에는 투명 화소까지 중앙값에 넣어
+    둘레가 투명한 버튼은 바탕이 아예 검게 변했다."""
+    out, ok = (_pick(inner, inner_both, n) if inner is not None
+               else (np.zeros((n, 4), np.int16), np.zeros(n, bool)))
+    ro, rok = _pick(ring, both, n, opaque_only)
+    use = rok & ~ok
+    out[use], ok[use] = ro[use], True
+    if ok.any():
+        idx = np.where(ok)[0]
+        for i in np.where(~ok)[0]:
+            out[i] = out[idx[np.argmin(np.abs(idx - i))]]
+    elif fallback is not None:
+        out[:] = fallback
+    out[out[:, 3] < 40] = 0
+    return out
+
+
+def _repair(px, x0, y0, x1, y1, lines, excl, vert):
+    """예전 규칙이 판을 투명·검정으로 칠했을 때만 다시 계산한다.
+
+    상자가 통째로 불투명한 '판'(이름표·버튼)인데 결과가 투명하거나 판보다
+    한참 어두우면 배경 표본을 잘못 고른 것이다. 이때만 상자 안쪽·둘레의
+    **불투명 화소**로 다시 구한다. 그 밖의 자리는 한 화소도 건드리지 않는다."""
+    a = px[y0:y1, x0:x1, 3]
+    if excl is None or (a >= 40).mean() < 0.97:
+        return None
+    ref = np.median(px[y0:y1, x0:x1, :3][a >= 40], axis=0) @ [0.299, .587, .114]
+    lum = lines[:, :3].astype(np.float32) @ [0.299, 0.587, 0.114]
+    if not ((lines[:, 3] < 40) | (lum + 40 < ref)).any():
+        return None
+    return inpaint._dilate(excl, 1)
+
+
+def erase_box_v(px, box, m, pad=1, excl=None):
     """세로쓰기 상자를 지운다. 배경색은 가로 한 줄씩 따로 구한다."""
     h, w = px.shape[:2]
     x0 = max(0, box[0] - pad)
     y0 = max(0, box[1] - pad)
     x1 = min(w, box[2] + pad)
     y1 = min(h, box[3] + pad)
+    glob = inpaint._dilate(ink(px) | ink_light(px), 1)
     cs = ([c for c in range(max(0, x0 - 3), x0)] +
           [c for c in range(x1, min(w, x1 + 3))])     # 글자 열 좌우만 표본
     if not cs:
         px[y0:y1, x0:x1] = 0
         return px
     ring = px[y0:y1, cs].astype(np.int16)
-    both = inpaint._dilate(ink(px) | ink_light(px), 1)[y0:y1, cs]
-    rows = np.zeros((y1 - y0, 4), np.int16)
-    for i in range(y1 - y0):
-        k = ~both[i]
-        rows[i] = np.median(ring[i][k] if k.sum() >= 2 else ring[i], axis=0)
-    rows[rows[:, 3] < 40] = 0
+    rows = _bg_lines(ring, glob[y0:y1, cs], y1 - y0, None, opaque_only=False)
+    ex = _repair(px, x0, y0, x1, y1, rows, excl, True)
+    if ex is not None:
+        fb = _inside_bg(px, x0, y0, x1, y1, ex)
+        rows = _bg_lines(px[y0:y1, cs].astype(np.int16), ex[y0:y1, cs],
+                         y1 - y0, fb, px[y0:y1, x0:x1].astype(np.int16),
+                         ex[y0:y1, x0:x1])
     px[y0:y1, x0:x1] = rows[:, None, :].astype(np.uint8)
     return px
 
@@ -254,7 +351,7 @@ def _bg_color(px, box, m):
     return np.median(sub[..., :3][keep], axis=0).astype(np.uint8)
 
 
-def erase_box(px, box, m, pad=1):
+def erase_box(px, box, m, pad=1, excl=None):
     """상자를 통째로 지운다.
 
     배경색은 세로 한 줄씩 따로 구한다(가로 그라데이션·형광 띠 보존).
@@ -264,19 +361,20 @@ def erase_box(px, box, m, pad=1):
     y0 = max(0, box[1] - pad)
     x1 = min(w, box[2] + pad)
     y1 = min(h, box[3] + pad)
-    rows = ([r for r in range(max(0, y0 - 3), y0)] +
-            [r for r in range(y1, min(h, y1 + 3))])   # 글자 줄 위아래만 표본
-    if not rows:
+    glob = inpaint._dilate(ink(px) | ink_light(px), 1)
+    rs = ([r for r in range(max(0, y0 - 3), y0)] +
+          [r for r in range(y1, min(h, y1 + 3))])     # 글자 줄 위아래만 표본
+    if not rs:
         px[y0:y1, x0:x1] = 0
         return px
-    ring = px[rows, x0:x1].astype(np.int16)
-    both = inpaint._dilate(ink(px) | ink_light(px), 1)[rows, x0:x1]
-    cols = np.zeros((x1 - x0, 4), np.int16)
-    for i in range(x1 - x0):
-        k = ~both[:, i]
-        cols[i] = np.median(ring[:, i][k] if k.sum() >= 2 else ring[:, i],
-                            axis=0)                   # 표본이 없으면 그대로
-    cols[cols[:, 3] < 40] = 0
+    ring = px[rs, x0:x1].astype(np.int16)
+    cols = _bg_lines(ring, glob[rs, x0:x1], x1 - x0, None, opaque_only=False)
+    ex = _repair(px, x0, y0, x1, y1, cols, excl, False)
+    if ex is not None:
+        fb = _inside_bg(px, x0, y0, x1, y1, ex)
+        cols = _bg_lines(px[rs, x0:x1].astype(np.int16), ex[rs, x0:x1],
+                         x1 - x0, fb, px[y0:y1, x0:x1].astype(np.int16),
+                         ex[y0:y1, x0:x1])
     px[y0:y1, x0:x1] = cols[None, :, :].astype(np.uint8)
     return px
 
@@ -525,11 +623,16 @@ def build(px, mapping, m=None, bs=None, vert=False):
     return px
 
 
-def build_note(px, text, region, cols, size, color=None, thr=110):
+def build_note(px, text, region, cols, size, color=None, thr=110,
+               wipe=(), marks=()):
     """세로쓰기 한 페이지(도입 안내문)를 통째로 다시 짠다.
 
     region: (x0,y0,x1,y1) 글자 영역, cols: [열 중심 x] 오른쪽부터,
-    size: 글자 크기."""
+    size: 글자 크기.
+    wipe:  글자 영역 **밖**을 통째로 지울 사각형들. 한자 읽기(루비)와
+           분홍 글자 뒤의 번진 빛은 밝기 기준으로는 안 지워져 그대로 남는다.
+    marks: [(부분문자열, (r,g,b))] — 원문에서 분홍색이던 낱말을 같은 색으로,
+           뒤에 흐린 빛까지 얹어 그린다."""
     x0, y0, x1, y1 = region
     lum = px[..., :3].astype(np.float32) @ [0.299, 0.587, 0.114]
     m = np.zeros(px.shape[:2], bool)
@@ -538,29 +641,46 @@ def build_note(px, text, region, cols, size, color=None, thr=110):
         c = px[..., :3][inpaint._dilate(m, 0)]
         color = tuple(int(v) for v in np.percentile(c, 75, axis=0))
     m = inpaint._dilate(m, 2)
+    for wx0, wy0, wx1, wy1 in wipe:
+        m[wy0:wy1, wx0:wx1] = True
     filled = inpaint.fill(px, m)
     out = px.copy()
     out[..., :3] = filled.astype(np.uint8)
 
-    per = int((y1 - y0) / size)
+    hi = {}
+    for sub, col in marks:
+        j = text.find(sub)
+        while j >= 0:
+            for t in range(j, j + len(sub)):
+                hi[t] = col
+            j = text.find(sub, j + 1)
+
     f = ImageFont.truetype(FONT, size)
     im = Image.fromarray(out, 'RGBA')
     lay = Image.new('RGBA', im.size, (0, 0, 0, 0))
-    dr = ImageDraw.Draw(lay)
+    glow = Image.new('RGBA', im.size, (0, 0, 0, 0))
+    dr, dg = ImageDraw.Draw(lay), ImageDraw.Draw(glow)
     ci, y, i = 0, float(y0), 0
     while i < len(text) and ci < len(cols):
         ch = text[i]
+        col = hi.get(i, color)
         i += 1
         if ch == ' ':
             if y > y0:
                 y += size * 0.45
         else:
             b = f.getbbox(ch)
-            dr.text((cols[ci] - (b[0] + b[2]) / 2, y + (size - (b[1] + b[3])) / 2),
-                    ch, font=f, fill=tuple(color) + (255,))
+            pos = (cols[ci] - (b[0] + b[2]) / 2,
+                   y + (size - (b[1] + b[3])) / 2)
+            dr.text(pos, ch, font=f, fill=tuple(col) + (255,))
+            if col is not color:
+                dg.text(pos, ch, font=f, fill=tuple(col) + (255,),
+                        stroke_width=2, stroke_fill=tuple(col) + (255,))
             y += size
         if y + size > y1:
             ci += 1
             y = float(y0)
+    if hi:
+        im.alpha_composite(glow.filter(ImageFilter.GaussianBlur(3)))
     im.alpha_composite(lay)
     return np.asarray(im).copy(), (len(text) - i)

@@ -55,8 +55,10 @@ for nm in SCENARIOS + ['common.bin']:
             elif kind == 'atlas':
                 new_px = atlas.build_all(px, MAPS[base])
             elif kind == 'note':
-                ko, reg, cols, sz = NOTES[base]
-                new_px, left = atlas.build_note(px, ko, reg, cols, sz)
+                ko, reg, cols, sz, *rest = NOTES[base]
+                wipe, marks = (rest + [(), ()])[:2]
+                new_px, left = atlas.build_note(px, ko, reg, cols, sz,
+                                                wipe=wipe, marks=marks)
                 if left:
                     print(f"   ! {base}: {left}자 넘침")
             elif t.get('mode') == 'v':
