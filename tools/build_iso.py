@@ -129,6 +129,24 @@ if os.path.exists('keyname_payloads.pkl'):
         by_arch.setdefault(arch, {})[fname] = payload
     print(f"키워드 이름 파일 {len(kns)}개 반영")
 
+# 한자 읽기(루비)를 지운 파일. keyname 결과를 밑바탕으로 만들었으므로 뒤에 온다.
+if os.path.exists('ruby_payloads.pkl'):
+    from lz import compress as _rc, decompress as _rd
+    rbs = pickle.load(open('ruby_payloads.pkl', 'rb'))
+    _iso_r = Iso()
+    for (arch, fname), raw in rbs.items():
+        sp0 = (SectPack(open('common.bin', 'rb').read()) if arch == 'common.bin'
+               else from_iso(_iso_r, arch))
+        e0 = sp0.byname(fname)
+        if e0['comp']:
+            c = _rc(raw)
+            assert _rd(c, len(raw)) == raw
+            payload = struct.pack('<II', len(raw), len(c)) + c
+        else:
+            payload = raw
+        by_arch.setdefault(arch, {})[fname] = payload
+    print(f"루비 제거 파일 {len(rbs)}개 반영")
+
 # 한글화한 GIM 이미지 (있으면 함께 반영). 원본이 압축이면 압축해서 넣는다.
 if os.path.exists('image_payloads.pkl'):
     from lz import compress as _lzc, decompress as _lzd

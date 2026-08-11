@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.0.4.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.0.5.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.4.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.5.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.4.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         45B5AD9DB7BDC976B7344A84AE866BC5
-SHA-1       F200AE3CE99FF74EBF4BCECE47EDE557E4892E83
-SHA-256     91AA91F1948977C590427AEEBA22CB935D59776321555C36425FD1E9F3D067C1
+MD5         6F3F6076353B11FFD677BF62CC0D1BE9
+SHA-1       168E8F669E6A35AF3C0EE2F67CCF3B541DEA146E
+SHA-256     52B7ED0159C60290A91E93C7737ABAACD8B9C6257BF529AE99D755E682123EFC
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
@@ -127,6 +127,18 @@ SHA-256     91AA91F1948977C590427AEEBA22CB935D59776321555C36425FD1E9F3D067C1
 
 나머지 약 5,600건(`*_answer_begin.bin` `*_selection.bin` `*_giveup.bin`,
 메뉴·용어 라벨)은 아직 일본어다. 화면에 보이지만 진행에는 지장이 없다.
+
+### 한자 읽기(루비) 제거 — `tools/ruby.py`
+
+본문 문자열 사이에 이런 짝이 들어 있다.
+
+    0x32  09 00 00 00  u32 덮는글자수  <읽기 cp932> NUL
+    op 0x01  u32 길이  <읽는 대상 글자> NUL
+    0x33  00 00 00 00
+
+한국어 본문 위에 일본어 가나가 그대로 떠서 지워야 한다. 짝 구조를 건드리면
+위험하니 **읽기 문자열만 빈 문자열로** 만든다(NUL 만 남긴다). 명령을 통째로
+빼면 뒤따르는 `0x33` 이 짝을 잃는다. 전체 128개.
 
 ### ⚠ 아직 일본어가 남아 있는 곳 — 자료 도면
 
@@ -223,8 +235,13 @@ u32 0
 
 1. **블록마다 레코드가 하나씩** 있습니다(키워드가 없으면 4바이트짜리). 이걸 모르면
    레코드가 한 칸씩 밀립니다.
-2. 게임이 세는 인덱스에는 한자 읽기(루비)마다 한 글자가 더 들어갑니다. 그 차이 δ 는
-   **레코드가 아니라 범위마다** 누적됩니다. 레코드당 δ 하나로 보면 50개가 어긋납니다.
+2. 게임이 세는 인덱스에는 **줄바꿈 명령(`27 01 00 00 00`)마다 한 글자가 더**
+   들어갑니다. 그 차이 δ 는 **레코드가 아니라 범위마다** 누적됩니다. 레코드당 δ
+   하나로 보면 50개가 어긋납니다.
+
+   (처음에는 δ 가 한자 읽기(루비)에서 온다고 적었는데 **틀렸습니다.** 범위 앞의
+   `27 01 00 00 00` 개수를 세어 보니 682곳 중 681곳이 -δ 와 정확히 같았습니다.
+   덕분에 루비를 지워도 키워드 위치는 흔들리지 않는다는 것을 확인했습니다.)
 
 δ 를 만드는 요소는 번역이 건드리지 않으므로, **조각 경계에서의 한·일 길이 차이만큼만
 밀어** 주면 δ 가 저절로 보존됩니다. 430 레코드 / 682 범위 전부 조각 경계에 정확히
