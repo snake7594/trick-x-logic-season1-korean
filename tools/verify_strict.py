@@ -4,7 +4,7 @@ import json
 import os
 from isolib import Iso
 from sectpack import SectPack, from_iso
-from prcs import find_strings, has_jp
+from prcs import find_strings, has_jp, SCENARIOS
 
 TEXT = paths.TEXT
 m = json.load(open(os.path.join(TEXT, '_hangul_codes.json'),
@@ -64,6 +64,35 @@ def align(lo, do, ln, dn):
         j += 1
     return out
 
+
+# ── 명령 스트림 검사 ─────────────────────────────────────────────
+# PRCS 는 `u8 명령 + u32 payload 길이 + payload` 의 연속이다. 문자열이 맞아도
+# 이 길이가 어긋나면 해석기가 무너져 **게임이 부팅에서 죽는다.** 실제로
+# 그렇게 죽였다(keyname/ruby 가 감싸는 명령의 u32 를 안 고쳤다). 문자열
+# 대조만으로는 절대 안 잡히므로 반드시 같이 본다.
+import prcswalk
+
+walk_ok = walk_bad = 0
+for a in SCENARIOS + ['common.bin']:
+    so, sn = arch(iso_o, a), arch(iso_n, a)
+    for e in sn.ents:
+        if '/script/' not in e['name'] or not e['name'].endswith('.bin'):
+            continue
+        d = sn.get(e)
+        if d[:4] != b'PRCS':
+            continue
+        if prcswalk.walk(d) is None:
+            walk_bad += 1
+            if walk_bad <= 5:
+                print(f"  명령 스트림이 어긋남 {a} {e['name']}")
+        else:
+            walk_ok += 1
+n_orig = sum(1 for a in SCENARIOS + ['common.bin'] for e in arch(iso_o, a).ents
+             if '/script/' in e['name'] and e['name'].endswith('.bin')
+             and arch(iso_o, a).get(e)[:4] == b'PRCS')
+print(f"명령 스트림 정상 {walk_ok:,} / 어긋남 {walk_bad} (원본 {n_orig:,}개)")
+if walk_ok != n_orig:
+    print(f"  ! PRCS 파일 개수가 원본과 다름")
 
 tot = same = changed = bad = 0
 cnt_bad = 0

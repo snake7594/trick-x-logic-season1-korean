@@ -11,10 +11,17 @@
 
     분홍 범위의 글자 - 제어 태그(㊤㊥㊦㊧㊨) = 키워드 이름
 
-파일 안에 절대 오프셋 참조가 없는 것을 확인했으므로(문자열 시작을 가리키는
-u32 는 206개 중 7개로 우연 수준), 길이를 바꿔 넣어도 안전하다.
+⚠ 이 문자열들은 **명령의 payload 안에** 들어 있다. PRCS 는
+`u8 명령 + u32 payload 길이 + payload` 의 연속이고, 예컨대 op 0xa4 하나가
+`"ENV_NF\\0前奏曲第２番\\0Ｇ．ガーシュウィン\\0env_q_b01\\0"` 를 통째로 담는다.
+안에서 길이가 바뀌면 **그 명령의 u32 도 같이 고쳐야 한다.** 안 고치면 해석기가
+어긋나 게임이 부팅에서 죽는다 — 실제로 그렇게 죽였다(`prcswalk.py` 참고).
+
+대사(op 0x01)는 payload 가 문자열 하나뿐이라 u32 가 곧 문자열 길이다. 그래서
+대사만 바꿀 때는 이 구조를 몰라도 우연히 맞아떨어졌다.
 """
 import prcs
+import prcswalk
 
 TAG = '㊤㊥㊦㊧㊨'
 
@@ -55,14 +62,8 @@ def strings(d, minlen=1):
 def patch(d, repl):
     """{오프셋: 새 바이트열} 을 반영한 새 바이트열.
 
-    길이가 달라지면 뒤가 밀린다. 오프셋 참조가 없으므로 그래도 된다."""
+    길이가 달라지면 뒤가 밀리고, **감싸는 명령의 u32 길이도 같이 밀어야 한다.**
+    그 일은 `prcswalk.patch` 가 한다."""
     if not repl:
         return bytes(d)
-    out, pos = bytearray(), 0
-    for off in sorted(repl):
-        end = d.index(b'\x00', off)
-        out += d[pos:off]
-        out += repl[off]
-        pos = end
-    out += d[pos:]
-    return bytes(out)
+    return prcswalk.patch(bytes(d), repl)
