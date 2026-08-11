@@ -46,6 +46,25 @@ for meta in idx['files']:
     for r in doc['entries']:
         tr.setdefault((r['archive'], r['file']), []).append(r)
 
+def align(lo, do, ln, dn):
+    """원본 문자열 목록에 신규를 맞춘다. 못 맞추면 None.
+
+    '길이 접두사 없는' 한국어 문자열은 앞 4바이트가 우연히 길이 필드처럼
+    보여 신규에서만 문자열로 한 번 더 잡히는 일이 있다(op 0x3c 등). 위치로
+    zip 하면 그 뒤가 통째로 밀리므로, **원본의 오프코드 순서**를 기준으로
+    신규를 따라가며 남는 것만 건너뛴다."""
+    out, j = [], 0
+    for (l, _, _, _) in lo:
+        op = do[l - 1]
+        while j < len(ln) and dn[ln[j][0] - 1] != op:
+            j += 1
+        if j >= len(ln):
+            return None
+        out.append(ln[j])
+        j += 1
+    return out
+
+
 tot = same = changed = bad = 0
 cnt_bad = 0
 for (a, fname), rows in sorted(tr.items()):
@@ -54,10 +73,10 @@ for (a, fname), rows in sorted(tr.items()):
     do = so.get(so.byname(fname))
     dn = sn.get(sn.byname(fname))
     lo = find_strings(do)
-    ln = find_strings(dn)
-    if len(lo) != len(ln):
+    ln = align(lo, do, find_strings(dn), dn)
+    if ln is None:
         cnt_bad += 1
-        print(f"  문자열 개수 불일치 {fname}: 원본 {len(lo)} vs 신규 {len(ln)}")
+        print(f"  문자열을 맞출 수 없음 {fname}")
         continue
     ko_iter = iter(sorted(rows, key=lambda r: r['index']))
     for (_, _, ro, to), (_, _, rn, tn) in zip(lo, ln):

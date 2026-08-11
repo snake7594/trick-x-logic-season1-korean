@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.0.6.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.0.7.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.6.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.7.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.6.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         F3CA027F24F71ACD2568EADC99A36F93
-SHA-1       ABBA594FD0DDC1CF4A8FACB27846EE724E649984
-SHA-256     7C5FFD58FED2E8F967D72D734452BED0ED4FD54D7ECC91A1307F894FBB9463A5
+MD5         07F68B7224804EA5176FAF78F687FAA0
+SHA-1       866FF51DBB4189917B6690F355E8AE9E609E724D
+SHA-256     9C96BBE129A19B9AE2EC6EEE5407550BA3BAEC1D4D2CA6462D916A1FD77D18CF
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
@@ -125,19 +125,26 @@ SHA-256     7C5FFD58FED2E8F967D72D734452BED0ED4FD54D7ECC91A1307F894FBB9463A5
 `*_inspiration.bin` `*_hint*.bin` `*_report.bin` `*_answer_data.bin`)에
 남은 일본어는 0건**이다.
 
-나머지를 세어 보니 **678건 / 555종**이다(앞서 「약 5,600건」이라고 적은 것은
-한국어를 한자 코드로 넣은 것을 일본어로 잘못 센 결과다. 정정한다).
+남은 것을 다시 세어 보니 **678건 / 555종**이었다(앞서 「약 5,600건」이라고
+적은 것은 한국어를 한자 코드로 넣은 것을 일본어로 잘못 센 결과다).
+그중 **311종은 정렬용 히라가나 읽기**라 화면에 안 나오고, 실제 번역 대상은
+**244종**이었다 — 용어 해설 81, 조서 문항 40, BGM·아카샤 지명 37, 포기 화면 30,
+힌트 제목 25 등. 전부 `text/rawtext.json` 에 넣었다.
 
-그중 **311종은 정렬용 히라가나 읽기**라 화면에 안 나온다. 실제로 번역해야 할
-것은 **244종** — 용어 해설 81, 조서 문항 40, BGM·아카샤 지명 37, 포기 화면 30,
-힌트 제목 25 등. `text/rawtext.json` 에 번역해 두었다.
+**스크립트 전체에 남은 일본어(읽기 제외)는 0건**이다.
 
-다만 이 파일들은 아직 반영하지 않았다. `keyname.py` 의 적용 범위를 전체
-스크립트로 넓히면 8개 파일에서 **문자열 개수가 하나씩 늘어난 것으로 잡힌다.**
-넣은 한국어 원시문자열 앞 4바이트가 우연히 길이 필드처럼 보여 `find_strings`
-가 한 번 더 잡는 것으로, 내용 대조는 전부 맞지만(불일치 0) 검증기가 통과를
-못 준다. **검증기를 먼저 바로잡은 뒤에 넣는다** — 검증 못 하는 변경은
-넣지 않는다.
+#### 검증기가 걸렸던 것 — 가짜 문자열
+
+적용 범위를 넓히자 8개 파일에서 문자열 개수가 하나씩 늘어난 것으로 잡혔다.
+넣은 한국어 원시문자열 **앞 4바이트가 우연히 길이 필드처럼 보여**
+`find_strings` 가 한 번 더 잡은 것이다(op 0x3c 등).
+
+    FW_marunouchi.bin  원본 221 vs 신규 222
+    「마루노우치의 추리와 어긋나는 현장 상황은？」 이 op=0x3c 로 잡힘
+
+위치로 zip 하면 그 뒤가 통째로 밀린다. `verify_strict.align` 이 **원본의
+오프코드 순서**를 기준으로 신규를 따라가며 남는 것만 건너뛴다. 이렇게 하니
+23,243개 전부 대조되고 불일치 0 이다.
 
 ### 한자 읽기(루비) 제거 — `tools/ruby.py`
 

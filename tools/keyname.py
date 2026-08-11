@@ -32,6 +32,11 @@ TARGETS = ('_question.bin', '_inspiration.bin', '_answer_data.bin',
            '_hint.bin', '_hint2.bin', '_report.bin')
 
 
+def _reading(t):
+    """정렬용 히라가나 읽기 — 화면에 안 나오므로 건드리지 않는다."""
+    return all('぀' <= c <= 'ゟ' or c == 'ー' for c in t)
+
+
 def pink_map(iso, ko_map):
     """{아카이브: {일본어 분홍조각: 한국어 분홍조각}} — 태그는 뺀 상태."""
     out = defaultdict(dict)
@@ -76,11 +81,14 @@ def build(ko_map, base=None, verbose=False):
                   json.load(open(tp, encoding='utf-8')).items()
                   if not k.startswith('_') and v}
     out, stat = {}, defaultdict(int)
-    for arch in SCENARIOS:
-        sp = from_iso(iso, arch)
+    for arch in SCENARIOS + ['common.bin']:
+        try:
+            sp = from_iso(iso, arch)
+        except Exception:
+            continue
         tag = arch[:2]
         for e in sp.ents:
-            if not any(e['name'].endswith(x) for x in TARGETS):
+            if '/script/' not in e['name'] or not e['name'].endswith('.bin'):
                 continue
             d = base.get((arch, e['name']))
             if d is None:
@@ -94,7 +102,7 @@ def build(ko_map, base=None, verbose=False):
             repl = {}
             # 번역표에 있는 것만 바꾸므로 짧은 이름(黒木 등)도 봐야 한다
             for off, t in rawtext.strings(d, minlen=1):
-                if not has_jp(t):
+                if not has_jp(t) or _reading(t):
                     continue
                 ko = pink.get(tag, {}).get(t) or allpink.get(t)
                 kind = '키워드 이름'
