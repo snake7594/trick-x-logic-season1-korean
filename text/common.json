@@ -9831,7 +9831,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "タイトルに戻る",
-   "ko": "타이틀로 돌아가기 ",
+   "ko": "타이틀로",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -9854,7 +9854,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "本を読んで謎解きをします",
-   "ko": "책을 읽고 수수께끼를 풉니다 ",
+   "ko": "책 읽고 수수께끼 풀기",
    "chars": 12,
    "max_chars": 44,
    "group": {
@@ -9877,7 +9877,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "小説部分を音声で聴きます",
-   "ko": "소설 부분을 음성으로 듣습니다 ",
+   "ko": "소설을 음성으로 듣기",
    "chars": 12,
    "max_chars": 44,
    "group": {
@@ -9923,7 +9923,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "この本をもう一度最初から遊べるようにします",
-   "ko": "이 책을 처음부터 다시 플레이할 수 있게 합니다",
+   "ko": "이 책을 처음부터 다시 플레이합니다",
    "chars": 21,
    "max_chars": 44,
    "group": {
@@ -9992,7 +9992,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -10107,7 +10107,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기",
+   "ko": "뒤로",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -10222,7 +10222,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -10659,7 +10659,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기",
+   "ko": "뒤로",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -10682,7 +10682,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "詳細内容切替　",
-   "ko": "상세 내용 전환 ",
+   "ko": "상세 전환",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -10728,7 +10728,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -10820,7 +10820,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -10912,7 +10912,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -10935,7 +10935,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "詳細内容切替　",
-   "ko": "상세 내용 전환 ",
+   "ko": "상세 전환",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -10958,7 +10958,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -11027,7 +11027,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기",
+   "ko": "뒤로",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -11073,7 +11073,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "確認終了",
-   "ko": "확인 종료 ",
+   "ko": "확인 끝",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -11188,7 +11188,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -11280,7 +11280,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -11372,7 +11372,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -11464,7 +11464,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -11487,7 +11487,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "薫の推理を論破するミニゲームです　　",
-   "ko": "카오루의 추리를 논파하는 미니게임입니다 ",
+   "ko": "카오루의 추리를 논파하는 미니게임",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -11556,7 +11556,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -11579,7 +11579,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "丸ノ内の推理を論破するミニゲームです　　",
-   "ko": "마루노우치의 추리를 논파하는 미니게임입니다",
+   "ko": "마루노우치의 추리를 논파하는 미니게임",
    "chars": 20,
    "max_chars": 44,
    "group": {
@@ -11648,7 +11648,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -11740,7 +11740,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -11832,7 +11832,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -11855,7 +11855,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "推理ランクなどプレイ内容を確認します　　",
-   "ko": "추리 등급 등 플레이 내용을 확인합니다 ",
+   "ko": "추리 등급 등 플레이 내용을 확인",
    "chars": 20,
    "max_chars": 44,
    "group": {
@@ -11924,7 +11924,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -11993,7 +11993,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12039,7 +12039,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12085,7 +12085,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12154,7 +12154,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12223,7 +12223,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12246,7 +12246,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12269,7 +12269,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "作家による名作ミステリの紹介です　　",
-   "ko": "작가가 뽑은 명작 미스터리를 소개합니다 ",
+   "ko": "작가가 뽑은 명작 미스터리 소개",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -12338,7 +12338,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12384,7 +12384,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12407,7 +12407,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "声のミニドラマを再生します　　",
-   "ko": "음성 미니 드라마를 재생합니다 ",
+   "ko": "음성 미니 드라마 재생",
    "chars": 15,
    "max_chars": 44,
    "group": {
@@ -12476,7 +12476,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12591,7 +12591,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12637,7 +12637,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12729,7 +12729,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12752,7 +12752,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "今回の芳川樹の物語を確認できます　　",
-   "ko": "이번 요시카와 이츠키 이야기를 확인합니다 ",
+   "ko": "이번 요시카와 이츠키 이야기 확인",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -12821,7 +12821,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12913,7 +12913,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13005,7 +13005,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13028,7 +13028,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13120,7 +13120,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13143,7 +13143,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "遊び方を確認します　　",
-   "ko": "게임 방법을 확인합니다 ",
+   "ko": "게임 방법 확인",
    "chars": 11,
    "max_chars": 44,
    "group": {
@@ -13212,7 +13212,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13304,7 +13304,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13396,7 +13396,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13419,7 +13419,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "謎解きのコツを解説します　　",
-   "ko": "수수께끼 풀이 요령을 설명합니다",
+   "ko": "수수께끼 요령 설명",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -13488,7 +13488,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13511,7 +13511,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "読書中のＢＧＭとその音量を変更します　　",
-   "ko": "독서 중 BGM과 음량을 변경합니다 ",
+   "ko": "독서 중 ＢＧＭ・음량 변경",
    "chars": 20,
    "max_chars": 44,
    "group": {
@@ -13580,7 +13580,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13603,7 +13603,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "セーブしてストーリー選択に戻ります　",
-   "ko": "저장하고 스토리 선택으로 돌아갑니다",
+   "ko": "저장하고 스토리 선택으로",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -13672,7 +13672,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13741,7 +13741,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13810,7 +13810,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13833,7 +13833,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "謎解きのコツを解説します　　",
-   "ko": "수수께끼 풀이 요령을 설명합니다 ",
+   "ko": "수수께끼 요령 설명",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -13879,7 +13879,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13971,7 +13971,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기",
+   "ko": "뒤로",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -14040,7 +14040,7 @@
    "category": "common_informationbar",
    "speaker_hint": null,
    "ja": "戻る",
-   "ko": "돌아가기 ",
+   "ko": "뒤로 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
