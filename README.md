@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.0.3.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.0.4.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.3.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.4.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.0.3.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         2031E83F2E9E220682C8D96CCC112F04
-SHA-1       92B27A68D362B25BC00BC405B3461552CC087288
-SHA-256     255B42F55A5E8234FAB08368F3B77BBBA189B1FB8E155513374EFAC630A58513
+MD5         45B5AD9DB7BDC976B7344A84AE866BC5
+SHA-1       F200AE3CE99FF74EBF4BCECE47EDE557E4892E83
+SHA-256     91AA91F1948977C590427AEEBA22CB935D59776321555C36425FD1E9F3D067C1
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
@@ -117,11 +117,16 @@ SHA-256     255B42F55A5E8234FAB08368F3B77BBBA189B1FB8E155513374EFAC630A58513
 
     분홍 범위의 글자 - 제어 태그(㊤㊥㊦㊧㊨) = 키워드 이름
 
-`tools/keyname.py` 가 본문에서 그대로 떠 와 맞춘다(740건). 사람이 따로
+`tools/keyname.py` 가 본문에서 그대로 떠 와 맞춘다(784건). 사람이 따로
 번역하면 한 글자만 달라도 안 맞으므로 반드시 기계로 뽑아야 한다.
 
-나머지 약 6,000건(수수께끼·착상 제목, 힌트, 메뉴·용어 라벨)은 아직
-일본어다. 게임 진행에는 지장이 없지만 화면에 그대로 보인다.
+수수께끼·착상·힌트 제목과 조서 인물명 414건은 `text/rawtext.json` 에
+따로 번역해 두고 같은 도구가 넣는다. **추리 데이터(`*_question.bin`
+`*_inspiration.bin` `*_hint*.bin` `*_report.bin` `*_answer_data.bin`)에
+남은 일본어는 0건**이다.
+
+나머지 약 5,600건(`*_answer_begin.bin` `*_selection.bin` `*_giveup.bin`,
+메뉴·용어 라벨)은 아직 일본어다. 화면에 보이지만 진행에는 지장이 없다.
 
 ### ⚠ 아직 일본어가 남아 있는 곳 — 자료 도면
 

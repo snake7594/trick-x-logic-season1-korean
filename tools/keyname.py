@@ -22,6 +22,7 @@ from sectpack import from_iso
 from prcs import SCENARIOS, has_jp
 from lz import decompress
 import struct
+import json
 import core
 import keywordfix as kfx
 import rawtext
@@ -68,6 +69,12 @@ def build(ko_map, base=None, verbose=False):
     allpink = {}
     for m in pink.values():
         allpink.update(m)
+    titles = {}
+    tp = os.path.join(paths.TEXT, 'rawtext.json')
+    if os.path.exists(tp):
+        titles = {k: v for k, v in
+                  json.load(open(tp, encoding='utf-8')).items()
+                  if not k.startswith('_') and v}
     out, stat = {}, defaultdict(int)
     for arch in SCENARIOS:
         sp = from_iso(iso, arch)
@@ -85,12 +92,17 @@ def build(ko_map, base=None, verbose=False):
             if d[:4] != b'PRCS':
                 continue
             repl = {}
-            for off, t in rawtext.strings(d, minlen=3):
+            # 번역표에 있는 것만 바꾸므로 짧은 이름(黒木 등)도 봐야 한다
+            for off, t in rawtext.strings(d, minlen=1):
                 if not has_jp(t):
                     continue
                 ko = pink.get(tag, {}).get(t) or allpink.get(t)
+                kind = '키워드 이름'
                 if not ko:
-                    stat['분홍조각 아님(제목 등)'] += 1
+                    ko = titles.get(t)
+                    kind = '제목·인물명'
+                if not ko:
+                    stat['번역 없음'] += 1
                     continue
                 try:
                     repl[off] = core.encode(ko)
@@ -99,7 +111,7 @@ def build(ko_map, base=None, verbose=False):
                     if verbose:
                         print(f"   ! {e['name']} {ko!r} {ex}")
                     continue
-                stat['키워드 이름 교체'] += 1
+                stat[kind] += 1
             if repl:
                 out[(arch, e['name'])] = rawtext.patch(d, repl)
     return out, stat
