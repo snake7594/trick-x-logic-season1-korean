@@ -22,9 +22,17 @@ KANJI0 = 0x889F
 # 지금은 **속은 꽉 채우고(CORE 이상은 15) 가장자리만 감마로 낮춘다**. 계조가
 # 그대로 남아 매끄럽고, 테는 글자 바깥 가장자리에만 생긴다.
 #
-#   덮개 0.5↑ -> 15(흰 속)   0.25 -> 7(외곽선)   0.1 -> 2
+#   덮개 0.5↑ -> 15(흰 속)   그 아래는 감마로 낮추되 **최소 RIM**
+#
+# RIM 은 외곽선 진하기다. 이걸 안 두면 가장자리 값이 1~3 까지 흩어져 외곽선이
+# 희미해진다. 원본 한자와 같은 7 로 바닥을 깔면 모든 가장자리가 확실한
+# 외곽선이 된다(테 15.7% -> 33.8%, 원본은 37.5%). 흰 속은 그대로다.
+#
+# ⚠ GAMMA 를 올리면 외곽선이 **희미해진다**(값이 내려가므로). 진하게 하려면
+#   RIM 을 올려야 한다. 전에 README 에 반대로 적어 뒀다.
 CORE = 0.5
 GAMMA = 1.2
+RIM = 7
 
 # KS X 1001 완성형 2350자 (EUC-KR 0xB0A1..0xC8FE)
 HAN = [bytes([hi, lo]).decode('euc-kr')
@@ -79,13 +87,18 @@ def render(chars, bw, bh):
         cell = Image.new('L', (bw, bh), 0)
         cell.paste(im.crop((bx0 - padx, by0 - pady,
                             bx0 - padx + bw, by0 - pady + bh)), (0, 0))
-        # 속은 꽉, 가장자리만 낮춘다. 위 CORE/GAMMA 설명 참고.
+        # 속은 꽉, 가장자리는 RIM 아래로 안 내려간다. 위 설명 참고.
         px = cell.load()
         bmp = bytearray(stride * bh)
         for y in range(bh):
             for x in range(bw):
                 cov = px[x, y] / 255
-                v = 15 if cov >= CORE else round(15 * (cov / CORE) ** GAMMA)
+                if cov >= CORE:
+                    v = 15
+                elif cov > 0:
+                    v = max(RIM, round(15 * (cov / CORE) ** GAMMA))
+                else:
+                    v = 0
                 if v:
                     bmp[y * stride + (x >> 1)] |= v << (4 if x & 1 else 0)
         out.append(bytes(bmp))

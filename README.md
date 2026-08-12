@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.5.3.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.5.4.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.3.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.4.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.3.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         A2A446FBDFE3990FA30EB619493C008C
-SHA-1       F26E4F6393DC396216F0BA801CAE33EBD92CA9E0
-SHA-256     59985AFB7527962F85C484E5762A41FDC434247577829B02ECE1712FF690E064
+MD5         A9376CDB8371BF7B840C227B9C7663A0
+SHA-1       4D4DA58D714E88C6A4464604F262FF3C4426FEDE
+SHA-256     842824638EBAB1F38561D919DC7A8A69370A82FDEECFEE1CEBF4BF9B46247675
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
@@ -321,8 +321,21 @@ SECTPACK  이름\0 + u16 id(bit15=압축) + u16 시작섹터 + u16 섹터수
 | **속은 꽉 + 가장자리만 감마** | 두께·계조·외곽선이 함께 산다 |
 
 ```
-덮개 0.5 이상 -> 15 (흰 속)      0.25 -> 7 (외곽선)      0.1 -> 2
+덮개 0.5 이상 -> 15 (흰 속)      그 아래는 감마로 낮추되 **최소 RIM(7)**
 ```
+
+`RIM` 이 외곽선 진하기다. 바닥을 안 깔면 가장자리 값이 1~3 까지 흩어져
+외곽선이 희미해진다. 원본 한자와 같은 7 로 깔면 모든 가장자리가 확실한
+외곽선이 된다. **흰 속은 그대로**다.
+
+|  | 테(4~9) | 희미(1~3) | 속(≥C) |
+|---|---|---|---|
+| 원본 한자 | 37.5% | 21.0% | 29.1% |
+| 바닥 없음 | 15.7% | 13.8% | 62.7% |
+| **RIM 7** | **33.8%** | **0%** | 58.9% |
+
+⚠ `GAMMA` 를 올리면 외곽선이 **희미해진다**(값이 내려가므로). 진하게 하려면
+`RIM` 을 올려야 한다. 전에 이 문서에 반대로 적어 뒀다.
 
 한 글자가 칸에서 차지하는 잉크 양으로 두께를 쟀다.
 
