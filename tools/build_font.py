@@ -9,16 +9,24 @@ from ptr import read_ptrlist, write_ptrlist
 
 TTF = paths.TTF_GAME
 KANJI0 = 0x889F
-# 게임은 글리프 알파의 **중간값을 검은 외곽선**으로, 높은 값을 흰 속으로
-# 칠한다. 원본 한자의 획 단면이 `7 F 7` 인 것이 그 증거다 — 7 이 외곽선,
-# F 가 속이다.
+# 게임은 글리프 알파를 그대로 그리는데, **가장자리의 중간값이 검은 외곽선**
+# 으로 보인다. 원본 한자 획 단면이 `7 F 7` 인 것이 그 증거다.
 #
-# ⚠ 알파를 0/15 로 이진화해 봤더니 **외곽선이 아예 사라졌다**(제보). 중간값이
-# 하나도 없으니 당연하다. 그래서 지금은 안티에일리어싱에 맡기지 않고
-# **원본과 같은 구조를 손으로 만든다** — 속은 F, 그 둘레 1px 은 RIM.
-# 모든 글자가 같은 두께의 외곽선을 갖는다.
-CORE = 0.5         # 이 값 이상이면 글자 속
-RIM = 7            # 둘레 1px 에 넣을 값 (원본 한자와 같은 값)
+# 여기서 세 번 헛짚었다.
+#   1. 굵게(BOLD=1.55)  — 흰 획만 두꺼워지고 외곽선은 그대로
+#   2. 0/15 이진화       — 중간값이 없어져 **외곽선이 사라졌다**
+#   3. 속 F + 테 7 조립  — 계조가 없어 거칠고, 획 사이 빈 곳까지 테로 메워
+#                          **외곽선이 글자 안으로 파고들었다**
+#
+# 결국 답은 **원본과 같은 값 분포를 만드는 것**이었다. 계조는 그대로 두고
+# 감마로 가장자리 값만 낮춘다. 원본 한자와 대조해 맞춘 값이다(잉크 화소 기준).
+#
+#            속(≥C)   테(4~9)   평균
+#   원본       29.1%    37.5%     7.8
+#   B γ1.4     29.1%    36.8%     7.8
+#
+# 굵기도 여기서 정해진다 — ExtraBold 는 너무 굵고 Medium 은 너무 가늘다.
+GAMMA = 1.4
 
 # KS X 1001 완성형 2350자 (EUC-KR 0xB0A1..0xC8FE)
 HAN = [bytes([hi, lo]).decode('euc-kr')
@@ -73,22 +81,12 @@ def render(chars, bw, bh):
         cell = Image.new('L', (bw, bh), 0)
         cell.paste(im.crop((bx0 - padx, by0 - pady,
                             bx0 - padx + bw, by0 - pady + bh)), (0, 0))
-        # 속(F) + 둘레 1px(RIM). 위 CORE/RIM 설명 참고.
-        core = [[cell.getpixel((x, y)) >= CORE * 255 for x in range(bw)]
-                for y in range(bh)]
-        val = [[0] * bw for _ in range(bh)]
-        for y in range(bh):
-            for x in range(bw):
-                if core[y][x]:
-                    val[y][x] = 15
-                elif any(core[y + dy][x + dx]
-                         for dy in (-1, 0, 1) for dx in (-1, 0, 1)
-                         if 0 <= y + dy < bh and 0 <= x + dx < bw):
-                    val[y][x] = RIM
+        # 계조는 그대로, 감마로 가장자리 값만 낮춘다. 위 GAMMA 설명 참고.
+        px = cell.load()
         bmp = bytearray(stride * bh)
         for y in range(bh):
             for x in range(bw):
-                v = val[y][x]
+                v = round(15 * (px[x, y] / 255) ** GAMMA)
                 if v:
                     bmp[y * stride + (x >> 1)] |= v << (4 if x & 1 else 0)
         out.append(bytes(bmp))

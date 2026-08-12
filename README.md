@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.5.1.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.5.2.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.1.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.2.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.1.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         7070F0353055AEAA773AAF20D2CF531D
-SHA-1       0F8DA24E4EE0AD4C1AF94A3C9960695A2276192C
-SHA-256     335A32225055BFFFA91942314C3BF05ED97D9C3BFF177827236256BBC3B0E78C
+MD5         C85DB07692CCA2C340D319B3DE8BE5A7
+SHA-1       42D24D304C82F974D13C5322684CD9C50D1EF994
+SHA-256     FBD7D49AF455151B762597F85686B9653547C907D074D9AF3CC6FE3A378ED9FA
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
@@ -307,31 +307,27 @@ SECTPACK  이름\0 + u16 id(bit15=압축) + u16 시작섹터 + u16 섹터수
 「ウコン」이 앞 조각으로 넘어가면 키워드가 「이 놓여 있으니까」가 됩니다.
 678종을 전수 점검해 19종을 앞뒤 조각과 함께 다시 나눴습니다.
 
-### 3-3-1. 외곽선은 알파의 **중간값**이다
+### 3-3-1. 외곽선 — 세 번 헛짚고 원본 값 분포에 맞췄다
 
-게임은 글리프 알파의 중간값을 **검은 외곽선**으로, 높은 값을 흰 속으로
-칠한다. 원본 한자의 획 단면이 `7 F 7` 인 것이 그 증거다 — 7 이 외곽선,
-F 가 속이다.
+게임은 글리프 알파를 그대로 그리는데, **가장자리의 중간값이 검은 외곽선**으로
+보인다. 원본 한자 획 단면이 `7 F 7` 인 것이 그 증거다.
 
-여기서 두 번 헛짚었다.
+| 시도 | 결과 |
+|---|---|
+| 굵게(`BOLD=1.55`) | 흰 획만 두꺼워지고 외곽선은 그대로 |
+| 0/15 이진화 | 중간값이 없어져 **외곽선 소멸** |
+| 속 F + 테 7 조립 | 계조가 없어 거칠고, 획 사이 빈 곳까지 테로 메워 **외곽선이 글자 안으로 파고듦** |
+| **감마 보정** | 계조 그대로, 가장자리 값만 원본 수준으로 |
 
-1. **굵게 해 봤다**(`BOLD=1.55`). 흰 획만 두꺼워지고 외곽선은 그대로라
-   오히려 나빠졌다.
-2. **알파를 0/15 로 이진화해 봤다.** 중간값이 하나도 없으니 **외곽선이 아예
-   사라졌다.** 이걸로 위 모델이 맞다는 게 확인됐다.
+답은 **원본과 같은 값 분포를 만드는 것**이었다. 잉크 화소 기준으로 맞췄다.
 
-지금은 안티에일리어싱에 맡기지 않고 **원본과 같은 구조를 손으로 만든다** —
-속은 F, 그 둘레 1px 은 7(`build_font.CORE`/`RIM`). 모든 글자가 같은 두께의
-외곽선을 갖는다.
+|  | 속(≥C) | 테(4~9) | 평균 |
+|---|---|---|---|
+| 원본 한자 | 29.1% | 37.5% | 7.8 |
+| **Bold γ1.4** | **29.1%** | **36.8%** | **7.8** |
 
-**외곽선을 글자 바깥에 1px 덧대므로 획이 그만큼 두꺼워진다.** 그래서 게임
-폰트에는 이미지용(ExtraBold)보다 **한 단계 가는 Medium** 을 쓴다
-(`paths.TTF_GAME`). 같은 굵기를 쓰면 속공간이 메워져 뭉갠다.
-
-| | 이미지(GIM) | 게임 폰트 |
-|---|---|---|
-| TTF | SeoulHangang **EB** | SeoulHangang **M** |
-| 이유 | 크게 그리므로 굵은 쪽이 잘 보인다 | 외곽선 1px 이 더해진다 |
+굵기도 여기서 정해진다 — ExtraBold 는 너무 굵고 Medium 은 너무 가늘다.
+이미지(GIM) 쪽은 크게 그리므로 ExtraBold 그대로다(`paths.TTF` / `TTF_GAME`).
 
 ### 3-3-3. 대사창 2줄 — `tools/advfit.py`
 
