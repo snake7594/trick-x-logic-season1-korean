@@ -28,6 +28,11 @@ KANJI0 = 0x889F
 # 희미해진다. 원본 한자와 같은 7 로 바닥을 깔면 모든 가장자리가 확실한
 # 외곽선이 된다(테 15.7% -> 33.8%, 원본은 37.5%). 흰 속은 그대로다.
 #
+# 그래도 획이 픽셀 격자에 딱 맞는 자리는 덮개가 0 에서 바로 1 로 튀어
+# 중간값 화소가 안 생긴다 -> 외곽선이 거기서 끊긴다. 그래서 **덮개가 0 인
+# 자리**가 속에 붙어 있으면 거기에도 RIM 을 넣어 테를 이어 준다. 글자 화소
+# (덮개>0)는 건드리지 않으므로 예전처럼 안으로 파고들지 않는다.
+#
 # ⚠ GAMMA 를 올리면 외곽선이 **희미해진다**(값이 내려가므로). 진하게 하려면
 #   RIM 을 올려야 한다. 전에 README 에 반대로 적어 뒀다.
 CORE = 0.5
@@ -89,6 +94,7 @@ def render(chars, bw, bh):
                             bx0 - padx + bw, by0 - pady + bh)), (0, 0))
         # 속은 꽉, 가장자리는 RIM 아래로 안 내려간다. 위 설명 참고.
         px = cell.load()
+        core = [[px[x, y] / 255 >= CORE for x in range(bw)] for y in range(bh)]
         bmp = bytearray(stride * bh)
         for y in range(bh):
             for x in range(bw):
@@ -97,6 +103,10 @@ def render(chars, bw, bh):
                     v = 15
                 elif cov > 0:
                     v = max(RIM, round(15 * (cov / CORE) ** GAMMA))
+                elif any(core[y + dy][x + dx]
+                         for dy in (-1, 0, 1) for dx in (-1, 0, 1)
+                         if 0 <= y + dy < bh and 0 <= x + dx < bw):
+                    v = RIM          # 덮개 0 이지만 속에 붙어 있다 -> 테를 잇는다
                 else:
                     v = 0
                 if v:
