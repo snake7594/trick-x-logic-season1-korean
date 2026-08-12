@@ -953,7 +953,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "昨日の晩、ゲームに熱中しすぎて寝過ごし",
-   "ko": "어젯밤 게임에 너무 빠져 늦잠을 자서……",
+   "ko": "어젯밤 게임에 너무 빠져 늦잠을 자서…… ",
    "chars": 19,
    "max_chars": 170,
    "group": {
@@ -12407,7 +12407,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「何をしたと言っても……",
-   "ko": "「뭘 했냐고 해도……",
+   "ko": "「뭘 했냐고 해도…… ",
    "chars": 12,
    "max_chars": 170,
    "group": {
@@ -23424,7 +23424,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……すごいことを考えついちゃった。犯人は、原口の首、両手首、両足首を使い、人間が一人いるように見せかけたのよ」",
-   "ko": "「……굉장한 생각이 떠올랐어. 범인은 하라구치의 목과 양 손목, 양 발목을 이용해 사람이 한 명 있는 것처럼 보이게 만든 거야」",
+   "ko": "「…… 굉장한 생각이 떠올랐어. 범인은 하라구치의 목과 양 손목, 양 발목을 이용해 사람이 한 명 있는 것처럼 보이게 만든 거야」",
    "chars": 56,
    "max_chars": 170,
    "group": {
@@ -24252,7 +24252,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……ふと気づいたことがあるの。昨日、丸ノ内警部に聞いた現場の状況と、さっきの聞き込みで知ったこととのあいだに、矛盾が一つあるのよ」",
-   "ko": "「……문득 깨달은 게 있어. 어제 마루노우치 경부에게 들은 현장 상황과 방금 탐문으로 알게 된 사실 사이에 모순이 하나 있어」",
+   "ko": "「…… 문득 깨달은 게 있어. 어제 마루노우치 경부에게 들은 현장 상황과 방금 탐문으로 알게 된 사실 사이에 모순이 하나 있어」",
    "chars": 66,
    "max_chars": 170,
    "group": {
@@ -24436,7 +24436,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……そう言われれば、そうだな」",
-   "ko": "「……그렇게 말하니 그렇네」",
+   "ko": "「…… 그렇게 말하니 그렇네」",
    "chars": 16,
    "max_chars": 170,
    "group": {
@@ -26621,7 +26621,7 @@
    "category": "inspiration",
    "speaker_hint": "tukasa",
    "ja": "細かく切り刻めば不可能ではないかもしれないけど……",
-   "ko": "잘게 썰면 불가능하지는 않겠지만……",
+   "ko": "잘게 썰면 불가능하지는 않겠지만…… ",
    "chars": 25,
    "max_chars": 74,
    "group": {
@@ -27518,7 +27518,7 @@
    "category": "inspiration",
    "speaker_hint": "tukasa",
    "ja": "サーフィンって……",
-   "ko": "서핑이라니……",
+   "ko": "서핑이라니…… ",
    "chars": 9,
    "max_chars": 74,
    "group": {
@@ -27633,7 +27633,7 @@
    "category": "inspiration",
    "speaker_hint": "marunouchi",
    "ja": "そういう子供っぽい行動が嫌われるというのが……",
-   "ko": "그런 유치한 행동 때문에 미움을 받는다는 게……",
+   "ko": "그런 유치한 행동 때문에 미움을 받는다는 게…… ",
    "chars": 23,
    "max_chars": 74,
    "group": {
@@ -28277,7 +28277,7 @@
    "category": "inspiration",
    "speaker_hint": "tukasa",
    "ja": "ちょっと男の人にしては神経質っぽいですけど……",
-   "ko": "남자치고는 조금 깔끔한 성격 같지만……",
+   "ko": "남자치고는 조금 깔끔한 성격 같지만…… ",
    "chars": 23,
    "max_chars": 74,
    "group": {
@@ -28507,7 +28507,7 @@
    "category": "inspiration",
    "speaker_hint": "tukasa",
    "ja": "食事中か、調理中のアクシデントでしょうか……",
-   "ko": "식사 중이거나 요리하다가 생긴 사고일까요……",
+   "ko": "식사 중이거나 요리하다가 생긴 사고일까요…… ",
    "chars": 22,
    "max_chars": 74,
    "group": {
@@ -28944,7 +28944,7 @@
    "category": "inspiration",
    "speaker_hint": "tukasa",
    "ja": "そうかもしれませんけど……",
-   "ko": "그럴 수도 있지만……",
+   "ko": "그럴 수도 있지만…… ",
    "chars": 13,
    "max_chars": 74,
    "group": {
@@ -30094,7 +30094,7 @@
    "category": "inspiration",
    "speaker_hint": "yosikawa",
    "ja": "原口伸一が娘をあきらめたとは思えない……",
-   "ko": "하라구치 신이치가 딸을 포기했다고는 생각되지 않아……",
+   "ko": "하라구치 신이치가 딸을 포기했다고는 생각되지 않아…… ",
    "chars": 20,
    "max_chars": 74,
    "group": {
@@ -30807,7 +30807,7 @@
    "category": "inspiration",
    "speaker_hint": "marunouchi",
    "ja": "医療従事者……",
-   "ko": "의료인이라……",
+   "ko": "의료인이라…… ",
    "chars": 7,
    "max_chars": 74,
    "group": {
@@ -32578,7 +32578,7 @@
    "category": "interval",
    "speaker_hint": "tukasa",
    "ja": "はい……",
-   "ko": "네……",
+   "ko": "네…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -33130,7 +33130,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "ナイフ……",
-   "ko": "나이프……",
+   "ko": "나이프…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -33406,7 +33406,7 @@
    "category": "interval",
    "speaker_hint": "marunouchi",
    "ja": "うむ……",
-   "ko": "음……",
+   "ko": "음…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -33935,7 +33935,7 @@
    "category": "interval",
    "speaker_hint": "tukasa",
    "ja": "ぐっ……",
-   "ko": "큭……",
+   "ko": "큭…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -34280,7 +34280,7 @@
    "category": "interval",
    "speaker_hint": "tukasa",
    "ja": "というと……",
-   "ko": "그게 뭐죠……",
+   "ko": "그게 뭐죠…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -34924,7 +34924,7 @@
    "category": "interval",
    "speaker_hint": "tukasa",
    "ja": "親権は遠藤律子にあるのに、梨奈ちゃんにつきまとう兄を、恭二もよく思っていなかったらしい",
-   "ko": "양육권은 리쓰코에게 있는데 리나를 따라다니는 형을 쿄지도 싫어했던 모양이에요",
+   "ko": "양육권은 리쓰코에게 있는데 리나를 따라다니는 형을 쿄지도 싫어한 모양이에요",
    "chars": 43,
    "max_chars": 44,
    "group": {
@@ -35706,7 +35706,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "まあまあ……",
-   "ko": "자자……",
+   "ko": "자자…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -35959,7 +35959,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……ドカッと？",
-   "ko": "……확실하게?",
+   "ko": "…… 확실하게?",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -35982,7 +35982,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -36189,7 +36189,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "でも、この言葉の持つ意味は深い……",
-   "ko": "하지만 이 말이 지닌 의미는 깊어……",
+   "ko": "하지만 이 말이 지닌 의미는 깊어…… ",
    "chars": 17,
    "max_chars": 44,
    "group": {
@@ -36442,7 +36442,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……つかさ君の言う通りにいくかどうかはさておき",
-   "ko": "……츠카사 군 말대로 될지는 둘째 치고 ",
+   "ko": "…… 츠카사 군 말대로 될지는 둘째 치고 ",
    "chars": 23,
    "max_chars": 44,
    "group": {
@@ -36626,7 +36626,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "……以上をふまえた上で、推理してくれ",
-   "ko": "……이 점을 전제로 추리해 줘 ",
+   "ko": "…… 이 점을 전제로 추리해 줘 ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -36833,7 +36833,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "……さて、『アカシャ』のどのあたりから読み返そうか？",
-   "ko": "……자, 『아카샤』의 어디부터 다시 읽을까?",
+   "ko": "…… 자, 『아카샤』의 어디부터 다시 읽을까?",
    "chars": 26,
    "max_chars": 44,
    "group": {
@@ -37661,7 +37661,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -38489,7 +38489,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "え……",
-   "ko": "에……",
+   "ko": "에…… ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -39156,7 +39156,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "「原口伸一は風呂好き」という複数の人間の証言に反して、伸一は風呂に入っていなかった",
-   "ko": "여러 사람이 ‘하라구치는 목욕을 좋아한다’고 했지만 신이치는 목욕을 하지 않았어",
+   "ko": "여러 사람이 ‘하라구치는 목욕을 좋아한다’고 했지만 신이치는 안 씻었어",
    "chars": 41,
    "max_chars": 44,
    "group": {
@@ -39363,7 +39363,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "そして……",
-   "ko": "그리고……",
+   "ko": "그리고…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -39846,7 +39846,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "……芳川君、悪いが今回は自信があるんだ",
-   "ko": "……요시카와 군, 미안하지만 이번엔 자신 있네 ",
+   "ko": "…… 요시카와 군, 미안하지만 이번엔 자신 있네 ",
    "chars": 19,
    "max_chars": 44,
    "group": {
@@ -39984,7 +39984,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……の前に、今回の事件の、ある特徴を述べる必要がある",
-   "ko": "……그 전에 이번 사건의 어떤 특징을 말해야 해요",
+   "ko": "…… 그 전에 이번 사건의 어떤 특징을 말해야 해요",
    "chars": 26,
    "max_chars": 44,
    "group": {
@@ -40053,7 +40053,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "それは……",
-   "ko": "그건……",
+   "ko": "그건…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -40421,7 +40421,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "それは……",
-   "ko": "그건……",
+   "ko": "그건…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -40674,7 +40674,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "…………なるほど",
-   "ko": "…………그렇군",
+   "ko": "………… 그렇군",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -40743,7 +40743,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……そのようですね",
-   "ko": "……그런 것 같네요 ",
+   "ko": "…… 그런 것 같네요 ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -41548,7 +41548,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……すみません、",
-   "ko": "……죄송하지만, ",
+   "ko": "…… 죄송하지만, ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -42698,7 +42698,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "うむむ……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -43365,7 +43365,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "…………そうとも言えますね",
-   "ko": "…………그렇다고도 할 수 있겠네요",
+   "ko": "………… 그렇다고도 할 수 있겠네요",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -43457,7 +43457,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "……それがどう矛盾しているというのかね？",
-   "ko": "……그게 어떻게 모순이라는 건가?",
+   "ko": "…… 그게 어떻게 모순이라는 건가?",
    "chars": 20,
    "max_chars": 44,
    "group": {
@@ -43503,7 +43503,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……矛盾してるでしょう？",
-   "ko": "……모순이잖아요?",
+   "ko": "…… 모순이잖아요?",
    "chars": 12,
    "max_chars": 44,
    "group": {
@@ -43595,7 +43595,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "何が言いたいのか……",
-   "ko": "무슨 말을 하고 싶은지……",
+   "ko": "무슨 말을 하고 싶은지…… ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -43802,7 +43802,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "う……",
-   "ko": "으……",
+   "ko": "으…… ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -43825,7 +43825,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "む……",
-   "ko": "음……",
+   "ko": "음…… ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -44124,7 +44124,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "そうだね……",
-   "ko": "그렇지……",
+   "ko": "그렇지…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -44377,7 +44377,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "もしかして……",
-   "ko": "설마……",
+   "ko": "설마…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -44446,7 +44446,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "写真に小さく写ってたんだが、〈シャレード〉が皿洗いのバイトを募集しとるみたいだぞ",
-   "ko": "사진에 작게 찍혀 있었는데 〈샤레이드〉에서 설거지 아르바이트를 구하는 모양이야",
+   "ko": "사진에 작게 찍혔는데 〈샤레이드〉가 설거지 알바를 구한대",
    "chars": 40,
    "max_chars": 44,
    "group": {
@@ -45642,7 +45642,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "……犯人は何が目的で五つの首を切断したのか？",
-   "ko": "……범인은 무슨 목적으로 목 다섯 곳을 잘랐을까?",
+   "ko": "…… 범인은 무슨 목적으로 목 다섯 곳을 잘랐을까?",
    "chars": 22,
    "max_chars": 74,
    "group": {
@@ -45757,7 +45757,7 @@
    "category": "question",
    "speaker_hint": "tukasa",
    "ja": "このまま終わらせるつもりはない感じですけど……",
-   "ko": "이대로 끝낼 생각은 아닌 것 같은데……",
+   "ko": "이대로 끝낼 생각은 아닌 것 같은데…… ",
    "chars": 23,
    "max_chars": 74,
    "group": {
@@ -46263,7 +46263,7 @@
    "category": "question",
    "speaker_hint": "marunouchi",
    "ja": "ふむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 4,
    "max_chars": 74,
    "group": {
@@ -46976,7 +46976,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 74,
    "group": {
@@ -48494,7 +48494,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "か……",
-   "ko": "건가……",
+   "ko": "건가…… ",
    "chars": 3,
    "max_chars": 74,
    "group": {
@@ -48586,7 +48586,7 @@
    "category": "question",
    "speaker_hint": "marunouchi",
    "ja": "ふむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 4,
    "max_chars": 74,
    "group": {
@@ -48862,7 +48862,7 @@
    "category": "question",
    "speaker_hint": "marunouchi",
    "ja": "そんなに慌てていたのか……",
-   "ko": "그렇게 허둥댄 건가……",
+   "ko": "그렇게 허둥댄 건가…… ",
    "chars": 13,
    "max_chars": 74,
    "group": {
@@ -48885,7 +48885,7 @@
    "category": "question",
    "speaker_hint": "marunouchi",
    "ja": "それともうかつなだけなのか……",
-   "ko": "아니면 그저 부주의했던 건가……",
+   "ko": "아니면 그저 부주의했던 건가…… ",
    "chars": 15,
    "max_chars": 74,
    "group": {
@@ -49046,7 +49046,7 @@
    "category": "question",
    "speaker_hint": "tukasa",
    "ja": "それって変ですね……",
-   "ko": "그건 이상하네요……",
+   "ko": "그건 이상하네요…… ",
    "chars": 10,
    "max_chars": 74,
    "group": {
@@ -50886,7 +50886,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "……なにかマズかったか？",
-   "ko": "……뭔가 잘못됐나?",
+   "ko": "…… 뭔가 잘못됐나?",
    "chars": 12,
    "max_chars": 74,
    "group": {
@@ -52335,7 +52335,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "それは……",
-   "ko": "그건……",
+   "ko": "그건…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -52542,7 +52542,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……それは死体にあった右肩の傷とＤＮＡ鑑定で否定されただろう",
-   "ko": "……그건 시체에 있던 오른쪽 어깨 상처와 DNA 감식으로 부정됐겠지",
+   "ko": "…… 그건 시체에 있던 오른쪽 어깨 상처와 DNA 감식으로 부정됐겠지",
    "chars": 30,
    "max_chars": 44,
    "group": {
@@ -52887,7 +52887,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "恭二さんの死体を伸一さんの死体……",
-   "ko": "쿄지 씨의 시체를 신이치 씨의 시체……",
+   "ko": "쿄지 씨의 시체를 신이치 씨의 시체…… ",
    "chars": 17,
    "max_chars": 44,
    "group": {
@@ -53278,7 +53278,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……ん？",
-   "ko": "……응?",
+   "ko": "…… 응?",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -53508,7 +53508,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "一年半前にできた右肩の傷……",
-   "ko": "1년 반 전에 생긴 오른쪽 어깨 상처……",
+   "ko": "1년 반 전에 생긴 오른쪽 어깨 상처…… ",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -53623,7 +53623,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "本当は兄弟そっくり、子供っぽい性格だったんでしょうね……",
-   "ko": "사실 형제는 쏙 빼닮았고, 성격도 어린애 같았던 거겠죠……",
+   "ko": "사실 형제는 쏙 빼닮았고, 성격도 어린애 같았던 거겠죠…… ",
    "chars": 28,
    "max_chars": 44,
    "group": {
@@ -53761,7 +53761,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "……これも合意が必要ですね",
-   "ko": "……이것도 동의가 필요하네요",
+   "ko": "…… 이것도 동의가 필요하네요",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -53922,7 +53922,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "…………兄弟愛",
-   "ko": "…………형제애 ",
+   "ko": "………… 형제애 ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -54589,7 +54589,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "いや、それは……",
-   "ko": "아니, 그건……",
+   "ko": "아니, 그건…… ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -54681,7 +54681,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "……Ｑ．Ｅ．Ｄ．を撤回します",
-   "ko": "……Q.E.D.를 철회할게요",
+   "ko": "…… Q.E.D.를 철회할게요",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -55072,7 +55072,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "それは……",
-   "ko": "그건……",
+   "ko": "그건…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {

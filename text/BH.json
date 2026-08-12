@@ -447,7 +447,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……あの子、お嬢様だったんだ」",
-   "ko": "「……저 애, 아가씨였구나」",
+   "ko": "「…… 저 애, 아가씨였구나」",
    "chars": 16,
    "max_chars": 153,
    "group": {
@@ -2149,7 +2149,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……ルウの婚約者？」",
-   "ko": "「……루우의 약혼자?」",
+   "ko": "「…… 루우의 약혼자?」",
    "chars": 11,
    "max_chars": 153,
    "group": {
@@ -4334,7 +4334,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……なにこれ？」",
-   "ko": "「……이게 뭐야?」",
+   "ko": "「…… 이게 뭐야?」",
    "chars": 9,
    "max_chars": 153,
    "group": {
@@ -5530,7 +5530,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……ごめん、つかさ。カッコ悪いところを見せちゃって。七海菜々美の作品、見たかったんでしょ？　ゆっくり鑑賞してってよ。私はちょっと頭を冷やしてくるから」",
-   "ko": "「……미안해, 츠카사. 멋지지 못한 모습을 보여 버렸네. 나나미 나나미 작품을 보고 싶었던 거지? 천천히 감상하고 있어. 나는 잠깐 머리를 식히고 올게」",
+   "ko": "「…… 미안해, 츠카사. 멋지지 못한 모습을 보여 버렸네. 나나미 나나미 작품을 보고 싶었던 거지? 천천히 감상하고 있어. 나는 잠깐 머리를 식히고 올게」",
    "chars": 76,
    "max_chars": 153,
    "group": {
@@ -7830,7 +7830,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……おっと、いけない。もうそんな時間か。すぐにそちらへ行く」",
-   "ko": "「……어이쿠, 안 되겠군. 벌써 그런 시간이야? 바로 그쪽으로 가지」",
+   "ko": "「…… 어이쿠, 안 되겠군. 벌써 그런 시간이야? 바로 그쪽으로 가지」",
    "chars": 31,
    "max_chars": 153,
    "group": {
@@ -8612,7 +8612,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……え？　どうして？」",
-   "ko": "「……어? 왜?」",
+   "ko": "「…… 어? 왜?」",
    "chars": 12,
    "max_chars": 153,
    "group": {
@@ -13327,7 +13327,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 3,
    "max_chars": 153,
    "group": {
@@ -13856,7 +13856,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……え？」",
-   "ko": "「……어?」",
+   "ko": "「…… 어?」",
    "chars": 6,
    "max_chars": 153,
    "group": {
@@ -14615,7 +14615,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……な、な、なんだ？」",
-   "ko": "「……뭐, 뭐, 뭐지?」",
+   "ko": "「…… 뭐, 뭐, 뭐지?」",
    "chars": 12,
    "max_chars": 153,
    "group": {
@@ -15535,7 +15535,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……たぶん、今は電話に出られる状態じゃないと思います」",
-   "ko": "「……아마 지금은 전화 받을 상태가 아닌 것 같아요」",
+   "ko": "「…… 아마 지금은 전화 받을 상태가 아닌 것 같아요」",
    "chars": 28,
    "max_chars": 153,
    "group": {
@@ -16110,7 +16110,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……じゃあ、あなたも一緒に来てください。ボク一人じゃ不安で不安で……あなたなら腕っぷしも強そうだし」",
-   "ko": "「……그럼 당신도 같이 와 주세요. 저 혼자서는 불안해서, 정말 불안해서…… 당신이라면 힘도 세 보이고요」",
+   "ko": "「…… 그럼 당신도 같이 와 주세요. 저 혼자서는 불안해서, 정말 불안해서…… 당신이라면 힘도 세 보이고요」",
    "chars": 51,
    "max_chars": 153,
    "group": {
@@ -17076,7 +17076,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……え、どうして？」",
-   "ko": "「……어, 왜요?」",
+   "ko": "「…… 어, 왜요?」",
    "chars": 11,
    "max_chars": 153,
    "group": {
@@ -17628,7 +17628,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……嘘」",
-   "ko": "「……거짓말」",
+   "ko": "「…… 거짓말」",
    "chars": 5,
    "max_chars": 153,
    "group": {
@@ -17950,7 +17950,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　……あれ？",
-   "ko": "……어라?",
+   "ko": "…… 어라?",
    "chars": 6,
    "max_chars": 153,
    "group": {
@@ -20618,7 +20618,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……よく覚えてないわ」",
-   "ko": "「……잘 기억나지 않아요」",
+   "ko": "「…… 잘 기억나지 않아요」",
    "chars": 12,
    "max_chars": 153,
    "group": {
@@ -22711,7 +22711,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……どうして、私や娘があの男を殺さなくちゃならない？」",
-   "ko": "「……왜 나와 딸이 그 남자를 죽여야 하지?」",
+   "ko": "「…… 왜 나와 딸이 그 남자를 죽여야 하지?」",
    "chars": 28,
    "max_chars": 153,
    "group": {
@@ -24413,7 +24413,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「あの……",
-   "ko": "「저기……",
+   "ko": "「저기…… ",
    "chars": 5,
    "max_chars": 153,
    "group": {
@@ -25724,7 +25724,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……え？」",
-   "ko": "「……네?」",
+   "ko": "「…… 네?」",
    "chars": 6,
    "max_chars": 153,
    "group": {
@@ -26460,7 +26460,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……銃弾？」",
-   "ko": "「……총알?」",
+   "ko": "「…… 총알?」",
    "chars": 7,
    "max_chars": 153,
    "group": {
@@ -28323,7 +28323,7 @@
    "category": "inspiration",
    "speaker_hint": "marunouchi",
    "ja": "ううむ……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 5,
    "max_chars": 70,
    "group": {
@@ -31911,7 +31911,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……いや、",
-   "ko": "……아니, ",
+   "ko": "…… 아니, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -31980,7 +31980,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "ええと……",
-   "ko": "음……",
+   "ko": "음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -32049,7 +32049,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……薫さん？",
-   "ko": "……카오루 씨?",
+   "ko": "…… 카오루 씨?",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -32210,7 +32210,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "ええと……",
-   "ko": "음……",
+   "ko": "음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -32279,7 +32279,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……薫さん？",
-   "ko": "……카오루 씨?",
+   "ko": "…… 카오루 씨?",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -32532,7 +32532,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "……と、",
-   "ko": "……그리고 ",
+   "ko": "…… 그리고 ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -32647,7 +32647,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……というと？",
-   "ko": "……라고 하면?",
+   "ko": "…… 라고 하면?",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -33820,7 +33820,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……丸ノ内警部、",
-   "ko": "……마루노우치 경부, ",
+   "ko": "…… 마루노우치 경부, ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -33912,7 +33912,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -34487,7 +34487,7 @@
    "category": "interval",
    "speaker_hint": "kaoru",
    "ja": "……時間を覚えるのは苦手？",
-   "ko": "……시간 외우는 건 약해?",
+   "ko": "…… 시간 외우는 건 약해?",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -35062,7 +35062,7 @@
    "category": "interval",
    "speaker_hint": "marunouchi",
    "ja": "しかし……",
-   "ko": "하지만……",
+   "ko": "하지만…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -35338,7 +35338,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "……以上をふまえた上で、推理してくれ",
-   "ko": "……이상을 바탕으로 추리해 보게 ",
+   "ko": "…… 이상을 바탕으로 추리해 보게 ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -35545,7 +35545,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "……さて、『アカシャ』のどのあたりから読み返そうか？",
-   "ko": "……자, 『아카샤』 어디부터 다시 읽어 볼까?",
+   "ko": "…… 자, 『아카샤』 어디부터 다시 읽어 볼까?",
    "chars": 26,
    "max_chars": 44,
    "group": {
@@ -36534,7 +36534,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "それとも……",
-   "ko": "아니면……",
+   "ko": "아니면…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -37224,7 +37224,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "……とまあ、こういうカラクリだ",
-   "ko": "……뭐 이런 원리라네 ",
+   "ko": "…… 뭐 이런 원리라네 ",
    "chars": 15,
    "max_chars": 44,
    "group": {
@@ -37270,7 +37270,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "犯人はずっと外にいたから、監視カメラには映らなかった、",
-   "ko": "범인은 계속 밖에 있었으니 감시 카메라에 찍히지 않았다는 건가요…… ",
+   "ko": "범인은 계속 밖에 있었으니 감시 카메라에 안 찍혔다는 건가요…… ",
    "chars": 27,
    "max_chars": 44,
    "group": {
@@ -37431,7 +37431,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "麗亜に罪を着せるつもりだったっていうことは……",
-   "ko": "레이아에게 죄를 뒤집어씌우려 했다는 건……",
+   "ko": "레이아에게 죄를 뒤집어씌우려 했다는 건…… ",
    "chars": 23,
    "max_chars": 44,
    "group": {
@@ -39731,7 +39731,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "例えば、現場の「ある不可解な点」……",
-   "ko": "예를 들어 현장의 《어떤 불가해한 점》……",
+   "ko": "예를 들어 현장의 《어떤 불가해한 점》…… ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -40191,7 +40191,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "む、むむ……",
-   "ko": "으, 으음……",
+   "ko": "으, 으음…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -40214,7 +40214,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "犯人がどうしてそんなことをしたのか……",
-   "ko": "범인이 왜 그런 일을 했는지……",
+   "ko": "범인이 왜 그런 일을 했는지…… ",
    "chars": 19,
    "max_chars": 44,
    "group": {
@@ -40352,7 +40352,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "もしかして……",
-   "ko": "설마……",
+   "ko": "설마…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -41088,7 +41088,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "そうですね……",
-   "ko": "그렇군요……",
+   "ko": "그렇군요…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -41387,7 +41387,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……そうですね、",
-   "ko": "……그렇군요, ",
+   "ko": "…… 그렇군요, ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -42675,7 +42675,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -46631,7 +46631,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -47229,7 +47229,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -47827,7 +47827,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -48356,7 +48356,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -49805,7 +49805,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -50058,7 +50058,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -50173,7 +50173,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -50472,7 +50472,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -51461,7 +51461,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -51737,7 +51737,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -52956,7 +52956,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "二発の銃弾か……",
-   "ko": "총알이 두 발이라……",
+   "ko": "총알이 두 발이라…… ",
    "chars": 8,
    "max_chars": 69,
    "group": {
@@ -53807,7 +53807,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "頭を冷やしてくる、か……",
-   "ko": "머리를 식히러 간다, 라……",
+   "ko": "머리를 식히러 간다, 라…… ",
    "chars": 12,
    "max_chars": 69,
    "group": {
@@ -54106,7 +54106,7 @@
    "category": "question",
    "speaker_hint": "kaoru",
    "ja": "そうね……",
-   "ko": "그러게……",
+   "ko": "그러게…… ",
    "chars": 5,
    "max_chars": 69,
    "group": {
@@ -54336,7 +54336,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "剣が使えない理由でもあったのか……",
-   "ko": "검을 사용할 수 없는 이유라도 있었던 건가……",
+   "ko": "검을 사용할 수 없는 이유라도 있었던 건가…… ",
    "chars": 17,
    "max_chars": 69,
    "group": {
@@ -54451,7 +54451,7 @@
    "category": "question",
    "speaker_hint": "kaoru",
    "ja": "私の名前は男性と女性どちらでもいる名前だけど……",
-   "ko": "내 이름은 남자와 여자 모두에게 있는 이름이지만……",
+   "ko": "내 이름은 남자와 여자 모두에게 있는 이름이지만…… ",
    "chars": 24,
    "max_chars": 69,
    "group": {
@@ -54566,7 +54566,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "ウコンか……",
-   "ko": "울금인가……",
+   "ko": "울금인가…… ",
    "chars": 6,
    "max_chars": 69,
    "group": {
@@ -55578,7 +55578,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "本物か偽物か……",
-   "ko": "진짜인가 가짜인가……",
+   "ko": "진짜인가 가짜인가…… ",
    "chars": 8,
    "max_chars": 69,
    "group": {
@@ -56406,7 +56406,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "……なにかマズかったか？",
-   "ko": "……뭔가 잘못됐나?",
+   "ko": "…… 뭔가 잘못됐나?",
    "chars": 12,
    "max_chars": 69,
    "group": {
@@ -57602,7 +57602,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "そうなんだけど……",
-   "ko": "그렇긴 한데……",
+   "ko": "그렇긴 한데…… ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -58223,7 +58223,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "そういえば……",
-   "ko": "그러고 보니……",
+   "ko": "그러고 보니…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -58269,7 +58269,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "う～む…………",
-   "ko": "으음…………",
+   "ko": "으음………… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -58338,7 +58338,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "…………それは推理に関係あるのか？",
-   "ko": "…………그게 추리와 관련 있어?",
+   "ko": "………… 그게 추리와 관련 있어?",
    "chars": 17,
    "max_chars": 44,
    "group": {
@@ -58568,7 +58568,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "……違うわよ！",
-   "ko": "……아니야!",
+   "ko": "…… 아니야!",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -59304,7 +59304,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……すごいトリック？",
-   "ko": "……엄청난 트릭?",
+   "ko": "…… 엄청난 트릭?",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -59442,7 +59442,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "そして、タイミングを見計らい……",
-   "ko": "그리고 때를 노려……",
+   "ko": "그리고 때를 노려…… ",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -59511,7 +59511,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "……と、",
-   "ko": "……라고, ",
+   "ko": "…… 라고, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -60201,7 +60201,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "仮に、瑠雨と婚約中の飛鳥を",
-   "ko": "가령 루우와 약혼 중인 아스카를 ",
+   "ko": "가령 루우와 약혼한 아스카를 ",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -60224,7 +60224,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "陽気な飛鳥",
-   "ko": "쾌활한 아스카,",
+   "ko": "쾌활한 아스카, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -60247,7 +60247,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "、もう一人を",
-   "ko": "다른 한 명을 ",
+   "ko": "하나를 ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -60293,7 +60293,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "と呼ぶことにするわ",
-   "ko": "부르기로 하자",
+   "ko": "부르자",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -60316,7 +60316,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……陰気な飛鳥ねぇ",
-   "ko": "……음울한 아스카라니",
+   "ko": "…… 음울한 아스카라니",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -60822,7 +60822,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "……それのどこがどう、飛鳥にとって都合が悪いのかしら？",
-   "ko": "……그게 왜, 어떻게 아스카에게 불리하다는 거지?",
+   "ko": "…… 그게 왜, 어떻게 아스카에게 불리하다는 거지?",
    "chars": 27,
    "max_chars": 44,
    "group": {
@@ -60845,7 +60845,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……都合は",
-   "ko": "……불리한 점은",
+   "ko": "…… 불리한 점은",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -60868,7 +60868,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……悪くないな",
-   "ko": "……없군",
+   "ko": "…… 없군",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -61650,7 +61650,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "ギャラリーの窓を出て、黒い翼を広げて夜の闇に姿を消した……",
-   "ko": "갤러리 창으로 나가 검은 날개를 펼치고 밤의 어둠 속으로 사라졌어……",
+   "ko": "갤러리 창을 나가 검은 날개를 펴고 어둠에 사라졌어… ",
    "chars": 29,
    "max_chars": 44,
    "group": {
@@ -61673,7 +61673,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "夜の闇に……",
-   "ko": "밤의 어둠 속으로……",
+   "ko": "밤의 어둠에…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -61719,7 +61719,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "……以上が今回の事件の真相よ",
-   "ko": "……이상이 이번 사건의 진상이야",
+   "ko": "…… 이상이 이번 사건의 진상이야",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -62363,7 +62363,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "丸ノ内警部……",
-   "ko": "마루노우치 경부……",
+   "ko": "마루노우치 경부…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -62455,7 +62455,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "……変なこと言うんじゃないよ、君",
-   "ko": "……이상한 소리 하지 말게, 자네",
+   "ko": "…… 이상한 소리 하지 말게, 자네",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -62570,7 +62570,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "陽気な飛鳥",
-   "ko": "쾌활한 아스카에게",
+   "ko": "쾌활한 아스카에",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -62593,7 +62593,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "に対し「写真を盗み出そう」と提案したとして……",
-   "ko": "《사진을 훔치자》고 제안했다고 해도……",
+   "ko": "《사진을 훔치자》고 했다 해도……",
    "chars": 23,
    "max_chars": 44,
    "group": {
@@ -62846,7 +62846,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "ともかく、薫さんの推理が正しくても、犯人は",
-   "ko": "아무튼 카오루 씨의 추리가 맞더라도 범인은 ",
+   "ko": "아무튼 카오루 씨 추리가 맞아도 범인은 ",
    "chars": 21,
    "max_chars": 44,
    "group": {
@@ -62892,7 +62892,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "とは限らないということだ",
-   "ko": "라고 단정할 수는 없다는 겁니다 ",
+   "ko": "라고 단정할 수는 없습니다 ",
    "chars": 12,
    "max_chars": 44,
    "group": {
@@ -63306,7 +63306,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "甲冑は一人で装着することは不可能……",
-   "ko": "갑옷은 혼자서 입는 것은 불가능……",
+   "ko": "갑옷은 혼자서 입는 것은 불가능…… ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -64019,7 +64019,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "……な、",
-   "ko": "……아, ",
+   "ko": "…… 아, ",
    "chars": 4,
    "max_chars": 44,
    "group": {

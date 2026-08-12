@@ -9,11 +9,16 @@ from ptr import read_ptrlist, write_ptrlist
 
 TTF = paths.TTF
 KANJI0 = 0x889F
-# 알파를 이진화하는 기준. 게임은 **글자 알파를 왼쪽아래로 1px 민 검은
-# 그림자**를 깔고 그 위에 흰 글자를 그린다(화면 화소로 확인). 그래서
-# 가장자리 알파가 흐리면 그림자도 흐려서 밝은 배경에서 외곽선이 사라진다.
-# 0 아니면 15 로 만들면 그림자가 완전한 검정이 되어 외곽선이 또렷해진다.
-EDGE = 0.35
+# 게임은 글리프 알파의 **중간값을 검은 외곽선**으로, 높은 값을 흰 속으로
+# 칠한다. 원본 한자의 획 단면이 `7 F 7` 인 것이 그 증거다 — 7 이 외곽선,
+# F 가 속이다.
+#
+# ⚠ 알파를 0/15 로 이진화해 봤더니 **외곽선이 아예 사라졌다**(제보). 중간값이
+# 하나도 없으니 당연하다. 그래서 지금은 안티에일리어싱에 맡기지 않고
+# **원본과 같은 구조를 손으로 만든다** — 속은 F, 그 둘레 1px 은 RIM.
+# 모든 글자가 같은 두께의 외곽선을 갖는다.
+CORE = 0.5         # 이 값 이상이면 글자 속
+RIM = 7            # 둘레 1px 에 넣을 값 (원본 한자와 같은 값)
 
 # KS X 1001 완성형 2350자 (EUC-KR 0xB0A1..0xC8FE)
 HAN = [bytes([hi, lo]).decode('euc-kr')
@@ -68,13 +73,22 @@ def render(chars, bw, bh):
         cell = Image.new('L', (bw, bh), 0)
         cell.paste(im.crop((bx0 - padx, by0 - pady,
                             bx0 - padx + bw, by0 - pady + bh)), (0, 0))
-        # 가장자리를 이진화한다 — 굵게가 아니라 **또렷하게**. 위 EDGE 설명 참고.
-        cell = cell.point(lambda v: 255 if v >= EDGE * 255 else 0)
-        px = cell.load()
+        # 속(F) + 둘레 1px(RIM). 위 CORE/RIM 설명 참고.
+        core = [[cell.getpixel((x, y)) >= CORE * 255 for x in range(bw)]
+                for y in range(bh)]
+        val = [[0] * bw for _ in range(bh)]
+        for y in range(bh):
+            for x in range(bw):
+                if core[y][x]:
+                    val[y][x] = 15
+                elif any(core[y + dy][x + dx]
+                         for dy in (-1, 0, 1) for dx in (-1, 0, 1)
+                         if 0 <= y + dy < bh and 0 <= x + dx < bw):
+                    val[y][x] = RIM
         bmp = bytearray(stride * bh)
         for y in range(bh):
             for x in range(bw):
-                v = (px[x, y] * 15 + 127) // 255
+                v = val[y][x]
                 if v:
                     bmp[y * stride + (x >> 1)] |= v << (4 if x & 1 else 0)
         out.append(bytes(bmp))

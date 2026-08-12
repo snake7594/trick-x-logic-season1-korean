@@ -56,7 +56,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　ああ、もう、何ちゅうガサツで無神経なオヤジ！　つかさは声には出さず、心のなかで悪態をついた。",
-   "ko": "　아, 정말, 이렇게 거칠고 눈치 없는 아저씨라니! 츠카사는 입 밖으로 내지 않고 속으로 욕했다.",
+   "ko": "　아, 정말, 이렇게 거칠고 눈치 없는 아저씨! 츠카사는 속으로 욕했다.",
    "chars": 47,
    "max_chars": 87,
    "group": {
@@ -125,7 +125,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「そうか。しかしまあ、いつまでもクヨクヨしたってはじまらん。明日は明日の風が吹く、だ」",
-   "ko": "“그렇군. 하지만 언제까지나 끙끙 앓아 봐야 소용없네. 내일은 내일의 바람이 부는 법이지.”",
+   "ko": "“그렇군. 하지만 언제까지 끙끙 앓아도 소용없네. 내일은 내일의 바람이 분다.”",
    "chars": 43,
    "max_chars": 87,
    "group": {
@@ -1022,7 +1022,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "　そういう硬い頭をしてるから、また芳川さんを頼ることになるんですよ",
-   "ko": "　그렇게 머리가 굳어 있으니 또 요시카와 씨에게 의지하게 되는 거예요",
+   "ko": "　그렇게 머리가 굳었으니 또 요시카와 씨에게 의지하게 되는 거예요",
    "chars": 33,
    "max_chars": 44,
    "group": {
@@ -1436,7 +1436,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ううむ……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -1551,7 +1551,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "田所によれば、午後八時頃から午前三時まで部屋に入っていく人間はいなかったという",
-   "ko": "다도코로에 따르면 밤 8시부터 새벽 3시까지 방에 들어간 사람은 없었다고 합니다",
+   "ko": "다도코로에 따르면 밤 8시부터 새벽 3시까지 방에 들어간 사람은 없다고 합니다",
    "chars": 39,
    "max_chars": 44,
    "group": {
@@ -2264,7 +2264,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ふむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -2517,7 +2517,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "うーん……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -2609,7 +2609,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "あ、そっか……",
-   "ko": "아, 그렇구나……",
+   "ko": "아, 그렇구나…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -2862,7 +2862,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "十一日の午前二時頃に棚から物が落ちてきた",
-   "ko": "11일 오전 2시경 선반에서 물건이 떨어졌다는 사실을 ",
+   "ko": "11일 오전 2시경 선반에서 물건이 떨어진 걸 ",
    "chars": 20,
    "max_chars": 44,
    "group": {
@@ -2885,7 +2885,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "ことを踏まえて次に進みます",
-   "ko": "바탕으로 다음으로 넘어가겠습니다",
+   "ko": "바탕으로 넘어가죠 ",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -2908,7 +2908,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ふむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -5415,7 +5415,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "むむ……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -5875,7 +5875,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "……あ、でも亮子、",
-   "ko": "……아, 하지만 료코가, ",
+   "ko": "…… 아, 하지만 료코가, ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -6726,7 +6726,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "つまり……",
-   "ko": "즉……",
+   "ko": "즉…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -6864,7 +6864,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ふむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -7140,7 +7140,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（……今考えている犯人に犯行は可能だったのか？）",
-   "ko": "(……지금 생각한 범인이 범행을 저지를 수 있었을까?)",
+   "ko": "(…… 지금 생각한 범인이 범행을 저지를 수 있었을까?)",
    "chars": 24,
    "max_chars": 44,
    "group": {
@@ -7669,7 +7669,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（犯人は……",
-   "ko": "(범인은……",
+   "ko": "(범인은…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -7830,7 +7830,7 @@
    "category": "answer_begin",
    "speaker_hint": null,
    "ja": "十日の午前九時二十分の十二時間前……",
-   "ko": "10일 오전 9시 20분의 12시간 전……",
+   "ko": "10일 오전 9시 20분의 12시간 전…… ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -7853,7 +7853,7 @@
    "category": "answer_begin",
    "speaker_hint": null,
    "ja": "九日の午後九時にはすでに殺されていたということになる",
-   "ko": "결국 9일 오후 9시에는 이미 살해됐다는 뜻이지 ",
+   "ko": "9일 오후 9시에는 이미 살해됐다는 뜻이지 ",
    "chars": 26,
    "max_chars": 44,
    "group": {
@@ -8083,7 +8083,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "そんな……",
-   "ko": "그럴 수가……",
+   "ko": "그럴 수가…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -8106,7 +8106,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "嘘ですよ……",
-   "ko": "거짓말이에요……",
+   "ko": "거짓말이에요…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -8359,7 +8359,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -8635,7 +8635,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "その際、実際はかかっている鍵を開いていたように見せかけ、",
-   "ko": "그때 실제로 잠긴 열쇠를 열어 둔 것처럼 보이게 하고 ",
+   "ko": "그때 잠긴 열쇠를 열어 둔 것처럼 보이게 하고 ",
    "chars": 28,
    "max_chars": 44,
    "group": {
@@ -8911,7 +8911,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "……わかりました",
-   "ko": "……알겠습니다 ",
+   "ko": "…… 알겠습니다 ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -9325,7 +9325,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "どっちかの愛情がさめたとか、",
-   "ko": "둘 중 한 사람의 사랑이 식었다든가 ",
+   "ko": "한쪽의 사랑이 식었다든가 ",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -9394,7 +9394,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "まあ、いろいろ考えられるが……",
-   "ko": "뭐, 여러 이유를 생각할 수 있지만……",
+   "ko": "뭐, 여러 이유를 생각할 수 있지만…… ",
    "chars": 15,
    "max_chars": 44,
    "group": {
@@ -9463,7 +9463,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "面倒な後始末が待っているかと思うと気が重いが、",
-   "ko": "귀찮은 뒤처리가 기다린다고 생각하니 마음이 무겁지만 ",
+   "ko": "귀찮은 뒤처리를 생각하니 마음이 무겁지만 ",
    "chars": 23,
    "max_chars": 44,
    "group": {
@@ -9693,7 +9693,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（おかしいな……",
-   "ko": "(이상하군……",
+   "ko": "(이상하군…… ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -9900,7 +9900,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……そうですね",
-   "ko": "……그렇군요",
+   "ko": "…… 그렇군요",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -10015,7 +10015,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……もう少し考えてみます",
-   "ko": "……좀 더 생각해 볼게요",
+   "ko": "…… 좀 더 생각해 볼게요",
    "chars": 12,
    "max_chars": 44,
    "group": {
@@ -10291,7 +10291,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……いや、",
-   "ko": "……아니, ",
+   "ko": "…… 아니, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -11165,7 +11165,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（十一日未明の出来事がなぜ起こったのか……",
-   "ko": "(11일 새벽의 일이 왜 일어났는지……",
+   "ko": "(11일 새벽의 일이 왜 일어났는지…… ",
    "chars": 21,
    "max_chars": 44,
    "group": {
@@ -11510,7 +11510,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ううむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -11740,7 +11740,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ふむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -12361,7 +12361,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（おかしいな……",
-   "ko": "(이상하군……",
+   "ko": "(이상하군…… ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -12545,7 +12545,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "何か大きくて重いものか……",
-   "ko": "뭔가 크고 무거운 물건인가……",
+   "ko": "뭔가 크고 무거운 물건인가…… ",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -13649,7 +13649,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "死体が落ちた十一日の午前二時以降、死体が発見される十三日の午後四時より前",
-   "ko": "시신이 떨어진 11일 오전 2시 이후, 시신이 발견된 13일 오후 4시 이전",
+   "ko": "시신이 떨어진 11일 오전 2시 이후, 발견된 13일 오후 4시 전",
    "chars": 36,
    "max_chars": 44,
    "group": {
@@ -13672,7 +13672,7 @@
    "category": "answer_begin",
    "speaker_hint": null,
    "ja": "と考えられる",
-   "ko": "라고 볼 수 있어 ",
+   "ko": "이라고 봐",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -15006,7 +15006,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……考え直させてくれ",
-   "ko": "……다시 생각하게 해 줘",
+   "ko": "…… 다시 생각하게 해 줘",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -15052,7 +15052,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "芳川君……",
-   "ko": "요시카와 군……",
+   "ko": "요시카와 군…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -15581,7 +15581,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ううむ……",
-   "ko": "으으……",
+   "ko": "으으…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -15926,7 +15926,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "たしかに……",
-   "ko": "확실히……",
+   "ko": "확실히…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -16156,7 +16156,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（たしかに……",
-   "ko": "(확실히……",
+   "ko": "(확실히…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -16662,7 +16662,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ふむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -17122,7 +17122,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（犯人がどうやって現場の鍵を手に入れたのか……",
-   "ko": "(범인은 어떻게 현장 열쇠를 손에 넣었을까……",
+   "ko": "(범인은 어떻게 현장 열쇠를 구했을까…… ",
    "chars": 23,
    "max_chars": 44,
    "group": {
@@ -17559,7 +17559,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ふうむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -18847,7 +18847,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ううむ……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -18870,7 +18870,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "そう考えてみると、花井かずみと高橋亮子の証言の矛盾は気になるね",
-   "ko": "그렇게 생각해 보니 하나이 가즈미와 다카하시 료코 증언의 모순이 마음에 걸리는군",
+   "ko": "그렇게 보니 하나이 가즈미와 다카하시 료코 증언의 모순이 걸리는군",
    "chars": 31,
    "max_chars": 44,
    "group": {
@@ -19077,7 +19077,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "十一日の午前二時の大きな物音がなんだったのか、",
-   "ko": "우선 11일 오전 2시의 큰 소리가 무엇이었는지 ",
+   "ko": "우선 11일 오전 2시의 큰 소리가 뭐였는지 ",
    "chars": 23,
    "max_chars": 44,
    "group": {
@@ -19468,7 +19468,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ううむ……",
-   "ko": "으으……",
+   "ko": "으으…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -19744,7 +19744,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "なるほど……",
-   "ko": "그렇군요……",
+   "ko": "그렇군요…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -19882,7 +19882,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "む、む……",
-   "ko": "으, 음……",
+   "ko": "으, 음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -20043,7 +20043,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……現場に死体を運び込んだ犯人を示す",
-   "ko": "……현장에 시신을 옮긴 범인을 가리키는 ",
+   "ko": "…… 현장에 시신을 옮긴 범인을 가리키는 ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -20503,7 +20503,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ふむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -21193,7 +21193,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……十一日未明の物音がなんだったのかというところから考え直してみよう",
-   "ko": "……11일 새벽의 소리가 무엇이었는지부터 다시 생각해 보자",
+   "ko": "…… 11일 새벽의 소리가 무엇이었는지부터 다시 생각해 보자",
    "chars": 34,
    "max_chars": 44,
    "group": {
@@ -22642,7 +22642,7 @@
    "category": "bridge",
    "speaker_hint": "yosikawa",
    "ja": "……だとしても、",
-   "ko": "……그렇다고 해도, ",
+   "ko": "…… 그렇다고 해도, ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -23493,7 +23493,7 @@
    "category": "bridge",
    "speaker_hint": "yama",
    "ja": "もし彼女と",
-   "ko": "만약 그녀와 ",
+   "ko": "그녀와 ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -23516,7 +23516,7 @@
    "category": "bridge",
    "speaker_hint": "yama",
    "ja": "お前に",
-   "ko": "자네 사이에 ",
+   "ko": "자네에게 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -23608,7 +23608,7 @@
    "category": "bridge",
    "speaker_hint": "yama",
    "ja": "もう一回ぐらいは",
-   "ko": "한 번 정도는 ",
+   "ko": "한 번쯤은 ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -23631,7 +23631,7 @@
    "category": "bridge",
    "speaker_hint": "yama",
    "ja": "あるかもな",
-   "ko": "더 있을지도 모르지",
+   "ko": "더 있을지도 몰라",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -24252,7 +24252,7 @@
    "category": "bridge",
    "speaker_hint": "yosikawa",
    "ja": "…………",
-   "ko": "…………",
+   "ko": "………… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -24919,7 +24919,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "　そういう硬い頭をしてるから、また芳川さんを頼ることになるんですよ",
-   "ko": "그렇게 융통성 없는 생각을 하니 또 요시카와 씨에게 의지하게 되는 거예요",
+   "ko": "그렇게 융통성 없이 구니 또 요시카와 씨에게 의지하게 되는 거예요",
    "chars": 33,
    "max_chars": 44,
    "group": {
@@ -25333,7 +25333,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "ううむ……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -26161,7 +26161,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "ふむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -26414,7 +26414,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "うーん……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -26506,7 +26506,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "あ、そっか……",
-   "ko": "아, 그렇구나……",
+   "ko": "아, 그렇구나…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -29059,7 +29059,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "むむ……",
-   "ko": "으으……",
+   "ko": "으으…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -29887,7 +29887,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "つまり……",
-   "ko": "그러니까……",
+   "ko": "그러니까…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -30025,7 +30025,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "ふむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -30347,7 +30347,7 @@
    "category": "giveup",
    "speaker_hint": null,
    "ja": "十日の午前九時二十分の十二時間前……",
-   "ko": "10일 오전 9시 20분의 12시간 전……",
+   "ko": "10일 오전 9시 20분의 12시간 전…… ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -30370,7 +30370,7 @@
    "category": "giveup",
    "speaker_hint": null,
    "ja": "九日の午後九時にはすでに殺されていたということになる",
-   "ko": "결국 9일 오후 9시에는 이미 살해됐다는 뜻이야 ",
+   "ko": "9일 오후 9시에는 이미 살해됐다는 뜻이야 ",
    "chars": 26,
    "max_chars": 44,
    "group": {
@@ -30600,7 +30600,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "そんな……",
-   "ko": "그럴 수가……",
+   "ko": "그럴 수가…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -30623,7 +30623,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "嘘ですよ……",
-   "ko": "거짓말이에요……",
+   "ko": "거짓말이에요…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -30876,7 +30876,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -31405,7 +31405,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "……わかりました",
-   "ko": "……알겠습니다 ",
+   "ko": "…… 알겠습니다 ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -31842,7 +31842,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "まあ、いろいろ考えられるが……",
-   "ko": "뭐, 여러 이유를 생각할 수 있지만……",
+   "ko": "뭐, 여러 이유를 생각할 수 있지만…… ",
    "chars": 15,
    "max_chars": 44,
    "group": {
@@ -31911,7 +31911,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "面倒な後始末が待っているかと思うと気が重いが、",
-   "ko": "귀찮은 뒤처리가 기다린다고 생각하니 마음이 무겁지만 ",
+   "ko": "귀찮은 뒤처리를 생각하니 마음이 무겁지만 ",
    "chars": 23,
    "max_chars": 44,
    "group": {

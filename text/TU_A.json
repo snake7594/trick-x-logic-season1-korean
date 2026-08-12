@@ -148,7 +148,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "「その“場所”と、そこがどのような“状態”だったかを示す『ヒラメキ』を一つ示せ」",
-   "ko": "「그 ‘장소’와 그곳이 어떤 ‘상태’였는지를 보여 주는 『착상』 하나를 제시해라",
+   "ko": "「그 ‘장소’와 어떤 ‘상태’였는지 보여 주는 『착상』 하나를 제시해라",
    "chars": 40,
    "max_chars": 44,
    "group": {
@@ -1298,7 +1298,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "犯人は……",
-   "ko": "범인은……",
+   "ko": "범인은…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -1574,7 +1574,7 @@
    "category": "answer_begin",
    "speaker_hint": null,
    "ja": "まちがえ、考え直し、またまちがえての繰り返し……",
-   "ko": "틀리고, 다시 생각하고, 또 틀리기를 반복하고……",
+   "ko": "틀리고, 다시 생각하고, 또 틀리기를 반복하고…… ",
    "chars": 24,
    "max_chars": 44,
    "group": {
@@ -1597,7 +1597,7 @@
    "category": "answer_begin",
    "speaker_hint": null,
    "ja": "何度も何度もやり直すことになるだろう",
-   "ko": "몇 번이고 몇 번이고 다시 하게 되겠지 ",
+   "ko": "몇 번이고 다시 하게 되겠지 ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -2264,7 +2264,7 @@
    "category": "answer_begin",
    "speaker_hint": null,
    "ja": "……わかったような、わからないような",
-   "ko": "……알 것 같기도, 모를 것 같기도",
+   "ko": "…… 알 것 같기도, 모를 것 같기도",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -2310,7 +2310,7 @@
    "category": "answer_begin",
    "speaker_hint": "yama",
    "ja": "うむ……",
-   "ko": "음……",
+   "ko": "음…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -2425,7 +2425,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……わかったような、わからないような",
-   "ko": "……알 것 같기도, 모를 것 같기도",
+   "ko": "…… 알 것 같기도, 모를 것 같기도",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -2678,7 +2678,7 @@
    "category": "answer_begin",
    "speaker_hint": null,
    "ja": "そして、これぞと思うナゾに的をしぼって、ナゾ＋キーワードで〈推理〉を進める",
-   "ko": "그리고 이거다 싶은 수수께끼로 범위를 좁혀, 수수께끼＋키워드로 〈추리〉를 진행해",
+   "ko": "그리고 이거다 싶은 수수께끼로 좁혀, 수수께끼＋키워드로 〈추리〉를 진행해",
    "chars": 37,
    "max_chars": 44,
    "group": {
@@ -3000,7 +3000,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……ところで、さっきの早口言葉だが",
-   "ko": "……그런데 아까 그 빠른 말 말인데 ",
+   "ko": "…… 그런데 아까 그 빠른 말 말인데 ",
    "chars": 17,
    "max_chars": 44,
    "group": {
@@ -3345,7 +3345,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……やっぱりトチッてるじゃないか",
-   "ko": "……역시 꼬였잖아",
+   "ko": "…… 역시 꼬였잖아",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -3575,7 +3575,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "つまり……",
-   "ko": "즉……",
+   "ko": "즉…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -3943,7 +3943,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……ん？",
-   "ko": "……응?",
+   "ko": "…… 응?",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -4127,7 +4127,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "…………たしかに",
-   "ko": "…………확실히",
+   "ko": "………… 확실히",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -4472,7 +4472,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "「その“場所”と、そこがどのような“状態”だったかを示す『ヒラメキ』を一つ示せ」",
-   "ko": "「그 ‘장소’와 그곳이 어떤 ‘상태’였는지를 보여 주는 『착상』 하나를 제시해라",
+   "ko": "「그 ‘장소’와 어떤 ‘상태’였는지 보여 주는 『착상』 하나를 제시해라",
    "chars": 40,
    "max_chars": 44,
    "group": {

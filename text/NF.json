@@ -2494,7 +2494,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……なるほど。では、盗まれたフィギュアも、その同じ方が作ったもので、",
-   "ko": "「……그렇군요. 그럼 도난당한 피규어도 그분이 만든 것이어서 ",
+   "ko": "「…… 그렇군요. 그럼 도난당한 피규어도 그분이 만든 것이어서 ",
    "chars": 35,
    "max_chars": 127,
    "group": {
@@ -3253,7 +3253,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「冗談じゃない！　……",
-   "ko": "「농담하지 마! ……",
+   "ko": "「농담하지 마! …… ",
    "chars": 11,
    "max_chars": 127,
    "group": {
@@ -5208,7 +5208,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……どういう意味ですか」",
-   "ko": "「……무슨 뜻입니까」",
+   "ko": "「…… 무슨 뜻입니까」",
    "chars": 13,
    "max_chars": 127,
    "group": {
@@ -5392,7 +5392,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……棚の上に",
-   "ko": "「……선반 위에 ",
+   "ko": "「…… 선반 위에 ",
    "chars": 7,
    "max_chars": 127,
    "group": {
@@ -5530,7 +5530,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……投げ上げたとか」",
-   "ko": "「……던져 올렸다든가」",
+   "ko": "「…… 던져 올렸다든가」",
    "chars": 11,
    "max_chars": 127,
    "group": {
@@ -6910,7 +6910,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……実はあたし、アニメとかフィギュアに興味があって来たわけじゃないんです。だからもちろん、あんなエロいフィギュアなんか盗んだりもしてません」",
-   "ko": "「……사실 저는 애니메이션이나 피규어에 관심이 있어서 온 게 아니에요. 그러니 물론 그런 야한 피규어를 훔치지도 않았고요」",
+   "ko": "「…… 사실 저는 애니메이션이나 피규어에 관심이 있어서 온 게 아니에요. 그러니 물론 그런 야한 피규어를 훔치지도 않았고요」",
    "chars": 71,
    "max_chars": 127,
    "group": {
@@ -8106,7 +8106,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……しかし、さっき宮本さんも言ってましたが、フィギュアを売ってしまえば相当な金になることは分かっていたわけでしょう？」",
-   "ko": "「……하지만 아까 미야모토 씨도 말했듯 피규어를 팔면 상당한 돈이 된다는 건 알고 있었던 거죠?」",
+   "ko": "「…… 하지만 아까 미야모토 씨도 말했듯 피규어를 팔면 상당한 돈이 된다는 건 알고 있었던 거죠?」",
    "chars": 60,
    "max_chars": 127,
    "group": {
@@ -9348,7 +9348,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……そう言われるとそうだったような気がします」",
-   "ko": "「……그렇게 말씀하시니 그랬던 것 같기도 하네요」",
+   "ko": "「…… 그렇게 말씀하시니 그랬던 것 같기도 하네요」",
    "chars": 24,
    "max_chars": 127,
    "group": {
@@ -10199,7 +10199,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……トイレは中にあるんですか？」",
-   "ko": "「……화장실은 안에 있습니까?」",
+   "ko": "「…… 화장실은 안에 있습니까?」",
    "chars": 17,
    "max_chars": 127,
    "group": {
@@ -10337,7 +10337,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……先週の例会では、皆さんトイレに行きましたか」",
-   "ko": "「……지난주 모임 때 모두 화장실에 갔습니까?」",
+   "ko": "「…… 지난주 모임 때 모두 화장실에 갔습니까?」",
    "chars": 25,
    "max_chars": 127,
    "group": {
@@ -10912,7 +10912,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……しかし南京錠はあなたしか開けられないし、",
-   "ko": "「……하지만 자물쇠는 당신만 열 수 있고 ",
+   "ko": "「…… 하지만 자물쇠는 당신만 열 수 있고 ",
    "chars": 23,
    "max_chars": 127,
    "group": {
@@ -11855,7 +11855,7 @@
    "category": "inspiration",
    "speaker_hint": "yosikawa",
    "ja": "龍虎の絵の描かれた屏風、か……",
-   "ko": "용호 그림이 그려진 병풍인가……",
+   "ko": "용호 그림이 그려진 병풍인가…… ",
    "chars": 15,
    "max_chars": 63,
    "group": {
@@ -12200,7 +12200,7 @@
    "category": "inspiration",
    "speaker_hint": "yosikawa",
    "ja": "三百万か……",
-   "ko": "삼백만 엔이라……",
+   "ko": "삼백만 엔이라…… ",
    "chars": 6,
    "max_chars": 63,
    "group": {
@@ -12913,7 +12913,7 @@
    "category": "inspiration",
    "speaker_hint": "yosikawa",
    "ja": "自分たちのお宝か……",
-   "ko": "자기 보물이라……",
+   "ko": "자기 보물이라…… ",
    "chars": 10,
    "max_chars": 63,
    "group": {
@@ -13281,7 +13281,7 @@
    "category": "inspiration",
    "speaker_hint": "tukasa",
    "ja": "そうですね……",
-   "ko": "그렇네요……",
+   "ko": "그렇네요…… ",
    "chars": 7,
    "max_chars": 63,
    "group": {
@@ -14385,7 +14385,7 @@
    "category": "inspiration",
    "speaker_hint": "yosikawa",
    "ja": "一番後ろから蔵に入るとき……",
-   "ko": "맨 뒤에서 곳간에 들어갈 때라면……",
+   "ko": "맨 뒤에서 곳간에 들어갈 때라면…… ",
    "chars": 14,
    "max_chars": 63,
    "group": {
@@ -16317,7 +16317,7 @@
    "category": "interval",
    "speaker_hint": "marunouchi",
    "ja": "……違うよ",
-   "ko": "……아니야. ",
+   "ko": "…… 아니야. ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -16386,7 +16386,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……宮本学・太田・坂口・根岸・天野つかさ、",
-   "ko": "……미야모토 마나부・오타・사카구치・네기시・아마노 츠카사, ",
+   "ko": "…… 미야모토・오타・ 사카구치・네기시・ 츠카사, ",
    "chars": 21,
    "max_chars": 44,
    "group": {
@@ -16478,7 +16478,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "宮本学・太田・坂口・根岸・天野つかさ、",
-   "ko": "미야모토 마나부・오타・사카구치・네기시・아마노 츠카사, ",
+   "ko": "미야모토 마나부・ 오타・ 사카구치・ 네기시・ 아마노 츠카사, ",
    "chars": 19,
    "max_chars": 44,
    "group": {
@@ -16570,7 +16570,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "無職の宮本、",
-   "ko": "무직인 미야모토, ",
+   "ko": "무직 미야모토, ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -16593,7 +16593,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "アニメ脚本家の太田、",
-   "ko": "애니메이션 각본가 오타, ",
+   "ko": "애니 각본가 오타, ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -16662,7 +16662,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "そして天野つかさ",
-   "ko": "그리고 아마노 츠카사,",
+   "ko": "그리고 츠카사",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -16984,7 +16984,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……ケンカなら向こうでやってくれ",
-   "ko": "……싸움은 저쪽에서 하도록 해 ",
+   "ko": "…… 싸움은 저쪽에서 하도록 해 ",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -17260,7 +17260,7 @@
    "category": "interval",
    "speaker_hint": "tukasa",
    "ja": "……それ、言っちゃいますか",
-   "ko": "……그 말을 꼭 하셔야 하나요 ",
+   "ko": "…… 그 말을 꼭 하셔야 하나요 ",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -17559,7 +17559,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……三週間か",
-   "ko": "……3주인가",
+   "ko": "…… 3주인가",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -18019,7 +18019,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "…………ちょっと待ってくれ",
-   "ko": "…………잠깐 기다려",
+   "ko": "………… 잠깐 기다려",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -18203,7 +18203,7 @@
    "category": "interval",
    "speaker_hint": "tukasa",
    "ja": "……がっかりです",
-   "ko": "……실망이에요 ",
+   "ko": "…… 실망이에요 ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -18686,7 +18686,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "……以上をふまえた上で、推理してくれ",
-   "ko": "……이상에 유의해 추리해 줘 ",
+   "ko": "…… 이상에 유의해 추리해 줘 ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -18893,7 +18893,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "……さて、『アカシャ』のどのあたりから読み返そうか？",
-   "ko": "……자, 『아카샤』의 어디부터 다시 읽어 볼까?",
+   "ko": "…… 자, 『아카샤』의 어디부터 다시 읽어 볼까?",
    "chars": 26,
    "max_chars": 44,
    "group": {
@@ -19652,7 +19652,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……その手伝いをしろと？",
-   "ko": "……그 일을 도우라는 건가?",
+   "ko": "…… 그 일을 도우라는 건가?",
    "chars": 12,
    "max_chars": 44,
    "group": {
@@ -20250,7 +20250,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "ここ……",
-   "ko": "여기……",
+   "ko": "여기…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -20825,7 +20825,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……説明するよ",
-   "ko": "……설명할게",
+   "ko": "…… 설명할게",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -20848,7 +20848,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……と、",
-   "ko": "……그러니까, ",
+   "ko": "…… 그러니까, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -21262,7 +21262,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "（……やってみるしかなさそうだな……）",
-   "ko": "（……해 볼 수밖에 없을 것 같군……）",
+   "ko": "（…… 해 볼 수밖에 없을 것 같군……）",
    "chars": 19,
    "max_chars": 44,
    "group": {
@@ -22021,7 +22021,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "一度……",
-   "ko": "한 번……",
+   "ko": "한 번…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -22251,7 +22251,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "……バラバラにしてね",
-   "ko": "……산산이 나눠서 말이지",
+   "ko": "…… 산산이 나눠서 말이지",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -22389,7 +22389,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "たしかに……",
-   "ko": "확실히……",
+   "ko": "확실히…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -22435,7 +22435,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "でも……",
-   "ko": "하지만……",
+   "ko": "하지만…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -22573,7 +22573,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "犯人が偽のフィギュアのパーツを蔵に持ち込んでいたとしたら……",
-   "ko": "범인이 가짜 피규어 부품을 곳간에 가져갔다면……",
+   "ko": "범인이 가짜 피규어 부품을 곳간에 가져갔다면…… ",
    "chars": 30,
    "max_chars": 44,
    "group": {
@@ -23194,7 +23194,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "君は……",
-   "ko": "자네는……",
+   "ko": "자네는…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -24275,7 +24275,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "宮本の座った側の棚の真ん中、",
-   "ko": "미야모토가 앉은 쪽 선반 가운데, ",
+   "ko": "미야모토가 앉은 쪽 선반 한가운데, ",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -24298,7 +24298,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "立つと顔が来る位置……",
-   "ko": "일어서면 얼굴이 닿는 위치……",
+   "ko": "서면 얼굴이 닿는 위치…… ",
    "chars": 11,
    "max_chars": 44,
    "group": {
@@ -24321,7 +24321,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "宮本の目の前です",
-   "ko": "미야모토 바로 앞입니다 ",
+   "ko": "미야모토 눈앞입니다 ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -24367,7 +24367,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "……いや、わしもそれは難しいかもしれんとは考えたんだがね",
-   "ko": "……아니, 나도 그건 어려울지 모른다고 생각했네 ",
+   "ko": "…… 아니, 나도 그건 어려울지 모른다고 생각했네 ",
    "chars": 28,
    "max_chars": 44,
    "group": {
@@ -24413,7 +24413,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……普通気づくと思いますが",
-   "ko": "……보통은 눈치채겠지만 ",
+   "ko": "…… 보통은 눈치채겠지만 ",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -24551,7 +24551,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "そ、それは……",
-   "ko": "그, 그건……",
+   "ko": "그, 그건…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -24643,7 +24643,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "それは、えーと……",
-   "ko": "그건, 어디 보자……",
+   "ko": "그건, 어디 보자…… ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -25080,7 +25080,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "……なんか嫌な予感がするのはあたしだけでしょうか",
-   "ko": "……왠지 불길한 예감이 드는 건 저뿐인가요",
+   "ko": "…… 왠지 불길한 예감이 드는 건 저뿐인가요",
    "chars": 24,
    "max_chars": 44,
    "group": {
@@ -25747,7 +25747,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "（……迷コンビが誕生したっぽいな）",
-   "ko": "（……기묘한 콤비가 생긴 모양이군）",
+   "ko": "（…… 기묘한 콤비가 생긴 모양이군）",
    "chars": 17,
    "max_chars": 44,
    "group": {
@@ -25816,7 +25816,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "ちなみに……",
-   "ko": "참고로……",
+   "ko": "참고로…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -25908,7 +25908,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……そうします",
-   "ko": "……그렇게 하죠",
+   "ko": "…… 그렇게 하죠",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -26069,7 +26069,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……言われてみれば、確かにそうか",
-   "ko": "……듣고 보니 확실히 그런가",
+   "ko": "…… 듣고 보니 확실히 그런가",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -26092,7 +26092,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……もう一度アカシャを読んで、考えを整理しよう",
-   "ko": "……아카샤를 다시 읽고 생각을 정리하자",
+   "ko": "…… 아카샤를 다시 읽고 생각을 정리하자",
    "chars": 23,
    "max_chars": 44,
    "group": {
@@ -26598,7 +26598,7 @@
    "category": "question",
    "speaker_hint": "tukasa",
    "ja": "約四十年分が蔵の中に積み重なってるんですよね……",
-   "ko": "약 40년 치가 곳간 안에 쌓여 있는 거죠……",
+   "ko": "약 40년 치가 곳간 안에 쌓여 있는 거죠…… ",
    "chars": 24,
    "max_chars": 70,
    "group": {
@@ -27725,7 +27725,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "……つかさ君ならその間にフィギュアを盗むことも朝飯前、というところか",
-   "ko": "……츠카사 군이라면 그사이에 피규어를 훔치는 것도 식은 죽 먹기라는 건가 ",
+   "ko": "…… 츠카사 군이라면 그사이에 피규어를 훔치는 것도 식은 죽 먹기라는 건가 ",
    "chars": 34,
    "max_chars": 70,
    "group": {
@@ -28001,7 +28001,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "寝ているときにだけ外されていた鍵か……",
-   "ko": "잘 때만 빼 놓는 열쇠인가……",
+   "ko": "잘 때만 빼 놓는 열쇠인가…… ",
    "chars": 19,
    "max_chars": 70,
    "group": {
@@ -28254,7 +28254,7 @@
    "category": "question",
    "speaker_hint": "tukasa",
    "ja": "絶対に無理とは言ってないところが気になります……",
-   "ko": "절대로 무리라고 한 건 아니라는 점이 신경 쓰여요……",
+   "ko": "절대로 무리라고 한 건 아니라는 점이 신경 쓰여요…… ",
    "chars": 24,
    "max_chars": 70,
    "group": {
@@ -28300,7 +28300,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "そうだな……",
-   "ko": "그렇군……",
+   "ko": "그렇군…… ",
    "chars": 6,
    "max_chars": 70,
    "group": {
@@ -28967,7 +28967,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "注文してから最低でも十日……",
-   "ko": "주문하고 최소 열흘……",
+   "ko": "주문하고 최소 열흘…… ",
    "chars": 14,
    "max_chars": 70,
    "group": {
@@ -29197,7 +29197,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "太田が一番欲しがっていた……",
-   "ko": "오타가 가장 갖고 싶어 했다……",
+   "ko": "오타가 가장 갖고 싶어 했다…… ",
    "chars": 14,
    "max_chars": 70,
    "group": {
@@ -30163,7 +30163,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "……なにかマズかったか？",
-   "ko": "……뭔가 잘못됐나?",
+   "ko": "…… 뭔가 잘못됐나?",
    "chars": 12,
    "max_chars": 70,
    "group": {
@@ -31129,7 +31129,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "……とけました",
-   "ko": "……풀렸어요",
+   "ko": "…… 풀렸어요",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -31152,7 +31152,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……え？",
-   "ko": "……예?",
+   "ko": "…… 예?",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -31198,7 +31198,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……本当かい？",
-   "ko": "……정말이야?",
+   "ko": "…… 정말이야?",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -31267,7 +31267,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "……大丈夫かね？",
-   "ko": "……괜찮겠나?",
+   "ko": "…… 괜찮겠나?",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -31612,7 +31612,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "……話を続けます",
-   "ko": "……이야기를 계속할게요 ",
+   "ko": "…… 이야기를 계속할게요 ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -32003,7 +32003,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "でも……",
-   "ko": "하지만……",
+   "ko": "하지만…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -32371,7 +32371,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "鍵ですよ……",
-   "ko": "열쇠예요……",
+   "ko": "열쇠예요…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -32417,7 +32417,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……鍵？",
-   "ko": "……열쇠?",
+   "ko": "…… 열쇠?",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -33061,7 +33061,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "……う～む、なかなか巧妙だね",
-   "ko": "……으음, 꽤 교묘하군",
+   "ko": "…… 으음, 꽤 교묘하군",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -33751,7 +33751,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "……あたしかぁ",
-   "ko": "……저인가아",
+   "ko": "…… 저인가아",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -33889,7 +33889,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "宮本さん……",
-   "ko": "미야모토 씨……",
+   "ko": "미야모토 씨…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -34188,7 +34188,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "……あたし？",
-   "ko": "……저요?",
+   "ko": "…… 저요?",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -34395,7 +34395,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……童顔だし、その筋には受けそうな気もする",
-   "ko": "……동안이고, 그런 쪽에는 먹힐 것 같기도 하군",
+   "ko": "…… 동안이고, 그런 쪽에는 먹힐 것 같기도 하군",
    "chars": 21,
    "max_chars": 44,
    "group": {
@@ -34418,7 +34418,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "う……",
-   "ko": "으……",
+   "ko": "으…… ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -36304,7 +36304,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "丸ノ内警部さん……",
-   "ko": "마루노우치 경부님……",
+   "ko": "마루노우치 경부님…… ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -36557,7 +36557,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "え……",
-   "ko": "예……",
+   "ko": "예…… ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -36718,7 +36718,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "（この二人……",
-   "ko": "（이 두 사람……",
+   "ko": "（이 두 사람…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -37063,7 +37063,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "わしもそれは可能だと思うが……",
-   "ko": "나도 그건 가능하다고 생각하지만……",
+   "ko": "나도 그건 가능하다고 생각하지만…… ",
    "chars": 15,
    "max_chars": 44,
    "group": {
@@ -37247,7 +37247,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……もう一度、アカシャを読み直す時間をくれ",
-   "ko": "……다시 아카샤를 읽을 시간을 줘 ",
+   "ko": "…… 다시 아카샤를 읽을 시간을 줘 ",
    "chars": 21,
    "max_chars": 44,
    "group": {
@@ -37730,7 +37730,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "芳川さん……",
-   "ko": "요시카와 씨……",
+   "ko": "요시카와 씨…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -39340,7 +39340,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……そうですね",
-   "ko": "……그렇네요 ",
+   "ko": "…… 그렇네요 ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -39432,7 +39432,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "それって……",
-   "ko": "그건……",
+   "ko": "그건…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {

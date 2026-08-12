@@ -56,6 +56,10 @@ def need_space(prev, nxt, ja_prev=None, ja_next=None):
     if ja_next is not None and ja_next.startswith(JP_HEAD):
         return False
     a, b = prev[-1], nxt[0]
+    # 말줄임표 뒤도 띄운다. 붙여 두면 `전……9일` 이 한 낱말이 되어 줄바꿈이
+    # 크게 낭비된다(대사창 2줄 초과의 흔한 원인).
+    if a == '…' and (H(b) or b.isdigit()):
+        return True
     # 여는 따옴표 앞은 띄운다 — '명계에서「아카샤」' 처럼 붙어 나온다.
     # 일본어는 안 띄우지만 한국어는 띄우는 게 맞다.
     if H(a) and b in '「『〈《‘“(（':

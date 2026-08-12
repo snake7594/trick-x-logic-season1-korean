@@ -148,7 +148,7 @@
    "category": "hint",
    "speaker_hint": "tukasa",
    "ja": "……ので、これを差し上げます",
-   "ko": "……그래서, 이걸 드릴게요",
+   "ko": "…… 그래서, 이걸 드릴게요",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -171,7 +171,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……そいつはどうも",
-   "ko": "……그건 고맙군",
+   "ko": "…… 그건 고맙군",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -240,7 +240,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……まあな",
-   "ko": "……뭐, 그렇지",
+   "ko": "…… 뭐, 그렇지",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -401,7 +401,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……まあ、ありがたくもらっておくか",
-   "ko": "……뭐, 고맙게 받아 둘까",
+   "ko": "…… 뭐, 고맙게 받아 둘까",
    "chars": 17,
    "max_chars": 44,
    "group": {
@@ -470,7 +470,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……ひやかす暇があったら、少しは手伝ってもらいたいもんだが",
-   "ko": "……놀릴 틈이 있으면 조금이라도 도와줬으면 좋겠는데",
+   "ko": "…… 놀릴 틈이 있으면 조금이라도 도와줬으면 좋겠는데",
    "chars": 29,
    "max_chars": 44,
    "group": {
@@ -539,7 +539,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……まさか本当に手伝ってくれるとはね",
-   "ko": "……설마 정말 도와줄 줄이야 ",
+   "ko": "…… 설마 정말 도와줄 줄이야 ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -1068,7 +1068,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……なんでだ",
-   "ko": "……왜지",
+   "ko": "…… 왜지",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -1137,7 +1137,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……ありがとう",
-   "ko": "……고마워",
+   "ko": "…… 고마워",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -1206,7 +1206,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……妙に悔しいのは何故だ",
-   "ko": "……왜 이렇게 분한 거지",
+   "ko": "…… 왜 이렇게 분한 거지",
    "chars": 12,
    "max_chars": 44,
    "group": {
@@ -1643,7 +1643,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……ええ、まあね",
-   "ko": "……네, 뭐",
+   "ko": "…… 네, 뭐",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -1689,7 +1689,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……プレゼント？",
-   "ko": "……선물?",
+   "ko": "…… 선물?",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -1781,7 +1781,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……で、その素敵なプレゼントって何なんですか？",
-   "ko": "……그래서, 그 멋진 선물이 뭡니까?",
+   "ko": "…… 그래서, 그 멋진 선물이 뭡니까?",
    "chars": 23,
    "max_chars": 44,
    "group": {
@@ -1942,7 +1942,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……まあ、そっちにも感謝してますよ",
-   "ko": "……뭐, 그쪽에도 감사하고 있습니다",
+   "ko": "…… 뭐, 그쪽에도 감사하고 있습니다",
    "chars": 17,
    "max_chars": 44,
    "group": {
@@ -2011,7 +2011,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……薫さんって探偵ですよね？",
-   "ko": "……카오루 씨, 탐정 맞죠?",
+   "ko": "…… 카오루 씨, 탐정 맞죠?",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -2425,7 +2425,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……もっと「ナゾ」を持ってきてくれたらそうしますよ",
-   "ko": "……수수께끼를 더 가져와 주시면 그렇게 하죠",
+   "ko": "…… 수수께끼를 더 가져와 주시면 그렇게 하죠",
    "chars": 25,
    "max_chars": 44,
    "group": {
@@ -2540,7 +2540,7 @@
    "category": "hint",
    "speaker_hint": "kaoru",
    "ja": "……それができたら、こんなところにいないわよ",
-   "ko": "……그게 된다면 내가 이런 데 있겠어 ",
+   "ko": "…… 그게 된다면 내가 이런 데 있겠어 ",
    "chars": 22,
    "max_chars": 44,
    "group": {
@@ -2770,7 +2770,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……じゃあなんて言えば満足なんですか",
-   "ko": "……그럼 뭐라고 해야 만족하시겠습니까",
+   "ko": "…… 그럼 뭐라고 해야 만족하시겠습니까",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -2862,7 +2862,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "……言ってて恥ずかしくないですか？",
-   "ko": "……말하면서 안 부끄럽습니까?",
+   "ko": "…… 말하면서 안 부끄럽습니까?",
    "chars": 17,
    "max_chars": 44,
    "group": {
@@ -2885,7 +2885,7 @@
    "category": "hint",
    "speaker_hint": "kaoru",
    "ja": "……ちょっと",
-   "ko": "……조금",
+   "ko": "…… 조금",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -18272,7 +18272,7 @@
    "category": "common_tutorial",
    "speaker_hint": null,
    "ja": "を４度押すと、〈調書〉を見ることができます。調書には〈ヒラメキ〉を入れて解答します。",
-   "ko": "이 버튼을 네 번 누르면 〈조서〉를 볼 수 있습니다. 조서에 〈착상〉을 넣어 답을 작성합니다.",
+   "ko": "을 네 번 누르면 〈조서〉를 봅니다. 〈착상〉을 넣어 답합니다.",
    "chars": 42,
    "max_chars": 89,
    "group": {

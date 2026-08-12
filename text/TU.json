@@ -723,7 +723,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……いったい、何を指し示そうとしたんだ……」",
-   "ko": "「……대체 무엇을 가리키려 한 거지……」",
+   "ko": "「…… 대체 무엇을 가리키려 한 거지……」",
    "chars": 23,
    "max_chars": 53,
    "group": {
@@ -1022,7 +1022,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　もしや、電車の車窓から犯行を目撃した者がいるのでは？　……と思ったが、",
-   "ko": "혹시 전철에서 범행을 본 사람이 없을까? ……생각했지만, ",
+   "ko": "혹시 전철에서 범행을 본 사람이 없을까? …… 생각했지만, ",
    "chars": 36,
    "max_chars": 53,
    "group": {
@@ -3598,7 +3598,7 @@
    "category": "interval",
    "speaker_hint": "yama",
    "ja": "〈主要登場人物〉〈図解〉〈語句説明〉",
-   "ko": "〈주요 등장인물〉〈도해〉〈용어 설명〉",
+   "ko": "〈주요 인물〉 〈도해〉 〈용어 설명〉 ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -4104,7 +4104,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "気になるページは緑の付せん",
-   "ko": "신경 쓰이는 페이지는 초록 메모",
+   "ko": "눈에 띄는 페이지는 초록 메모",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -4150,7 +4150,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "もっと気になるページは赤の付せん",
-   "ko": "더 신경 쓰이는 페이지는 빨간 메모",
+   "ko": "더 띄는 페이지는 빨간 메모",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -4196,7 +4196,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "付せんを貼った場所や、各章冒頭に瞬時に",
-   "ko": "메모를 붙인 곳이나 각 장 첫머리로 바로 ",
+   "ko": "메모를 붙인 곳이나 각 장 첫머리로 ",
    "chars": 19,
    "max_chars": 44,
    "group": {
@@ -5047,7 +5047,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……そうだな",
-   "ko": "……그렇군 ",
+   "ko": "…… 그렇군 ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -5369,7 +5369,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "言葉（キーワード）",
-   "ko": "말인 키워드",
+   "ko": "키워드",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -6542,7 +6542,7 @@
    "category": "interval",
    "speaker_hint": "yama",
    "ja": "詳しい操作説明を見たいときは、",
-   "ko": "자세한 조작 설명을 보려면, ",
+   "ko": "조작 설명을 보려면, ",
    "chars": 15,
    "max_chars": 44,
    "group": {
@@ -7209,7 +7209,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -7577,7 +7577,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "……ここは",
-   "ko": "……여긴 ",
+   "ko": "…… 여긴 ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -7899,7 +7899,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "冥界……",
-   "ko": "명계……",
+   "ko": "명계…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -8589,7 +8589,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "……生き返りたいとか……",
-   "ko": "……살아나고 싶다니……",
+   "ko": "…… 살아나고 싶다니…… ",
    "chars": 12,
    "max_chars": 44,
    "group": {

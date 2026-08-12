@@ -102,7 +102,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「なあ、つかさ。ここに越してくる気はないか。今なら二〇六号室が格安で借りられるよ」",
-   "ko": "「있잖아, 츠카사. 여기로 이사 올 생각은 없어? 지금이라면 206호실을 아주 싸게 빌릴 수 있어」",
+   "ko": "「있잖아, 츠카사. 여기로 이사 올 생각 없어? 지금이면 206호실 싸게 빌려」",
    "chars": 41,
    "max_chars": 104,
    "group": {
@@ -171,7 +171,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "るような眼差しでちえみがこちらを見る。雨の中、段ボール箱に捨てられた子猫のような",
-   "ko": "달리듯 애처로운 눈빛으로 지에미가 이쪽을 보았다. 빗속 골판지 상자에 버려진 새끼 고양이 같은 ",
+   "ko": "달리듯 애처로운 눈빛으로 지에미가 이쪽을 본다. 빗속 상자에 버려진 새끼 고양이",
    "chars": 40,
    "max_chars": 104,
    "group": {
@@ -286,7 +286,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「……出ていきたいけどさ。四年近くも住むと何というか愛着が湧いてくるんだよ。それに鴻鵠荘はいま一番辛い時を迎えているんだ。いままで受けた恩を考えると、簡単には見捨てられない。多分万里たちも同じ想いだと思うな」",
-   "ko": "「……나가고 싶기는 한데. 4년 가까이 살다 보니 정이 들었거든. 게다가 홍곡장은 지금 가장 힘든 시기야. 받은 은혜를 생각하면 쉽게 버릴 수 없어. 아마 반리 일행도 같은 마음일 거야」",
+   "ko": "「…… 나가고 싶기는 한데. 4년 가까이 살다 보니 정이 들었거든. 게다가 홍곡장은 지금 가장 힘든 시기야. 받은 은혜를 생각하면 쉽게 버릴 수 없어. 아마 반리 일행도 같은 마음일 거야」",
    "chars": 104,
    "max_chars": 104,
    "group": {
@@ -608,7 +608,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "んぞ亜紀の死を知らんや……か」",
-   "ko": "도 아키의 죽음을 모르겠지……라」",
+   "ko": "도 아키의 죽음을 모르겠지…… 라」",
    "chars": 15,
    "max_chars": 104,
    "group": {
@@ -1160,7 +1160,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "一つ目の疑問はもっともだけど……",
-   "ko": "첫 번째 의문은 타당하지만……",
+   "ko": "첫 번째 의문은 타당하지만…… ",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -1850,7 +1850,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -2034,7 +2034,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "それで窓を開けようとして……",
-   "ko": "그래서 창문을 열려 했는데……",
+   "ko": "그래서 창문을 열려 했는데…… ",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -2172,7 +2172,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ふ、ふむ……",
-   "ko": "흠, 흠……",
+   "ko": "흠, 흠…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -2563,7 +2563,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ううむ……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -3506,7 +3506,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……まずはこの謎について考えていきたい",
-   "ko": "……우선 이 수수께끼를 생각해 보겠네. ",
+   "ko": "…… 우선 이 수수께끼를 생각해 보겠네. ",
    "chars": 19,
    "max_chars": 44,
    "group": {
@@ -4380,7 +4380,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "む、むむ……",
-   "ko": "으, 으음……",
+   "ko": "으, 으음…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -4656,7 +4656,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "うーん……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -4725,7 +4725,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……それが窓を開けた理由だ",
-   "ko": "……그게 창문을 연 이유야",
+   "ko": "…… 그게 창문을 연 이유야",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -5185,7 +5185,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……犯人がベランダから出入りしたとは考えられませんね",
-   "ko": "……범인이 베란다로 드나들었다고는 생각할 수 없겠네요",
+   "ko": "…… 범인이 베란다로 드나들었다고는 생각할 수 없겠네요",
    "chars": 26,
    "max_chars": 44,
    "group": {
@@ -5323,7 +5323,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……いいでしょう",
-   "ko": "……좋습니다",
+   "ko": "…… 좋습니다",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -5484,7 +5484,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……そのあたりについては、考え直すべきかもしれません",
-   "ko": "……그 점은 다시 생각해 봐야 할지도 모르겠습니다",
+   "ko": "…… 그 점은 다시 생각해 봐야 할지도 모르겠습니다",
    "chars": 26,
    "max_chars": 44,
    "group": {
@@ -6634,7 +6634,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そして、こっそり部屋を抜け出したことには……",
-   "ko": "그리고 몰래 방을 빠져나간 데에는……",
+   "ko": "그리고 몰래 방을 빠져나간 데에는…… ",
    "chars": 22,
    "max_chars": 44,
    "group": {
@@ -11510,7 +11510,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12246,7 +12246,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -15075,7 +15075,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……残念ながら、つかさ君の言うとおりですね",
-   "ko": "……유감이지만 츠카사 군 말이 맞네요 ",
+   "ko": "…… 유감이지만 츠카사 군 말이 맞네요 ",
    "chars": 21,
    "max_chars": 44,
    "group": {
@@ -15512,7 +15512,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……そうです",
-   "ko": "……그렇습니다 ",
+   "ko": "…… 그렇습니다 ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -15995,7 +15995,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……そうです",
-   "ko": "……그렇습니다 ",
+   "ko": "…… 그렇습니다 ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -16363,7 +16363,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "君……",
-   "ko": "자네……",
+   "ko": "자네…… ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -16455,7 +16455,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "うむ……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -16524,7 +16524,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そうだな……",
-   "ko": "그렇지……",
+   "ko": "그렇지…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -16938,7 +16938,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "うーん……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -17375,7 +17375,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "む、むむ……",
-   "ko": "으, 으음……",
+   "ko": "으, 으음…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -17743,7 +17743,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "では……",
-   "ko": "그럼……",
+   "ko": "그럼…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -18548,7 +18548,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "たしかに……",
-   "ko": "확실히……",
+   "ko": "확실히…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -18755,7 +18755,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そうですね……",
-   "ko": "그렇네요……",
+   "ko": "그렇네요…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -18847,7 +18847,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "では……",
-   "ko": "그럼……",
+   "ko": "그럼…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -19031,7 +19031,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（なんなんだ……",
-   "ko": "（대체 뭐지……",
+   "ko": "（대체 뭐지…… ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -19169,7 +19169,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……それは、たしかにそうかもしれませんね",
-   "ko": "……그건 확실히 그럴지도 모르겠네요",
+   "ko": "…… 그건 확실히 그럴지도 모르겠네요",
    "chars": 20,
    "max_chars": 44,
    "group": {
@@ -19238,7 +19238,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そういうつもりは……",
-   "ko": "그럴 생각은……",
+   "ko": "그럴 생각은…… ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -19560,7 +19560,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "談話室のハサミを使った理由……",
-   "ko": "담화실 가위를 쓴 이유……",
+   "ko": "담화실 가위를 쓴 이유…… ",
    "chars": 15,
    "max_chars": 44,
    "group": {
@@ -19905,7 +19905,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "たしかに……",
-   "ko": "확실히……",
+   "ko": "확실히…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -21308,7 +21308,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "そう言われてみると……",
-   "ko": "그렇게 듣고 보니……",
+   "ko": "그렇게 듣고 보니…… ",
    "chars": 11,
    "max_chars": 44,
    "group": {
@@ -21492,7 +21492,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（たしかに……",
-   "ko": "（확실히……",
+   "ko": "（확실히…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -21607,7 +21607,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……ええ、そうさせてもらいます",
-   "ko": "……네, 그렇게 하겠습니다",
+   "ko": "…… 네, 그렇게 하겠습니다",
    "chars": 15,
    "max_chars": 44,
    "group": {
@@ -21653,7 +21653,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（おかしいな……",
-   "ko": "（이상하군……",
+   "ko": "（이상하군…… ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -22021,7 +22021,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -22435,7 +22435,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……天パは関係ないだろ",
-   "ko": "……곱슬머리는 상관없잖아",
+   "ko": "…… 곱슬머리는 상관없잖아",
    "chars": 11,
    "max_chars": 44,
    "group": {
@@ -22596,7 +22596,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……もう少し考える時間が必要なようです",
-   "ko": "……조금 더 생각할 시간이 필요한 것 같습니다",
+   "ko": "…… 조금 더 생각할 시간이 필요한 것 같습니다",
    "chars": 19,
    "max_chars": 44,
    "group": {
@@ -22619,7 +22619,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ふむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -22734,7 +22734,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "……まあ、犯人を見つけられなかったわしが言うことでもないんだがね",
-   "ko": "……뭐, 범인을 찾지 못한 내가 할 말은 아니지만",
+   "ko": "…… 뭐, 범인을 찾지 못한 내가 할 말은 아니지만",
    "chars": 32,
    "max_chars": 44,
    "group": {
@@ -22780,7 +22780,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（小さなナゾか……",
-   "ko": "（작은 수수께끼인가……",
+   "ko": "（작은 수수께끼인가…… ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -22803,7 +22803,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "現場に関して何か不自然な点や、ナゾはあっただろうか……？）",
-   "ko": "현장에 뭔가 부자연스럽거나 수수께끼인 점이 있었나……？）",
+   "ko": "현장에 뭔가 부자연스럽거나 수수께끼인 게 있었나…？）",
    "chars": 29,
    "max_chars": 44,
    "group": {
@@ -23516,7 +23516,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "……いつまで待てばいいのかね",
-   "ko": "……언제까지 기다리면 되겠나",
+   "ko": "…… 언제까지 기다리면 되겠나",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -23539,7 +23539,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……少し時間がかかりそうです",
-   "ko": "……시간이 좀 걸릴 것 같습니다",
+   "ko": "…… 시간이 좀 걸릴 것 같습니다",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -24114,7 +24114,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ううむ……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -24620,7 +24620,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……いや、殺害後、すぐに犯人が現場を立ち去ったなら、気づかなかっただろう",
-   "ko": "……아니, 살해 후 범인이 바로 현장을 떠났다면 못 알아챘겠지 ",
+   "ko": "…… 아니, 살해 후 범인이 바로 현장을 떠났다면 못 알아챘겠지 ",
    "chars": 36,
    "max_chars": 44,
    "group": {
@@ -24758,7 +24758,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "たしかに……",
-   "ko": "확실히……",
+   "ko": "확실히…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -25954,7 +25954,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（おかしいな……",
-   "ko": "（이상하군……",
+   "ko": "（이상하군…… ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -26000,7 +26000,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……もう少し考えたい",
-   "ko": "……조금 더 생각하고 싶어",
+   "ko": "…… 조금 더 생각하고 싶어",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -26115,7 +26115,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "犯行時刻の深夜から明け方以降の間に変化したことか……",
-   "ko": "범행 시각인 한밤중부터 새벽 이후 사이에 변한 것인가……",
+   "ko": "범행 시각인 한밤중부터 새벽 이후 사이에 변한 것인가…… ",
    "chars": 26,
    "max_chars": 44,
    "group": {
@@ -26667,7 +26667,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（はずだが……",
-   "ko": "（그럴 텐데……",
+   "ko": "（그럴 텐데…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -26759,7 +26759,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……もう一度考え直してみます",
-   "ko": "……다시 생각해 보겠습니다 ",
+   "ko": "…… 다시 생각해 보겠습니다 ",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -27311,7 +27311,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "まさか……",
-   "ko": "설마……",
+   "ko": "설마…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -27702,7 +27702,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……もう一度考え直す必要がありそうですね",
-   "ko": "……다시 생각해 볼 필요가 있겠네요 ",
+   "ko": "…… 다시 생각해 볼 필요가 있겠네요 ",
    "chars": 20,
    "max_chars": 44,
    "group": {
@@ -27748,7 +27748,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "第三者って……",
-   "ko": "제3자라니……",
+   "ko": "제3자라니…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -28507,7 +28507,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……たしかに、",
-   "ko": "……확실히, ",
+   "ko": "…… 확실히, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -28622,7 +28622,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……もう一度考え直してみます",
-   "ko": "……다시 생각해 보겠습니다 ",
+   "ko": "…… 다시 생각해 보겠습니다 ",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -28829,7 +28829,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "あ、そうか……",
-   "ko": "아, 그렇구나……",
+   "ko": "아, 그렇구나…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -29128,7 +29128,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "それから、犯人は使ったゴム手袋とシートをコンロで燃やし、換気のために窓を開けた",
-   "ko": "그 뒤 범인은 쓴 고무장갑과 시트를 가스레인지에 태우고 환기하려 창문을 열었어 ",
+   "ko": "그 뒤 범인은 고무장갑과 시트를 가스레인지에 태우고 환기하려 창을 열었어 ",
    "chars": 39,
    "max_chars": 44,
    "group": {
@@ -29220,7 +29220,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -31221,7 +31221,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……真犯人を指摘するための根拠がまだ足りていないようだ",
-   "ko": "……진범을 지목할 근거가 아직 부족한 것 같아",
+   "ko": "…… 진범을 지목할 근거가 아직 부족한 것 같아",
    "chars": 27,
    "max_chars": 44,
    "group": {
@@ -31543,7 +31543,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "はライバル校のマリオネット部に所属していて、ひと月前までは自分が行く気満々だった",
-   "ko": "는 라이벌 학교 마리오네트부 소속이라 한 달 전까지만 해도 자기가 갈 생각이었어",
+   "ko": "는 라이벌 학교 마리오네트부 소속이라 한 달 전까지 자기가 갈 생각이었어",
    "chars": 40,
    "max_chars": 44,
    "group": {
@@ -31865,7 +31865,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（おかしいな……",
-   "ko": "（이상하군……",
+   "ko": "（이상하군…… ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -32026,7 +32026,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "しかたないね……",
-   "ko": "어쩔 수 없군……",
+   "ko": "어쩔 수 없군…… ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -32440,7 +32440,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "はライバル校のマリオネット部に所属していて、ひと月前までは自分が行く気満々だった",
-   "ko": "는 라이벌 학교 마리오네트부 소속이라 한 달 전까지만 해도 자기가 갈 생각이었어",
+   "ko": "는 라이벌 학교 마리오네트부 소속이라 한 달 전까지 자기가 갈 생각이었어",
    "chars": 40,
    "max_chars": 44,
    "group": {
@@ -32555,7 +32555,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "は、忍が殺される一時間前に、壮行会のことを万里から聞いて知っている",
-   "ko": "는 시노부가 살해되기 한 시간 전에 반리에게 출정식 얘기를 들어 알고 있었고 ",
+   "ko": "는 시노부가 죽기 한 시간 전에 반리에게 출정식 얘기를 들어 알았고 ",
    "chars": 33,
    "max_chars": 44,
    "group": {
@@ -32831,7 +32831,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "動機は推測に過ぎませんが、みんなが予想しているとおり男関係のもつれかもしれませんね",
-   "ko": "동기는 추측에 불과하지만, 모두가 예상하듯 남자 문제로 얽힌 일일지도 모르겠네요",
+   "ko": "동기는 추측이지만, 모두가 예상하듯 남자 문제로 얽힌 일일지도 모르겠네요",
    "chars": 41,
    "max_chars": 44,
    "group": {
@@ -33337,7 +33337,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "……ありがとうございました",
-   "ko": "……고마웠어요",
+   "ko": "…… 고마웠어요",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -33521,7 +33521,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -33659,7 +33659,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……そうだな",
-   "ko": "……그렇지 ",
+   "ko": "…… 그렇지 ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -34441,7 +34441,7 @@
    "category": "bridge",
    "speaker_hint": "yama",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -35062,7 +35062,7 @@
    "category": "bridge",
    "speaker_hint": "yosikawa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -35798,7 +35798,7 @@
    "category": "bridge",
    "speaker_hint": "yama",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -36258,7 +36258,7 @@
    "category": "giveup",
    "speaker_hint": null,
    "ja": "これらを前提として、",
-   "ko": "이것들을 전제로 하면, ",
+   "ko": "이걸 전제로 하면, ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -36281,7 +36281,7 @@
    "category": "giveup",
    "speaker_hint": null,
    "ja": "犯人は当時鴻鵠荘にいた人物七人の中の誰かである",
-   "ko": "범인은 당시 홍곡장에 있던 일곱 명 중 한 명이라는 ",
+   "ko": "범인은 당시 홍곡장에 있던 일곱 명 중 하나라는 ",
    "chars": 23,
    "max_chars": 44,
    "group": {
@@ -36534,7 +36534,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "一つ目の疑問はもっともだけど……",
-   "ko": "첫 번째 의문은 그럴 만하지만……",
+   "ko": "첫 번째 의문은 그럴 만하지만…… ",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -37224,7 +37224,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -37408,7 +37408,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "それで窓を開けようとして……",
-   "ko": "그래서 창문을 열려고 했는데……",
+   "ko": "그래서 창문을 열려고 했는데…… ",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -37546,7 +37546,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "ふ、ふむ……",
-   "ko": "흠, 흠……",
+   "ko": "흠, 흠…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -37615,7 +37615,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "現場の窓は夜の十二時台ではなく、明け方以降に一度は開閉された",
-   "ko": "현장 창문은 밤 12시대가 아니라 새벽 이후에 한 번 열리고 닫혔다고 ",
+   "ko": "현장 창문은 밤 12시대가 아니라 새벽 이후에 한 번 열고 닫혔다고 ",
    "chars": 30,
    "max_chars": 44,
    "group": {
@@ -37937,7 +37937,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "ううむ……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -39409,7 +39409,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "む、むむ……",
-   "ko": "으, 으음……",
+   "ko": "으, 으음…… ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -39915,7 +39915,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "ううむ……",
-   "ko": "으음……",
+   "ko": "으음…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -41479,7 +41479,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "あ、そうか……",
-   "ko": "아, 그렇구나……",
+   "ko": "아, 그렇구나…… ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -41778,7 +41778,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "それから、犯人は使ったゴム手袋とシートをコンロで燃やし、換気のために窓を開けた",
-   "ko": "그 뒤 사용한 고무장갑과 시트를 가스레인지에 태우고 환기하려 창문을 열었어",
+   "ko": "그 뒤 쓴 고무장갑과 시트를 가스레인지에 태우고 환기하려 창을 열었어",
    "chars": 39,
    "max_chars": 44,
    "group": {
@@ -41870,7 +41870,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -43940,7 +43940,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "はライバル校のマリオネット部に所属していて、ひと月前までは自分が行く気満々だった",
-   "ko": "는 라이벌 학교 마리오네트부 소속이라 한 달 전까지만 해도 직접 갈 생각이었고",
+   "ko": "는 라이벌 학교 마리오네트부 소속이라 한 달 전까지 직접 갈 생각이었고",
    "chars": 40,
    "max_chars": 44,
    "group": {
@@ -44055,7 +44055,7 @@
    "category": "giveup",
    "speaker_hint": null,
    "ja": "は、忍が殺される一時間前に、壮行会のことを万里から聞いて知っている",
-   "ko": "는 시노부가 살해되기 한 시간 전에 반리에게 출정식 얘기를 들어 알고 있었고 ",
+   "ko": "는 시노부가 죽기 한 시간 전에 반리에게 출정식 얘기를 들어 알았고 ",
    "chars": 33,
    "max_chars": 44,
    "group": {
@@ -44331,7 +44331,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "動機は推測に過ぎませんが、みんなが予想しているとおり男関係のもつれかもしれませんね",
-   "ko": "동기는 추측에 불과하지만, 모두가 예상하듯 남자 문제로 얽힌 일일지도 모르겠네요",
+   "ko": "동기는 추측이지만, 모두가 예상하듯 남자 문제로 얽힌 일일지도 모르겠네요",
    "chars": 41,
    "max_chars": 44,
    "group": {
@@ -44837,7 +44837,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "……ありがとうございました",
-   "ko": "……고마웠어요",
+   "ko": "…… 고마웠어요",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -45021,7 +45021,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "……",
-   "ko": "……",
+   "ko": "…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -45159,7 +45159,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "……そうだな",
-   "ko": "……그렇지 ",
+   "ko": "…… 그렇지 ",
    "chars": 6,
    "max_chars": 44,
    "group": {
