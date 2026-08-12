@@ -28,7 +28,7 @@ def ink_light(px, lum_min=168, a_min=100):
 def mask(px, kind='dark'):
     if kind.startswith('light'):
         return ink_light(px)
-    if kind.startswith('local'):
+    if kind.startswith(('local', 'clear')):
         return ink(px) | ink_light(px)
     return ink(px)
 
@@ -109,22 +109,50 @@ def local_ink(px, box, ring=4, by_ring=False):
 def build_all(px, spec):
     """spec 이 dict 면 어두운 가로 글자만.
 
-    리스트면 [(종류, 번역표), ...] — 종류는 dark/light, 뒤에 '-v' 를 붙이면
-    세로쓰기."""
+    리스트면 [(종류, 번역표), ...] — 종류는 dark/light/local/clear, 뒤에
+    '-v' 를 붙이면 세로쓰기."""
     if isinstance(spec, dict):
         spec = [('dark', spec)]
     orig, plans = px, []
     for kind, mp in spec:                 # 상자 번호는 반드시 '원본'에서 매긴다
         m = mask(orig, kind)
         vert = kind.endswith('-v')
-        bs = (None if kind.startswith('local')
+        bs = (None if kind.startswith(('local', 'clear'))
               else (boxes_v(orig, m) if vert else boxes(orig, m)))
         plans.append((kind, mp, m, vert, bs))
     for kind, mp, m, vert, bs in plans:
-        if kind.startswith('local'):
+        if kind.startswith('clear'):
+            px = build_clear(px, mp, vert)
+        elif kind.startswith('local'):
             px = build_local(px, mp, m, vert)
         else:
             px = build(px, mp, m=m, bs=bs, vert=vert)
+    return px
+
+
+def build_clear(px, mapping, vert, pad=3):
+    """바탕이 **완전 투명**한 그림(스태프롤)용.
+
+    이런 그림에는 지울 배경색이랄 게 없다. `erase_box_v` 는 상자 좌우 3px
+    를 배경 표본으로 삼는데, 여기서는 그 자리가 글자 그늘(검정·알파 10~30)
+    이라 상자가 통째로 뿌옇게 칠해진다. 그래서 그냥 **투명하게 비운다**.
+
+    원본 획은 흰색이 아니라 연회색(183)에 검은 테가 둘러져 있고, 그 바깥에
+    알파 10 안팎의 검은 번짐이 넓게 깔려 있다. 같은 모양으로 다시 그린다."""
+    px = px.copy()
+    op = px[..., 3] > 200
+    col = (np.median(px[..., :3][op], axis=0) if op.any()
+           else np.array([255.] * 3))
+    jobs = [((t[1], t[3], t[2], t[4]), t[0]) for t in mapping.values()]
+    h, w = px.shape[:2]
+    for (x0, y0, x1, y1), _ in jobs:
+        sub = px[max(0, y0 - pad):min(h, y1 + pad),
+                 max(0, x0 - pad):min(w, x1 + pad)]
+        sub[..., :3] = 255
+        sub[..., 3] = 0
+    for box, t in jobs:
+        px = (draw_v if vert else draw)(px, box, t, col,
+                                        stroke=(0, 0, 0), glow=2)
     return px
 
 
@@ -336,7 +364,7 @@ def erase_box_v(px, box, m, pad=1, excl=None, force=False):
     return px
 
 
-def draw_v(px, box, text, color, grow=None, minsize=8, stroke=None):
+def draw_v(px, box, text, color, grow=None, minsize=8, stroke=None, glow=0):
     """상자에 세로쓰기. 공백은 반 칸. grow 는 아래로 늘릴 수 있는 한계 y."""
     x0, y0, x1, y1 = box
     cw = x1 - x0
@@ -360,6 +388,11 @@ def draw_v(px, box, text, color, grow=None, minsize=8, stroke=None):
             dr.text((cx - (b[0] + b[2]) / 2, cy + (size - (b[1] + b[3])) / 2),
                     c, font=f, fill=tuple(int(v) for v in color) + (255,), **kw)
         cy += size * s
+    if glow:                      # 원본처럼 글자 뒤에 옅게 번지는 검은 그늘
+        g = lay.split()[3].filter(ImageFilter.GaussianBlur(glow))
+        sh = Image.new('RGBA', im.size, (0, 0, 0, 0))
+        sh.putalpha(g.point(lambda v: int(v * 0.45)))
+        im.alpha_composite(sh)
     im.alpha_composite(lay)
     return np.asarray(im).copy()
 
