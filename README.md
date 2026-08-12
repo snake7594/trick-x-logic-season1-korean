@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.5.5.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.5.6.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.5.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.6.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.5.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         C730EB2843BE5F00F109B12C4765FFEF
-SHA-1       3479E8D23E805C0F808EF5769BC26550FF1606EA
-SHA-256     DDFB1778C03DD78135747CCF69EC80EAC85A5BA7C687788EF38E3B58EE7B6C13
+MD5         B1752E5914521394870FCBFE10203D59
+SHA-1       D09A7398766D7C90196180A1C4311D4634F470DC
+SHA-256     CAA9CD606F388E8EA766540CF8548D3AFF0E5EA664530637440F0690ECD7CD5D
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
@@ -321,18 +321,18 @@ SECTPACK  이름\0 + u16 id(bit15=압축) + u16 시작섹터 + u16 섹터수
 | **속은 꽉 + 가장자리만 감마** | 두께·계조·외곽선이 함께 산다 |
 
 ```
-덮개 0.5 이상 -> 15 (흰 속)      그 아래는 감마로 낮추되 **최소 RIM(7)**
+덮개 0.5 이상 -> 15 (흰 속)      그 아래는 감마로 낮추되 **최소 RIM(8)**
 ```
 
 `RIM` 이 외곽선 진하기다. 바닥을 안 깔면 가장자리 값이 1~3 까지 흩어져
-외곽선이 희미해진다. 원본 한자와 같은 7 로 깔면 모든 가장자리가 확실한
+외곽선이 희미해진다. 원본 한자는 7 이고, 여기서는 한 단계 올린 8 로 깐다. 모든 가장자리가 확실한
 외곽선이 된다. **흰 속은 그대로**다.
 
 |  | 테(4~9) | 희미(1~3) | 속(≥C) |
 |---|---|---|---|
 | 원본 한자 | 37.5% | 21.0% | 29.1% |
 | 바닥 없음 | 15.7% | 13.8% | 62.7% |
-| **RIM 7** | **33.8%** | **0%** | 58.9% |
+| **RIM 8** | **33.8%** | **0%** | 58.9% |
 
 그래도 획이 픽셀 격자에 딱 맞는 자리는 덮개가 0 에서 바로 1 로 튀어
 중간값 화소가 안 생긴다 — 거기서 외곽선이 끊긴다. 그래서 **덮개가 0 인

@@ -37,7 +37,7 @@ KANJI0 = 0x889F
 #   RIM 을 올려야 한다. 전에 README 에 반대로 적어 뒀다.
 CORE = 0.5
 GAMMA = 1.2
-RIM = 7
+RIM = 8
 
 # KS X 1001 완성형 2350자 (EUC-KR 0xB0A1..0xC8FE)
 HAN = [bytes([hi, lo]).decode('euc-kr')
