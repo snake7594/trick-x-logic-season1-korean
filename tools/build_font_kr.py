@@ -16,6 +16,37 @@ from build_font import render
 TEXT = paths.TEXT
 KANJI0 = 0x889F
 
+# 전각 공백(0x8140)의 진행 폭을 반각 공백(0x0020)과 같게 만든다.
+# 환경변수 TXL_HALF_SPACE=1 로 켠다.
+HALF_SPACE = os.environ.get('TXL_HALF_SPACE') == '1'
+
+
+def _half_space(recs, gl):
+    """0x8140 레코드의 폭 필드를 0x0020 과 똑같이 맞춘다.
+
+    게임은 **비례 폭**으로 그리고 진행 폭은 글리프 헤더의 `x1`(rec[8])이다.
+    화면에서 재 보면 한글 글자 17px, 전각 공백 11px 로 헤더 값과 정확히
+    맞는다(AdvFont 기준). 반각 공백은 8px 다.
+
+    문자 자체를 반각으로 바꾸면 게임이 오작동한다는 기록이 있어서, **문자는
+    전각 그대로 두고 글리프의 진행 폭만** 반각과 같게 만든다. 텍스트도
+    스크립트도 한 바이트 안 바뀐다.
+
+        rec[6]=x0  rec[8]=x1(진행 폭)   rec[13],[15] = 세로쓰기용 같은 값
+    """
+    idx = {g['code']: i for i, g in enumerate(gl)}
+    if 0x8140 not in idx or 0x0020 not in idx:
+        return recs
+    hw = recs[idx[0x0020]]
+    fw = bytearray(recs[idx[0x8140]])
+    before = fw[8]
+    for k in (6, 8, 13, 15):
+        fw[k] = hw[k]
+    recs = list(recs)
+    recs[idx[0x8140]] = bytes(fw)
+    print(f"   전각 공백 진행 폭 {before} -> {fw[8]} (반각과 동일)")
+    return recs
+
 m = json.load(open(os.path.join(TEXT, '_hangul_codes.json'), encoding='utf-8'))['map']
 h2c = {ch: int(v, 16) for ch, v in m.items()}
 c2h = {v: k for k, v in h2c.items()}
@@ -63,6 +94,9 @@ def build(name, fn, bw, bh):
             recs.append(bytes(r))
         else:
             recs.append(d[offs[i]:offs[i] + g['reclen']])
+
+    if HALF_SPACE:
+        recs = _half_space(recs, gl)
 
     # SIR0 재조립 (코드 순서·개수 그대로)
     body = bytearray(b'SIR0' + b'\0' * 28)
