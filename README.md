@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.5.2.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.5.3.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.2.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.3.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.2.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         C85DB07692CCA2C340D319B3DE8BE5A7
-SHA-1       42D24D304C82F974D13C5322684CD9C50D1EF994
-SHA-256     FBD7D49AF455151B762597F85686B9653547C907D074D9AF3CC6FE3A378ED9FA
+MD5         A2A446FBDFE3990FA30EB619493C008C
+SHA-1       F26E4F6393DC396216F0BA801CAE33EBD92CA9E0
+SHA-256     59985AFB7527962F85C484E5762A41FDC434247577829B02ECE1712FF690E064
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
@@ -307,7 +307,7 @@ SECTPACK  이름\0 + u16 id(bit15=압축) + u16 시작섹터 + u16 섹터수
 「ウコン」이 앞 조각으로 넘어가면 키워드가 「이 놓여 있으니까」가 됩니다.
 678종을 전수 점검해 19종을 앞뒤 조각과 함께 다시 나눴습니다.
 
-### 3-3-1. 외곽선 — 세 번 헛짚고 원본 값 분포에 맞췄다
+### 3-3-1. 외곽선 — 네 번 헛짚었다
 
 게임은 글리프 알파를 그대로 그리는데, **가장자리의 중간값이 검은 외곽선**으로
 보인다. 원본 한자 획 단면이 `7 F 7` 인 것이 그 증거다.
@@ -316,18 +316,24 @@ SECTPACK  이름\0 + u16 id(bit15=압축) + u16 시작섹터 + u16 섹터수
 |---|---|
 | 굵게(`BOLD=1.55`) | 흰 획만 두꺼워지고 외곽선은 그대로 |
 | 0/15 이진화 | 중간값이 없어져 **외곽선 소멸** |
-| 속 F + 테 7 조립 | 계조가 없어 거칠고, 획 사이 빈 곳까지 테로 메워 **외곽선이 글자 안으로 파고듦** |
-| **감마 보정** | 계조 그대로, 가장자리 값만 원본 수준으로 |
+| 속 F + 테 7 조립 | 계조가 없어 거칠고, 획 사이 빈 곳까지 테로 메워 **외곽선이 안으로 파고듦** |
+| 전체 감마 | 계조는 살았지만 속까지 낮아져 **너무 얇아짐** |
+| **속은 꽉 + 가장자리만 감마** | 두께·계조·외곽선이 함께 산다 |
 
-답은 **원본과 같은 값 분포를 만드는 것**이었다. 잉크 화소 기준으로 맞췄다.
+```
+덮개 0.5 이상 -> 15 (흰 속)      0.25 -> 7 (외곽선)      0.1 -> 2
+```
 
-|  | 속(≥C) | 테(4~9) | 평균 |
-|---|---|---|---|
-| 원본 한자 | 29.1% | 37.5% | 7.8 |
-| **Bold γ1.4** | **29.1%** | **36.8%** | **7.8** |
+한 글자가 칸에서 차지하는 잉크 양으로 두께를 쟀다.
 
-굵기도 여기서 정해진다 — ExtraBold 는 너무 굵고 Medium 은 너무 가늘다.
-이미지(GIM) 쪽은 크게 그리므로 ExtraBold 그대로다(`paths.TTF` / `TTF_GAME`).
+| | 잉크 |
+|---|---|
+| 속 F + 테 7 (EB) | 0.391 — 너무 굵다 |
+| 전체 감마 (B γ1.4) | 0.167 — 너무 얇다 |
+| **지금 (B · CORE 0.5 · γ1.2)** | **0.326** |
+
+굵기는 **Bold** 다. 이미지(GIM) 쪽은 크게 그리므로 ExtraBold 그대로다
+(`paths.TTF` / `TTF_GAME`).
 
 ### 3-3-3. 대사창 2줄 — `tools/advfit.py`
 
