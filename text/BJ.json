@@ -10,7 +10,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第一章",
-   "ko": "제1장 ",
+   "ko": "　　　제1장",
    "chars": 6,
    "max_chars": 182,
    "group": {
@@ -33,7 +33,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　愛しのジュリエット",
-   "ko": "사랑스러운 줄리엣 ",
+   "ko": "　　　　　사랑스러운 줄리엣",
    "chars": 14,
    "max_chars": 182,
    "group": {
@@ -2172,7 +2172,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第二章",
-   "ko": "제2장 ",
+   "ko": "　　　제2장",
    "chars": 6,
    "max_chars": 182,
    "group": {
@@ -2195,7 +2195,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　夜道の怪談",
-   "ko": "밤길의 괴담 ",
+   "ko": "　　　　밤길의 괴담",
    "chars": 10,
    "max_chars": 182,
    "group": {
@@ -3989,7 +3989,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第三章",
-   "ko": "제3장 ",
+   "ko": "　　　제3장",
    "chars": 6,
    "max_chars": 182,
    "group": {
@@ -4012,7 +4012,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　君に会いたい",
-   "ko": "너를 만나고 싶어",
+   "ko": "　　너를 만나고 싶어",
    "chars": 11,
    "max_chars": 182,
    "group": {
@@ -5622,7 +5622,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第四章",
-   "ko": "제4장 ",
+   "ko": "　　　제4장",
    "chars": 6,
    "max_chars": 182,
    "group": {
@@ -5645,7 +5645,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　悪夢から覚めて",
-   "ko": "악몽에서 깨어나",
+   "ko": "　　　　악몽에서 깨어나",
    "chars": 12,
    "max_chars": 182,
    "group": {
@@ -8451,7 +8451,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第五章",
-   "ko": "제5장 ",
+   "ko": "　　　제5장",
    "chars": 6,
    "max_chars": 182,
    "group": {
@@ -8474,7 +8474,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　殺したのはあたし？",
-   "ko": "죽인 건 나?",
+   "ko": "　　　　　죽인 건 나?",
    "chars": 14,
    "max_chars": 182,
    "group": {
@@ -10567,7 +10567,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第六章",
-   "ko": "제6장 ",
+   "ko": "　　　제6장",
    "chars": 6,
    "max_chars": 182,
    "group": {
@@ -10590,7 +10590,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　ジュリエットの呪い",
-   "ko": "줄리엣의 저주",
+   "ko": "　　　　　줄리엣의 저주",
    "chars": 14,
    "max_chars": 182,
    "group": {
@@ -12223,7 +12223,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第七章",
-   "ko": "제7장 ",
+   "ko": "　　　제7장",
    "chars": 6,
    "max_chars": 182,
    "group": {
@@ -12246,7 +12246,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　悪夢の現場",
-   "ko": "악몽의 현장",
+   "ko": "　　　　악몽의 현장",
    "chars": 10,
    "max_chars": 182,
    "group": {
@@ -14546,7 +14546,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第八章",
-   "ko": "제8장 ",
+   "ko": "　　　제8장",
    "chars": 6,
    "max_chars": 182,
    "group": {
@@ -14569,7 +14569,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　カラスは語る",
-   "ko": "까마귀가 말하다",
+   "ko": "　　　까마귀가 말하다",
    "chars": 11,
    "max_chars": 182,
    "group": {
@@ -17030,7 +17030,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第九章",
-   "ko": "제9장 ",
+   "ko": "　　　제9장",
    "chars": 6,
    "max_chars": 182,
    "group": {
@@ -20204,7 +20204,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第十章",
-   "ko": "제10장 ",
+   "ko": "　　제10장",
    "chars": 6,
    "max_chars": 182,
    "group": {
@@ -20227,7 +20227,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　歌うジュリエット",
-   "ko": "노래하는 줄리엣",
+   "ko": "　　　　　노래하는 줄리엣",
    "chars": 13,
    "max_chars": 182,
    "group": {

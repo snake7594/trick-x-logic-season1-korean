@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.2.0.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.2.1.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.2.0.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.2.1.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.2.0.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         37150E008FF91594C005B5722C1D0DC5
-SHA-1       75101F0E0624D5C28C052742AC699804DA9A38D8
-SHA-256     553364E69618C042E9CEC41665C4D87610D155991D4B6003AE11F9398F868754
+MD5         E06DEEA8FAD70C9AC75284C0AD10A273
+SHA-1       8E6856F9E1878C8221C6A83B743EAD1BC72BF101
+SHA-256     E866B4DD80490EA05F271C50ECB8B0E29AA2B12854A310F6A2A9818425F963FC
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
@@ -155,8 +155,25 @@ SHA-256     553364E69618C042E9CEC41665C4D87610D155991D4B6003AE11F9398F868754
     op 0x33  00 00 00 00
 
 한국어 본문 위에 일본어 가나가 그대로 떠서 지워야 한다. 짝 구조를 건드리면
-위험하니 **읽기 문자열만 빈 문자열로** 만든다(NUL 만 남긴다). 명령을 통째로
-빼면 뒤따르는 `0x33` 이 짝을 잃는다. op 0x32 의 payload 길이도 같이 줄인다.
+위험하니 **읽기 글자를 전각 공백으로 바꾼다**. 명령을 통째로 빼면 뒤따르는
+`0x33` 이 짝을 잃는다.
+
+#### ⚠ 빈 문자열로 두면 소설 읽기 화면이 멈춘다
+
+처음에는 읽기를 **빈 문자열**로 만들었다(NUL 만 남김). 그랬더니 소설 읽기
+화면이 **첫 루비에서 멈췄다** — 제1장 제목 다음 쪽, `TU.bin` 블록 1 의
+`えつらん` 이 게임이 처음 만나는 루비다. 길이 0 인 읽기를 해석기가 감당하지
+못하는 것으로 보인다.
+
+가나는 cp932 에서 모두 2바이트이고 전각 공백도 2바이트다. 그래서 지금 방식은
+**payload 길이가 1바이트도 안 변하고**(561개 전부 원본과 동일) 명령 구조도
+그대로다. 글자 폭이 같아 배치도 안 흔들리고, 화면에는 아무것도 안 보인다.
+
+### 챕터 제목 앞의 전각 공백
+
+원문 챕터 제목은 `　　　第一章` 처럼 **앞에 전각 공백**을 두어 세로쓰기에서
+위치를 잡는다. 번역이 이 공백을 지우고 뒤에 붙이는 바람에 제목이 원본 2열에서
+3열로 넘쳤다. 78건을 원문과 같은 앞 공백·같은 칸 수로 되돌렸다.
 
 처음에는 `32 09 00 00 00` 이라는 **바이트열을 찾았는데**, 이건 payload 길이가
 정확히 9(가나 두 자)인 것만 걸립니다. 명령 단위로 다시 세니 전체가 **561개**였고

@@ -10,7 +10,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第一章",
-   "ko": "제1장 ",
+   "ko": "　　　제1장",
    "chars": 6,
    "max_chars": 170,
    "group": {
@@ -33,7 +33,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　頼りない探偵",
-   "ko": "못 미더운",
+   "ko": "　　　　　못 미더운",
    "chars": 11,
    "max_chars": 170,
    "group": {
@@ -6381,7 +6381,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第二章",
-   "ko": "제2장 ",
+   "ko": "　　　제2장",
    "chars": 6,
    "max_chars": 170,
    "group": {
@@ -6404,7 +6404,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　首のない死体",
-   "ko": "목 없는 시체 ",
+   "ko": "　　　　목 없는 시체",
    "chars": 11,
    "max_chars": 170,
    "group": {
@@ -7784,7 +7784,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第三章",
-   "ko": "제3장 ",
+   "ko": "　　　제3장",
    "chars": 6,
    "max_chars": 170,
    "group": {
@@ -7807,7 +7807,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　現場検証",
-   "ko": "현장 검증 ",
+   "ko": "　　　　현장 검증",
    "chars": 9,
    "max_chars": 170,
    "group": {
@@ -13718,7 +13718,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第四章",
-   "ko": "제4장 ",
+   "ko": "　　　제4장",
    "chars": 6,
    "max_chars": 170,
    "group": {
@@ -13741,7 +13741,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　一つの疑問",
-   "ko": "한 가지",
+   "ko": "　　　　　한 가지",
    "chars": 10,
    "max_chars": 170,
    "group": {
@@ -15558,7 +15558,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第五章",
-   "ko": "제5장 ",
+   "ko": "　　　제5장",
    "chars": 6,
    "max_chars": 170,
    "group": {
@@ -15581,7 +15581,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　遠藤律子の証言",
-   "ko": "엔도 리쓰코의 증언",
+   "ko": "　　엔도 리쓰코의 증언",
    "chars": 12,
    "max_chars": 170,
    "group": {
@@ -17674,7 +17674,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第六章",
-   "ko": "제6장 ",
+   "ko": "　　　제6장",
    "chars": 6,
    "max_chars": 170,
    "group": {
@@ -17697,7 +17697,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　原口恭二の証言",
-   "ko": "하라구치 쿄지의 증언 ",
+   "ko": "　하라구치 쿄지의 증언",
    "chars": 12,
    "max_chars": 170,
    "group": {
@@ -19422,7 +19422,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第七章",
-   "ko": "제7장 ",
+   "ko": "　　　제7장",
    "chars": 6,
    "max_chars": 170,
    "group": {
@@ -19445,7 +19445,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　森川琴美の証言",
-   "ko": "모리카와 고토미의 증언 ",
+   "ko": "모리카와 고토미의 증언",
    "chars": 12,
    "max_chars": 170,
    "group": {
@@ -21653,7 +21653,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第八章",
-   "ko": "제8장 ",
+   "ko": "　　　제8장",
    "chars": 6,
    "max_chars": 170,
    "group": {
@@ -21676,7 +21676,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　首切りの理由",
-   "ko": "목을 자른 이유 ",
+   "ko": "　　　목을 자른 이유",
    "chars": 11,
    "max_chars": 170,
    "group": {
@@ -23631,7 +23631,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第九章",
-   "ko": "제9장 ",
+   "ko": "　　　제9장",
    "chars": 6,
    "max_chars": 170,
    "group": {
@@ -23654,7 +23654,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　犯人は誰？",
-   "ko": "범인은 누구?",
+   "ko": "　　　범인은 누구?",
    "chars": 10,
    "max_chars": 170,
    "group": {
@@ -25655,7 +25655,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　　　　　　大山誠一郎",
-   "ko": "오야마 세이이치로",
+   "ko": "　　　　　　오야마 세이이치로",
    "chars": 15,
    "max_chars": 141,
    "group": {

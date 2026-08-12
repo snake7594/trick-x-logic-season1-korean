@@ -10,7 +10,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第一章",
-   "ko": "제1장 ",
+   "ko": "　　　제1장",
    "chars": 6,
    "max_chars": 135,
    "group": {
@@ -33,7 +33,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　予期せぬ来客",
-   "ko": "예기치 않은 손님",
+   "ko": "　　예기치 않은 손님",
    "chars": 11,
    "max_chars": 135,
    "group": {
@@ -5093,7 +5093,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第二章",
-   "ko": "제2장 ",
+   "ko": "　　　제2장",
    "chars": 6,
    "max_chars": 135,
    "group": {
@@ -5116,7 +5116,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　容疑者たち",
-   "ko": "용의자들 ",
+   "ko": "　　　　　용의자들",
    "chars": 10,
    "max_chars": 135,
    "group": {
@@ -11004,7 +11004,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第三章",
-   "ko": "제3장 ",
+   "ko": "　　　제3장",
    "chars": 6,
    "max_chars": 135,
    "group": {
@@ -11027,7 +11027,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　矛盾する証言",
-   "ko": "모순되는 증언 ",
+   "ko": "　　　　모순되는 증언",
    "chars": 11,
    "max_chars": 135,
    "group": {
@@ -12913,7 +12913,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　　　　　　　竹本健治",
-   "ko": "다케모토 겐지",
+   "ko": "　　　　　　　　다케모토 겐지",
    "chars": 15,
    "max_chars": 153,
    "group": {

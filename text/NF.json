@@ -10,7 +10,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第一章",
-   "ko": "제1장 ",
+   "ko": "　　　제1장",
    "chars": 6,
    "max_chars": 127,
    "group": {
@@ -33,7 +33,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　事件発生",
-   "ko": "사건 발생 ",
+   "ko": "　　　　사건 발생",
    "chars": 9,
    "max_chars": 127,
    "group": {
@@ -4932,7 +4932,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第二章",
-   "ko": "제2장 ",
+   "ko": "　　　제2장",
    "chars": 6,
    "max_chars": 127,
    "group": {
@@ -4955,7 +4955,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　事情聴取",
-   "ko": "사정 청취 ",
+   "ko": "　　　　사정 청취",
    "chars": 9,
    "max_chars": 127,
    "group": {
@@ -8727,7 +8727,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第三章",
-   "ko": "제3장 ",
+   "ko": "　　　제3장",
    "chars": 6,
    "max_chars": 127,
    "group": {
@@ -8750,7 +8750,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　再現",
-   "ko": "재현 ",
+   "ko": "　　　　　재현",
    "chars": 7,
    "max_chars": 127,
    "group": {
@@ -11096,7 +11096,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　　　　　我孫子武丸",
-   "ko": "아비코 다케마루",
+   "ko": "　　　　　　아비코 다케마루",
    "chars": 14,
    "max_chars": 100,
    "group": {

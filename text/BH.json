@@ -10,7 +10,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第一章",
-   "ko": "제1장 ",
+   "ko": "　　　제1장",
    "chars": 6,
    "max_chars": 153,
    "group": {
@@ -33,7 +33,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　宴の始まり",
-   "ko": "연회의 시작",
+   "ko": "　　　　연회의 시작",
    "chars": 10,
    "max_chars": 153,
    "group": {
@@ -3690,7 +3690,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第二章",
-   "ko": "제2장 ",
+   "ko": "　　　제2장",
    "chars": 6,
    "max_chars": 153,
    "group": {
@@ -3713,7 +3713,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　たたずむ甲冑",
-   "ko": "우두커니 선 갑옷 ",
+   "ko": "　　우두커니 선 갑옷",
    "chars": 11,
    "max_chars": 153,
    "group": {
@@ -8382,7 +8382,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第三章",
-   "ko": "제3장 ",
+   "ko": "　　　제3장",
    "chars": 6,
    "max_chars": 153,
    "group": {
@@ -8405,7 +8405,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　夜空に咲いた華",
-   "ko": "밤하늘에 피어난 꽃 ",
+   "ko": "　　밤하늘에 피어난 꽃",
    "chars": 12,
    "max_chars": 153,
    "group": {
@@ -11579,7 +11579,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第四章",
-   "ko": "제4장 ",
+   "ko": "　　　제4장",
    "chars": 6,
    "max_chars": 153,
    "group": {
@@ -11602,7 +11602,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　亡霊、現る",
-   "ko": "망령, 나타나다 ",
+   "ko": "　　망령, 나타나다",
    "chars": 10,
    "max_chars": 153,
    "group": {
@@ -15880,7 +15880,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第五章",
-   "ko": "제5장 ",
+   "ko": "　　　제5장",
    "chars": 6,
    "max_chars": 153,
    "group": {
@@ -15903,7 +15903,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　ひまわりの傍らに",
-   "ko": "해바라기 곁에",
+   "ko": "　　　　　해바라기 곁에",
    "chars": 13,
    "max_chars": 153,
    "group": {
@@ -18318,7 +18318,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第六章",
-   "ko": "제6장 ",
+   "ko": "　　　제6장",
    "chars": 6,
    "max_chars": 153,
    "group": {
@@ -18341,7 +18341,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　五人の容疑者",
-   "ko": "용의자 다섯 명 ",
+   "ko": "　　　용의자 다섯 명",
    "chars": 11,
    "max_chars": 153,
    "group": {
@@ -22619,7 +22619,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　第七章",
-   "ko": "제7장 ",
+   "ko": "　　　제7장",
    "chars": 6,
    "max_chars": 153,
    "group": {
@@ -22642,7 +22642,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　カメラは語る",
-   "ko": "카메라가 말한다 ",
+   "ko": "　　　카메라가 말한다",
    "chars": 11,
    "max_chars": 153,
    "group": {
@@ -27518,7 +27518,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　　　　　　　　　　　　黒田研二",
-   "ko": "쿠로다 켄지 ",
+   "ko": "　　　　　　　　　　쿠로다 켄지",
    "chars": 16,
    "max_chars": 119,
    "group": {
