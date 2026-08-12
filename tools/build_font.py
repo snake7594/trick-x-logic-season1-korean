@@ -7,7 +7,7 @@ from fonts import load, glyphs, to_img
 from lz import compress, decompress
 from ptr import read_ptrlist, write_ptrlist
 
-TTF = paths.TTF
+TTF = paths.TTF_GAME
 KANJI0 = 0x889F
 # 게임은 글리프 알파의 **중간값을 검은 외곽선**으로, 높은 값을 흰 속으로
 # 칠한다. 원본 한자의 획 단면이 `7 F 7` 인 것이 그 증거다 — 7 이 외곽선,
