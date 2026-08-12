@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.5.6.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.6.0.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.6.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.6.0.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.5.6.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         B1752E5914521394870FCBFE10203D59
-SHA-1       D09A7398766D7C90196180A1C4311D4634F470DC
-SHA-256     CAA9CD606F388E8EA766540CF8548D3AFF0E5EA664530637440F0690ECD7CD5D
+MD5         43F5BD3CE0FEF1BDA21023F1317ADB9C
+SHA-1       5A2794963F3736D112C45653143FD389B1FAA5B2
+SHA-256     4DBEFC87FDEB4CC755F4813E8CEF708AA420C10DA6970D86F6C48C9666674DB6
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
@@ -160,8 +160,12 @@ SHA-256     CAA9CD606F388E8EA766540CF8548D3AFF0E5EA664530637440F0690ECD7CD5D
 
 처음에는 `32 09 00 00 00` 이라는 **바이트열을 찾았는데**, 이건 payload 길이가
 정확히 9(가나 두 자)인 것만 걸립니다. 명령 단위로 다시 세니 전체가 **561개**였고
-128개만 지우고 있었습니다. 지금은 **545개**를 바꿉니다(나머지 16개는 가나가
-아닌 것).
+128개만 지우고 있었습니다.
+
+또 하나: payload 앞 u32 는 「덮는 글자수」가 아니라 **읽기 개수**입니다. 한
+명령에 둘 이상 들어 있는 자리가 있어서(`ろ` + `けん`), 하나로 보고 통째로
+읽으면 가운데 NUL 때문에 가나 판정에 걸려 그냥 지나쳤습니다. 지금은
+**577개**를 바꿉니다.
 
 #### ⚠ 빈 문자열로 두면 소설 읽기 화면이 멈춘다
 
@@ -237,7 +241,21 @@ SHA-256     CAA9CD606F388E8EA766540CF8548D3AFF0E5EA664530637440F0690ECD7CD5D
 도면 위의 흐릿한 배경 지명(`保田谷町` 등 원본에서도 읽기 어려운 것)은
 남겼습니다. 지우면 지도 질감이 깨집니다.
 
-번역 대상이 아닌 이미지 9장(제작사 로고·빈 패널·무늬)이 있습니다.
+### 남은 일본어 — 전수 점검 결과
+
+최종 ISO 의 스크립트를 훑어 **가나가 남은 곳은 0건**입니다(`づ` 로 잡히는
+11건은 좌표 바이트 `82 c3` 가 우연히 디코드된 오탐).
+
+여기까지 오는 데 두 가지가 더 걸렸습니다.
+
+- `keyname` 이 **통히라가나 문자열을 무조건 정렬용 읽기로 보고 건너뛰었다.**
+  `どてら` 처럼 화면에 나오는 낱말이 번역표에 있는데도 빠졌습니다. 이제
+  **번역표를 먼저 보고**, 거기 없을 때만 읽기로 취급합니다.
+- 루비 payload 의 u32 가 읽기 **개수**라는 걸 뒤늦게 알았습니다(위 참고).
+
+번역하지 않는 이미지는 30장입니다 — 제작사 로고·빈 패널·무늬, 그리고
+**아트 컬렉션(제작 스케치)**. 스케치의 손글씨 메모까지 고치면 그림이 망가지므로
+원본 그대로 둡니다.
 
 ---
 

@@ -2,7 +2,7 @@
 
 본문 문자열 사이에 이런 짝이 들어 있다.
 
-    op 0x32  u32 payload길이  [ u32 덮는글자수 | <읽기 cp932> NUL ]
+    op 0x32  u32 payload길이  [ u32 읽기개수 | (<읽기 cp932> NUL) × 개수 ]
     op 0x01  u32 길이         <읽는 대상 글자> NUL
     op 0x33  00 00 00 00
 
@@ -56,16 +56,25 @@ def spans(d):
     for oo, op, po, pl in cmds:
         if op != RUBY or pl <= 5:
             continue
-        o = po + 4                     # 덮는 글자수 u32 를 건너뛴다
-        j = po + pl - 1                # payload 끝의 NUL
-        if d[j] != 0:
-            continue
-        try:
-            t = d[o:j].decode('cp932')
-        except Exception:
-            continue
-        if _kana(t):
-            out.append((o, j))
+        # payload = u32 읽기개수 + (읽기 NUL) × 개수. 한 명령에 **두 개 이상**
+        # 들어 있는 경우가 있다(`ろ` + `けん`). 하나로 보고 통째로 읽으면
+        # 가운데 NUL 때문에 가나 판정에 걸려 그냥 지나쳤다.
+        n = struct.unpack('<I', d[po:po + 4])[0]
+        o, end = po + 4, po + pl
+        for _ in range(max(n, 1)):
+            if o >= end:
+                break
+            j = d.find(bytes([0]), o, end)
+            if j < 0:
+                break
+            if j > o:
+                try:
+                    t = d[o:j].decode('cp932')
+                except Exception:
+                    t = None
+                if t and _kana(t):
+                    out.append((o, j))
+            o = j + 1
     return out
 
 

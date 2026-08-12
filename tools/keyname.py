@@ -102,7 +102,7 @@ def build(ko_map, base=None, verbose=False):
             repl = {}
             # 번역표에 있는 것만 바꾸므로 짧은 이름(黒木 등)도 봐야 한다
             for off, t in rawtext.strings(d, minlen=1):
-                if not has_jp(t) or _reading(t):
+                if not has_jp(t):
                     continue
                 ko = pink.get(tag, {}).get(t) or allpink.get(t)
                 kind = '키워드 이름'
@@ -110,7 +110,10 @@ def build(ko_map, base=None, verbose=False):
                     ko = titles.get(t)
                     kind = '제목·인물명'
                 if not ko:
-                    stat['번역 없음'] += 1
+                    # 번역표에 없는 통히라가나는 정렬용 읽기다 — 건드리지 않는다.
+                    # **번역표를 먼저 본다** — `どてら` 처럼 화면에 나오는 낱말이
+                    # 통히라가나라서 읽기로 오해받아 빠져 있었다.
+                    stat['정렬용 읽기' if _reading(t) else '번역 없음'] += 1
                     continue
                 try:
                     repl[off] = core.encode(ko)
