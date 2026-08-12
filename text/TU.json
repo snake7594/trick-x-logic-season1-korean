@@ -125,7 +125,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「すみません、",
-   "ko": "「죄송합니다,",
+   "ko": "「죄송합니다, ",
    "chars": 7,
    "max_chars": 53,
    "group": {
@@ -263,7 +263,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "頭部に数ヶ所殴られたような",
-   "ko": "여러 곳 맞은 듯한 ",
+   "ko": "머리를 여러 곳 맞은 듯한 ",
    "chars": 13,
    "max_chars": 53,
    "group": {
@@ -355,7 +355,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "リノリウムの床を赤く染めていた。殴打の痕が数ヶ所あることから、どこかに頭をぶつけて自傷したとは考えにくい。",
-   "ko": "붉게 물들고 있었다. 타격 흔적이 여러 곳이라 어딘가에 머리를 부딪혀 자해로 보긴 어렵다.",
+   "ko": "리놀륨 바닥을 붉게 물들이고 있었다. 타격 흔적이 여러 곳이라 어딘가에 머리를 부딪혀 자해로 보긴 어렵다.",
    "chars": 53,
    "max_chars": 53,
    "group": {
@@ -953,7 +953,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "だった。外には田畑が広がっていて、",
-   "ko": "이었다. 밖에는 논밭이 펼쳐져 있고,",
+   "ko": "이었다. 밖에는 논밭이 펼쳐져 있고, ",
    "chars": 17,
    "max_chars": 53,
    "group": {
@@ -1022,7 +1022,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　もしや、電車の車窓から犯行を目撃した者がいるのでは？　……と思ったが、",
-   "ko": "혹시 전철에서 범행을 본 사람이 없을까? ……생각했지만,",
+   "ko": "혹시 전철에서 범행을 본 사람이 없을까? ……생각했지만, ",
    "chars": 36,
    "max_chars": 53,
    "group": {
@@ -1298,7 +1298,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "を行い、",
-   "ko": "를 했고,",
+   "ko": "를 했고, ",
    "chars": 4,
    "max_chars": 53,
    "group": {
@@ -1666,7 +1666,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "。すべて読破するつもりだったが、途中で身体が冷えすぎて中断、",
-   "ko": "이었다. 전부 읽으려 했지만, 몸이 너무 차가워져 중단하고,",
+   "ko": "이었다. 전부 읽으려 했지만, 몸이 너무 차가워져 중단하고, ",
    "chars": 30,
    "max_chars": 53,
    "group": {
@@ -2011,7 +2011,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　念のため中のデータを確認すると、",
-   "ko": "안의 데이터까지 확인하니,",
+   "ko": "안의 데이터까지 확인하니, ",
    "chars": 17,
    "max_chars": 53,
    "group": {
@@ -2057,7 +2057,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "。不審な物音や映像は記録されていなかったが、",
-   "ko": "수상한 소리나 장면은 없었지만,",
+   "ko": "수상한 소리나 장면은 없었지만, ",
    "chars": 22,
    "max_chars": 53,
    "group": {
@@ -2172,7 +2172,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　確かに、",
-   "ko": "정말 확실히,",
+   "ko": "정말 확실히, ",
    "chars": 5,
    "max_chars": 53,
    "group": {
@@ -3483,7 +3483,7 @@
    "category": "interval",
    "speaker_hint": "yama",
    "ja": "まずは、",
-   "ko": "먼저,",
+   "ko": "먼저, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -3575,7 +3575,7 @@
    "category": "interval",
    "speaker_hint": "yama",
    "ja": "には、",
-   "ko": "에는,",
+   "ko": "에는, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -3805,7 +3805,7 @@
    "category": "interval",
    "speaker_hint": "yama",
    "ja": "で",
-   "ko": "을 눌러",
+   "ko": "을 눌러 ",
    "chars": 1,
    "max_chars": 44,
    "group": {
@@ -4127,7 +4127,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "、",
-   "ko": "로,",
+   "ko": "로, ",
    "chars": 1,
    "max_chars": 44,
    "group": {
@@ -4196,7 +4196,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "付せんを貼った場所や、各章冒頭に瞬時に",
-   "ko": "메모를 붙인 곳이나 각 장 첫머리로 바로",
+   "ko": "메모를 붙인 곳이나 각 장 첫머리로 바로 ",
    "chars": 19,
    "max_chars": 44,
    "group": {
@@ -4242,7 +4242,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "は、",
-   "ko": "는,",
+   "ko": "는, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -4495,7 +4495,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "にすると、",
-   "ko": "있으면,",
+   "ko": "있으면, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -4909,7 +4909,7 @@
    "category": "interval",
    "speaker_hint": "yama",
    "ja": "しかし、中には厄介な",
-   "ko": "하지만 그중에는 다루기 까다로운",
+   "ko": "하지만 그중에는 다루기 까다로운 ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -5093,7 +5093,7 @@
    "category": "interval",
    "speaker_hint": "yama",
    "ja": "うむ、",
-   "ko": "음,",
+   "ko": "음, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -5231,7 +5231,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "そのトゲで魂を傷つけると、魂は雫となり",
-   "ko": "그 가시로 영혼을 찌르면 영혼은 물방울이 되어",
+   "ko": "그 가시로 영혼을 찌르면 영혼은 물방울이 되어 ",
    "chars": 19,
    "max_chars": 44,
    "group": {
@@ -5300,7 +5300,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "真実を見抜く心があるならば、",
-   "ko": "진실을 꿰뚫는 마음이 있다면,",
+   "ko": "진실을 꿰뚫는 마음이 있다면, ",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -5461,7 +5461,7 @@
    "category": "interval",
    "speaker_hint": "yama",
    "ja": "そう、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -5507,7 +5507,7 @@
    "category": "interval",
    "speaker_hint": "yama",
    "ja": "には、",
-   "ko": "에는,",
+   "ko": "에는, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -5599,7 +5599,7 @@
    "category": "interval",
    "speaker_hint": "yama",
    "ja": "この",
-   "ko": "이런",
+   "ko": "이런 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -5737,7 +5737,7 @@
    "category": "interval",
    "speaker_hint": "yama",
    "ja": "に書かれたキーワードを推理すると、さまざまな",
-   "ko": "에 적힌 키워드를 꼼꼼히 추리하면 다양한",
+   "ko": "에 적힌 키워드를 꼼꼼히 추리하면 다양한 ",
    "chars": 22,
    "max_chars": 44,
    "group": {
@@ -5806,7 +5806,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "そうして生み出した",
-   "ko": "그렇게 만들어 낸",
+   "ko": "그렇게 만들어 낸 ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -5852,7 +5852,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "を使って",
-   "ko": "을 이용해",
+   "ko": "을 이용해 ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -5944,7 +5944,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "ただし、生まれる",
-   "ko": "단, 생겨나는",
+   "ko": "단, 생겨나는 ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -6013,7 +6013,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "中には、まことしやかなウソの",
-   "ko": "그중에는 그럴듯한 거짓",
+   "ko": "그중에는 그럴듯한 거짓 ",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -6266,7 +6266,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "以上をふまえた上で、",
-   "ko": "이상을 바탕으로,",
+   "ko": "이상을 바탕으로, ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -6312,7 +6312,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "に記すべき",
-   "ko": "에 적을",
+   "ko": "에 적을 ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -6542,7 +6542,7 @@
    "category": "interval",
    "speaker_hint": "yama",
    "ja": "詳しい操作説明を見たいときは、",
-   "ko": "자세한 조작 설명을 보려면,",
+   "ko": "자세한 조작 설명을 보려면, ",
    "chars": 15,
    "max_chars": 44,
    "group": {
@@ -6634,7 +6634,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "を開いて",
-   "ko": "를 열어",
+   "ko": "를 열어 ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -6726,7 +6726,7 @@
    "category": "interval",
    "speaker_hint": null,
    "ja": "のほか、",
-   "ko": "외에도",
+   "ko": "외에도 ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -7071,7 +7071,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "何が",
-   "ko": "대체 무슨",
+   "ko": "대체 무슨 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -7117,7 +7117,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "誰だ、",
-   "ko": "누구야,",
+   "ko": "누구야, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -7324,7 +7324,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "あんた、",
-   "ko": "당신,",
+   "ko": "당신, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -7807,7 +7807,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "みんなからは",
-   "ko": "다들",
+   "ko": "다들 ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -7945,7 +7945,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "お前、",
-   "ko": "너,",
+   "ko": "너, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -8060,7 +8060,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "まァ、正確に言うと、",
-   "ko": "뭐, 정확히 말하면,",
+   "ko": "뭐, 정확히 말하면, ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -8244,7 +8244,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "いわゆる",
-   "ko": "말하자면",
+   "ko": "말하자면 ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -8359,7 +8359,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "戻れば、",
-   "ko": "돌아가면,",
+   "ko": "돌아가면, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -8474,7 +8474,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "こんな",
-   "ko": "이런",
+   "ko": "이런 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -8773,7 +8773,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "天才",
-   "ko": "천재",
+   "ko": "천재 ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -9003,7 +9003,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "お、",
-   "ko": "오,",
+   "ko": "오, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -9141,7 +9141,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "よし、",
-   "ko": "좋아,",
+   "ko": "좋아, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -9187,7 +9187,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "ソレ、",
-   "ko": "그거,",
+   "ko": "그거, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -9348,7 +9348,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "どれほどのものか、",
-   "ko": "어느 정도인지,",
+   "ko": "어느 정도인지, ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -9463,7 +9463,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "その本は、",
-   "ko": "그 책은",
+   "ko": "그 책은 ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -9486,7 +9486,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "ここ冥界で",
-   "ko": "이 명계에서",
+   "ko": "이 명계에서 ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -9601,7 +9601,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "には、",
-   "ko": "에는,",
+   "ko": "에는, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -9693,7 +9693,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "ある図書館で",
-   "ko": "어느 도서관에서",
+   "ko": "어느 도서관에서 ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -9877,7 +9877,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "まずは",
-   "ko": "우선",
+   "ko": "우선 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -10084,7 +10084,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "読み進む",
-   "ko": "넘겨 읽을",
+   "ko": "넘겨 읽을 ",
    "chars": 4,
    "max_chars": 44,
    "group": {

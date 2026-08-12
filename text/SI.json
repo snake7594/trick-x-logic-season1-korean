@@ -447,7 +447,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　一平はいつも自分が不幸な星の下に生まれたことを嘆いていたが、そんな彼に、ついに最悪の不幸が訪れることになったのだった㊦㊨よりによって、殺人事件に巻き込まれることになったのである。もっとも、悪いことばかりではない。そのおかげで、",
-   "ko": "　잇페이는 늘 자기가 불운한 별 아래 태어났다고 한탄했지만, 그런 그에게 마침내 최악의 불운이 찾아오게 되었다㊦㊨하필이면 살인 사건에 휘말리게 된 것이다. 하기야 나쁜 일만 있었던 건 아니다. 그 덕분에",
+   "ko": "　잇페이는 늘 자기가 불운한 별 아래 태어났다고 한탄했지만, 그런 그에게 마침내 최악의 불운이 찾아오게 되었다㊦㊨하필이면 살인 사건에 휘말리게 된 것이다. 하기야 나쁜 일만 있었던 건 아니다. 그 덕분에 ",
    "chars": 114,
    "max_chars": 170,
    "group": {
@@ -493,7 +493,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "つかさという風変わりで",
-   "ko": "츠카사라는 엉뚱하고",
+   "ko": "츠카사라는 엉뚱하고 ",
    "chars": 11,
    "max_chars": 170,
    "group": {
@@ -1367,7 +1367,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「いいか、",
-   "ko": "「잘 들어,",
+   "ko": "「잘 들어, ",
    "chars": 5,
    "max_chars": 170,
    "group": {
@@ -1459,7 +1459,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　岩下に続いて応接室に入ると、",
-   "ko": "이와시타를 따라 응접실에 들어가 보니,",
+   "ko": "이와시타를 따라 응접실에 들어가 보니, ",
    "chars": 15,
    "max_chars": 170,
    "group": {
@@ -2287,7 +2287,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "はわたしが得て、",
-   "ko": "얻었고,",
+   "ko": "얻었고, ",
    "chars": 8,
    "max_chars": 170,
    "group": {
@@ -2494,7 +2494,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "しました。夫はしぶしぶ受け入れて、それからは娘につきまとうこともなくなったのですけれど、",
-   "ko": "했습니다. 남편은 마지못해 받아들였고, 그 뒤로는 딸을 따라다니지도 않았지만,",
+   "ko": "했습니다. 남편은 마지못해 받아들였고, 그 뒤로는 딸을 따라다니지도 않았지만, ",
    "chars": 44,
    "max_chars": 170,
    "group": {
@@ -2747,7 +2747,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "をしていたのですが、",
-   "ko": "로 일했지만,",
+   "ko": "로 일했지만, ",
    "chars": 10,
    "max_chars": 170,
    "group": {
@@ -3391,7 +3391,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "〈ハイツ高梨〉は、",
-   "ko": "〈하이츠 다카나시〉는",
+   "ko": "〈하이츠 다카나시〉는 ",
    "chars": 9,
    "max_chars": 170,
    "group": {
@@ -3506,7 +3506,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　エントランスを抜けると、開放式の通路が奥に延びており、",
-   "ko": "현관을 지나자 개방형 통로가 안쪽으로 이어졌고,",
+   "ko": "현관을 지나자 개방형 통로가 안쪽으로 이어졌고, ",
    "chars": 28,
    "max_chars": 170,
    "group": {
@@ -3621,7 +3621,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "が、",
-   "ko": "이,",
+   "ko": "이, ",
    "chars": 2,
    "max_chars": 170,
    "group": {
@@ -3713,7 +3713,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "のドアの隙間をのぞいてみると、",
-   "ko": "문틈을 들여다보니,",
+   "ko": "문틈을 들여다보니, ",
    "chars": 15,
    "max_chars": 170,
    "group": {
@@ -3782,7 +3782,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　さて、どこから見張りをしようか。辺りを見回すと、",
-   "ko": "자, 어디서 감시할까. 주위를 둘러보니,",
+   "ko": "자, 어디서 감시할까. 주위를 둘러보니, ",
    "chars": 25,
    "max_chars": 170,
    "group": {
@@ -3874,7 +3874,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "てた向かいに〈シャレード〉という喫茶店があるのが見えた。あの喫茶店の窓際席からならば、",
-   "ko": "에는 〈샤레이드〉라는 찻집이 보였다. 그 찻집 창가 자리라면",
+   "ko": "에는 〈샤레이드〉라는 찻집이 보였다. 그 찻집 창가 자리라면 ",
    "chars": 43,
    "max_chars": 170,
    "group": {
@@ -3897,7 +3897,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "一〇三号室のドアがよく見える",
-   "ko": "103호실 문이 잘 보일",
+   "ko": "103호실 문이 잘 보일 ",
    "chars": 14,
    "max_chars": 170,
    "group": {
@@ -4334,7 +4334,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　店に入ってきたのは、",
-   "ko": "가게에 들어온 사람은",
+   "ko": "가게에 들어온 사람은 ",
    "chars": 11,
    "max_chars": 170,
    "group": {
@@ -5737,7 +5737,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "鼻筋の通った端正な顔立ちはよく似ているが",
-   "ko": "콧날이 반듯한 단정한 얼굴은 매우 닮았지만",
+   "ko": "콧날이 반듯한 단정한 얼굴은 매우 닮았지만 ",
    "chars": 20,
    "max_chars": 170,
    "group": {
@@ -6910,7 +6910,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "になっていた。ドアのそばには脱衣籠があり、",
-   "ko": "열려 있었다. 문 옆에는 탈의 바구니가 있었고,",
+   "ko": "열려 있었다. 문 옆에는 탈의 바구니가 있었고, ",
    "chars": 21,
    "max_chars": 170,
    "group": {
@@ -9095,7 +9095,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　所轄署の刑事の説明によれば、ひょろりとした青年の方は萩本一平という興信所員で、",
-   "ko": "관할서 형사의 설명에 따르면 호리호리한 청년은 하기모토 잇페이라는 흥신소 직원으로,",
+   "ko": "관할서 형사의 설명에 따르면 호리호리한 청년은 하기모토 잇페이라는 흥신소 직원으로, ",
    "chars": 40,
    "max_chars": 170,
    "group": {
@@ -9739,7 +9739,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "だったらしいが、切断のときに流れた血に染まり、",
-   "ko": "절단할 때 흐른 피에 물들어,",
+   "ko": "절단할 때 흐른 피에 물들어, ",
    "chars": 23,
    "max_chars": 170,
    "group": {
@@ -10153,7 +10153,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "は巻かれており、バスタブの中が見えたが、",
-   "ko": "은 말려 올라가 있어 욕조 안이 보였지만,",
+   "ko": "은 말려 올라가 있어 욕조 안이 보였지만, ",
    "chars": 20,
    "max_chars": 170,
    "group": {
@@ -10521,7 +10521,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "しているのだから、",
-   "ko": "있었으니,",
+   "ko": "있었으니, ",
    "chars": 9,
    "max_chars": 170,
    "group": {
@@ -10590,7 +10590,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　ダイニングキッチンは床がフローリングになっており、",
-   "ko": "다이닝 키친 바닥은 마룻바닥이었고,",
+   "ko": "다이닝 키친 바닥은 마룻바닥이었고, ",
    "chars": 26,
    "max_chars": 170,
    "group": {
@@ -10728,7 +10728,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "、ゴミ箱、",
-   "ko": ", 쓰레기통,",
+   "ko": ", 쓰레기통, ",
    "chars": 5,
    "max_chars": 170,
    "group": {
@@ -11280,7 +11280,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "が敷かれており、",
-   "ko": "깔려 있었고,",
+   "ko": "깔려 있었고, ",
    "chars": 8,
    "max_chars": 170,
    "group": {
@@ -11625,7 +11625,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "直腸温度の低下などから判断して、",
-   "ko": "온도 저하 등을 판단하면,",
+   "ko": "온도 저하 등을 판단하면, ",
    "chars": 16,
    "max_chars": 170,
    "group": {
@@ -14040,7 +14040,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "られたんだ。原口が死んでしまったので、見張りの仕事がすぐに終わってしまい、",
-   "ko": "하라구치가 죽어서 감시 업무가 금방 끝났고,",
+   "ko": "하라구치가 죽어서 감시 업무가 금방 끝났고, ",
    "chars": 37,
    "max_chars": 170,
    "group": {
@@ -14799,7 +14799,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「あいにくだがな、",
-   "ko": "「안됐지만,",
+   "ko": "「안됐지만, ",
    "chars": 9,
    "max_chars": 170,
    "group": {
@@ -15052,7 +15052,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "したＤＮＡと、死体のＤＮＡを比較したところ、完全に一致した。さらに、原口の弟に毛髪を提供してもらい、そこから抽出したＤＮＡと死体のＤＮＡを比較したところ、",
-   "ko": "DNA와 시체의 DNA를 비교했더니 완전히 일치했네. 게다가 하라구치의 동생에게 머리카락을 제공받아 거기서 추출한 DNA와 시체의 DNA를 비교했더니,",
+   "ko": "DNA와 시체의 DNA를 비교했더니 완전히 일치했네. 게다가 하라구치의 동생에게 머리카락을 제공받아 거기서 추출한 DNA와 시체의 DNA를 비교했더니, ",
    "chars": 77,
    "max_chars": 170,
    "group": {
@@ -15972,7 +15972,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　遠藤律子は一平の言葉を疑うこともなくあっさりと受け入れ、オートロックを解除してくれた。エレベータで六階に上がり、",
-   "ko": "엔도 리쓰코는 잇페이의 말을 의심하지 않고 선뜻 받아들여 자동 잠금 장치를 열어 주었다. 엘리베이터로 6층에 올라",
+   "ko": "엔도 리쓰코는 잇페이의 말을 의심하지 않고 선뜻 받아들여 자동 잠금 장치를 열어 주었다. 엘리베이터로 6층에 올라 ",
    "chars": 57,
    "max_chars": 170,
    "group": {
@@ -16501,7 +16501,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "です。登下校中の娘に原口がつきまとって、自分と一緒に暮らそうとしつこく迫ったという話を娘から聞いて、夜、電話をしたんです。二度と娘につきまとわないで、",
-   "ko": "입니다. 등하교 중인 딸을 하라구치가 따라다니며 자기와 같이 살자고 끈질기게 조르곤 한다는 말을 딸에게 듣고 밤에 전화했어요. 다시는 딸을 따라다니지 말라고,",
+   "ko": "입니다. 등하교 중인 딸을 하라구치가 따라다니며 자기와 같이 살자고 끈질기게 조르곤 한다는 말을 딸에게 듣고 밤에 전화했어요. 다시는 딸을 따라다니지 말라고, ",
    "chars": 75,
    "max_chars": 170,
    "group": {
@@ -16708,7 +16708,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "、それ以上詳しいことは……。冷たいようですけれど、",
-   "ko": ", 냉정하게 들리겠지만,",
+   "ko": ", 냉정하게 들리겠지만, ",
    "chars": 25,
    "max_chars": 170,
    "group": {
@@ -17122,7 +17122,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "を晴らすように、酒と女に走って、",
-   "ko": "을 풀 듯 술과 여자에 빠져,",
+   "ko": "을 풀 듯 술과 여자에 빠져, ",
    "chars": 16,
    "max_chars": 170,
    "group": {
@@ -17352,7 +17352,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "で、二十分も三十分も湯船に浸かる習慣だったのですが、",
-   "ko": "20분이나 30분씩 욕조에 들어가 있곤 했는데,",
+   "ko": "20분이나 30분씩 욕조에 들어가 있곤 했는데, ",
    "chars": 26,
    "max_chars": 170,
    "group": {
@@ -20158,7 +20158,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "。そうしたら、",
-   "ko": ". 그랬더니",
+   "ko": ". 그랬더니 ",
    "chars": 7,
    "max_chars": 170,
    "group": {
@@ -20273,7 +20273,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "。そうしたら、",
-   "ko": ". 그랬더니",
+   "ko": ". 그랬더니 ",
    "chars": 7,
    "max_chars": 170,
    "group": {
@@ -20756,7 +20756,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "持っているのが自慢",
-   "ko": "자랑이었어요",
+   "ko": "자랑이었어요 ",
    "chars": 9,
    "max_chars": 170,
    "group": {
@@ -21446,7 +21446,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "あの人、お風呂が大好きで",
-   "ko": "그 사람은 목욕을 아주 좋아해서",
+   "ko": "그 사람은 목욕을 아주 좋아해서 ",
    "chars": 12,
    "max_chars": 170,
    "group": {
@@ -22412,7 +22412,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「たとえば、こういう可能性㊦㊨原口の命を奪った直接の原因は、胸に突き立てられたナイフだそうだけど、その前に、",
-   "ko": "「예를 들면 이런 가능성㊦㊨하라구치의 목숨을 앗아 간 직접적인 원인은 가슴에 꽂힌 칼이라지만, 그 전에",
+   "ko": "「예를 들면 이런 가능성㊦㊨하라구치의 목숨을 앗아 간 직접적인 원인은 가슴에 꽂힌 칼이라지만, 그 전에 ",
    "chars": 54,
    "max_chars": 170,
    "group": {
@@ -23953,7 +23953,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「じゃあ、次は原口恭二。仲が悪い兄弟ってときどきいるから、",
-   "ko": "「그럼 다음은 하라구치 쿄지. 사이 나쁜 형제가 가끔 있긴 하니,",
+   "ko": "「그럼 다음은 하라구치 쿄지. 사이 나쁜 형제가 가끔 있긴 하니, ",
    "chars": 29,
    "max_chars": 170,
    "group": {
@@ -24344,7 +24344,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「だけど、さっき遠藤律子を訪ねたとき、彼女は、『原口はお風呂好きで、二十分も三十分も湯船に浸かる習慣だった』と言っていたじゃない。それに、森川琴美も、『あの人、お風呂が大好きで、何十分でもお湯に浸かっていたわ』と言っていた。原口と親しかった女性二人がそう言うぐらいだから、",
-   "ko": "「그런데 아까 엔도 리쓰코를 찾아갔을 때, 그 여자는 ‘하라구치는 목욕을 좋아해서 20분이나 30분씩 욕조에 몸을 담그는 습관이 있었다’고 했잖아. 게다가 모리카와 고토미도 ‘그 사람은 목욕을 좋아해서 몇십 분이고 물에 몸을 담그고 있었어’라고 했고. 하라구치와 친했던 여자 둘이 그렇게 말할 정도니,",
+   "ko": "「그런데 아까 엔도 리쓰코를 찾아갔을 때, 그 여자는 ‘하라구치는 목욕을 좋아해서 20분이나 30분씩 욕조에 몸을 담그는 습관이 있었다’고 했잖아. 게다가 모리카와 고토미도 ‘그 사람은 목욕을 좋아해서 몇십 분이고 물에 몸을 담그고 있었어’라고 했고. 하라구치와 친했던 여자 둘이 그렇게 말할 정도니, ",
    "chars": 136,
    "max_chars": 170,
    "group": {
@@ -25011,7 +25011,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「一月二十六日に森川琴美が原口伸一と会っているけれど、このときの伸一は本物だったと考えていい。恭二だったら、いくらなんでも森川琴美は気がついたでしょうから。とすれば、入れ代わりはそのあと行われたことになる。二十七日、恭二が伸一を訪ねてきたけれど、",
-   "ko": "「1월 26일에 모리카와 고토미가 하라구치 신이치를 만났지만, 이때의 신이치는 진짜였다고 봐도 돼. 쿄지였다면 아무리 그래도 모리카와 고토미가 눈치챘을 테니까. 그렇다면 바꿔치기는 그 뒤에 이뤄진 거야. 27일에 쿄지가 신이치를 찾아왔지만,",
+   "ko": "「1월 26일에 모리카와 고토미가 하라구치 신이치를 만났지만, 이때의 신이치는 진짜였다고 봐도 돼. 쿄지였다면 아무리 그래도 모리카와 고토미가 눈치챘을 테니까. 그렇다면 바꿔치기는 그 뒤에 이뤄진 거야. 27일에 쿄지가 신이치를 찾아왔지만, ",
    "chars": 123,
    "max_chars": 170,
    "group": {
@@ -25747,7 +25747,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　今回の事件の被害者は、",
-   "ko": "이번 사건의 피해자는",
+   "ko": "이번 사건의 피해자는 ",
    "chars": 12,
    "max_chars": 93,
    "group": {
@@ -25862,7 +25862,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　容疑者たちの証言から、",
-   "ko": "용의자들의 증언에서",
+   "ko": "용의자들의 증언에서 ",
    "chars": 12,
    "max_chars": 93,
    "group": {
@@ -26092,7 +26092,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　森川琴美によると、原口伸一は",
-   "ko": "모리카와 고토미에 따르면 하라구치 신이치는",
+   "ko": "모리카와 고토미에 따르면 하라구치 신이치는 ",
    "chars": 15,
    "max_chars": 93,
    "group": {
@@ -26161,7 +26161,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　犯人が五つの首を切断したのは、そこに、",
-   "ko": "범인이 목 다섯 곳을 자른 건 그곳에",
+   "ko": "범인이 목 다섯 곳을 자른 건 그곳에 ",
    "chars": 20,
    "max_chars": 93,
    "group": {
@@ -26276,7 +26276,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "というキーワードを探し、",
-   "ko": "〉이라는 키워드를 찾고,",
+   "ko": "〉이라는 키워드를 찾고, ",
    "chars": 12,
    "max_chars": 93,
    "group": {
@@ -26736,7 +26736,7 @@
    "category": "inspiration",
    "speaker_hint": "yosikawa",
    "ja": "ゴミ箱が空だったことを考えると、",
-   "ko": "쓰레기통이 비어 있었던 걸 생각하면,",
+   "ko": "쓰레기통이 비어 있었던 걸 생각하면, ",
    "chars": 16,
    "max_chars": 74,
    "group": {
@@ -27173,7 +27173,7 @@
    "category": "inspiration",
    "speaker_hint": "yosikawa",
    "ja": "丸ノ内警部の推測したとおり、",
-   "ko": "마루노우치 경부의 추측대로,",
+   "ko": "마루노우치 경부의 추측대로, ",
    "chars": 14,
    "max_chars": 74,
    "group": {
@@ -28047,7 +28047,7 @@
    "category": "inspiration",
    "speaker_hint": "marunouchi",
    "ja": "うむ、",
-   "ko": "음,",
+   "ko": "음, ",
    "chars": 3,
    "max_chars": 74,
    "group": {
@@ -30209,7 +30209,7 @@
    "category": "inspiration",
    "speaker_hint": "yosikawa",
    "ja": "ええ、",
-   "ko": "네,",
+   "ko": "네, ",
    "chars": 3,
    "max_chars": 74,
    "group": {
@@ -31911,7 +31911,7 @@
    "category": "interval",
    "speaker_hint": "tukasa",
    "ja": "で、",
-   "ko": "그래서,",
+   "ko": "그래서, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -31980,7 +31980,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "いや、",
-   "ko": "아니요,",
+   "ko": "아니요, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -32693,7 +32693,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "あるいは、どこかの誰かが発見してくれるのを期待していた、",
-   "ko": "아니면 누군가 발견해 주길 기대했거나,",
+   "ko": "아니면 누군가 발견해 주길 기대했거나, ",
    "chars": 28,
    "max_chars": 44,
    "group": {
@@ -33360,7 +33360,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "ただし、切断した箇所はのぞいて、",
-   "ko": "다만 잘린 부위는 제외하고요,",
+   "ko": "다만 잘린 부위는 제외하고요, ",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -33728,7 +33728,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "まあ、",
-   "ko": "뭐,",
+   "ko": "뭐, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -34096,7 +34096,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "なるほど、",
-   "ko": "그렇군,",
+   "ko": "그렇군, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -34142,7 +34142,7 @@
    "category": "interval",
    "speaker_hint": "tukasa",
    "ja": "はい、",
-   "ko": "네,",
+   "ko": "네, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -34211,7 +34211,7 @@
    "category": "interval",
    "speaker_hint": "tukasa",
    "ja": "ええ、",
-   "ko": "네,",
+   "ko": "네, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -34533,7 +34533,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "ああ、",
-   "ko": "아,",
+   "ko": "아, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -34809,7 +34809,7 @@
    "category": "interval",
    "speaker_hint": "tukasa",
    "ja": "はい、",
-   "ko": "네,",
+   "ko": "네, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -36304,7 +36304,7 @@
    "category": "interval",
    "speaker_hint": "tukasa",
    "ja": "芳川さん、",
-   "ko": "요시카와 씨,",
+   "ko": "요시카와 씨, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -37776,7 +37776,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "難事件だよ、",
-   "ko": "난제야,",
+   "ko": "난제야, ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -37983,7 +37983,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "そう、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -38443,7 +38443,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "いや、",
-   "ko": "아니,",
+   "ko": "아니, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -38650,7 +38650,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "しかし、",
-   "ko": "하지만,",
+   "ko": "하지만, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -38788,7 +38788,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "そう、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -38811,7 +38811,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "おそらく、入れ代わりが行われたのは、恭二の勤務時間を避けた時間、",
-   "ko": "아마 바꿔치기는 쿄지의 근무 시간을 피한 때,",
+   "ko": "아마 바꿔치기는 쿄지의 근무 시간을 피한 때, ",
    "chars": 32,
    "max_chars": 44,
    "group": {
@@ -39432,7 +39432,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "うむ、",
-   "ko": "음,",
+   "ko": "음, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -40789,7 +40789,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "そう、",
-   "ko": "맞아요,",
+   "ko": "맞아요, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -41272,7 +41272,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "うん、",
-   "ko": "응,",
+   "ko": "응, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -41548,7 +41548,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "……すみません、",
-   "ko": "……죄송하지만,",
+   "ko": "……죄송하지만, ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -41686,7 +41686,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "何を言ってるんだ、",
-   "ko": "무슨 말을 하는 건가,",
+   "ko": "무슨 말을 하는 건가, ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -42169,7 +42169,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "ちょ、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -43411,7 +43411,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "はっきり言いましょう、",
-   "ko": "분명히 말씀드리죠,",
+   "ko": "분명히 말씀드리죠, ",
    "chars": 11,
    "max_chars": 44,
    "group": {
@@ -43664,7 +43664,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "うん、",
-   "ko": "응,",
+   "ko": "응, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -44032,7 +44032,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "このあたりは、",
-   "ko": "이 부분은",
+   "ko": "이 부분은 ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -44170,7 +44170,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "あ、そうだ、",
-   "ko": "아, 맞다,",
+   "ko": "아, 맞다, ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -44423,7 +44423,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "いや、",
-   "ko": "아니,",
+   "ko": "아니, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -46884,7 +46884,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "だった、",
-   "ko": "같았다,",
+   "ko": "같았다, ",
    "chars": 4,
    "max_chars": 74,
    "group": {
@@ -47206,7 +47206,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "遠藤律子は原口伸一と別れた現在、",
-   "ko": "엔도 리쓰코는 하라구치 신이치와 헤어진 지금,",
+   "ko": "엔도 리쓰코는 하라구치 신이치와 헤어진 지금, ",
    "chars": 16,
    "max_chars": 74,
    "group": {
@@ -48356,7 +48356,7 @@
    "category": "question",
    "speaker_hint": "marunouchi",
    "ja": "被害者は避けなかったのか、",
-   "ko": "피해자는 피하지 않은 걸까,",
+   "ko": "피해자는 피하지 않은 걸까, ",
    "chars": 13,
    "max_chars": 74,
    "group": {
@@ -49299,7 +49299,7 @@
    "category": "question",
    "speaker_hint": "yosikawa",
    "ja": "被害者の元妻、弟、数日前に別れた恋人、揃ってアリバイがない、",
-   "ko": "피해자의 전처, 동생, 며칠 전 헤어진 연인, 모두 알리바이가 없다,",
+   "ko": "피해자의 전처, 동생, 며칠 전 헤어진 연인, 모두 알리바이가 없다, ",
    "chars": 30,
    "max_chars": 74,
    "group": {
@@ -50012,7 +50012,7 @@
    "category": "question",
    "speaker_hint": "tukasa",
    "ja": "母は強し、",
-   "ko": "어머니는 강하니까요,",
+   "ko": "어머니는 강하니까요, ",
    "chars": 5,
    "max_chars": 74,
    "group": {
@@ -50840,7 +50840,7 @@
    "category": "question",
    "speaker_hint": "yama",
    "ja": "出してしまったのか、",
-   "ko": "내고 말았나,",
+   "ko": "내고 말았나, ",
    "chars": 10,
    "max_chars": 74,
    "group": {
@@ -50909,7 +50909,7 @@
    "category": "question",
    "speaker_hint": "yama",
    "ja": "いや、",
-   "ko": "아니,",
+   "ko": "아니, ",
    "chars": 3,
    "max_chars": 74,
    "group": {
@@ -51093,7 +51093,7 @@
    "category": "question",
    "speaker_hint": "yama",
    "ja": "おっと出ました、",
-   "ko": "오, 나왔구나,",
+   "ko": "오, 나왔구나, ",
    "chars": 8,
    "max_chars": 74,
    "group": {
@@ -51162,7 +51162,7 @@
    "category": "question",
    "speaker_hint": "yama",
    "ja": "そう、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 74,
    "group": {
@@ -51300,7 +51300,7 @@
    "category": "question",
    "speaker_hint": "yama",
    "ja": "やや、",
-   "ko": "어이쿠,",
+   "ko": "어이쿠, ",
    "chars": 3,
    "max_chars": 74,
    "group": {
@@ -51369,7 +51369,7 @@
    "category": "question",
    "speaker_hint": "yama",
    "ja": "ああ、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 74,
    "group": {
@@ -52450,7 +52450,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "そう、",
-   "ko": "그래요,",
+   "ko": "그래요, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -52473,7 +52473,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "犯人は",
-   "ko": "범인은",
+   "ko": "범인은 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -52565,7 +52565,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "はい、",
-   "ko": "네,",
+   "ko": "네, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -52611,7 +52611,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "どうしても、",
-   "ko": "아무래도,",
+   "ko": "아무래도, ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -53163,7 +53163,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "もしですよ、",
-   "ko": "만약 말이에요,",
+   "ko": "만약 말이에요, ",
    "chars": 6,
    "max_chars": 44,
    "group": {

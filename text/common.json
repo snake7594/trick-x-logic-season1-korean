@@ -700,7 +700,7 @@
    "category": "hint",
    "speaker_hint": "tukasa",
    "ja": "はい、",
-   "ko": "네,",
+   "ko": "네, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -838,7 +838,7 @@
    "category": "hint",
    "speaker_hint": "tukasa",
    "ja": "はい、",
-   "ko": "네,",
+   "ko": "네, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -1091,7 +1091,7 @@
    "category": "hint",
    "speaker_hint": "tukasa",
    "ja": "一言忘れてませんか、",
-   "ko": "한마디 빠뜨리신 거 없나요,",
+   "ko": "한마디 빠뜨리신 거 없나요, ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -1160,7 +1160,7 @@
    "category": "hint",
    "speaker_hint": "tukasa",
    "ja": "はい、",
-   "ko": "네,",
+   "ko": "네, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -1229,7 +1229,7 @@
    "category": "hint",
    "speaker_hint": "kaoru",
    "ja": "悩んでるみたいね、",
-   "ko": "고민 중인 것 같네,",
+   "ko": "고민 중인 것 같네, ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -1597,7 +1597,7 @@
    "category": "hint",
    "speaker_hint": "kaoru",
    "ja": "頑張ってるみたいね、",
-   "ko": "열심히 하는 것 같네,",
+   "ko": "열심히 하는 것 같네, ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -1850,7 +1850,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "素敵なプレゼント、",
-   "ko": "멋진 선물,",
+   "ko": "멋진 선물, ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -1896,7 +1896,7 @@
    "category": "hint",
    "speaker_hint": "kaoru",
    "ja": "素敵な薫さんに感謝、",
-   "ko": "멋진 카오루 씨에게 감사,",
+   "ko": "멋진 카오루 씨에게 감사, ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -2034,7 +2034,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "探偵らしいこと、",
-   "ko": "탐정다운 일,",
+   "ko": "탐정다운 일, ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -2218,7 +2218,7 @@
    "category": "hint",
    "speaker_hint": "kaoru",
    "ja": "そ、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -2264,7 +2264,7 @@
    "category": "hint",
    "speaker_hint": "kaoru",
    "ja": "芳川君、",
-   "ko": "요시카와 군,",
+   "ko": "요시카와 군, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -2333,7 +2333,7 @@
    "category": "hint",
    "speaker_hint": "yosikawa",
    "ja": "さすが薫さん、",
-   "ko": "역시 카오루 씨,",
+   "ko": "역시 카오루 씨, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -2563,7 +2563,7 @@
    "category": "hint",
    "speaker_hint": "kaoru",
    "ja": "芳川君、",
-   "ko": "요시카와 군,",
+   "ko": "요시카와 군, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -2724,7 +2724,7 @@
    "category": "hint",
    "speaker_hint": "kaoru",
    "ja": "えー、",
-   "ko": "에이,",
+   "ko": "에이, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -17076,7 +17076,7 @@
    "category": "common_tutorial",
    "speaker_hint": null,
    "ja": "で選択し、",
-   "ko": "선택하고,",
+   "ko": "선택하고, ",
    "chars": 5,
    "max_chars": 89,
    "group": {

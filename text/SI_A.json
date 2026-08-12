@@ -792,7 +792,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "犯人が五つの首を切断したのは、被害者が原口伸一ではないことを隠すため、",
-   "ko": "범인이 다섯 곳을 자른 건 피해자가 하라구치가 아니라는 걸 숨기기 위해서,",
+   "ko": "범인이 다섯 곳을 자른 건 피해자가 하라구치가 아니라는 걸 숨기기 위해서, ",
    "chars": 35,
    "max_chars": 44,
    "group": {
@@ -4035,7 +4035,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "入れ代わり、",
-   "ko": "바꿔치기라는 점은,",
+   "ko": "바꿔치기라는 점은, ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -6542,7 +6542,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（原口伸一と恭二がいつ入れ代わったのか、",
-   "ko": "（하라구치 신이치와 쿄지가 언제 바뀌었는가,",
+   "ko": "（하라구치 신이치와 쿄지가 언제 바뀌었는가, ",
    "chars": 20,
    "max_chars": 44,
    "group": {
@@ -8198,7 +8198,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ふむ……",
-   "ko": "흠……",
+   "ko": "흠…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -20365,7 +20365,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "今のところは、",
-   "ko": "지금으로서는,",
+   "ko": "지금으로서는, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -21400,7 +21400,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "今回だって、切断された死体とかなり接していましたよね、",
-   "ko": "이번에도 잘린 시체와 꽤 많이 접했잖아요,",
+   "ko": "이번에도 잘린 시체와 꽤 많이 접했잖아요, ",
    "chars": 27,
    "max_chars": 44,
    "group": {
@@ -21446,7 +21446,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "な、",
-   "ko": "어,",
+   "ko": "어, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -21469,7 +21469,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "なんだね、",
-   "ko": "무슨 말인가,",
+   "ko": "무슨 말인가, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -21515,7 +21515,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そう、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -21814,7 +21814,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そうだ……",
-   "ko": "그렇다……",
+   "ko": "그렇다…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -22803,7 +22803,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そうだ……",
-   "ko": "그렇다……",
+   "ko": "그렇다…… ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -23033,7 +23033,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "娘に近づかないかどうかを知るためじゃない、",
-   "ko": "딸에게 다가가지 않는지 알려고 한 게 아니라,",
+   "ko": "딸에게 다가가지 않는지 알려고 한 게 아니라, ",
    "chars": 21,
    "max_chars": 44,
    "group": {
@@ -23171,7 +23171,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "原口が新聞を取りに行くときと買い物に行くくらいしか外出をしないこと、",
-   "ko": "하라구치는 신문을 받으러 갈 때와 장 보러 갈 때 정도만 외출한다는 것,",
+   "ko": "하라구치는 신문을 받으러 갈 때와 장 보러 갈 때 정도만 외출한다는 것, ",
    "chars": 34,
    "max_chars": 44,
    "group": {
@@ -23447,7 +23447,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "それに加えて、",
-   "ko": "그뿐 아니라,",
+   "ko": "그뿐 아니라, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -23999,7 +23999,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そうだ、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -26207,7 +26207,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "では、",
-   "ko": "그럼,",
+   "ko": "그럼, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -28553,7 +28553,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "犯人は五つの首が現場に残ってると都合が悪かったんですよ、",
-   "ko": "범인은 목 다섯 곳이 현장에 남아 있으면 곤란했던 거예요,",
+   "ko": "범인은 목 다섯 곳이 현장에 남아 있으면 곤란했던 거예요, ",
    "chars": 28,
    "max_chars": 44,
    "group": {
@@ -30117,7 +30117,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（犯人にとって都合が悪いものだったから五つの首を切断した、",
-   "ko": "（범인에게 불리한 것이어서 목 다섯 곳을 잘랐다,",
+   "ko": "（범인에게 불리한 것이어서 목 다섯 곳을 잘랐다, ",
    "chars": 29,
    "max_chars": 44,
    "group": {
@@ -30761,7 +30761,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そう、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -31175,7 +31175,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "それは、",
-   "ko": "그건,",
+   "ko": "그건, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -31244,7 +31244,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "な、",
-   "ko": "어,",
+   "ko": "어, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -31543,7 +31543,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "む、",
-   "ko": "어,",
+   "ko": "어, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -32716,7 +32716,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "いいえ、",
-   "ko": "아니요,",
+   "ko": "아니요, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -34349,7 +34349,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "萩本一平はその話を信じた原口に部屋に上げてもらい、不意をついて殺害、",
-   "ko": "하기모토는 그 말을 믿은 하라구치에게 방으로 들어가 빈틈을 노려 살해하고,",
+   "ko": "하기모토는 그 말을 믿은 하라구치에게 방으로 들어가 빈틈을 노려 살해하고, ",
    "chars": 34,
    "max_chars": 44,
    "group": {
@@ -34487,7 +34487,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "犯人は、自分のクビが切られないように五つの首を切断した、",
-   "ko": "범인은 자기 목이 잘리지 않도록 목 다섯 곳을 잘랐다,",
+   "ko": "범인은 자기 목이 잘리지 않도록 목 다섯 곳을 잘랐다, ",
    "chars": 28,
    "max_chars": 44,
    "group": {
@@ -35085,7 +35085,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ありがとう、",
-   "ko": "고맙네,",
+   "ko": "고맙네, ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -35568,7 +35568,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "萩本一平は必ず、",
-   "ko": "하기모토는 반드시",
+   "ko": "하기모토는 반드시 ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -35637,7 +35637,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "あ、",
-   "ko": "아, 그러고 보니……",
+   "ko": "아, 그러고 보니…… ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -36626,7 +36626,7 @@
    "category": "bridge",
    "speaker_hint": "yosikawa",
    "ja": "わたし、",
-   "ko": "저는,",
+   "ko": "저는, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -36718,7 +36718,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "だから、",
-   "ko": "그러니까,",
+   "ko": "그러니까, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -36764,7 +36764,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "戻ったら、",
-   "ko": "돌아가면,",
+   "ko": "돌아가면, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -36810,7 +36810,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "お墓参り、",
-   "ko": "묘소에 가서,",
+   "ko": "묘소에 가서, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -37523,7 +37523,7 @@
    "category": "bridge",
    "speaker_hint": "yosikawa",
    "ja": "ここに閉じこめ、",
-   "ko": "여기에 가두고,",
+   "ko": "여기에 가두고, ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -37592,7 +37592,7 @@
    "category": "bridge",
    "speaker_hint": "yosikawa",
    "ja": "仕事を",
-   "ko": "일을",
+   "ko": "일을 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -37615,7 +37615,7 @@
    "category": "bridge",
    "speaker_hint": null,
    "ja": "終えるまでは、",
-   "ko": "끝내기 전에는,",
+   "ko": "끝내기 전에는, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -37937,7 +37937,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "ちょっと、",
-   "ko": "잠깐,",
+   "ko": "잠깐, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -37960,7 +37960,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "それ、",
-   "ko": "그게,",
+   "ko": "그게, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -38006,7 +38006,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "誰かって、",
-   "ko": "누군가라니,",
+   "ko": "누군가라니, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -38075,7 +38075,7 @@
    "category": "bridge",
    "speaker_hint": null,
    "ja": "犯人、",
-   "ko": "범인은,",
+   "ko": "범인은, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -38167,7 +38167,7 @@
    "category": "bridge",
    "speaker_hint": "yosikawa",
    "ja": "見ていないし、",
-   "ko": "보지 못했고,",
+   "ko": "보지 못했고, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -38236,7 +38236,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "それって、",
-   "ko": "그게,",
+   "ko": "그게, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -38627,7 +38627,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "もしや、",
-   "ko": "설마,",
+   "ko": "설마, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -38880,7 +38880,7 @@
    "category": "bridge",
    "speaker_hint": null,
    "ja": "その日、",
-   "ko": "그날,",
+   "ko": "그날, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -38972,7 +38972,7 @@
    "category": "bridge",
    "speaker_hint": null,
    "ja": "取材のアルバイトで、",
-   "ko": "취재 아르바이트로,",
+   "ko": "취재 아르바이트로, ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -38995,7 +38995,7 @@
    "category": "bridge",
    "speaker_hint": null,
    "ja": "わたし、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -39133,7 +39133,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "いや、",
-   "ko": "아니,",
+   "ko": "아니, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -39248,7 +39248,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "どころか、",
-   "ko": "그뿐 아니라,",
+   "ko": "그뿐 아니라, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -39271,7 +39271,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "芳川さんに",
-   "ko": "요시카와 씨에게",
+   "ko": "요시카와 씨에게 ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -39340,7 +39340,7 @@
    "category": "bridge",
    "speaker_hint": null,
    "ja": "だからわたし、",
-   "ko": "그래서 저는,",
+   "ko": "그래서 저는, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -39386,7 +39386,7 @@
    "category": "bridge",
    "speaker_hint": null,
    "ja": "顔、",
-   "ko": "얼굴을,",
+   "ko": "얼굴을, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -39455,7 +39455,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "いやぁ、",
-   "ko": "아, 몰랐어요……",
+   "ko": "아, 몰랐어요…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -39524,7 +39524,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "芳川樹が、",
-   "ko": "요시카와 이츠키가,",
+   "ko": "요시카와 이츠키가, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -39823,7 +39823,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "まだしも、",
-   "ko": "그나마 낫지만,",
+   "ko": "그나마 낫지만, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -39869,7 +39869,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "ほぼ検察の",
-   "ko": "거의 검찰의",
+   "ko": "거의 검찰의 ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -39961,7 +39961,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "あ、",
-   "ko": "아,",
+   "ko": "아, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -40007,7 +40007,7 @@
    "category": "bridge",
    "speaker_hint": "tukasa",
    "ja": "たしか、",
-   "ko": "확실히,",
+   "ko": "확실히, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -41065,7 +41065,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "そう、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -41295,7 +41295,7 @@
    "category": "giveup",
    "speaker_hint": null,
    "ja": "つまり、",
-   "ko": "즉,",
+   "ko": "즉, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -42560,7 +42560,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "ううーん、",
-   "ko": "으으음,",
+   "ko": "으으음, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -42629,7 +42629,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "そう、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -42721,7 +42721,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "その一点と別の一点をともに通る直線はただ一本しか存在しない、",
-   "ko": "그 한 점과 다른 한 점을 함께 지나는 직선은 하나뿐인 것처럼,",
+   "ko": "그 한 점과 다른 한 점을 함께 지나는 직선은 하나뿐인 것처럼, ",
    "chars": 30,
    "max_chars": 44,
    "group": {
@@ -44078,7 +44078,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "って、",
-   "ko": "그러니까,",
+   "ko": "그러니까, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -44216,7 +44216,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "つまり、",
-   "ko": "즉,",
+   "ko": "즉, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -44285,7 +44285,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "ま、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -45113,7 +45113,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "何日か家を留守にするというと、",
-   "ko": "며칠 집을 비운다면,",
+   "ko": "며칠 집을 비운다면, ",
    "chars": 15,
    "max_chars": 44,
    "group": {
@@ -45274,7 +45274,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "あ、",
-   "ko": "아,",
+   "ko": "아, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -45711,7 +45711,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "旅行に行った先は、",
-   "ko": "여행지는,",
+   "ko": "여행지는, ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -45780,7 +45780,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "な、",
-   "ko": "어,",
+   "ko": "어, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -45895,7 +45895,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "あ、",
-   "ko": "아,",
+   "ko": "아, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -46493,7 +46493,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "そ、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -47114,7 +47114,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "そう、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -47528,7 +47528,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "それは、",
-   "ko": "그건,",
+   "ko": "그건, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -47597,7 +47597,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "な、",
-   "ko": "어,",
+   "ko": "어, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -47896,7 +47896,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "む、",
-   "ko": "어,",
+   "ko": "어, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -48701,7 +48701,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "それは、",
-   "ko": "그건,",
+   "ko": "그건, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -48770,7 +48770,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "いいえ、",
-   "ko": "아니요,",
+   "ko": "아니요, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -49621,7 +49621,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "萩本一平はその話を信じた原口に部屋に上げてもらい、不意をついて殺害、",
-   "ko": "하기모토는 그 말을 믿은 하라구치에게 방으로 들어가 빈틈을 노려 살해하고,",
+   "ko": "하기모토는 그 말을 믿은 하라구치에게 방으로 들어가 빈틈을 노려 살해하고, ",
    "chars": 34,
    "max_chars": 44,
    "group": {
@@ -49759,7 +49759,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "犯人は、自分のクビが切られないように五つの首を切断した、",
-   "ko": "범인은 자기 목이 잘리지 않도록 목 다섯 곳을 잘랐다,",
+   "ko": "범인은 자기 목이 잘리지 않도록 목 다섯 곳을 잘랐다, ",
    "chars": 28,
    "max_chars": 44,
    "group": {
@@ -50357,7 +50357,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "ありがとう、",
-   "ko": "고맙네,",
+   "ko": "고맙네, ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -50840,7 +50840,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "萩本一平は必ず、",
-   "ko": "하기모토는 반드시",
+   "ko": "하기모토는 반드시 ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -50909,7 +50909,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "あ、",
-   "ko": "아,",
+   "ko": "아, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -51139,7 +51139,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　負けず嫌いの原口は、",
-   "ko": "지는 걸 싫어하는 하라구치는,",
+   "ko": "지는 걸 싫어하는 하라구치는, ",
    "chars": 11,
    "max_chars": 66,
    "group": {
@@ -51277,7 +51277,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "というナゾを発見しただろうか？　原口伸一は、スーパーで",
-   "ko": "라는 수수께끼를 발견했을까요? 하라구치 신이치는 슈퍼에서",
+   "ko": "라는 수수께끼를 발견했을까요? 하라구치 신이치는 슈퍼에서 ",
    "chars": 27,
    "max_chars": 66,
    "group": {
@@ -51415,7 +51415,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　このナゾに",
-   "ko": "이 수수께끼에",
+   "ko": "이 수수께끼에 ",
    "chars": 6,
    "max_chars": 66,
    "group": {
@@ -51484,7 +51484,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　萩本一平は所長から",
-   "ko": "하기모토 잇페이는 소장에게",
+   "ko": "하기모토 잇페이는 소장에게 ",
    "chars": 10,
    "max_chars": 66,
    "group": {
@@ -51530,7 +51530,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "されていた。にもかかわらず、一平は見張り中",
-   "ko": "고 들었어요. 그런데도 잇페이는 감시 중",
+   "ko": "고 들었어요. 그런데도 잇페이는 감시 중 ",
    "chars": 21,
    "max_chars": 66,
    "group": {

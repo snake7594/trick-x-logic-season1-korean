@@ -884,7 +884,7 @@
    "category": "answer_begin",
    "speaker_hint": null,
    "ja": "これらを前提として、",
-   "ko": "이것을 전제로 하면,",
+   "ko": "이것을 전제로 하면, ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -1597,7 +1597,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "いや、",
-   "ko": "아니,",
+   "ko": "아니, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -2471,7 +2471,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "うーん、",
-   "ko": "음……",
+   "ko": "음…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -4909,7 +4909,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "犯人は当時鴻鵠荘にいた人物七人の中の誰かであることは間違いない、",
-   "ko": "범인은 당시 홍곡장에 있던 7명 중 하나임이 틀림없다,",
+   "ko": "범인은 당시 홍곡장에 있던 7명 중 하나임이 틀림없다, ",
    "chars": 32,
    "max_chars": 44,
    "group": {
@@ -6243,7 +6243,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "ああ、",
-   "ko": "아,",
+   "ko": "아, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -7623,7 +7623,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "つまり、",
-   "ko": "즉,",
+   "ko": "즉, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -7761,7 +7761,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "ま、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -9072,7 +9072,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "ま、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -12430,7 +12430,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "ち、",
-   "ko": "지,",
+   "ko": "지, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -15742,7 +15742,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（そう言われてみると、今のところまだたしかな証拠と言えるほどのものはない、",
-   "ko": "（듣고 보니 지금으로선 확실한 증거라 할 만한 건 아직 없나……",
+   "ko": "（듣고 보니 지금으로선 확실한 증거라 할 만한 건 아직 없나…… ",
    "chars": 37,
    "max_chars": 44,
    "group": {
@@ -16340,7 +16340,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "き、",
-   "ko": "자,",
+   "ko": "자, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -16432,7 +16432,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "う、",
-   "ko": "으,",
+   "ko": "으, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -16478,7 +16478,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "そ、",
-   "ko": "그,",
+   "ko": "그, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -17398,7 +17398,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "たしかにその可能性は考えられなくもない、",
-   "ko": "확실히 그 가능성도 생각 못 할 건 아니지만,",
+   "ko": "확실히 그 가능성도 생각 못 할 건 아니지만, ",
    "chars": 20,
    "max_chars": 44,
    "group": {
@@ -18180,7 +18180,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "というわけだ、",
-   "ko": "그렇다는 건,",
+   "ko": "그렇다는 건, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -18893,7 +18893,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "まさか、",
-   "ko": "설마,",
+   "ko": "설마, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -20135,7 +20135,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "持っていった事実については、清香本人が丸ノ内警部に申告していた、",
-   "ko": "가져갔다는 사실은 사야카 본인이 마루노우치 경부에게 신고했지,",
+   "ko": "가져갔다는 사실은 사야카 본인이 마루노우치 경부에게 신고했지, ",
    "chars": 32,
    "max_chars": 44,
    "group": {
@@ -22343,7 +22343,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "ちょ、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -23723,7 +23723,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（犯人は現場に手がかりを残している、",
-   "ko": "（범인은 현장에 단서를 남긴다,",
+   "ko": "（범인은 현장에 단서를 남긴다, ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -25264,7 +25264,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "普通は、",
-   "ko": "보통은,",
+   "ko": "보통은, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -27472,7 +27472,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "間違いなく、",
-   "ko": "틀림없이,",
+   "ko": "틀림없이, ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -27495,7 +27495,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "確実に、",
-   "ko": "확실하게,",
+   "ko": "확실하게, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -27518,7 +27518,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "疑いの余地もなく、",
-   "ko": "의심할 여지도 없이,",
+   "ko": "의심할 여지도 없이, ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -27978,7 +27978,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "被害者が書いたように見せかけて、",
-   "ko": "피해자가 쓴 것처럼 꾸며서,",
+   "ko": "피해자가 쓴 것처럼 꾸며서, ",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -28024,7 +28024,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "だ、",
-   "ko": "누,",
+   "ko": "누, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -28093,7 +28093,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "さあ、",
-   "ko": "글쎄,",
+   "ko": "글쎄, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -28231,7 +28231,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "誰が殺してもおかしくない状況だった、",
-   "ko": "누가 죽여도 이상하지 않은 상황이었다고,",
+   "ko": "누가 죽여도 이상하지 않은 상황이었다고, ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -28507,7 +28507,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……たしかに、",
-   "ko": "……확실히,",
+   "ko": "……확실히, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -28576,7 +28576,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（そうなると、第三者がダイイング・メッセージを残すことはできない、",
-   "ko": "（그렇다면 제3자가 다잉 메시지를 남길 수는,",
+   "ko": "（그렇다면 제3자가 다잉 메시지를 남길 수는, ",
    "chars": 33,
    "max_chars": 44,
    "group": {
@@ -34694,7 +34694,7 @@
    "category": "bridge",
    "speaker_hint": "yama",
    "ja": "ここに",
-   "ko": "여기에",
+   "ko": "여기에 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -35752,7 +35752,7 @@
    "category": "bridge",
    "speaker_hint": null,
    "ja": "結びつけているのかも",
-   "ko": "이어 주고 있는 걸지도",
+   "ko": "이어 주고 있는 걸지도 ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -35936,7 +35936,7 @@
    "category": "bridge",
    "speaker_hint": "yama",
    "ja": "かなり上がっているようだし、",
-   "ko": "제법 늘어난 것 같으니,",
+   "ko": "제법 늘어난 것 같으니, ",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -45527,7 +45527,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　随所に出てくるハサミについて推理し、犯人の行動に関するナゾを見つけよう。そのナゾと、",
-   "ko": "곳곳에 나오는 가위에 대해 추리해 범인의 행동에 관한 수수께끼를 찾아보자. 그 수수께끼와",
+   "ko": "곳곳에 나오는 가위에 대해 추리해 범인의 행동에 관한 수수께끼를 찾아보자. 그 수수께끼와 ",
    "chars": 43,
    "max_chars": 129,
    "group": {

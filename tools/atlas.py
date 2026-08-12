@@ -714,10 +714,12 @@ def build_note(px, text, region, cols, size, color=None, thr=110,
             b = f.getbbox(ch)
             pos = (cols[ci] - (b[0] + b[2]) / 2,
                    y + (size - (b[1] + b[3])) / 2)
-            dr.text(pos, ch, font=f, fill=tuple(col) + (255,))
+            # 글자는 늘 본문 색(흰색)으로 그리고, **뒤에 깔리는 빛만** 분홍이다.
+            # 글자까지 분홍으로 칠했더니 분홍 덩어리로 뭉개져 안 읽혔다.
+            dr.text(pos, ch, font=f, fill=tuple(color) + (255,))
             if col is not color:
                 dg.text(pos, ch, font=f, fill=tuple(col) + (255,),
-                        stroke_width=2, stroke_fill=tuple(col) + (255,))
+                        stroke_width=3, stroke_fill=tuple(col) + (255,))
             y += size
         if y + size > y1:
             ci += 1

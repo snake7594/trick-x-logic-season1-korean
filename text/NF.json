@@ -171,7 +171,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "丸ノ内",
-   "ko": "마루노우치",
+   "ko": "마루노우치 ",
    "chars": 3,
    "max_chars": 127,
    "group": {
@@ -769,7 +769,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　ビデオテープやレーザーディスクにＤＶＤ、それらを視聴するためのプラズマテレビにスピーカーシステムが中央に置かれ、",
-   "ko": "비디오테이프와 레이저디스크, DVD, 그것들을 보기 위한 플라스마 TV와 스피커 시스템이 중앙에 놓여 있었고,",
+   "ko": "비디오테이프와 레이저디스크, DVD, 그것들을 보기 위한 플라스마 TV와 스피커 시스템이 중앙에 놓여 있었고, ",
    "chars": 57,
    "max_chars": 127,
    "group": {
@@ -930,7 +930,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "ガラスケースに入れられて",
-   "ko": "유리 진열장에 들어가",
+   "ko": "유리 진열장에 들어가 ",
    "chars": 12,
    "max_chars": 127,
    "group": {
@@ -2954,7 +2954,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "蔵の錠を外して中で例会を開く",
-   "ko": "곳간 자물쇠를 풀고 안에서 모임을 열기로",
+   "ko": "곳간 자물쇠를 풀고 안에서 모임을 열기로 ",
    "chars": 14,
    "max_chars": 127,
    "group": {
@@ -3736,7 +3736,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "根岸くんは最近仕事も少なくて困ってた",
-   "ko": "네기시 군은 요즘 일도 적어 곤란해 보이던데",
+   "ko": "네기시 군은 요즘 일도 적어 곤란해 보이던데 ",
    "chars": 18,
    "max_chars": 127,
    "group": {
@@ -3966,7 +3966,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「そ、そうだ。これまで何年も無事にやってきたのに、",
-   "ko": "「그, 그렇다. 지금까지 몇 년이나 아무 일 없이 지냈는데,",
+   "ko": "「그, 그렇다. 지금까지 몇 년이나 아무 일 없이 지냈는데, ",
    "chars": 25,
    "max_chars": 127,
    "group": {
@@ -4380,7 +4380,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "で、",
-   "ko": "으로,",
+   "ko": "으로, ",
    "chars": 2,
    "max_chars": 127,
    "group": {
@@ -5645,7 +5645,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「なるほど。分かりました。㊦㊨では",
-   "ko": "「그렇군요. 알겠습니다. ㊦㊨그럼",
+   "ko": "「그렇군요. 알겠습니다. ㊦㊨그럼 ",
    "chars": 17,
    "max_chars": 127,
    "group": {
@@ -6956,7 +6956,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「あの人たちには言わないでくださいね。㊦㊨あたし実は",
-   "ko": "「저 사람들한테는 말하지 말아 주세요. ㊦㊨저 실은",
+   "ko": "「저 사람들한테는 말하지 말아 주세요. ㊦㊨저 실은 ",
    "chars": 26,
    "max_chars": 127,
    "group": {
@@ -8198,7 +8198,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "するに決まってます。海外に売る手はあるでしょうけど、ネットオークションなんか使えばこれまたすぐ露顕しますしね。コネでもなきゃ無理でしょう。太田さんあたりなら",
-   "ko": "해외에 파는 방법도 있겠지만 인터넷 경매 같은 걸 쓰면 이것도 곧 들통나고요. 연줄 없이는 무리죠. 오타 씨 정도라면",
+   "ko": "해외에 파는 방법도 있겠지만 인터넷 경매 같은 걸 쓰면 이것도 곧 들통나고요. 연줄 없이는 무리죠. 오타 씨 정도라면 ",
    "chars": 78,
    "max_chars": 127,
    "group": {
@@ -8865,7 +8865,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "。丸ノ内は手を伸ばし、きちんとロックする。金具や、扉の蝶番も確認したが、",
-   "ko": ". 마루노우치는 손을 뻗어 제대로 잠갔다. 걸쇠와 문 경첩도 확인했지만,",
+   "ko": ". 마루노우치는 손을 뻗어 제대로 잠갔다. 걸쇠와 문 경첩도 확인했지만, ",
    "chars": 36,
    "max_chars": 127,
    "group": {
@@ -9785,7 +9785,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「だから、",
-   "ko": "「그러니까,",
+   "ko": "「그러니까, ",
    "chars": 5,
    "max_chars": 127,
    "group": {
@@ -10521,7 +10521,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「びっくりしました。でももちろん、ちゃんと検査したんですから、",
-   "ko": "「놀랐어요. 하지만 물론 제대로 검사했으니,",
+   "ko": "「놀랐어요. 하지만 물론 제대로 검사했으니, ",
    "chars": 31,
    "max_chars": 127,
    "group": {
@@ -10728,7 +10728,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「もう一人どなたか、",
-   "ko": "「또 누군가,",
+   "ko": "「또 누군가, ",
    "chars": 10,
    "max_chars": 127,
    "group": {
@@ -11165,7 +11165,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　蔵の鍵は常に宮本が持ち歩いており、",
-   "ko": "곳간 열쇠는 늘 미야모토가 가지고 다니며,",
+   "ko": "곳간 열쇠는 늘 미야모토가 가지고 다니며, ",
    "chars": 18,
    "max_chars": 53,
    "group": {
@@ -11234,7 +11234,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　例会が終わって",
-   "ko": "모임이 끝나",
+   "ko": "모임이 끝나 ",
    "chars": 8,
    "max_chars": 53,
    "group": {
@@ -11326,7 +11326,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　宮本の南京錠は届くまで、",
-   "ko": "미야모토의 자물쇠는 도착하기까지,",
+   "ko": "미야모토의 자물쇠는 도착하기까지, ",
    "chars": 13,
    "max_chars": 53,
    "group": {
@@ -11418,7 +11418,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　宮本は、",
-   "ko": "미야모토는,",
+   "ko": "미야모토는, ",
    "chars": 5,
    "max_chars": 53,
    "group": {
@@ -12982,7 +12982,7 @@
    "category": "inspiration",
    "speaker_hint": "yosikawa",
    "ja": "その収集した中に、",
-   "ko": "그렇게 모은 것 중에,",
+   "ko": "그렇게 모은 것 중에, ",
    "chars": 9,
    "max_chars": 63,
    "group": {
@@ -15834,7 +15834,7 @@
    "category": "interval",
    "speaker_hint": "tukasa",
    "ja": "いきなり、事件の全てが書いてある本、",
-   "ko": "갑자기 사건의 전부가 적힌 책,",
+   "ko": "갑자기 사건의 전부가 적힌 책, ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -16386,7 +16386,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……宮本学・太田・坂口・根岸・天野つかさ、",
-   "ko": "……미야모토 마나부・오타・사카구치・네기시・아마노 츠카사,",
+   "ko": "……미야모토 마나부・오타・사카구치・네기시・아마노 츠카사, ",
    "chars": 21,
    "max_chars": 44,
    "group": {
@@ -16478,7 +16478,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "宮本学・太田・坂口・根岸・天野つかさ、",
-   "ko": "미야모토 마나부・오타・사카구치・네기시・아마노 츠카사,",
+   "ko": "미야모토 마나부・오타・사카구치・네기시・아마노 츠카사, ",
    "chars": 19,
    "max_chars": 44,
    "group": {
@@ -16570,7 +16570,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "無職の宮本、",
-   "ko": "무직인 미야모토,",
+   "ko": "무직인 미야모토, ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -16593,7 +16593,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "アニメ脚本家の太田、",
-   "ko": "애니메이션 각본가 오타,",
+   "ko": "애니메이션 각본가 오타, ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -16616,7 +16616,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "会社員の坂口、",
-   "ko": "회사원 사카구치,",
+   "ko": "회사원 사카구치, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -16639,7 +16639,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "ライターの根岸、",
-   "ko": "라이터 네기시,",
+   "ko": "라이터 네기시, ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -17329,7 +17329,7 @@
    "category": "interval",
    "speaker_hint": "marunouchi",
    "ja": "そのご自慢の南京錠を付け替えたのは、",
-   "ko": "그 자랑하던 자물쇠를 바꿔 단 건,",
+   "ko": "그 자랑하던 자물쇠를 바꿔 단 건, ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -17352,7 +17352,7 @@
    "category": "interval",
    "speaker_hint": "marunouchi",
    "ja": "えーと、",
-   "ko": "어디 보자,",
+   "ko": "어디 보자, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -24275,7 +24275,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "宮本の座った側の棚の真ん中、",
-   "ko": "미야모토가 앉은 쪽 선반 가운데,",
+   "ko": "미야모토가 앉은 쪽 선반 가운데, ",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -24666,7 +24666,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "あ、",
-   "ko": "아,",
+   "ko": "아, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -33153,7 +33153,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "そして、悠々とガラスケースごとフィギュアを盗み出した、",
-   "ko": "그리고 느긋하게 유리 진열장째 피규어를 훔쳐 갔다,",
+   "ko": "그리고 느긋하게 유리 진열장째 피규어를 훔쳐 갔다, ",
    "chars": 27,
    "max_chars": 44,
    "group": {
@@ -33314,7 +33314,7 @@
    "category": "scenario",
    "speaker_hint": "tukasa",
    "ja": "あ、",
-   "ko": "아,",
+   "ko": "아, ",
    "chars": 2,
    "max_chars": 44,
    "group": {

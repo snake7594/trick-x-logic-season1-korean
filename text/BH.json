@@ -677,7 +677,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "女",
-   "ko": "가면무도회의",
+   "ko": "가면무도회의 ",
    "chars": 1,
    "max_chars": 153,
    "group": {
@@ -2701,7 +2701,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "㊦㊨カーミラが立っている。彫りの深い西洋風な顔立ちに、ドラキュラの衣装はよく映えた。見るからに幸の多そうな耳たぶからは、真っ赤な",
-   "ko": "㊦㊨카밀라가 서 있다. 이목구비가 뚜렷한 서양풍 얼굴에 드라큘라 의상이 잘 어울렸다. 보기에도 복이 많아 보이는 귓불에서는 새빨간",
+   "ko": "㊦㊨카밀라가 서 있다. 이목구비가 뚜렷한 서양풍 얼굴에 드라큘라 의상이 잘 어울렸다. 보기에도 복이 많아 보이는 귓불에서는 새빨간 ",
    "chars": 64,
    "max_chars": 153,
    "group": {
@@ -2724,7 +2724,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "ティアドロップ型のイヤリング",
-   "ko": "물방울 모양 귀걸이가",
+   "ko": "물방울 모양 귀걸이가 ",
    "chars": 14,
    "max_chars": 153,
    "group": {
@@ -2977,7 +2977,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "は瑠雨の英会話教師。すでに三十歳を超えているそうだが、とてもそうは見えなかった。飛鳥も麗亜に英会話を教えてもらっているらしく、",
-   "ko": "전혀 그렇게 보이지 않았다. 아스카도 레이아에게 영어 회화를 배우는 모양이고,",
+   "ko": "전혀 그렇게 보이지 않았다. 아스카도 레이아에게 영어 회화를 배우는 모양이고, ",
    "chars": 63,
    "max_chars": 153,
    "group": {
@@ -3782,7 +3782,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "が嘘であるかのように、",
-   "ko": "이 거짓말이었던 듯,",
+   "ko": "이 거짓말이었던 듯, ",
    "chars": 11,
    "max_chars": 153,
    "group": {
@@ -3851,7 +3851,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　瑠雨の案内で、",
-   "ko": "루우의 안내를 받아,",
+   "ko": "루우의 안내를 받아, ",
    "chars": 8,
    "max_chars": 153,
    "group": {
@@ -4081,7 +4081,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　複雑に入り組んだ廊下を右へ左へと折れ曲がり、",
-   "ko": "복잡하게 얽힌 복도를 오른쪽 왼쪽으로 꺾어 가며,",
+   "ko": "복잡하게 얽힌 복도를 오른쪽 왼쪽으로 꺾어 가며, ",
    "chars": 23,
    "max_chars": 153,
    "group": {
@@ -4840,7 +4840,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　しかしなぜか、",
-   "ko": "하지만 어째서인지,",
+   "ko": "하지만 어째서인지, ",
    "chars": 8,
    "max_chars": 153,
    "group": {
@@ -5599,7 +5599,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "を返し、",
-   "ko": "을 돌려,",
+   "ko": "을 돌려, ",
    "chars": 4,
    "max_chars": 153,
    "group": {
@@ -11004,7 +11004,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　いわれてみれば、",
-   "ko": "말을 듣고 보니,",
+   "ko": "말을 듣고 보니, ",
    "chars": 9,
    "max_chars": 153,
    "group": {
@@ -11165,7 +11165,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "が悪くてね。私の目を盗んでは、屋敷の中のものをあれこれ持ち帰ってしまうんだよ。この前も、あいつが帰ったあと、",
-   "ko": "이 나빠. 내 눈을 피해 저택 안 물건을 이것저것 가져가 버리거든. 얼마 전에도 그 녀석이 돌아간 뒤,",
+   "ko": "이 나빠. 내 눈을 피해 저택 안 물건을 이것저것 가져가 버리거든. 얼마 전에도 그 녀석이 돌아간 뒤, ",
    "chars": 54,
    "max_chars": 153,
    "group": {
@@ -11694,7 +11694,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　大広間を出ると、廊下を挟んで",
-   "ko": "대연회장을 나오자 복도 건너편에",
+   "ko": "대연회장을 나오자 복도 건너편에 ",
    "chars": 15,
    "max_chars": 153,
    "group": {
@@ -12315,7 +12315,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「このお屋敷には、億を下らない貴重な美術品が数多くありますから、",
-   "ko": "「이 저택에는 1억 엔이 넘는 귀중한 미술품이 많아서,",
+   "ko": "「이 저택에는 1억 엔이 넘는 귀중한 미술품이 많아서, ",
    "chars": 32,
    "max_chars": 153,
    "group": {
@@ -12913,7 +12913,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "が映り込んでいる。部屋の端は切れてしまい、",
-   "ko": "이 비치고 있었다. 방 가장자리는 잘려서,",
+   "ko": "이 비치고 있었다. 방 가장자리는 잘려서, ",
    "chars": 21,
    "max_chars": 153,
    "group": {
@@ -13626,7 +13626,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "。窓側同様、画面の端が切れているため、",
-   "ko": ". 창 쪽과 마찬가지로 화면 가장자리가 잘려 있어서,",
+   "ko": ". 창 쪽과 마찬가지로 화면 가장자리가 잘려 있어서, ",
    "chars": 19,
    "max_chars": 153,
    "group": {
@@ -16202,7 +16202,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　あいまいな記憶を頼りに、迷路のような廊下を右へ左へと突き進む。よくわからなくなり、途中から適当に歩いたら、本当に迷子になってしまった。堀井に尋ねても、",
-   "ko": "희미한 기억에 의지해 미로 같은 복도를 이리저리 헤치며 나아갔다. 뭐가 뭔지 모르겠어서 중간부터 대충 걸었더니 정말 길을 잃고 말았다. 호리이에게 물어도,",
+   "ko": "희미한 기억에 의지해 미로 같은 복도를 이리저리 헤치며 나아갔다. 뭐가 뭔지 모르겠어서 중간부터 대충 걸었더니 정말 길을 잃고 말았다. 호리이에게 물어도, ",
    "chars": 76,
    "max_chars": 153,
    "group": {
@@ -18640,7 +18640,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　瑠雨と同じように、ぐったりとソファに座っているのは麗亜だった。青白い顔にしかめっ面を浮かべ、繰り返しため息を吐き出している。事件にショックを受けているのか、ただの飲みすぎなのかはよくわからない。どこかで落としてしまったのか、ティアドロップ型の",
-   "ko": "루우와 마찬가지로 축 늘어져 소파에 앉아 있는 건 레이아였다. 창백한 얼굴로 찡그린 표정을 짓고 한숨을 거듭 내쉬었다. 사건에 충격을 받은 건지 단순히 과음한 건지 알 수 없었다. 어딘가에서 떨어뜨린 모양인지 물방울 모양의",
+   "ko": "루우와 마찬가지로 축 늘어져 소파에 앉아 있는 건 레이아였다. 창백한 얼굴로 찡그린 표정을 짓고 한숨을 거듭 내쉬었다. 사건에 충격을 받은 건지 단순히 과음한 건지 알 수 없었다. 어딘가에서 떨어뜨린 모양인지 물방울 모양의 ",
    "chars": 122,
    "max_chars": 153,
    "group": {
@@ -19560,7 +19560,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "　我藤は答えた。逆にいえば、",
-   "ko": "가토는 대답했다. 반대로 말하면",
+   "ko": "가토는 대답했다. 반대로 말하면 ",
    "chars": 14,
    "max_chars": 153,
    "group": {
@@ -21262,7 +21262,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「瑠雨さん。犯行があったと思われる午後八時三十八分、あなたはどこでなにを？　監視カメラをチェックしたところ、",
-   "ko": "「루우 씨. 범행이 일어난 것으로 보이는 밤 8시 38분, 당신은 어디서 무엇을 하고 있었습니까? 감시 카메라를 확인해 보니,",
+   "ko": "「루우 씨. 범행이 일어난 것으로 보이는 밤 8시 38분, 당신은 어디서 무엇을 하고 있었습니까? 감시 카메라를 확인해 보니, ",
    "chars": 54,
    "max_chars": 153,
    "group": {
@@ -21676,7 +21676,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "大広間を離れ、",
-   "ko": "대연회장을 떠났고,",
+   "ko": "대연회장을 떠났고, ",
    "chars": 7,
    "max_chars": 153,
    "group": {
@@ -24206,7 +24206,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "「電気を止めてしまえば、",
-   "ko": "「전기를 끊으면,",
+   "ko": "「전기를 끊으면, ",
    "chars": 12,
    "max_chars": 153,
    "group": {
@@ -25310,7 +25310,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "が、",
-   "ko": "이,",
+   "ko": "이, ",
    "chars": 2,
    "max_chars": 153,
    "group": {
@@ -28024,7 +28024,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "と刑事が差し出したものは、麗亜がつけていた",
-   "ko": "라고 내민 것은 레이아가 하고 있던",
+   "ko": "라고 내민 것은 레이아가 하고 있던 ",
    "chars": 21,
    "max_chars": 103,
    "group": {
@@ -28530,7 +28530,7 @@
    "category": "inspiration",
    "speaker_hint": "yosikawa",
    "ja": "なぜ、映像の中では正しかったのか、",
-   "ko": "왜 영상에서는 위치가 맞았는지,",
+   "ko": "왜 영상에서는 위치가 맞았는지, ",
    "chars": 17,
    "max_chars": 70,
    "group": {
@@ -29013,7 +29013,7 @@
    "category": "inspiration",
    "speaker_hint": "yosikawa",
    "ja": "これだけ違いがあれば、",
-   "ko": "이렇게 차이가 많다면,",
+   "ko": "이렇게 차이가 많다면, ",
    "chars": 11,
    "max_chars": 70,
    "group": {
@@ -31911,7 +31911,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……いや、",
-   "ko": "……아니,",
+   "ko": "……아니, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -33521,7 +33521,7 @@
    "category": "interval",
    "speaker_hint": "kaoru",
    "ja": "そう、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -33820,7 +33820,7 @@
    "category": "interval",
    "speaker_hint": "yosikawa",
    "ja": "……丸ノ内警部、",
-   "ko": "……마루노우치 경부,",
+   "ko": "……마루노우치 경부, ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -34188,7 +34188,7 @@
    "category": "interval",
    "speaker_hint": "marunouchi",
    "ja": "　我藤瑠雨、",
-   "ko": "가토 루우,",
+   "ko": "가토 루우, ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -34211,7 +34211,7 @@
    "category": "interval",
    "speaker_hint": "marunouchi",
    "ja": "我藤王司、",
-   "ko": "가토 오지,",
+   "ko": "가토 오지, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -34234,7 +34234,7 @@
    "category": "interval",
    "speaker_hint": "marunouchi",
    "ja": "大府麗亜、",
-   "ko": "오부 레이아,",
+   "ko": "오부 레이아, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -34257,7 +34257,7 @@
    "category": "interval",
    "speaker_hint": "marunouchi",
    "ja": "堀井翔、",
-   "ko": "호리이 쇼,",
+   "ko": "호리이 쇼, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -36580,7 +36580,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "と、",
-   "ko": "즉,",
+   "ko": "즉, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -36810,7 +36810,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "ああ、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -37270,7 +37270,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "犯人はずっと外にいたから、監視カメラには映らなかった、",
-   "ko": "범인은 계속 밖에 있었으니 감시 카메라에 찍히지 않았다는 건가요……",
+   "ko": "범인은 계속 밖에 있었으니 감시 카메라에 찍히지 않았다는 건가요…… ",
    "chars": 27,
    "max_chars": 44,
    "group": {
@@ -38121,7 +38121,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "愛が殺意に変わった悲劇なのだな、",
-   "ko": "사랑이 살의로 변한 비극이군,",
+   "ko": "사랑이 살의로 변한 비극이군, ",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -39800,7 +39800,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "つかさ君も気づいた現場の「ある不可解な点」、",
-   "ko": "츠카사 군도 눈치챈 현장의 《어떤 불가해한 점》,",
+   "ko": "츠카사 군도 눈치챈 현장의 《어떤 불가해한 점》, ",
    "chars": 22,
    "max_chars": 44,
    "group": {
@@ -40053,7 +40053,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "窓に近い側にあった",
-   "ko": "창가 쪽에 있던",
+   "ko": "창가 쪽에 있던 ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -42974,7 +42974,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "ここで",
-   "ko": "여기서",
+   "ko": "여기서 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -43043,7 +43043,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "全部デタラメだと思ってたのに、",
-   "ko": "전부 거짓말이라고 생각했는데,",
+   "ko": "전부 거짓말이라고 생각했는데, ",
    "chars": 15,
    "max_chars": 44,
    "group": {
@@ -43089,7 +43089,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "なるほど、",
-   "ko": "그렇군,",
+   "ko": "그렇군, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -43158,7 +43158,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "で、",
-   "ko": "그래서,",
+   "ko": "그래서, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -43319,7 +43319,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "探偵だからといって、",
-   "ko": "탐정이라고 해서,",
+   "ko": "탐정이라고 해서, ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -43618,7 +43618,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "で、",
-   "ko": "그래서,",
+   "ko": "그래서, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -44239,7 +44239,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "いや、",
-   "ko": "아니,",
+   "ko": "아니, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -44768,7 +44768,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "ま、",
-   "ko": "또,",
+   "ko": "또, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -45067,7 +45067,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "それなら、",
-   "ko": "그렇다면,",
+   "ko": "그렇다면, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -45274,7 +45274,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "で、",
-   "ko": "그래서,",
+   "ko": "그래서, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -45435,7 +45435,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "わけか",
-   "ko": "말이야",
+   "ko": "말이야 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -45688,7 +45688,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "どこかへ",
-   "ko": "어딘가로",
+   "ko": "어딘가로 ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -45872,7 +45872,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "わからない",
-   "ko": "불분명한",
+   "ko": "불분명한 ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -46010,7 +46010,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "だせなければ、",
-   "ko": "내지 못하면,",
+   "ko": "내지 못하면, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -46056,7 +46056,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "ことも",
-   "ko": "것도",
+   "ko": "것도 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -46102,7 +46102,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "それで、",
-   "ko": "그래서,",
+   "ko": "그래서, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -46332,7 +46332,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "意識の",
-   "ko": "의식의",
+   "ko": "의식의 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -46516,7 +46516,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "そしたら、",
-   "ko": "그랬더니,",
+   "ko": "그랬더니, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -47459,7 +47459,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "ということで、",
-   "ko": "그런 의미에서,",
+   "ko": "그런 의미에서, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -47574,7 +47574,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "薫さん、",
-   "ko": "카오루 씨,",
+   "ko": "카오루 씨, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -47620,7 +47620,7 @@
    "category": "prologue",
    "speaker_hint": "yama",
    "ja": "独身、",
-   "ko": "미혼,",
+   "ko": "미혼, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -47643,7 +47643,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "超近眼、",
-   "ko": "초근시,",
+   "ko": "초근시, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -47919,7 +47919,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "身近で事件が起こっていて、",
-   "ko": "가까운 곳에서 사건이 일어나서,",
+   "ko": "가까운 곳에서 사건이 일어나서, ",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -48310,7 +48310,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "捜査をご一緒できるなんて、",
-   "ko": "수사할 수 있다니,",
+   "ko": "수사할 수 있다니, ",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -48563,7 +48563,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "天才検事、",
-   "ko": "천재 검사,",
+   "ko": "천재 검사, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -48655,7 +48655,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "両線で",
-   "ko": "두 갈래로",
+   "ko": "두 갈래로 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -48724,7 +48724,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "言いそびれたけど、",
-   "ko": "말하지 못했는데,",
+   "ko": "말하지 못했는데, ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -48931,7 +48931,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "転落事故からは",
-   "ko": "추락 사고로부터는",
+   "ko": "추락 사고로부터는 ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -49115,7 +49115,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "もうそんなに",
-   "ko": "벌써 그렇게",
+   "ko": "벌써 그렇게 ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -49299,7 +49299,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "聞いたから",
-   "ko": "직접 들었다고",
+   "ko": "직접 들었다고 ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -49345,7 +49345,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "むちゃくちゃな話だと思ったけど、",
-   "ko": "말도 안 되는 얘기라고 생각했지만,",
+   "ko": "말도 안 되는 얘기라고 생각했지만, ",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -49552,7 +49552,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "過去についても",
-   "ko": "과거도",
+   "ko": "과거도 ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -49621,7 +49621,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "あなたが巻き込まれた",
-   "ko": "당신이 휘말린",
+   "ko": "당신이 휘말린 ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -49966,7 +49966,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "その後、",
-   "ko": "그 후,",
+   "ko": "그 후, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -50012,7 +50012,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "そして大学を卒業し、",
-   "ko": "그리고 대학을 졸업하고,",
+   "ko": "그리고 대학을 졸업하고, ",
    "chars": 10,
    "max_chars": 44,
    "group": {
@@ -50311,7 +50311,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "何の証拠も",
-   "ko": "아무런 증거도",
+   "ko": "아무런 증거도 ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -50403,7 +50403,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "あなた、",
-   "ko": "당신,",
+   "ko": "당신, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -50840,7 +50840,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "少なすぎるっていうか、",
-   "ko": "너무 적다기보다,",
+   "ko": "너무 적다기보다, ",
    "chars": 11,
    "max_chars": 44,
    "group": {
@@ -51047,7 +51047,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "現場の調査を",
-   "ko": "현장 조사를",
+   "ko": "현장 조사를 ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -51116,7 +51116,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "やめなさいって言ったんだけど、",
-   "ko": "그만두라고 했는데,",
+   "ko": "그만두라고 했는데, ",
    "chars": 15,
    "max_chars": 44,
    "group": {
@@ -51185,7 +51185,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "だから、",
-   "ko": "그래서,",
+   "ko": "그래서, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -51323,7 +51323,7 @@
    "category": "prologue",
    "speaker_hint": "kaoru",
    "ja": "パーティーに",
-   "ko": "파티에",
+   "ko": "파티에 ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -51346,7 +51346,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "出るって言ってたから、",
-   "ko": "간다고 했으니,",
+   "ko": "간다고 했으니, ",
    "chars": 11,
    "max_chars": 44,
    "group": {
@@ -51668,7 +51668,7 @@
    "category": "prologue",
    "speaker_hint": null,
    "ja": "事件の調査中に、",
-   "ko": "사건을 조사하던 중에,",
+   "ko": "사건을 조사하던 중에, ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -51898,7 +51898,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "ただ、",
-   "ko": "다만,",
+   "ko": "다만, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -52082,7 +52082,7 @@
    "category": "prologue",
    "speaker_hint": "yosikawa",
    "ja": "ほら、",
-   "ko": "자,",
+   "ko": "자, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -52427,7 +52427,7 @@
    "category": "question",
    "speaker_hint": "marunouchi",
    "ja": "うむ、",
-   "ko": "음,",
+   "ko": "음, ",
    "chars": 3,
    "max_chars": 69,
    "group": {
@@ -55624,7 +55624,7 @@
    "category": "question",
    "speaker_hint": "marunouchi",
    "ja": "うむ、",
-   "ko": "음,",
+   "ko": "음, ",
    "chars": 3,
    "max_chars": 69,
    "group": {
@@ -55877,7 +55877,7 @@
    "category": "question",
    "speaker_hint": "kaoru",
    "ja": "そうね、",
-   "ko": "그러게,",
+   "ko": "그러게, ",
    "chars": 4,
    "max_chars": 69,
    "group": {
@@ -56222,7 +56222,7 @@
    "category": "question",
    "speaker_hint": "yama",
    "ja": "そう、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 69,
    "group": {
@@ -56360,7 +56360,7 @@
    "category": "question",
    "speaker_hint": "yama",
    "ja": "出してしまったのか、",
-   "ko": "내고 말았나,",
+   "ko": "내고 말았나, ",
    "chars": 10,
    "max_chars": 69,
    "group": {
@@ -56429,7 +56429,7 @@
    "category": "question",
    "speaker_hint": "yama",
    "ja": "いや、",
-   "ko": "아니,",
+   "ko": "아니, ",
    "chars": 3,
    "max_chars": 69,
    "group": {
@@ -56613,7 +56613,7 @@
    "category": "question",
    "speaker_hint": "yama",
    "ja": "やや、",
-   "ko": "어이쿠,",
+   "ko": "어이쿠, ",
    "chars": 3,
    "max_chars": 69,
    "group": {
@@ -56682,7 +56682,7 @@
    "category": "question",
    "speaker_hint": "yama",
    "ja": "ああ、",
-   "ko": "아아,",
+   "ko": "아아, ",
    "chars": 3,
    "max_chars": 69,
    "group": {
@@ -57487,7 +57487,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "ほ、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -57740,7 +57740,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "私がアカシャを読んで、ずっとひっかかっていたのは、",
-   "ko": "내가 아카샤를 읽으며 계속 걸렸던 건,",
+   "ko": "내가 아카샤를 읽으며 계속 걸렸던 건, ",
    "chars": 25,
    "max_chars": 44,
    "group": {
@@ -57924,7 +57924,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "そう、",
-   "ko": "그래,",
+   "ko": "그래, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -57993,7 +57993,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "ほう、",
-   "ko": "호오,",
+   "ko": "호오, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -58384,7 +58384,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "なんだよ、",
-   "ko": "뭐야,",
+   "ko": "뭐야, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -58660,7 +58660,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "じゃなかった、",
-   "ko": "아니,",
+   "ko": "아니, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -59189,7 +59189,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "そう、",
-   "ko": "맞아,",
+   "ko": "맞아, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -59465,7 +59465,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "手にしていた拳銃でファントムの飛鳥を、",
-   "ko": "손에 들고 있던 권총으로 팬텀인 아스카를,",
+   "ko": "손에 들고 있던 권총으로 팬텀인 아스카를, ",
    "chars": 19,
    "max_chars": 44,
    "group": {
@@ -59511,7 +59511,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "……と、",
-   "ko": "……라고,",
+   "ko": "……라고, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -59626,7 +59626,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "飛鳥が婚約者の家から物を盗んでいた、",
-   "ko": "아스카가 약혼자의 집에서 물건을 훔쳤다는,",
+   "ko": "아스카가 약혼자의 집에서 물건을 훔쳤다는, ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -59672,7 +59672,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "この夜が仮装パーティーということ、",
-   "ko": "이 밤이 가면 파티였다는 것,",
+   "ko": "이 밤이 가면 파티였다는 것, ",
    "chars": 17,
    "max_chars": 44,
    "group": {
@@ -60109,7 +60109,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "それとは逆に、",
-   "ko": "그와 반대로,",
+   "ko": "그와 반대로, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -60500,7 +60500,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "うーん、",
-   "ko": "으음,",
+   "ko": "으음, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -60638,7 +60638,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "ああ、",
-   "ko": "아아,",
+   "ko": "아아, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -61443,7 +61443,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "ど、",
-   "ko": "어,",
+   "ko": "어, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -62409,7 +62409,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "そ、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -62501,7 +62501,7 @@
    "category": "scenario",
    "speaker_hint": "yosikawa",
    "ja": "仮に、",
-   "ko": "가령,",
+   "ko": "가령, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -62754,7 +62754,7 @@
    "category": "scenario",
    "speaker_hint": "marunouchi",
    "ja": "わ、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -62984,7 +62984,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "ええ、",
-   "ko": "네,",
+   "ko": "네, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -63743,7 +63743,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "ぬ、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -64019,7 +64019,7 @@
    "category": "scenario",
    "speaker_hint": "kaoru",
    "ja": "……な、",
-   "ko": "……아,",
+   "ko": "……아, ",
    "chars": 4,
    "max_chars": 44,
    "group": {

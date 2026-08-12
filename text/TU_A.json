@@ -769,7 +769,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そこにダイイング・メッセージを残した",
-   "ko": "거기에 다잉 메시지를 남겼기 때문이야",
+   "ko": "거기에 다잉 메시지를 남겼기 때문이야 ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -1045,7 +1045,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "刑事は視聴覚室側からライブラリー室を覗き見ている、",
-   "ko": "형사는 시청각실 쪽에서 도서실을 엿보고 있어,",
+   "ko": "형사는 시청각실 쪽에서 도서실을 엿보고 있어, ",
    "chars": 25,
    "max_chars": 44,
    "group": {
@@ -1091,7 +1091,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そのとき",
-   "ko": "그때는",
+   "ko": "그때는 ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -2356,7 +2356,7 @@
    "category": "answer_begin",
    "speaker_hint": "yama",
    "ja": "では、解決編の最初まで戻って、",
-   "ko": "그럼 해결편 처음으로 돌아가서,",
+   "ko": "그럼 해결편 처음으로 돌아가서, ",
    "chars": 15,
    "max_chars": 44,
    "group": {
@@ -2908,7 +2908,7 @@
    "category": "answer_begin",
    "speaker_hint": "yama",
    "ja": "を押してシステムメニューの",
-   "ko": "를 눌러 시스템 메뉴의",
+   "ko": "를 눌러 시스템 메뉴의 ",
    "chars": 13,
    "max_chars": 44,
    "group": {
@@ -3276,7 +3276,7 @@
    "category": "answer_begin",
    "speaker_hint": "yama",
    "ja": "確認してみろよ、",
-   "ko": "확인해 봐,",
+   "ko": "확인해 봐, ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -3437,7 +3437,7 @@
    "category": "answer_begin",
    "speaker_hint": "yama",
    "ja": "期待してるぞ、",
-   "ko": "기대하고 있다고,",
+   "ko": "기대하고 있다고, ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -3759,7 +3759,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そこにダイイング・メッセージを残した",
-   "ko": "거기에 다잉 메시지를 남겼기 때문이야",
+   "ko": "거기에 다잉 메시지를 남겼기 때문이야 ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -3828,7 +3828,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "犯人は、",
-   "ko": "범인은,",
+   "ko": "범인은, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -4012,7 +4012,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そう、",
-   "ko": "맞아,",
+   "ko": "맞아, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -4242,7 +4242,7 @@
    "category": "answer_begin",
    "speaker_hint": "yama",
    "ja": "そんなことしなくていいから、さっさと正解して次の『アカシャ』へ進んでくれよ、",
-   "ko": "그런 짓 할 필요 없으니 어서 정답을 맞히고 다음 『아카샤』로 넘어가 줘,",
+   "ko": "그런 짓 할 필요 없으니 어서 정답을 맞히고 다음 『아카샤』로 넘어가 줘, ",
    "chars": 38,
    "max_chars": 44,
    "group": {
@@ -4380,7 +4380,7 @@
    "category": "answer_begin",
    "speaker_hint": "yama",
    "ja": "しかし、",
-   "ko": "하지만,",
+   "ko": "하지만, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -4863,7 +4863,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そこで",
-   "ko": "거기서",
+   "ko": "거기서 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -4932,7 +4932,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そいつと、",
-   "ko": "그 녀석과,",
+   "ko": "그 녀석과, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -5116,7 +5116,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "そこで",
-   "ko": "거기서",
+   "ko": "거기서 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -5392,7 +5392,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　ある二つのキーワードを組み合わせて推理することで、",
-   "ko": "두 키워드를 조합해 추리하면,",
+   "ko": "두 키워드를 조합해 추리하면, ",
    "chars": 26,
    "max_chars": 87,
    "group": {
@@ -5461,7 +5461,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　ナゾ",
-   "ko": "수수께끼",
+   "ko": "수수께끼 ",
    "chars": 3,
    "max_chars": 87,
    "group": {
@@ -5599,7 +5599,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　調書に入れるヒラメキは、",
-   "ko": "조서에 넣을 착상은",
+   "ko": "조서에 넣을 착상은 ",
    "chars": 13,
    "max_chars": 87,
    "group": {
@@ -5668,7 +5668,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　あるナゾと、",
-   "ko": "어떤 수수께끼와",
+   "ko": "어떤 수수께끼와 ",
    "chars": 7,
    "max_chars": 87,
    "group": {
@@ -5737,7 +5737,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　キーワード",
-   "ko": "키워드",
+   "ko": "키워드 ",
    "chars": 6,
    "max_chars": 87,
    "group": {
@@ -5829,7 +5829,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "を入手して推理。ナゾ",
-   "ko": "를 얻어 추리한다. 수수께끼",
+   "ko": "를 얻어 추리한다. 수수께끼 ",
    "chars": 10,
    "max_chars": 87,
    "group": {
@@ -5875,7 +5875,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "が生まれたら、それとキーワード",
-   "ko": "가 생기면, 그것과 키워드",
+   "ko": "가 생기면, 그것과 키워드 ",
    "chars": 15,
    "max_chars": 87,
    "group": {
@@ -5921,7 +5921,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "を合わせて推理。生まれたヒラメキ",
-   "ko": "를 조합해 추리한다. 나온 착상",
+   "ko": "를 조합해 추리한다. 나온 착상 ",
    "chars": 16,
    "max_chars": 87,
    "group": {
@@ -5967,7 +5967,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "を調書の解答欄に入れ、犯人名を",
-   "ko": "를 조서의 답란에 넣고, 범인의 이름을",
+   "ko": "를 조서의 답란에 넣고, 범인의 이름을 ",
    "chars": 15,
    "max_chars": 87,
    "group": {

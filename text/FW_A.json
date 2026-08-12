@@ -1114,7 +1114,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "ええ、",
-   "ko": "네,",
+   "ko": "네, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -1183,7 +1183,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "まず、",
-   "ko": "우선,",
+   "ko": "우선, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -2839,7 +2839,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "とにかく、",
-   "ko": "아무튼,",
+   "ko": "아무튼, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -2954,7 +2954,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "あの、",
-   "ko": "저기,",
+   "ko": "저기, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -3023,7 +3023,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "鴨居の棚の上から何が落ちてきたのか、",
-   "ko": "가모이 위 선반에서 뭐가 떨어졌는지,",
+   "ko": "가모이 위 선반에서 뭐가 떨어졌는지, ",
    "chars": 18,
    "max_chars": 44,
    "group": {
@@ -3345,7 +3345,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "鴨居の棚の下に何があったか、",
-   "ko": "가모이 위 선반 아래에 뭐가 있었는지,",
+   "ko": "가모이 위 선반 아래에 뭐가 있었는지, ",
    "chars": 14,
    "max_chars": 44,
    "group": {
@@ -3414,7 +3414,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "何って、",
-   "ko": "뭐라니,",
+   "ko": "뭐라니, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -3759,7 +3759,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "し、",
-   "ko": "그,",
+   "ko": "그, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -3897,7 +3897,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "で、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -4035,7 +4035,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "いいえ、",
-   "ko": "아니요,",
+   "ko": "아니요, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -4472,7 +4472,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "洋室にはスチール製のテーブルが、",
-   "ko": "양실에는 철제 테이블이,",
+   "ko": "양실에는 철제 테이블이, ",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -4771,7 +4771,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "な、",
-   "ko": "그,",
+   "ko": "그, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -5392,7 +5392,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "む、",
-   "ko": "으,",
+   "ko": "으, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -5875,7 +5875,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "……あ、でも亮子、",
-   "ko": "……아, 하지만 료코가,",
+   "ko": "……아, 하지만 료코가, ",
    "chars": 9,
    "max_chars": 44,
    "group": {
@@ -6542,7 +6542,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "むむ、",
-   "ko": "으음,",
+   "ko": "으음, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -7324,7 +7324,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "な、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -7393,7 +7393,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "さ、",
-   "ko": "자,",
+   "ko": "자, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -8175,7 +8175,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "でも……",
-   "ko": "하지만……",
+   "ko": "하지만…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -9233,7 +9233,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "人間てやつは、信用という財産をときに悪用することもある、",
-   "ko": "인간은 신뢰라는 재산을 때로 악용하기도 한다는 건가……",
+   "ko": "인간은 신뢰라는 재산을 때로 악용하기도 한다는 건가…… ",
    "chars": 28,
    "max_chars": 44,
    "group": {
@@ -9969,7 +9969,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（十一日未明の大きな物音について、",
-   "ko": "(11일 새벽의 큰 소리에 대해서,",
+   "ko": "(11일 새벽의 큰 소리에 대해서, ",
    "chars": 17,
    "max_chars": 44,
    "group": {
@@ -10291,7 +10291,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "……いや、",
-   "ko": "……아니,",
+   "ko": "……아니, ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -10935,7 +10935,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "ええ、",
-   "ko": "네,",
+   "ko": "네, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -11073,7 +11073,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "とその手がかりについて",
-   "ko": "와 그 단서에 대해",
+   "ko": "와 그 단서에 대해 ",
    "chars": 11,
    "max_chars": 44,
    "group": {
@@ -12131,7 +12131,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "うむ、",
-   "ko": "음,",
+   "ko": "음, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -12798,7 +12798,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "ど、",
-   "ko": "뭐,",
+   "ko": "뭐, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13051,7 +13051,7 @@
    "category": "answer_begin",
    "speaker_hint": "tukasa",
    "ja": "そ、",
-   "ko": "그,",
+   "ko": "그, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -13097,7 +13097,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "む、",
-   "ko": "으,",
+   "ko": "으, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -14063,7 +14063,7 @@
    "category": "answer_begin",
    "speaker_hint": "marunouchi",
    "ja": "ああ、",
-   "ko": "아,",
+   "ko": "아, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -14178,7 +14178,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "（そして、現場のドアの鍵はどうしたのか、",
-   "ko": "(그리고 현장 문 열쇠는 어떻게 했을까,",
+   "ko": "(그리고 현장 문 열쇠는 어떻게 했을까, ",
    "chars": 20,
    "max_chars": 44,
    "group": {
@@ -16708,7 +16708,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "いいえ、",
-   "ko": "아니요,",
+   "ko": "아니요, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -17145,7 +17145,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "それを示すような",
-   "ko": "그걸 보여 주는 듯한",
+   "ko": "그걸 보여 주는 듯한 ",
    "chars": 8,
    "max_chars": 44,
    "group": {
@@ -19698,7 +19698,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "犯人は被害者の死体を十一日の午前二時頃に部屋に運び込んだ",
-   "ko": "범인은 피해자의 시신을 11일 오전 2시경 방 안으로 옮긴",
+   "ko": "범인은 피해자의 시신을 11일 오전 2시경 방 안으로 옮긴 ",
    "chars": 28,
    "max_chars": 44,
    "group": {
@@ -20457,7 +20457,7 @@
    "category": "answer_begin",
    "speaker_hint": "yosikawa",
    "ja": "すみません、",
-   "ko": "죄송하지만,",
+   "ko": "죄송하지만, ",
    "chars": 6,
    "max_chars": 44,
    "group": {
@@ -22113,7 +22113,7 @@
    "category": "bridge",
    "speaker_hint": "yosikawa",
    "ja": "事件が",
-   "ko": "사건이",
+   "ko": "사건이 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -22320,7 +22320,7 @@
    "category": "bridge",
    "speaker_hint": "yama",
    "ja": "事件が",
-   "ko": "사건이",
+   "ko": "사건이 ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -23332,7 +23332,7 @@
    "category": "bridge",
    "speaker_hint": "yama",
    "ja": "彼女にまつわる",
-   "ko": "그녀와 관련된",
+   "ko": "그녀와 관련된 ",
    "chars": 7,
    "max_chars": 44,
    "group": {
@@ -23815,7 +23815,7 @@
    "category": "bridge",
    "speaker_hint": "yama",
    "ja": "殺人事件が",
-   "ko": "살인 사건이",
+   "ko": "살인 사건이 ",
    "chars": 5,
    "max_chars": 44,
    "group": {
@@ -26713,7 +26713,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "あの、",
-   "ko": "저,",
+   "ko": "저, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -27150,7 +27150,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "何って、",
-   "ko": "뭐라니,",
+   "ko": "뭐라니, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -27449,7 +27449,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "し、",
-   "ko": "그,",
+   "ko": "그, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -27587,7 +27587,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "で、",
-   "ko": "하,",
+   "ko": "하, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -28139,7 +28139,7 @@
    "category": "giveup",
    "speaker_hint": "yosikawa",
    "ja": "洋室にはスチール製のテーブルが、",
-   "ko": "서양식 방에는 철제 탁자가,",
+   "ko": "서양식 방에는 철제 탁자가, ",
    "chars": 16,
    "max_chars": 44,
    "group": {
@@ -28415,7 +28415,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "な、",
-   "ko": "뭐,",
+   "ko": "뭐, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -29036,7 +29036,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "む、",
-   "ko": "그,",
+   "ko": "그, ",
    "chars": 2,
    "max_chars": 44,
    "group": {
@@ -29703,7 +29703,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "むむ、",
-   "ko": "으음,",
+   "ko": "으음, ",
    "chars": 3,
    "max_chars": 44,
    "group": {
@@ -29956,7 +29956,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "そんな、",
-   "ko": "그럴 수가,",
+   "ko": "그럴 수가, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -30692,7 +30692,7 @@
    "category": "giveup",
    "speaker_hint": "tukasa",
    "ja": "でも……",
-   "ko": "하지만……",
+   "ko": "하지만…… ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -31727,7 +31727,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "人間てやつは、信用という財産をときに悪用することもある、",
-   "ko": "인간은 신뢰라는 재산을 때로 악용하기도 한다는 건가……",
+   "ko": "인간은 신뢰라는 재산을 때로 악용하기도 한다는 건가…… ",
    "chars": 28,
    "max_chars": 44,
    "group": {
@@ -31957,7 +31957,7 @@
    "category": "giveup",
    "speaker_hint": "marunouchi",
    "ja": "芳川君、",
-   "ko": "요시카와 군,",
+   "ko": "요시카와 군, ",
    "chars": 4,
    "max_chars": 44,
    "group": {
@@ -32026,7 +32026,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　現場には、",
-   "ko": "현장에는,",
+   "ko": "현장에는, ",
    "chars": 6,
    "max_chars": 45,
    "group": {
@@ -32118,7 +32118,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　現場の洋室には死体が",
-   "ko": "현장 서양식 방에는 시신이",
+   "ko": "현장 서양식 방에는 시신이 ",
    "chars": 11,
    "max_chars": 45,
    "group": {
@@ -32210,7 +32210,7 @@
    "category": "hint",
    "speaker_hint": null,
    "ja": "　旅行から帰ってきたとき、亮子は鍵をドアノブの中心に挿しこんで、",
-   "ko": "여행에서 돌아왔을 때 료코는 문손잡이 중심에 열쇠를 꽂고,",
+   "ko": "여행에서 돌아왔을 때 료코는 문손잡이 중심에 열쇠를 꽂고, ",
    "chars": 32,
    "max_chars": 45,
    "group": {
