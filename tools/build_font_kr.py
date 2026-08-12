@@ -16,35 +16,34 @@ from build_font import render
 TEXT = paths.TEXT
 KANJI0 = 0x889F
 
-# 전각 공백(0x8140)의 진행 폭을 반각 공백(0x0020)과 같게 만든다.
-# 환경변수 TXL_HALF_SPACE=1 로 켠다.
-HALF_SPACE = os.environ.get('TXL_HALF_SPACE') == '1'
+# 전각 공백(0x8140)의 진행 폭. 게임은 비례 폭으로 그리고 진행 폭은
+# 글리프 헤더의 x1 이다. 원본은 NovelFont 12 / AdvFont 11 이고 반각 공백은
+# 9 / 8 이다. 실기에서 반각(9/8)이 정상 동작하는 것을 확인했고, 더 좁혀
+# 달라는 요청에 따라 글자 폭의 1/3 쯤인 7 / 6 으로 한다.
+SPACE_ADV = {'NovelFontList.dat': 7, 'AdvFontList.dat': 6}
 
 
-def _half_space(recs, gl):
-    """0x8140 레코드의 폭 필드를 0x0020 과 똑같이 맞춘다.
+def _space(recs, gl, adv):
+    """0x8140(전각 공백) 글리프의 진행 폭을 adv 로 바꾼다.
 
     게임은 **비례 폭**으로 그리고 진행 폭은 글리프 헤더의 `x1`(rec[8])이다.
-    화면에서 재 보면 한글 글자 17px, 전각 공백 11px 로 헤더 값과 정확히
-    맞는다(AdvFont 기준). 반각 공백은 8px 다.
+    화면 화소로 확인했다 — 한글 17px, 전각 공백 11px 로 헤더 값과 일치.
 
-    문자 자체를 반각으로 바꾸면 게임이 오작동한다는 기록이 있어서, **문자는
-    전각 그대로 두고 글리프의 진행 폭만** 반각과 같게 만든다. 텍스트도
-    스크립트도 한 바이트 안 바뀐다.
+    **문자는 전각 그대로 두고 글리프 폭만** 바꾸므로 텍스트도 스크립트도 한
+    바이트 안 바뀐다. 반각 문자를 넣는 방식이 아니라서 그 위험이 없다.
 
         rec[6]=x0  rec[8]=x1(진행 폭)   rec[13],[15] = 세로쓰기용 같은 값
     """
     idx = {g['code']: i for i, g in enumerate(gl)}
-    if 0x8140 not in idx or 0x0020 not in idx:
+    if 0x8140 not in idx:
         return recs
-    hw = recs[idx[0x0020]]
     fw = bytearray(recs[idx[0x8140]])
     before = fw[8]
-    for k in (6, 8, 13, 15):
-        fw[k] = hw[k]
+    fw[6], fw[8] = adv - 1, adv          # 1x1 빈 비트맵 — x0 = x1 - 1
+    fw[13], fw[15] = adv - 1, adv        # 세로쓰기용
     recs = list(recs)
     recs[idx[0x8140]] = bytes(fw)
-    print(f"   전각 공백 진행 폭 {before} -> {fw[8]} (반각과 동일)")
+    print(f"   전각 공백 진행 폭 {before} -> {adv}")
     return recs
 
 m = json.load(open(os.path.join(TEXT, '_hangul_codes.json'), encoding='utf-8'))['map']
@@ -95,8 +94,8 @@ def build(name, fn, bw, bh):
         else:
             recs.append(d[offs[i]:offs[i] + g['reclen']])
 
-    if HALF_SPACE:
-        recs = _half_space(recs, gl)
+    if fn in SPACE_ADV:
+        recs = _space(recs, gl, SPACE_ADV[fn])
 
     # SIR0 재조립 (코드 순서·개수 그대로)
     body = bytearray(b'SIR0' + b'\0' * 28)
