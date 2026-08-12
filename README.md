@@ -1,7 +1,7 @@
 # Trick × Logic Season 1 — 한글 패치
 
 PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 패치입니다.
-본문·대사 **20,524건 전량**과 일본어가 들어간 **이미지 222장**을 한글화했습니다.
+본문·대사 **20,524건 전량**과 일본어가 들어간 **이미지 350장**을 한글화했습니다.
 
 패치는 **xdelta 차분 파일**로 배포합니다. 게임 데이터는 들어 있지 않으므로
 **원본 UMD 이미지를 직접 준비**하셔야 합니다.
@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.6.0.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.7.0.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.6.0.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.7.0.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,7 +74,7 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.6.0.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         43F5BD3CE0FEF1BDA21023F1317ADB9C
+MD5         1E030E92DD1BE41FAEF4A15CE7B8FED9
 SHA-1       5A2794963F3736D112C45653143FD389B1FAA5B2
 SHA-256     4DBEFC87FDEB4CC755F4813E8CEF708AA420C10DA6970D86F6C48C9666674DB6
 ```
@@ -97,7 +97,7 @@ SHA-256     4DBEFC87FDEB4CC755F4813E8CEF708AA420C10DA6970D86F6C48C9666674DB6
 | 항목 | 수량 |
 |---|---|
 | 본문·대사 문자열 | **20,524 / 23,243** (나머지 2,719 는 제어 명령·레이아웃용이라 원문 유지) |
-| 이미지(GIM 텍스처) | **222장 / 188종** (자료 도면 라벨 136개 포함) |
+| 이미지(GIM 텍스처) | **350장 / 220종** (자료 도면 라벨 136개, 스태프롤 350 글줄 포함) |
 | 분홍색 키워드 위치표 | 430 레코드 / 682 범위 |
 | 새로 만든 한글 글리프 | 1,209자 (NovelFont 20×20, AdvFont 17×17) |
 
