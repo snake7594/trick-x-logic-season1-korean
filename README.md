@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.3.0.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.3.1.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.3.0.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.3.1.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.3.0.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         BD9D8F2BBC7000CD8489635089BC0123
-SHA-1       1498F6AF5984BAA9997E8BC1E2E5C17030B559AC
-SHA-256     AED2E2B2658331AF4274D1EE02666AC333B84B48D06C5CBC4BA26840C7F3D270
+MD5         57618A9694FCE59AEB15FADED4F5027A
+SHA-1       BA818DED496889C1B8539FF81A7C4595148C9196
+SHA-256     481BC80CEE4978485ECC31CF8C1B78F1CA4D06467502E5788AFCC15D3516211D
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
@@ -99,7 +99,7 @@ SHA-256     AED2E2B2658331AF4274D1EE02666AC333B84B48D06C5CBC4BA26840C7F3D270
 | 본문·대사 문자열 | **20,524 / 23,243** (나머지 2,719 는 제어 명령·레이아웃용이라 원문 유지) |
 | 이미지(GIM 텍스처) | **222장 / 188종** (자료 도면 라벨 136개 포함) |
 | 분홍색 키워드 위치표 | 430 레코드 / 682 범위 |
-| 새로 만든 한글 글리프 | 1,207자 (NovelFont 20×20, AdvFont 17×17) |
+| 새로 만든 한글 글리프 | 1,209자 (NovelFont 20×20, AdvFont 17×17) |
 
 한글화한 이미지: 타이틀 화면, 도입 안내문, 챕터 타이틀, 스토리 선택, 조작 설명,
 시스템 도움말, 용어 해설, 튜토리얼, 추리·조서 화면 UI, 조서 범인 이름 후보,
@@ -306,6 +306,13 @@ SECTPACK  이름\0 + u16 id(bit15=압축) + u16 시작섹터 + u16 섹터수
 그 범위의 글자가 곧 키워드 이름이기 때문입니다. 「ウコンが置いてある」의
 「ウコン」이 앞 조각으로 넘어가면 키워드가 「이 놓여 있으니까」가 됩니다.
 678종을 전수 점검해 19종을 앞뒤 조각과 함께 다시 나눴습니다.
+
+### 3-3-1. 한글 획이 원본 한자보다 얇다
+
+게임은 글자 알파에서 **검은 테두리**를 그린다. 원본 한자는 획 단면이 `7 F 7`
+(3px)인데 한글은 `A F`(2px)라 얇아서, 밝은 배경에서 테두리가 흐려 읽기 어렵다.
+가장 굵은 굵기(ExtraBold)를 이미 쓰고 있으므로, 렌더한 뒤 안티에일리어싱 값을
+1.55배로 끌어올려 반 픽셀쯤 두껍게 만든다(`build_font.BOLD`).
 
 ### 3-4. 반각 문자를 쓰면 실기에서 죽는다
 

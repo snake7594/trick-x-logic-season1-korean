@@ -9,6 +9,7 @@ from ptr import read_ptrlist, write_ptrlist
 
 TTF = paths.TTF
 KANJI0 = 0x889F
+BOLD = 1.55        # 획 굵기 보정 — 1.0 이면 그대로
 
 # KS X 1001 완성형 2350자 (EUC-KR 0xB0A1..0xC8FE)
 HAN = [bytes([hi, lo]).decode('euc-kr')
@@ -63,6 +64,11 @@ def render(chars, bw, bh):
         cell = Image.new('L', (bw, bh), 0)
         cell.paste(im.crop((bx0 - padx, by0 - pady,
                             bx0 - padx + bw, by0 - pady + bh)), (0, 0))
+        # 획을 조금 굵힌다. 원본 한자는 획 단면이 `7 F 7`(3px)인데 한글은
+        # `A F`(2px)라 얇다. 게임이 글자 알파에서 검은 테두리를 그리므로
+        # 획이 얇으면 밝은 배경에서 테두리가 흐려 읽기 어렵다(제보 #5).
+        # 안티에일리어싱 값을 끌어올려 반 픽셀쯤 두껍게 만든다.
+        cell = cell.point(lambda v: min(255, int(v * BOLD)))
         px = cell.load()
         bmp = bytearray(stride * bh)
         for y in range(bh):
