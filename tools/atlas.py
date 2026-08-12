@@ -33,7 +33,23 @@ def mask(px, kind='dark'):
     return ink(px)
 
 
-def local_ink(px, box, ring=4):
+def _ring_lum(px, box, ring=4):
+    """상자 바로 바깥 테두리의 밝기 중앙값 — 정의상 '바탕'이다."""
+    h, w = px.shape[:2]
+    x0, y0, x1, y1 = box
+    a0, b0 = max(0, x0 - ring), max(0, y0 - ring)
+    a1, b1 = min(w, x1 + ring), min(h, y1 + ring)
+    sel = np.zeros((h, w), bool)
+    sel[b0:b1, a0:a1] = True
+    sel[y0:y1, x0:x1] = False
+    sel &= px[..., 3] > 100
+    if sel.sum() < 12:
+        return None
+    return float(np.median(px[..., :3][sel].astype(np.float32)
+                           @ [0.299, 0.587, 0.114]))
+
+
+def local_ink(px, box, ring=4, by_ring=False):
     """상자 안에서만 밝기로 글자를 가른다(버튼처럼 대비가 낮은 자리용).
 
     (글자마스크, 글자색, 외곽선색, 둘레마스크).
@@ -53,7 +69,17 @@ def local_ink(px, box, ring=4):
     # 글자는 상자 안에서 '적은 쪽'이다 — 흰 말풍선의 검은 글자도 이걸로 가른다
     bright_n = int((v >= v.max() - 45).sum())
     dark_n = int((v <= v.min() + 45).sum())
-    if dark_n < bright_n:                       # 밝은 바탕 위 어두운 글자
+    dark_text = dark_n < bright_n
+    if by_ring:
+        # 상자가 글자에 딱 붙는 도면 라벨은 위 규칙이 뒤집힌다 — 흰 획이
+        # 상자를 가득 채워 '많은 쪽'이 돼 버린다(厨房 이 흰 판이 됐다).
+        # 둘레는 정의상 바탕이므로, 밝은 쪽과 어두운 쪽 중 **둘레에서 더 먼**
+        # 쪽을 글자로 본다. 판 위 흰 글자(車で1時間)도 이걸로 맞는다.
+        rb = _ring_lum(px, box)
+        if rb is not None:
+            hi, lo = np.percentile(v, 90), np.percentile(v, 10)
+            dark_text = abs(lo - rb) > abs(hi - rb)
+    if dark_text:                               # 밝은 바탕 위 어두운 글자
         thr = min(np.percentile(v, 32), v.min() + 55)
         ink_sel = (lum <= thr) & op
         other = (lum >= np.percentile(v, 82)) & op
@@ -75,7 +101,7 @@ def local_ink(px, box, ring=4):
     el = px[ey0:ey1, ex0:ex1, :3].astype(np.float32) @ [0.299, 0.587, 0.114]
     eop = px[ey0:ey1, ex0:ex1, 3] > 100
     ring_m = np.zeros(px.shape[:2], bool)
-    ring_m[ey0:ey1, ex0:ex1] = ((el <= thr) if dark_n < bright_n
+    ring_m[ey0:ey1, ex0:ex1] = ((el <= thr) if dark_text
                                 else (el >= thr)) & eop
     return lm, tuple(int(c) for c in col), st, ring_m
 
@@ -108,11 +134,15 @@ def build_local(px, mapping, m, vert):
     jobs = []
     for _, t in mapping.items():
         box = (t[1], t[3], t[2], t[4])   # (x0,x1,y0,y1) -> (x0,y0,x1,y1)
-        lm, col, st, ring_m = local_ink(px, box)
-        jobs.append((box, t[0], col, st, ring_m))
-    for box, t, col, st, ring_m in jobs:
-        px = (erase_box_v if vert else erase_box)(px, box, m, excl=ring_m)
-    for box, t, col, st, ring_m in jobs:
+        # 6번째 자리에 'ring' 을 적으면 글자·바탕 판정과 배경색을 모두
+        # **상자 둘레 기준**으로 구한다.
+        force = len(t) > 5 and t[5] == 'ring'
+        lm, col, st, ring_m = local_ink(px, box, by_ring=force)
+        jobs.append((box, t[0], col, st, ring_m, force))
+    for box, t, col, st, ring_m, force in jobs:
+        px = (erase_box_v if vert else erase_box)(px, box, m, excl=ring_m,
+                                                  force=force)
+    for box, t, col, st, ring_m, force in jobs:
         if vert:
             px = draw_v(px, box, t, col, stroke=st)
         else:
@@ -253,14 +283,26 @@ def _bg_lines(ring, both, n, fallback, inner=None, inner_both=None,
     return out
 
 
-def _repair(px, x0, y0, x1, y1, lines, excl, vert):
+def _repair(px, x0, y0, x1, y1, lines, excl, vert, force=False):
     """예전 규칙이 판을 투명·검정으로 칠했을 때만 다시 계산한다.
 
     상자가 통째로 불투명한 '판'(이름표·버튼)인데 결과가 투명하거나 판보다
     한참 어두우면 배경 표본을 잘못 고른 것이다. 이때만 상자 안쪽·둘레의
-    **불투명 화소**로 다시 구한다. 그 밖의 자리는 한 화소도 건드리지 않는다."""
+    **불투명 화소**로 다시 구한다. 그 밖의 자리는 한 화소도 건드리지 않는다.
+
+    force 는 지도에서 그 상자 하나에만 켜는 표시다. 어두운 바탕(도면의 갈색 방)
+    위 흰 글자에 후광이 두꺼우면 전역 기준이 바탕까지 글자로 몰아, 남는 표본이
+    후광뿐이라 상자가 흰 판으로 칠해진다(西森修治). 밝기로 자동 판정하게
+    넓혔더니 낭독 화면 제목에 회색 띠가 생겨서, **손으로 지정하는 쪽**을 골랐다."""
     a = px[y0:y1, x0:x1, 3]
-    if excl is None or (a >= 40).mean() < 0.97:
+    if excl is None:
+        return None
+    if force:
+        # 2px 로 부풀린다. 1px 로는 획의 안티에일리어싱 가장자리가 남아
+        # 그 중간톤이 배경 표본으로 뽑히고, 열 하나가 통째로 어둡게 칠해져
+        # 세로 막대가 생긴다(臙脂色の絨毯 앞의 「‖」).
+        return inpaint._dilate(excl, 2)
+    if (a >= 40).mean() < 0.97:
         return None
     ref = np.median(px[y0:y1, x0:x1, :3][a >= 40], axis=0) @ [0.299, .587, .114]
     lum = lines[:, :3].astype(np.float32) @ [0.299, 0.587, 0.114]
@@ -269,7 +311,7 @@ def _repair(px, x0, y0, x1, y1, lines, excl, vert):
     return inpaint._dilate(excl, 1)
 
 
-def erase_box_v(px, box, m, pad=1, excl=None):
+def erase_box_v(px, box, m, pad=1, excl=None, force=False):
     """세로쓰기 상자를 지운다. 배경색은 가로 한 줄씩 따로 구한다."""
     h, w = px.shape[:2]
     x0 = max(0, box[0] - pad)
@@ -284,7 +326,7 @@ def erase_box_v(px, box, m, pad=1, excl=None):
         return px
     ring = px[y0:y1, cs].astype(np.int16)
     rows = _bg_lines(ring, glob[y0:y1, cs], y1 - y0, None, opaque_only=False)
-    ex = _repair(px, x0, y0, x1, y1, rows, excl, True)
+    ex = _repair(px, x0, y0, x1, y1, rows, excl, True, force)
     if ex is not None:
         fb = _inside_bg(px, x0, y0, x1, y1, ex)
         rows = _bg_lines(px[y0:y1, cs].astype(np.int16), ex[y0:y1, cs],
@@ -351,7 +393,7 @@ def _bg_color(px, box, m):
     return np.median(sub[..., :3][keep], axis=0).astype(np.uint8)
 
 
-def erase_box(px, box, m, pad=1, excl=None):
+def erase_box(px, box, m, pad=1, excl=None, force=False):
     """상자를 통째로 지운다.
 
     배경색은 세로 한 줄씩 따로 구한다(가로 그라데이션·형광 띠 보존).
@@ -369,7 +411,7 @@ def erase_box(px, box, m, pad=1, excl=None):
         return px
     ring = px[rs, x0:x1].astype(np.int16)
     cols = _bg_lines(ring, glob[rs, x0:x1], x1 - x0, None, opaque_only=False)
-    ex = _repair(px, x0, y0, x1, y1, cols, excl, False)
+    ex = _repair(px, x0, y0, x1, y1, cols, excl, False, force)
     if ex is not None:
         fb = _inside_bg(px, x0, y0, x1, y1, ex)
         cols = _bg_lines(px[rs, x0:x1].astype(np.int16), ex[rs, x0:x1],
