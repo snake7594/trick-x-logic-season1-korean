@@ -31,11 +31,47 @@ def strip_tag(t):
 
 
 def _covered(d):
-    """op 0x01 문자열이 차지한 바이트 — 여기는 건드리지 않는다."""
+    """**진짜** op 0x01 문자열이 차지한 바이트 — 여기는 건드리지 않는다.
+
+    ⚠ `prcs.find_strings` 는 명령 구조를 안 보고 `u32 길이 + 글자 + NUL` 처럼
+    **보이는 자리**를 전부 잡는다. 앞 4바이트가 우연히 길이처럼 보이면 가짜로
+    걸린다(README 「가짜 문자열」). 그걸 그대로 덮으면 그 자리에 있던 **진짜
+    원시문자열이 가려진다** — `sn7_init.bin` 의 「練習問題　指さす死体」
+    (연습문제 시나리오 제목)가 그래서 일본어로 남아 있었다.
+
+    명령 스트림을 걸어 **op 0x01 의 payload 시작**인 것만 덮는다.
+    """
+    cmds = prcswalk.walk(d)
+    real = ({po for _, op, po, _ in cmds if op == 0x01}
+            if cmds is not None else None)
     out = set()
     for lo, so, raw, t in prcs.find_strings(d):
+        if real is not None and so not in real:
+            continue
         out.update(range(lo - 1, so + len(raw) + 1))
     return out
+
+
+def _sjis_only(s):
+    """ASCII 인쇄글자 + 올바른 2바이트 Shift-JIS 짝으로만 이뤄졌는가.
+
+    ⚠ 예전에는 `all((0x81 <= c <= 0xFC) or (0x20 <= c < 0x7F))` 로 **바이트를
+    낱개로** 봤다. 그러면 뒤바이트가 **0x80** 인 글자가 든 문자열이 통째로
+    빠진다 — `ム`(83 80)·`死`(8E 80) 가 대표적이라
+    「ハムレット」「フェティシズム」「バスの乗客は全員死亡している…」 처럼
+    TIPS 용어와 착상·조서 문항 **58종**이 일본어로 남아 있었다.
+    """
+    i, n = 0, len(s)
+    while i < n:
+        c = s[i]
+        if 0x20 <= c < 0x7F:
+            i += 1
+        elif ((0x81 <= c <= 0x9F or 0xE0 <= c <= 0xFC) and i + 1 < n
+              and (0x40 <= s[i + 1] <= 0x7E or 0x80 <= s[i + 1] <= 0xFC)):
+            i += 2
+        else:
+            return False
+    return True
 
 
 def strings(d, minlen=1):
@@ -46,9 +82,15 @@ def strings(d, minlen=1):
         j = i
         while j < n and d[j] != 0:
             j += 1
+        # 문자열 앞에 제어 바이트가 붙어 있는 자리가 있다. NUL 로만 끊으면
+        # 그 바이트까지 문자열에 들어가 통째로 걸러진다 — `sn7_init.bin` 의
+        # op 0x99 payload 가 `… ENV_TA\0\0\0\0\0\x01練習問題　指さす死体\0`
+        # 라서 「연습문제 가리키는 시체」가 일본어로 남아 있었다.
+        while i < j and d[i] < 0x20:
+            i += 1
         if j > i and i not in cov:
             s = d[i:j]
-            if all((0x81 <= c <= 0xFC) or (0x20 <= c < 0x7F) for c in s):
+            if _sjis_only(s):
                 try:
                     t = s.decode('cp932')
                 except Exception:

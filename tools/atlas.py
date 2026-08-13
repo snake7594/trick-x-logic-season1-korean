@@ -28,7 +28,7 @@ def ink_light(px, lum_min=168, a_min=100):
 def mask(px, kind='dark'):
     if kind.startswith('light'):
         return ink_light(px)
-    if kind.startswith(('local', 'clear')):
+    if kind.startswith(('local', 'clear', 'photo')):
         return ink(px) | ink_light(px)
     return ink(px)
 
@@ -117,16 +117,52 @@ def build_all(px, spec):
     for kind, mp in spec:                 # 상자 번호는 반드시 '원본'에서 매긴다
         m = mask(orig, kind)
         vert = kind.endswith('-v')
-        bs = (None if kind.startswith(('local', 'clear'))
+        bs = (None if kind.startswith(('local', 'clear', 'photo'))
               else (boxes_v(orig, m) if vert else boxes(orig, m)))
         plans.append((kind, mp, m, vert, bs))
     for kind, mp, m, vert, bs in plans:
-        if kind.startswith('clear'):
+        if kind.startswith('photo'):
+            px = build_photo(px, mp, vert)
+        elif kind.startswith('clear'):
             px = build_clear(px, mp, vert)
         elif kind.startswith('local'):
             px = build_local(px, mp, m, vert)
         else:
             px = build(px, mp, m=m, bs=bs, vert=vert)
+    return px
+
+
+def build_photo(px, mapping, vert, grow=1):
+    """**사진 위에 구워진 글자**용 (`tutorial_figure_03`).
+
+    `erase_box_v` 는 한 줄을 배경색 하나로 칠한다. 사진 위에서는 그 줄이
+    통째로 납작해져 세로 줄무늬가 남는다. 여기서는 `inpaint.fill` 로 상자
+    **바깥 색을 흘려 넣는다** — 번지긴 해도 어차피 그 자리에 글자를 다시
+    그리므로 티가 안 난다.
+
+    글자 획만 골라 지우는 방법은 안 된다. 이 사진은 밝기가 0~255 로 널려
+    있어 흰 획(밝기 225)과 밝은 벽이 안 갈린다 — 획 조각이 얼룩으로 남았다.
+
+    글줄이 원본보다 짧아지면 **위에서부터** 그린다. `draw_v` 는 상자 가운데
+    맞춤이라, 지우는 상자를 그대로 쓰면 문단이 아래로 처져 보인다."""
+    px = px.copy()
+    jobs = [((t[1], t[3], t[2], t[4]), t[0]) for t in mapping.values()]
+    mask = np.zeros(px.shape[:2], bool)
+    for (x0, y0, x1, y1), _ in jobs:
+        mask[y0:y1, x0:x1] = True
+    lum = px[..., :3].astype(np.float32) @ [0.299, 0.587, 0.114]
+    hi = lum[mask] >= np.percentile(lum[mask], 92)
+    lo = lum[mask] <= np.percentile(lum[mask], 8)
+    col = np.median(px[..., :3][mask][hi], axis=0)
+    st = tuple(int(c) for c in np.median(px[..., :3][mask][lo], axis=0))
+    px[..., :3] = inpaint.fill(px[..., :3].copy(),
+                               inpaint._dilate(mask, grow), iters=200)
+    for (x0, y0, x1, y1), t in jobs:
+        if vert:                       # 필요한 만큼만 위에서 잘라 쓴다
+            cw = x1 - x0
+            need = round(cw * sum(0.45 if c == ' ' else 1.0 for c in t))
+            y1 = min(y1, y0 + need)
+        px = (draw_v if vert else draw)(px, (x0, y0, x1, y1), t, col, stroke=st)
     return px
 
 
