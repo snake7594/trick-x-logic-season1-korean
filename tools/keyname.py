@@ -26,6 +26,7 @@ import json
 import core
 import keywordfix as kfx
 import rawtext
+import answers
 
 # 키워드 이름이 들어 있는 파일
 TARGETS = ('_question.bin', '_inspiration.bin', '_answer_data.bin',
@@ -51,7 +52,9 @@ def pink_map(iso, ko_map):
             bl = kfx.blocks_of(sp.get(se))
             for bi, off, seg, rr in kfx.recs_of(bytearray(sp.get(kf)), len(bl)):
                 p = bl[bi]['parts']
-                spans = kfx.match(rr, kfx.cum([len(t) for _, t in p]))
+                spans = kfx.match(rr, kfx.cum([len(t) for _, t in p]),
+                                  texts=[t for _, t in p],
+                                  kws=answers.keywords(iso))
                 if not spans:
                     continue
                 for (i, j) in spans:

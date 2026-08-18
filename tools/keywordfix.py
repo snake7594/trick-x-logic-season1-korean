@@ -37,6 +37,8 @@ from isolib import Iso
 from sectpack import from_iso
 import prcs
 import core
+import rawtext
+import answers
 
 TEXT = paths.TEXT
 U8 = 255
@@ -85,26 +87,45 @@ def cum(lens):
     return b
 
 
-def match(rec_ranges, ja_cum, maxins=40):
+def match(rec_ranges, ja_cum, maxins=40, texts=None, kws=None):
     """범위가 덮는 조각 구간 [(i, j)] 를 찾는다. 못 찾으면 None.
 
     δ 는 범위마다 0 부터 단조 감소한다(앞쪽 루비 개수). 이전 범위의 δ 에서
-    출발해 아래로 내려가며 **양 끝이 모두 조각 경계에 맞는** 첫 δ 를 쓴다."""
+    출발해 아래로 내려가며 **양 끝이 모두 조각 경계에 맞는** 첫 δ 를 쓴다.
+
+    ⚠ 길이가 같은 조각 조합이 이웃하면 첫 δ 가 엉뚱한 쪽일 수 있다.
+
+        KM 블록61  범위 (108,126) = 19글자
+          조각 366+367  「桟」+「が凍っているらしく、なかなか開かない」  19
+          조각 367+368  「が凍っているらしく、なかなか開かない」+「。」  19
+
+    아래쪽을 골라 한글판 분홍 밑줄이 「창틀」을 빼고 「。」 를 물었고,
+    `keyname` 이 본문에서 키워드를 못 떠 와 KM 문항 하나가 안 풀렸다.
+
+    `texts`(조각 원문)와 `kws`(`answers.keywords` — 정답표에 적힌 키워드)를
+    주면 **정답표에 있는 쪽**을 고른다. 정답표의 문자열이 곧 정답이므로
+    이보다 확실한 기준이 없다. 682곳 중 이 한 곳만 달라진다."""
     pos = {v: i for i, v in enumerate(ja_cum)}
     got, prev, floor = [], 0, 0
     for s, e in rec_ranges:
-        hit = None
+        cand = []
         for d in range(prev, prev - maxins - 1, -1):
             i = pos.get(s + d)
             j = pos.get(e + d + 1)
             if i is not None and j is not None and j > i and i >= floor:
-                hit = (i, j - 1)
-                prev = d
-                break
-        if hit is None:
+                cand.append((d, i, j - 1))
+        if not cand:
             return None
-        got.append(hit)
-        floor = hit[1] + 1
+        pick = cand[0]
+        if texts is not None and kws:
+            for c in cand:
+                t = rawtext.strip_tag(''.join(texts[c[1]:c[2] + 1]))
+                if t in kws:
+                    pick = c
+                    break
+        prev = pick[0]
+        got.append((pick[1], pick[2]))
+        floor = pick[2] + 1
     return got
 
 
@@ -132,7 +153,8 @@ def build(ko_map, verbose=False):
                 ja = cum([len(t) for _, t in parts])
                 ko = cum([len(core.to_fullwidth(ko_map.get((arch, base, i)) or t))
                           for i, t in parts])
-                spans = match(rr, ja)
+                spans = match(rr, ja, texts=[t for _, t in parts],
+                              kws=answers.keywords(iso))
                 if not spans:
                     stat['조각 경계 불일치'] += 1
                     continue

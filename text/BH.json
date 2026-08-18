@@ -2724,7 +2724,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "ティアドロップ型のイヤリング",
-   "ko": "물방울 모양 귀걸이가 ",
+   "ko": "물방울 모양의 귀걸이",
    "chars": 14,
    "max_chars": 153,
    "group": {
@@ -2747,7 +2747,7 @@
    "category": "scenario",
    "speaker_hint": null,
    "ja": "がぶら下がっている。",
-   "ko": "주렁주렁 매달려 있었다.",
+   "ko": "가 주렁주렁 매달려 있었다.",
    "chars": 10,
    "max_chars": 153,
    "group": {
