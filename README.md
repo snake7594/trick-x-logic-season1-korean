@@ -17,7 +17,7 @@ PSP 추리 어드벤처 **트릭 × 로직 시즌 1**(UCJS-10097)의 한국어 �
 | | |
 |---|---|
 | 원본 ISO | `Trick x Logic Season 1.iso` — **718,307,328 바이트** |
-| 패치 파일 | `TrickxLogic_S1_Korean_v1.7.1.xdelta` ([Releases](../../releases/latest)) |
+| 패치 파일 | `TrickxLogic_S1_Korean_v1.7.2.xdelta` ([Releases](../../releases/latest)) |
 | 패치 도구 | xdelta3 — [공식 배포처](https://github.com/jmacd/xdelta-gpl/releases) |
 
 Windows에서는 GUI 도구인 **xdeltaUI**(`xdelta UI` / `Delta Patcher` 등 아무거나)를
@@ -54,7 +54,7 @@ ISO 를 다시 굽거나 재패킹한 것도 해시가 달라져 안 됩니다. 
 **명령줄 (Windows / macOS / Linux 공통)**
 
 ```bash
-xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.7.1.xdelta" "Trick x Logic Season 1 (KR).iso"
+xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.7.2.xdelta" "Trick x Logic Season 1 (KR).iso"
 ```
 
 - `-d` 디코드(적용) · `-s` 원본 파일 · 마지막이 만들어질 한글판입니다.
@@ -74,9 +74,9 @@ xdelta3 -d -s "Trick x Logic Season 1.iso" "TrickxLogic_S1_Korean_v1.7.1.xdelta"
 
 ```
 크기        718,307,328 바이트   (원본과 같습니다)
-MD5         A23D87686C4B6D3E6807671EE9368045
-SHA-1       756F52368F6FE7EBC26209814F88069C6B5208D4
-SHA-256     F6EFC352EF721A7CDA4BA74B3B6CA165D7632BD3D43B0F7330A6C51AC880DC56
+MD5         DD2A1BDBBC121E589906D9D1C71D1076
+SHA-1       2EE6A243DEE2496F9F78DD0DAD38893522B074C8
+SHA-256     7067CE02AE144D19C7CAC7BD79E95772B62F77A23778A6D65C700955EDAA89DC
 ```
 
 크기가 원본과 **똑같은 것이 정상입니다.** 이 패치는 ISO 를 키우지 않고
